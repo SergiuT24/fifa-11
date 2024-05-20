@@ -3,8 +3,8 @@ import MenuLink from './MenuLink';
 
 const Menu = () => {
 	return (
-		<nav className=' bg-zinc-900'>
-			<div className='flex gap-10 py-4 justify-center'>
+		<nav className='menu whitespace-nowrap overflow-x-auto'>
+			<div className='mx-5 flex gap-3 py-2'>
 				<MenuLink value={'Home'} />
 				<MenuLink value={'Top Scorers'} />
 				<MenuLink value={'Most Assists'} />

@@ -2,8 +2,8 @@ import React from 'react';
 
 const MenuLink = ({ value }) => {
 	return (
-		<li>
-			<a className='text-white cursor-pointer hover:'>{value}</a>
+		<li className='flex justify-around pr-3 py-2'>
+			<a className='link uppercase cursor-pointer'>{value}</a>
 		</li>
 	);
 }

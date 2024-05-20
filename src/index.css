@@ -1,12 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 :root {
 	max-width: 1360px;
 	margin: 0 auto;
+	background-color: #010a0f;
+	color: white;
 }
-
 li {
 	list-style: none;
+	a {
+		font-size: 13px;
+	}
+	border-right: 1px solid #0f2d37;
+}
+.logo, .post, .title {
+	background-color: #001e28;
+}
+.menu {
+	background-color: #010a0f;
+}
+.link {
+	color: #e51b24;
+	font-weight: bold;
+}
+h1 {
+	font-weight: bold;
 }
