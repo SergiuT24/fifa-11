@@ -1,6 +1,6 @@
 import React from 'react';
-import Post from './Post';
-import PostTitle from './PostTitle';
+import Post from './Post/Post';
+import PostTitle from './Post/PostTitle';
 
 const Posts = () => {
 	return (

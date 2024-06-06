@@ -1,6 +1,6 @@
 import React from 'react';
 import TableTeam from './TableTeam';
-import NotPlayedButton from './TableFormButton.jsx/NotPlayedButton';
+import NotPlayedButton from '../TableFormButton.jsx/NotPlayedButton';
 
 const TableA = () => {
 	return (
