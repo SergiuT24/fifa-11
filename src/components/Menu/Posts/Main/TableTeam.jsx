@@ -1,12 +1,12 @@
 import React from 'react';
 
-const TableTeam = ({ rank, team, mp, w, d, l, g, gd, pts, form, }) => {
+const TableTeam = ({ rank, img, team, mp, w, d, l, g, gd, pts, form, }) => {
 	const rowStyle = (rank === 1 || rank === 2) ? { backgroundColor: 'rgb(0, 70, 130)' } : {};
 
 	return (
 		<tr className='table-line'>
 			<th className=' w-8 h-8' style={rowStyle}>{rank}</th>
-			<th className=' w-56 h-8'>{team}</th>
+			<th className='flex justify-center gap-2 items-center w-56 h-8'>{img}{team}</th>
 			<th className=' w-8 h-8'>{mp}</th>
 			<th className=' w-8 h-8'>{w}</th>
 			<th className=' w-8 h-8'>{d}</th>
