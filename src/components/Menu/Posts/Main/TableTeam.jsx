@@ -5,8 +5,8 @@ const TableTeam = ({ rank, img, team, mp, w, d, l, g, gd, pts, form, }) => {
 
 	return (
 		<tr className='table-line'>
-			<th className=' w-8 h-8' style={rowStyle}>{rank}</th>
-			<th className='flex justify-center gap-2 items-center w-56 h-8'>{img}{team}</th>
+			<th className=' w-6 h-8' style={rowStyle}>{rank}</th>
+			<th className='flex justify-start pl-6 gap-2 items-center w-56 h-8'>{img}{team}</th>
 			<th className=' w-8 h-8'>{mp}</th>
 			<th className=' w-8 h-8'>{w}</th>
 			<th className=' w-8 h-8'>{d}</th>

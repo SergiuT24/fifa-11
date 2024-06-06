@@ -51,3 +51,6 @@ h1, h2 {
 .tableLEgend__coloredSquare {
 	background-color: rgb(0, 70, 130);
 }
+.main-tables {
+	max-width: 664px;
+}
