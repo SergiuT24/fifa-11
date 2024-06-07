@@ -69,3 +69,43 @@ h1, h2 {
 	width: 688px;
 
 }
+.line-one::after {
+	content: "";
+	position: absolute;
+	left: 97%;
+   top: 61%;
+	transform: translateY(-50%) rotate(90deg);
+	width: 100px;
+	height: 1px;
+	background-color: white;
+}
+.line-one::before {
+	content: "";
+	position: absolute;
+	right: -40px;
+	top: 40%;
+	transform: translateY(-40%);
+	width: 40px;
+	height: 1px;
+	background-color: white;
+}
+.line-two::before {
+	content: "";
+	position: absolute;
+	right: -40px;
+	top: 82%;
+	transform: translateY(-40%);
+	width: 40px;
+	height: 1px;
+	background-color: white;
+}
+.line-tree::before {
+	content: "";
+	position: absolute;
+	right: 267px;
+	top: 60%;
+	transform: translateY(-40%);
+	width: 315px;
+	height: 1px;
+	background-color: white;
+}

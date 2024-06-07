@@ -16,6 +16,10 @@ const LatestScores = () => {
 			<LatestScoreTable />
 			<LatestScoreTable />
 			<LatestScoreTable />
+			<LatestScoreTable />
+			<LatestScoreTable />
+			<LatestScoreTable />
+			<LatestScoreTable />
 		</div>
 	);
 }
