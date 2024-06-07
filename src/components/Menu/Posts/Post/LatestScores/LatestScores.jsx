@@ -13,13 +13,6 @@ const LatestScores = () => {
 				name={'WORLD: World Championship Group Stage'}
 			/>
 			<LatestScoreTable />
-			<LatestScoreTable />
-			<LatestScoreTable />
-			<LatestScoreTable />
-			<LatestScoreTable />
-			<LatestScoreTable />
-			<LatestScoreTable />
-			<LatestScoreTable />
 		</div>
 	);
 }
