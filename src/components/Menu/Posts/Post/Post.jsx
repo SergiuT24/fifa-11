@@ -6,6 +6,7 @@ import LatestScores from './LatestScores/LatestScores';
 import Players from './Players/Players';
 import TopScorers from './TopScorers/TopScorers';
 import TopAssists from './TopAssists/TopAssists';
+import Random from './Random/Random';
 
 const Post = () => {
 	const [selectedComponent, setSelectedComponent] = useState('Main');
@@ -14,6 +15,9 @@ const Post = () => {
 		<div className='post mb-72'>
 			<div className='flex justify-center'>
 				<Players />
+			</div>
+			<div className='flex justify-center'>
+				<Random />
 			</div>
 			<div className='latest-score-head flex justify-center m-3'>
 				<LatestScores />
