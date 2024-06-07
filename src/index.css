@@ -109,3 +109,46 @@ h1, h2 {
 	height: 1px;
 	background-color: white;
 }
+.match-details img {
+	width: 100%;
+	cursor: pointer;
+	transition: transform 0.3s ease-in-out;
+ }
+ 
+ .match-details img.expanded {
+	transform: scale(2); /* Or any scale value you prefer */
+ }
+ 
+ .match-details.full-size {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000;
+ }
+ 
+ .match-details.full-size img {
+	width: auto;
+	height: auto;
+	max-width: 30%;
+	max-height: 30%;
+	cursor: pointer;
+ }
+ 
+ .close-button {
+	position: absolute;
+	top: 20px;
+	right: 80px;
+	background: none;
+	border: none;
+	color: white;
+	font-size: 3rem;
+	cursor: pointer;
+	z-index: 1001;
+ }
+ 
