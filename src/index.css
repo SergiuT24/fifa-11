@@ -18,10 +18,10 @@ li {
 	}
 	border-right: 1px solid #0f2d37;
 }
-.logo, .post, .title, .table-head {
+.logo, .post-menu, .title, .table-head, .latest-scores {
 	background-color: #001e28;
 }
-.menu {
+.menu{
 	background-color: #010a0f;
 }
 .link {
@@ -52,4 +52,20 @@ h1, h2 {
 }
 .main-tables {
 	max-width: 664px;
+}
+.draw-bracket::after {
+	border-right: 1px solid;
+	border-color: #000;
+	content: "";
+	height: 100%;
+	position: absolute;
+	right: -8px;
+	width: calc(100% + 16px);
+	z-index: -1;
+}
+.latest-score-head {
+} 
+.latest-scores {
+	width: 688px;
+
 }
