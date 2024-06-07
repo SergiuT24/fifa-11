@@ -4,12 +4,14 @@ import MainTables from '../Main/MainTables/MainTables';
 import PlayOffs from '../Main/PlayOffs/PlayOffs';
 import LatestScores from './LatestScores/LatestScores';
 import Players from './Players/Players';
+import TopScorers from './TopScorers/TopScorers';
+import TopAssists from './TopAssists/TopAssists';
 
 const Post = () => {
 	const [selectedComponent, setSelectedComponent] = useState('Main');
 
 	return (
-		<div className='post'>
+		<div className='post mb-72'>
 			<div className='flex justify-center'>
 				<Players />
 			</div>
@@ -20,6 +22,8 @@ const Post = () => {
 				<PostMenu selected={selectedComponent} setSelectedComponent={setSelectedComponent} />
 				{selectedComponent === 'Main' && <MainTables />}
 				{selectedComponent === 'Play Offs' && <PlayOffs />}
+				{selectedComponent === 'Top Scorers' && <TopScorers />}
+				{selectedComponent === 'Most Assists' && <TopAssists />}
 			</div>
 		</div>
 	);
