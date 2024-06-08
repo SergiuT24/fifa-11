@@ -2,7 +2,7 @@ import React from 'react';
 import PlayersImg from './PlayersImg';
 import Team from '../LatestScores/Team.jsx/Team';
 
-const PlayersTeam = ({ team, playerOne, playerTwo, imgOne, imgTwo }) => {
+const PlayersTeam = ({ team, playerOne, playerTwo, imgOne, imgTwo, flag, teamName }) => {
 	return (
 		<div className='logo w-44 rounded-2xl font-bold p-2'>
 			<h3 className=' text-center'>{team}</h3>
@@ -17,9 +17,9 @@ const PlayersTeam = ({ team, playerOne, playerTwo, imgOne, imgTwo }) => {
 						<p>{playerTwo}</p>
 					</div>
 				</div>
-			</div>
-			<div className=' text-sm text-nowrap'>
-				{/* <Team team={''} /> */}
+				<div className='pl-8 text-sm'>
+					<Team flag={flag} team={teamName} />
+				</div>
 			</div>
 		</div>
 	);

@@ -16,9 +16,9 @@ const Post = () => {
 			<div className='flex justify-center'>
 				<Players />
 			</div>
-			<div className='flex justify-center'>
+			{/* <div className='flex justify-center'>
 				<Random />
-			</div>
+			</div> */}
 			<div className='latest-score-head flex justify-center m-3'>
 				<LatestScores />
 			</div>
