@@ -1,16 +1,16 @@
 import React from 'react';
 import LatestScoreMatch from './LatestScoreMatch';
 
-const LatestScoreTable = () => {
+const LatestScoreTable = ({ flagOne, flagTwo, teamOne, teamTwo, scoreOne, scoreTwo }) => {
 	return (
 		<div>
 			<LatestScoreMatch
-				flagOne={'https://static.flashscore.com/res/image/data/Grhsr8gT-vZG58BBc.png'}
-				teamOne={'Portugal'}
-				scoreOne={0}
-				flagTwo={'https://static.flashscore.com/res/image/data/0SofTgVH-fB4vYUZp.png'}
-				teamTwo={'Germany'}
-				scoreTwo={0} />
+				flagOne={flagOne}
+				teamOne={teamOne}
+				scoreOne={scoreOne}
+				flagTwo={flagTwo}
+				teamTwo={teamTwo}
+				scoreTwo={scoreTwo} />
 		</div>
 	);
 }
