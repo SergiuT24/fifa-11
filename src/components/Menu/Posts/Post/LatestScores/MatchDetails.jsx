@@ -20,7 +20,7 @@ const MatchDetails = () => {
 					</button>
 				)}
 				<img
-					src="./match-details-img/1.png"
+					src="./match-details-img/not-played.png"
 					alt="details"
 					onClick={handleImageClick}
 					className={isFullSize ? 'expanded' : ''}
