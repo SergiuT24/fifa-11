@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const MenuLink = ({ value }) => {
+const MenuLink = ({ value, to }) => {
 	return (
 		<li className='flex justify-around pr-3 py-2'>
-			<a className='link uppercase cursor-pointer'>{value}</a>
+			<Link to={to} className='link uppercase cursor-pointer'>{value}</Link>
 		</li>
 	);
 }
