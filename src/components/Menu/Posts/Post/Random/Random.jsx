@@ -3,7 +3,7 @@ import RandomTeam from './RandomTeam';
 
 const Random = () => {
 	return (
-		<div className='grid grid-cols-6 gap-6 my-8 border-t pt-5'>
+		<div className='flex flex-wrap justify-center gap-4 my-8 border-t pt-5'>
 			<div>
 				<h3 className='text-2xl uppercase'>teams for random:</h3>
 			</div>

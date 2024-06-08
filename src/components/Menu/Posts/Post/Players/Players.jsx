@@ -9,7 +9,7 @@ const Players = () => {
 			<PlayersTeam team={'TEAM 3'} playerOne={'Wenger'} imgOne={'./players-img/Wenger.png'} playerTwo={'Petr-Pirat'} imgTwo={'./players-img/Petr.png'} />
 			<PlayersTeam team={'TEAM 4'} playerOne={'Jsnick'} playerTwo={'Perfect'} imgOne={'./players-img/Jsnick.png'} imgTwo={'./players-img/Perfect.png'} />
 			<PlayersTeam team={'TEAM 5'} playerOne={'Berserk'} playerTwo={'NSKRaven'} imgOne={'./players-img/Berserk.png'} imgTwo={'./players-img/Raven.png'} />
-			<PlayersTeam team={'TEAM 6'} playerOne={'none'} playerTwo={'none'} />
+			<PlayersTeam team={'TEAM 6'} playerOne={'SergeyFace'} playerTwo={'Malemiria'} imgOne={'./players-img/Sergeyface.png'} imgTwo={'./players-img/Malemiria.png'} />
 		</div>
 	);
 }
