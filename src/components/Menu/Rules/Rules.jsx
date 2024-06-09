@@ -35,7 +35,7 @@ const Rules = () => {
 				<h2 className="text-2xl font-bold mb-4">Регламент турнира</h2>
 				<ol className="list-decimal list-inside space-y-2">
 					{russianRules.map((rule, index) => (
-						<li key={index}><strong>{index}. </strong>{rule || <img src="/match-details-img/1.png" alt="Match Details" />}</li>
+						<li key={index}><strong>{index + 1}. </strong>{rule || <img src="/match-details-img/1.png" alt="Match Details" />}</li>
 					))}
 				</ol>
 			</div>
