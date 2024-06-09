@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import Logo from "./components/Menu/Logo"
 import Menu from "./components/Menu/Menu"
-import Posts from "./components/Menu/Posts/Posts"
+import Posts from "./components/Posts/Posts"
 import Rules from "./components/Menu/Rules/Rules"
 
 
