@@ -18,15 +18,19 @@ const Rules = () => {
 	];
 
 	const englishRules = [
-		"Participants. Six teams participate in the tournament, divided into two groups of three teams each.",
-		"System. The tournament is held in two stages: group stage and playoffs.",
-		"Draw. The draw will take place on June 8 at 12:00.",
-		"Group stage. In the group stage, teams play each other once in a round-robin format, playing matches at home and away.",
-		"Playoffs. Based on the results of the group stage, the teams that finish first in their groups advance directly to the semifinals. Teams that finish second and third play in the quarterfinals.",
-		"Match format. All matches are held in a 'six minutes' format (classic mode).",
-		"Post-match actions. After each game, participants must send a screenshot with an example that will be posted on the website, Berserk.",
-		"Ban on the use of custom schemes. Teams cannot use custom schemes during the tournament.",
-		"Addition to the squad. You can supplement the national team with players who are not in the standard FIFA 11 roster."
+		"Play with the original teams provided by the game with patch 1.01.",
+		"The tournament consists of six teams, divided into two groups of three teams each.",
+		"Each match lasts 6 minutes, classic mode, normal speed. Do not play in rain or snow.",
+		"Intentionally stalling time is prohibited. Stalling is defined as passing or holding the ball on your side of the field for more than 5 consecutive in-game minutes.",
+		"You can use your own formation for the games. Boosting players is prohibited. Each participant can request a screenshot of one player from the opponent's squad during the pre-match conference. If player boosting is detected, it will automatically result in a loss.",
+		"Desynchronization: In case of desynchronization during the match, goals scored during the desynced period count for both sides. Re-enter the match and play the remaining agreed time. Screenshots from one side are recommended for confirmation if the opponent does not believe.",
+		"Group Stage: In the group stage, teams play each other once, with matches held both home and away.",
+		"If two or more teams have the same number of points, final positions in the group are determined by the following tiebreakers: points in head-to-head matches between the tied teams; goal difference in head-to-head matches between the tied teams; goals scored in head-to-head matches between the tied teams; goal difference in all matches; goals scored in all matches.",
+		"Playoffs: After the group stage, the first-place teams in each group advance directly to the semifinals. Second-place teams play against third-place teams from the opposite groups in the quarterfinals for a spot in the semifinals.",
+		"Match Format: All matches are played in a 'six minutes' format (classic mode).",
+		"Post-match actions: After each game, participants must send screenshots of the match events, like in this example, to Berserk via personal message on Discord.",
+		null,
+		"Squad Additions: You can add players to the national team who are not in the standard FIFA 11 roster."
 	];
 
 	return (
@@ -43,7 +47,7 @@ const Rules = () => {
 				<h2 className="text-2xl font-bold mb-4">Tournament Rules</h2>
 				<ol className="list-decimal list-inside space-y-2">
 					{englishRules.map((rule, index) => (
-						<li key={index}>{rule}</li>
+						<li key={index}><strong>{index + 1}. </strong>{rule || <img src="/match-details-img/1.png" alt="Match Details" />}</li>
 					))}
 				</ol>
 			</div>
