@@ -13,6 +13,7 @@ const TopAssistsTable = () => {
 				<TopAssistsLine rank={'2'} player={"DartRin"} team={"Spain"} a={"3"} />
 				<TopAssistsLine rank={'2'} player={"NSKRaven"} team={"France"} a={"3"} />
 				<TopAssistsLine rank={'2'} player={"Perfect"} team={"Brazil"} a={"3"} />
+				<TopAssistsLine rank={'2'} player={"Sania"} team={"Portugal"} a={"3"} />
 				<TopAssistsLine rank={'3'} player={"14_France"} team={"England"} a={"2"} />
 				<TopAssistsLine rank={'4'} player={"Jsnick"} team={"Brazil"} a={"1"} />
 				<TopAssistsLine rank={'5'} player={"Box"} team={"England"} a={"1"} />
