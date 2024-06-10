@@ -13,14 +13,14 @@ const TopAssistsTable = () => {
 				<TopAssistsLine rank={'2'} player={"DartRin"} team={"Spain"} a={"3"} />
 				<TopAssistsLine rank={'2'} player={"NSKRaven"} team={"France"} a={"3"} />
 				<TopAssistsLine rank={'2'} player={"Perfect"} team={"Brazil"} a={"3"} />
+				<TopAssistsLine rank={'3'} player={"14_France"} team={"England"} a={"2"} />
 				<TopAssistsLine rank={'4'} player={"Jsnick"} team={"Brazil"} a={"1"} />
-				<TopAssistsLine rank={'7'} player={"Player"} team={"Team"} a={"0"} />
-				<TopAssistsLine rank={'8'} player={"Player"} team={"Team"} a={"0"} />
-				<TopAssistsLine rank={'9'} player={"Player"} team={"Team"} a={"0"} />
+				<TopAssistsLine rank={'5'} player={"Box"} team={"England"} a={"1"} />
+				{/* <TopAssistsLine rank={'9'} player={"Player"} team={"Team"} a={"0"} />
 				<TopAssistsLine rank={'10'} player={"Player"} team={"Team"} a={"0"} />
 				<TopAssistsLine rank={'11'} player={"Player"} team={"Team"} a={"0"} />
 				<TopAssistsLine rank={'12'} player={"Player"} team={"Team"} a={"0"} />
-				<TopAssistsLine rank={'13'} player={"Player"} team={"Team"} a={"0"} />
+				<TopAssistsLine rank={'13'} player={"Player"} team={"Team"} a={"0"} /> */}
 			</tbody>
 		</table>
 	);
