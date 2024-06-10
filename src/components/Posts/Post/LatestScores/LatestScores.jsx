@@ -12,53 +12,77 @@ const LatestScores = () => {
 				emblem={<img className=' w-6 h-3' src='https://static.flashscore.com/res/_fs/build/world.b7d16db.png' />}
 				name={'WORLD: World Championship Group Stage'}
 			/>
-			<LatestScoreTable
-				flagOne={'https://static.flashscore.com/res/image/data/Grhsr8gT-vZG58BBc.png'}
-				teamOne={'Portugal'}
-				scoreOne={'?'}
-				flagTwo={'https://static.flashscore.com/res/image/data/0SofTgVH-fB4vYUZp.png'}
-				teamTwo={'Germany'}
-				scoreTwo={'?'}
-			/>
-			<LatestScoreTable
-				flagOne={'https://static.flashscore.com/res/image/data/S4Kz1kjC-88LAtdNt.png'}
-				teamOne={'Brazil'}
-				scoreOne={'?'}
-				flagTwo={'https://static.flashscore.com/res/image/data/Grhsr8gT-vZG58BBc.png'}
-				teamTwo={'Portugal'}
-				scoreTwo={'?'}
-			/>
-			<LatestScoreTable
+			{/* <LatestScoreTable
 				flagOne={'https://static.flashscore.com/res/image/data/0SofTgVH-fB4vYUZp.png'}
 				teamOne={'Germany'}
 				scoreOne={'?'}
 				flagTwo={'https://static.flashscore.com/res/image/data/S4Kz1kjC-88LAtdNt.png'}
 				teamTwo={'Brazil'}
 				scoreTwo={'?'}
-			/>
+			/> */}
 			<LatestScoreTable
-				flagOne={'https://static.flashscore.com/res/image/data/lfoVvLPq-Iyld3bDd.png'}
-				teamOne={'England'}
-				scoreOne={'?'}
+				flagOne={'https://static.flashscore.com/res/image/data/6eDtOume-0E8Iihe1.png'}
+				teamOne={'Spain'}
+				scoreOne={'4'}
 				flagTwo={'https://static.flashscore.com/res/image/data/04V6zbA6-U3HPIwDq.png'}
 				teamTwo={'France'}
-				scoreTwo={'?'}
+				scoreTwo={'1'}
 			/>
 			<LatestScoreTable
 				flagOne={'https://static.flashscore.com/res/image/data/04V6zbA6-U3HPIwDq.png'}
 				teamOne={'France'}
-				scoreOne={'?'}
+				scoreOne={'1'}
 				flagTwo={'https://static.flashscore.com/res/image/data/6eDtOume-0E8Iihe1.png'}
 				teamTwo={'Spain'}
-				scoreTwo={'?'}
+				scoreTwo={'0'}
+			/>
+			<LatestScoreTable
+				flagOne={'https://static.flashscore.com/res/image/data/04V6zbA6-U3HPIwDq.png'}
+				teamOne={'France'}
+				scoreOne={'5'}
+				flagTwo={'https://static.flashscore.com/res/image/data/lfoVvLPq-Iyld3bDd.png'}
+				teamTwo={'England'}
+				scoreTwo={'1'}
+			/>
+			<LatestScoreTable
+				flagOne={'https://static.flashscore.com/res/image/data/lfoVvLPq-Iyld3bDd.png'}
+				teamOne={'England'}
+				scoreOne={'2'}
+				flagTwo={'https://static.flashscore.com/res/image/data/04V6zbA6-U3HPIwDq.png'}
+				teamTwo={'France'}
+				scoreTwo={'5'}
+			/>
+			<LatestScoreTable
+				flagOne={'https://static.flashscore.com/res/image/data/lfoVvLPq-Iyld3bDd.png'}
+				teamOne={'England'}
+				scoreOne={'0'}
+				flagTwo={'https://static.flashscore.com/res/image/data/6eDtOume-0E8Iihe1.png'}
+				teamTwo={'Spain'}
+				scoreTwo={'4'}
 			/>
 			<LatestScoreTable
 				flagOne={'https://static.flashscore.com/res/image/data/6eDtOume-0E8Iihe1.png'}
 				teamOne={'Spain'}
-				scoreOne={'?'}
+				scoreOne={'2'}
 				flagTwo={'https://static.flashscore.com/res/image/data/lfoVvLPq-Iyld3bDd.png'}
 				teamTwo={'England'}
-				scoreTwo={'?'}
+				scoreTwo={'0'}
+			/>
+			<LatestScoreTable
+				flagOne={'https://static.flashscore.com/res/image/data/Grhsr8gT-vZG58BBc.png'}
+				teamOne={'Portugal'}
+				scoreOne={'4'}
+				flagTwo={'https://static.flashscore.com/res/image/data/S4Kz1kjC-88LAtdNt.png'}
+				teamTwo={'Brazil'}
+				scoreTwo={'4'}
+			/>
+			<LatestScoreTable
+				flagOne={'https://static.flashscore.com/res/image/data/S4Kz1kjC-88LAtdNt.png'}
+				teamOne={'Brazil'}
+				scoreOne={'0'}
+				flagTwo={'https://static.flashscore.com/res/image/data/Grhsr8gT-vZG58BBc.png'}
+				teamTwo={'Portugal'}
+				scoreTwo={'0'}
 			/>
 		</div>
 	);
