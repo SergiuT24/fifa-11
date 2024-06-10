@@ -42,12 +42,12 @@ const LatestScores = () => {
 				scoreOne={'5'}
 				flagTwo={'https://static.flashscore.com/res/image/data/lfoVvLPq-Iyld3bDd.png'}
 				teamTwo={'England'}
-				scoreTwo={'1'}
+				scoreTwo={'2'}
 			/>
 			<LatestScoreTable
 				flagOne={'https://static.flashscore.com/res/image/data/lfoVvLPq-Iyld3bDd.png'}
 				teamOne={'England'}
-				scoreOne={'2'}
+				scoreOne={'1'}
 				flagTwo={'https://static.flashscore.com/res/image/data/04V6zbA6-U3HPIwDq.png'}
 				teamTwo={'France'}
 				scoreTwo={'5'}
