@@ -27,7 +27,7 @@ const LatestScores = () => {
 				flagTwo={'https://static.flashscore.com/res/image/data/04V6zbA6-U3HPIwDq.png'}
 				teamTwo={'France'}
 				scoreTwo={'1'}
-				source={'https://www.youtube.com/live/7_zZIBwBWi4?si=D0fs7qIxVGjE-TLz'}
+				source={'https://www.youtube.com/embed/7_zZIBwBWi4?si=hwBmyVD_uO1gPy2F'}
 			/>
 			<LatestScoreTable
 				flagOne={'https://static.flashscore.com/res/image/data/04V6zbA6-U3HPIwDq.png'}
@@ -36,7 +36,7 @@ const LatestScores = () => {
 				flagTwo={'https://static.flashscore.com/res/image/data/6eDtOume-0E8Iihe1.png'}
 				teamTwo={'Spain'}
 				scoreTwo={'0'}
-				source={'https://www.youtube.com/live/7_zZIBwBWi4?si=D0fs7qIxVGjE-TLz'}
+				source={'https://www.youtube.com/embed/7_zZIBwBWi4?si=hwBmyVD_uO1gPy2F'}
 			/>
 			<LatestScoreTable
 				flagOne={'https://static.flashscore.com/res/image/data/04V6zbA6-U3HPIwDq.png'}
@@ -45,7 +45,7 @@ const LatestScores = () => {
 				flagTwo={'https://static.flashscore.com/res/image/data/lfoVvLPq-Iyld3bDd.png'}
 				teamTwo={'England'}
 				scoreTwo={'2'}
-				source={'https://www.youtube.com/live/wirXYgEwaZ4?si=0Kj_UCfUSLmF0yrg'}
+				source={'https://www.youtube.com/embed/wirXYgEwaZ4?si=jFXQlTBhks_x62fz'}
 			/>
 			<LatestScoreTable
 				flagOne={'https://static.flashscore.com/res/image/data/lfoVvLPq-Iyld3bDd.png'}
@@ -54,7 +54,7 @@ const LatestScores = () => {
 				flagTwo={'https://static.flashscore.com/res/image/data/04V6zbA6-U3HPIwDq.png'}
 				teamTwo={'France'}
 				scoreTwo={'5'}
-				source={'https://www.youtube.com/live/chENnmC21rs?si=_Ka3tKSsxYXWTci8'}
+				source={'https://www.youtube.com/embed/chENnmC21rs?si=mharFeOCbF1qQKc-'}
 			/>
 			<LatestScoreTable
 				flagOne={'https://static.flashscore.com/res/image/data/lfoVvLPq-Iyld3bDd.png'}
@@ -63,7 +63,7 @@ const LatestScores = () => {
 				flagTwo={'https://static.flashscore.com/res/image/data/6eDtOume-0E8Iihe1.png'}
 				teamTwo={'Spain'}
 				scoreTwo={'4'}
-				source={'https://www.youtube.com/live/4Fun-Sq3kZg?si=cTEBjHobuDSjy4sz'}
+				source={'https://www.youtube.com/embed/4Fun-Sq3kZg?si=Sh1vKTqW8gdlUQ3r'}
 			/>
 			<LatestScoreTable
 				flagOne={'https://static.flashscore.com/res/image/data/6eDtOume-0E8Iihe1.png'}
@@ -72,7 +72,7 @@ const LatestScores = () => {
 				flagTwo={'https://static.flashscore.com/res/image/data/lfoVvLPq-Iyld3bDd.png'}
 				teamTwo={'England'}
 				scoreTwo={'0'}
-				source={'https://www.youtube.com/live/4Fun-Sq3kZg?si=cTEBjHobuDSjy4sz'}
+				source={'https://www.youtube.com/embed/4Fun-Sq3kZg?si=Sh1vKTqW8gdlUQ3r'}
 			/>
 			<LatestScoreTable
 				flagOne={'https://static.flashscore.com/res/image/data/Grhsr8gT-vZG58BBc.png'}
