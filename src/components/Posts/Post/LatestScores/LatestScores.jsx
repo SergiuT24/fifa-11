@@ -75,6 +75,7 @@ const LatestScores = () => {
 				flagTwo={'https://static.flashscore.com/res/image/data/S4Kz1kjC-88LAtdNt.png'}
 				teamTwo={'Brazil'}
 				scoreTwo={'4'}
+				source={'https://www.youtube.com/watch?v=JR5rSJ_-Dno&ab_channel=Jsnick'}
 			/>
 			<LatestScoreTable
 				flagOne={'https://static.flashscore.com/res/image/data/S4Kz1kjC-88LAtdNt.png'}
@@ -83,6 +84,7 @@ const LatestScores = () => {
 				flagTwo={'https://static.flashscore.com/res/image/data/Grhsr8gT-vZG58BBc.png'}
 				teamTwo={'Portugal'}
 				scoreTwo={'0'}
+				source={'https://www.youtube.com/watch?v=JR5rSJ_-Dno&ab_channel=Jsnick'}
 			/>
 		</div>
 	);

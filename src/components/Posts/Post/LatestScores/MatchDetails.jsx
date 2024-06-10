@@ -1,30 +1,19 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const MatchDetails = () => {
-	const [isFullSize, setIsFullSize] = useState(false);
-
-	const handleImageClick = () => {
-		setIsFullSize(true);
-	};
-
-	const handleCloseClick = () => {
-		setIsFullSize(false);
-	};
-
+const MatchDetails = ({ source }) => {
 	return (
-		<div className={`match-details flex justify-center w-full ${isFullSize ? 'full-size' : ''}`}>
-			<div className='w-96'>
-				{isFullSize && (
-					<button className="close-button" onClick={handleCloseClick}>
-						&times;
-					</button>
-				)}
-				<img
-					src="./match-details-img/not-played.png"
-					alt="details"
-					onClick={handleImageClick}
-					className={isFullSize ? 'expanded' : ''}
-				/>
+		<div className="match-details flex justify-center w-full">
+			<div className='w-96 flex justify-center'>
+				<iframe
+					className='border-2'
+					width="560"
+					height="315"
+					src={source}
+					title="YouTube video player"
+					frameBorder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowFullScreen
+				></iframe>
 			</div>
 		</div>
 	);

@@ -1,7 +1,7 @@
 import React from 'react';
 import LatestScoreMatch from './LatestScoreMatch';
 
-const LatestScoreTable = ({ flagOne, flagTwo, teamOne, teamTwo, scoreOne, scoreTwo }) => {
+const LatestScoreTable = ({ flagOne, flagTwo, teamOne, teamTwo, scoreOne, scoreTwo, source }) => {
 	return (
 		<div>
 			<LatestScoreMatch
@@ -10,7 +10,8 @@ const LatestScoreTable = ({ flagOne, flagTwo, teamOne, teamTwo, scoreOne, scoreT
 				scoreOne={scoreOne}
 				flagTwo={flagTwo}
 				teamTwo={teamTwo}
-				scoreTwo={scoreTwo} />
+				scoreTwo={scoreTwo}
+				source={source} />
 		</div>
 	);
 }

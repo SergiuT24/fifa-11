@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Team from './Team.jsx/Team';
 import MatchDetails from './MatchDetails';
 
-const LatestScoreMatch = ({ teamOne, scoreOne, flagOne, flagTwo, teamTwo, scoreTwo }) => {
+const LatestScoreMatch = ({ teamOne, scoreOne, flagOne, flagTwo, teamTwo, scoreTwo, source }) => {
 	const [showDetails, setShowDetails] = useState(false);
 
 	const handleClick = () => {
@@ -25,13 +25,13 @@ const LatestScoreMatch = ({ teamOne, scoreOne, flagOne, flagTwo, teamTwo, scoreT
 							<p>{scoreOne}</p>
 							<p>{scoreTwo}</p>
 						</div>
-						{/* <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fillRule="evenodd" clipRule="evenodd">
+						<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fillRule="evenodd" clipRule="evenodd">
 							<path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm5.247 8l-5.247 6.44-5.263-6.44-.737.678 6 7.322 6-7.335-.753-.665z" fill="white" />
-						</svg> */}
+						</svg>
 					</div>
 				</button>
 			</div>
-			{/* {showDetails && <MatchDetails />} */}
+			{showDetails && <MatchDetails source={source} />}
 		</div>
 	);
 }
