@@ -27,6 +27,7 @@ const LatestScores = () => {
 				flagTwo={'https://static.flashscore.com/res/image/data/04V6zbA6-U3HPIwDq.png'}
 				teamTwo={'France'}
 				scoreTwo={'1'}
+				source={'https://www.youtube.com/live/7_zZIBwBWi4?si=D0fs7qIxVGjE-TLz'}
 			/>
 			<LatestScoreTable
 				flagOne={'https://static.flashscore.com/res/image/data/04V6zbA6-U3HPIwDq.png'}
@@ -35,6 +36,7 @@ const LatestScores = () => {
 				flagTwo={'https://static.flashscore.com/res/image/data/6eDtOume-0E8Iihe1.png'}
 				teamTwo={'Spain'}
 				scoreTwo={'0'}
+				source={'https://www.youtube.com/live/7_zZIBwBWi4?si=D0fs7qIxVGjE-TLz'}
 			/>
 			<LatestScoreTable
 				flagOne={'https://static.flashscore.com/res/image/data/04V6zbA6-U3HPIwDq.png'}
@@ -43,6 +45,7 @@ const LatestScores = () => {
 				flagTwo={'https://static.flashscore.com/res/image/data/lfoVvLPq-Iyld3bDd.png'}
 				teamTwo={'England'}
 				scoreTwo={'2'}
+				source={'https://www.youtube.com/live/wirXYgEwaZ4?si=0Kj_UCfUSLmF0yrg'}
 			/>
 			<LatestScoreTable
 				flagOne={'https://static.flashscore.com/res/image/data/lfoVvLPq-Iyld3bDd.png'}
@@ -51,6 +54,7 @@ const LatestScores = () => {
 				flagTwo={'https://static.flashscore.com/res/image/data/04V6zbA6-U3HPIwDq.png'}
 				teamTwo={'France'}
 				scoreTwo={'5'}
+				source={'https://www.youtube.com/live/chENnmC21rs?si=_Ka3tKSsxYXWTci8'}
 			/>
 			<LatestScoreTable
 				flagOne={'https://static.flashscore.com/res/image/data/lfoVvLPq-Iyld3bDd.png'}
@@ -59,6 +63,7 @@ const LatestScores = () => {
 				flagTwo={'https://static.flashscore.com/res/image/data/6eDtOume-0E8Iihe1.png'}
 				teamTwo={'Spain'}
 				scoreTwo={'4'}
+				source={'https://www.youtube.com/live/4Fun-Sq3kZg?si=cTEBjHobuDSjy4sz'}
 			/>
 			<LatestScoreTable
 				flagOne={'https://static.flashscore.com/res/image/data/6eDtOume-0E8Iihe1.png'}
@@ -67,6 +72,7 @@ const LatestScores = () => {
 				flagTwo={'https://static.flashscore.com/res/image/data/lfoVvLPq-Iyld3bDd.png'}
 				teamTwo={'England'}
 				scoreTwo={'0'}
+				source={'https://www.youtube.com/live/4Fun-Sq3kZg?si=cTEBjHobuDSjy4sz'}
 			/>
 			<LatestScoreTable
 				flagOne={'https://static.flashscore.com/res/image/data/Grhsr8gT-vZG58BBc.png'}
