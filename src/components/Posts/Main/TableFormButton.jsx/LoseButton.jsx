@@ -1,8 +1,8 @@
 import React from 'react';
 
-const LoseButton = () => {
+const LoseButton = ({ title }) => {
 	return (
-		<button className='w-5 h-5 rounded-md' style={{ backgroundColor: '#c8cdcd' }}><span>?</span></button>
+		<button title={title} className='w-5 h-5 rounded-md bg-red-500'><span>L</span></button>
 	);
 }
 

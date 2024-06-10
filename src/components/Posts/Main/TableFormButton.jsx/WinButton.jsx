@@ -1,8 +1,8 @@
 import React from 'react';
 
-const WinButton = () => {
+const WinButton = ({ title }) => {
 	return (
-		<button className='w-5 h-5 rounded-md' style={{ backgroundColor: '#c8cdcd' }}><span>?</span></button>
+		<button className='w-5 h-5 rounded-md bg-green-500' title={title}><span>W</span></button>
 	);
 }
 

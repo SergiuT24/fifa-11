@@ -9,12 +9,12 @@ const PlayOffs = () => {
 				<div className='flex flex-col gap-8 relative'>
 					<PlayOffTitle value={'1/4 Quarter-Finals'} />
 					<div className='line-quarterone border rounded-lg p-3'>
-						<PlayOffBracket img={<img src="https://static.flashscore.com/res/image/data/CKvcQ6zS-vZG58BBc.png" />} team={'Place 2 Group B'} score={'?'} />
+						<PlayOffBracket img={<img src='https://static.flashscore.com/res/image/data/04V6zbA6-U3HPIwDq.png' />} team={'France'} score={'?'} />
 						<PlayOffBracket img={<img src="https://static.flashscore.com/res/image/data/CKvcQ6zS-vZG58BBc.png" />} team={'Place 3 Group A'} score={'?'} />
 					</div>
 					<div className='line-quarter border rounded-lg p-3'>
 						<PlayOffBracket img={<img src="https://static.flashscore.com/res/image/data/CKvcQ6zS-vZG58BBc.png" />} team={'Place 2 Group A'} score={'?'} />
-						<PlayOffBracket img={<img src="https://static.flashscore.com/res/image/data/CKvcQ6zS-vZG58BBc.png" />} team={'Place 3 Group B'} score={'?'} />
+						<PlayOffBracket img={<img src='https://static.flashscore.com/res/image/data/lfoVvLPq-Iyld3bDd.png' />} team={'England'} score={'?'} />
 					</div>
 				</div>
 				<div className='flex flex-col gap-8 relative'>
@@ -24,7 +24,7 @@ const PlayOffs = () => {
 						<PlayOffBracket img={<img src="https://static.flashscore.com/res/image/data/CKvcQ6zS-vZG58BBc.png" />} team={'Team-Name'} score={'?'} />
 					</div>
 					<div className='line-two border rounded-lg p-3'>
-						<PlayOffBracket img={<img src="https://static.flashscore.com/res/image/data/CKvcQ6zS-vZG58BBc.png" />} team={'Place 1 Group B'} score={'?'} />
+						<PlayOffBracket img={<img src='https://static.flashscore.com/res/image/data/6eDtOume-0E8Iihe1.png' />} team={'Spain'} score={'?'} />
 						<PlayOffBracket img={<img src="https://static.flashscore.com/res/image/data/CKvcQ6zS-vZG58BBc.png" />} team={'Team-Name'} score={'?'} />
 					</div>
 				</div>
