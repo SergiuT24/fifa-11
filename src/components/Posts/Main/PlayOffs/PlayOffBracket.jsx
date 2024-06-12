@@ -1,7 +1,7 @@
 import React from 'react';
 import PlayOffTeam from './PlayOffTeam';
 
-const PlayOffBracket = ({ img, team, score }) => {
+const PlayOffBracket = ({ img, team, score, scoreTwo }) => {
 	return (
 		<div>
 			<div>
@@ -9,6 +9,7 @@ const PlayOffBracket = ({ img, team, score }) => {
 					img={img}
 					team={team}
 					score={score}
+					scoreTwo={scoreTwo}
 				/>
 			</div>
 		</div >

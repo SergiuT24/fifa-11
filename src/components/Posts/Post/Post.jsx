@@ -10,7 +10,7 @@ import Draw from './Draw/Draw';
 
 
 const Post = () => {
-	const [selectedComponent, setSelectedComponent] = useState('Main');
+	const [selectedComponent, setSelectedComponent] = useState('Play Offs');
 
 	return (
 		<div className='post mb-72'>

@@ -9,18 +9,18 @@ const PlayOffs = () => {
 				<div className='flex flex-col gap-8 relative'>
 					<PlayOffTitle value={'1/4 Quarter-Finals'} />
 					<div className='line-quarterone border rounded-lg p-3'>
-						<PlayOffBracket img={<img src='https://static.flashscore.com/res/image/data/04V6zbA6-U3HPIwDq.png' />} team={'France'} score={'?'} />
-						<PlayOffBracket img={<img src="https://static.flashscore.com/res/image/data/CKvcQ6zS-vZG58BBc.png" />} team={'Place 3 Group A'} score={'?'} />
+						<PlayOffBracket img={<img src='https://static.flashscore.com/res/image/data/04V6zbA6-U3HPIwDq.png' />} team={'France'} score={'?'} scoreTwo={'?'} />
+						<PlayOffBracket img={<img src="https://static.flashscore.com/res/image/data/S4Kz1kjC-88LAtdNt.png" />} team={'Brazil'} score={'?'} scoreTwo={'?'} />
 					</div>
 					<div className='line-quarter border rounded-lg p-3'>
-						<PlayOffBracket img={<img src="https://static.flashscore.com/res/image/data/CKvcQ6zS-vZG58BBc.png" />} team={'Place 2 Group A'} score={'?'} />
-						<PlayOffBracket img={<img src='https://static.flashscore.com/res/image/data/lfoVvLPq-Iyld3bDd.png' />} team={'England'} score={'?'} />
+						<PlayOffBracket img={<img src="https://static.flashscore.com/res/image/data/0SofTgVH-fB4vYUZp.png" />} team={'Germany'} score={'?'} scoreTwo={'?'} />
+						<PlayOffBracket img={<img src='https://static.flashscore.com/res/image/data/lfoVvLPq-Iyld3bDd.png' />} team={'England'} score={'?'} scoreTwo={'?'} />
 					</div>
 				</div>
 				<div className='flex flex-col gap-8 relative'>
 					<PlayOffTitle value={'1/2 semi-final'} />
 					<div className='line-one border rounded-lg p-3'>
-						<PlayOffBracket img={<img src="https://static.flashscore.com/res/image/data/CKvcQ6zS-vZG58BBc.png" />} team={'Place 1 Group A'} score={'?'} />
+						<PlayOffBracket img={<img src="https://static.flashscore.com/res/image/data/Grhsr8gT-vZG58BBc.png" />} team={'Portugal'} score={'?'} />
 						<PlayOffBracket img={<img src="https://static.flashscore.com/res/image/data/CKvcQ6zS-vZG58BBc.png" />} team={'Team-Name'} score={'?'} />
 					</div>
 					<div className='line-two border rounded-lg p-3'>

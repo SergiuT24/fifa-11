@@ -15,6 +15,24 @@ const LatestScores = () => {
 			<LatestScoreTable
 				flagOne={'https://static.flashscore.com/res/image/data/0SofTgVH-fB4vYUZp.png'}
 				teamOne={'Germany'}
+				scoreOne={'3'}
+				flagTwo={'https://static.flashscore.com/res/image/data/Grhsr8gT-vZG58BBc.png'}
+				teamTwo={'Portugal'}
+				scoreTwo={'1'}
+				source={'https://www.youtube.com/embed/zDXcBGjH3lA?si=4tMdXGwv50biiXKP'}
+			/>
+			<LatestScoreTable
+				flagOne={'https://static.flashscore.com/res/image/data/Grhsr8gT-vZG58BBc.png'}
+				teamOne={'Portugal'}
+				scoreOne={'3'}
+				flagTwo={'https://static.flashscore.com/res/image/data/0SofTgVH-fB4vYUZp.png'}
+				teamTwo={'Germany'}
+				scoreTwo={'1'}
+				source={'https://www.youtube.com/embed/zDXcBGjH3lA?si=4tMdXGwv50biiXKP'}
+			/>
+			<LatestScoreTable
+				flagOne={'https://static.flashscore.com/res/image/data/0SofTgVH-fB4vYUZp.png'}
+				teamOne={'Germany'}
 				scoreOne={'2'}
 				flagTwo={'https://static.flashscore.com/res/image/data/S4Kz1kjC-88LAtdNt.png'}
 				teamTwo={'Brazil'}
