@@ -12,14 +12,24 @@ const LatestScores = () => {
 				emblem={<img className=' w-6 h-3' src='https://static.flashscore.com/res/_fs/build/world.b7d16db.png' />}
 				name={'WORLD: World Championship Group Stage'}
 			/>
-			{/* <LatestScoreTable
+			<LatestScoreTable
 				flagOne={'https://static.flashscore.com/res/image/data/0SofTgVH-fB4vYUZp.png'}
 				teamOne={'Germany'}
-				scoreOne={'?'}
+				scoreOne={'2'}
 				flagTwo={'https://static.flashscore.com/res/image/data/S4Kz1kjC-88LAtdNt.png'}
 				teamTwo={'Brazil'}
-				scoreTwo={'?'}
-			/> */}
+				scoreTwo={'2'}
+				source={'https://www.youtube.com/embed/wyR_5k579u4?si=-5HTVr-R6riBUA-z'}
+			/>
+			<LatestScoreTable
+				flagOne={'https://static.flashscore.com/res/image/data/S4Kz1kjC-88LAtdNt.png'}
+				teamOne={'Brazil'}
+				scoreOne={'1'}
+				flagTwo={'https://static.flashscore.com/res/image/data/0SofTgVH-fB4vYUZp.png'}
+				teamTwo={'Germany'}
+				scoreTwo={'1'}
+				source={'https://www.youtube.com/embed/wyR_5k579u4?si=-5HTVr-R6riBUA-z'}
+			/>
 			<LatestScoreTable
 				flagOne={'https://static.flashscore.com/res/image/data/6eDtOume-0E8Iihe1.png'}
 				teamOne={'Spain'}
