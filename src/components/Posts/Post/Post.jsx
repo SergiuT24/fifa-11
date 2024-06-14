@@ -7,6 +7,7 @@ import Players from './Players/Players';
 import TopScorers from './TopScorers/TopScorers';
 import TopAssists from './TopAssists/TopAssists';
 import Draw from './Draw/Draw';
+import LatestNews from './LatestNews/LatestNews';
 
 
 const Post = () => {
@@ -19,6 +20,9 @@ const Post = () => {
 			</div>
 			<div className='flex justify-center'>
 				<Draw />
+			</div>
+			<div className='flex justify-center'>
+				<LatestNews />
 			</div>
 			<div className='latest-score-head flex justify-center m-3'>
 				<LatestScores />
