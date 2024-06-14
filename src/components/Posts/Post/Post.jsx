@@ -8,6 +8,7 @@ import TopScorers from './TopScorers/TopScorers';
 import TopAssists from './TopAssists/TopAssists';
 import Draw from './Draw/Draw';
 import LatestNews from './LatestNews/LatestNews';
+import BestGoals from './BestGoals/BestGoals';
 
 
 const Post = () => {
@@ -33,6 +34,7 @@ const Post = () => {
 				{selectedComponent === 'Play Offs' && <PlayOffs />}
 				{selectedComponent === 'Top Scorers' && <TopScorers />}
 				{selectedComponent === 'Most Assists' && <TopAssists />}
+				{selectedComponent === 'Best Goals' && <BestGoals />}
 			</div>
 		</div>
 	);

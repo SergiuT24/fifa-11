@@ -8,7 +8,7 @@ const News = ({ title, src, info }) => {
 	}
 
 	return (
-		<div className='flex flex-col gap-10'>
+		<div className='flex flex-col gap-3'>
 			<h2 className='text-xl'>{title}</h2>
 			<div className='flex justify-center'>
 				<img className=' w-96' src={src} alt={title} />
