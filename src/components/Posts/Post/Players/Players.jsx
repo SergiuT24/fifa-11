@@ -3,7 +3,7 @@ import PlayersTeam from './PlayersTeam';
 
 const Players = () => {
 	return (
-		<div className='flex gap-11'>
+		<div className='player-block flex gap-11'>
 			<PlayersTeam team={'TEAM 1'} playerOne={'Anna'} imgOne={'./players-img/Anna.png'} playerTwo={'DartRin'} imgTwo={'./players-img/Rin.png'} flag={'https://static.flashscore.com/res/image/data/6eDtOume-0E8Iihe1.png'} teamName={'Spain'} />
 			<PlayersTeam team={'TEAM 2'} playerOne={'SergeyFace'} imgOne={'./players-img/Sergeyface.png'} playerTwo={'14 France'} imgTwo={'./players-img/France.png'} flag={'https://static.flashscore.com/res/image/data/lfoVvLPq-Iyld3bDd.png'} teamName={'England'} />
 			<PlayersTeam team={'TEAM 3'} playerOne={'Radenek'} imgOne={'./players-img/law2020.png'} playerTwo={'Mark'} imgTwo={'./players-img/law2020.png'} flag={"https://static.flashscore.com/res/image/data/0SofTgVH-fB4vYUZp.png"} teamName={"Germany"} />

@@ -15,14 +15,94 @@ const LatestScores = () => {
 			</div>
 			<LatestScoreName
 				emblem={<img className=' w-6 h-3' src='https://static.flashscore.com/res/_fs/build/world.b7d16db.png' />}
+				name={'WORLD: Play Offs Final'}
+			/>
+			<LatestScoreTable
+				flagOne={'https://static.flashscore.com/res/image/data/Grhsr8gT-vZG58BBc.png'}
+				teamOne={'Portugal'}
+				scoreOne={'0'}
+				flagTwo={'https://static.flashscore.com/res/image/data/6eDtOume-0E8Iihe1.png'}
+				teamTwo={'Spain'}
+				scoreTwo={'3'}
+				source={'https://www.youtube.com/embed/cAuaXUF_kKo?si=iHZZGoBMg6VZCRjI'}
+			/>
+			<LatestScoreTable
+				flagOne={'https://static.flashscore.com/res/image/data/6eDtOume-0E8Iihe1.png'}
+				teamOne={'Spain'}
+				scoreOne={'1'}
+				flagTwo={'https://static.flashscore.com/res/image/data/Grhsr8gT-vZG58BBc.png'}
+				teamTwo={'Portugal'}
+				scoreTwo={'0'}
+				source={'https://www.youtube.com/embed/cAuaXUF_kKo?si=iHZZGoBMg6VZCRjI'}
+			/>
+			<LatestScoreName
+				emblem={<img className=' w-6 h-3' src='https://static.flashscore.com/res/_fs/build/world.b7d16db.png' />}
+				name={'WORLD: Play Offs Semi-Final 1/2'}
+			/>
+			<LatestScoreTable
+				flagOne={'https://static.flashscore.com/res/image/data/0SofTgVH-fB4vYUZp.png'}
+				teamOne={'Germany'}
+				scoreOne={'1'}
+				flagTwo={'https://static.flashscore.com/res/image/data/6eDtOume-0E8Iihe1.png'}
+				teamTwo={'Spain'}
+				scoreTwo={'4'}
+				source={'https://www.youtube.com/embed/Q-aUoFubmFM?si=Zj3D1XWa7aFwNtMQ'}
+			/>
+			<LatestScoreTable
+				flagOne={'https://static.flashscore.com/res/image/data/6eDtOume-0E8Iihe1.png'}
+				teamOne={'Spain'}
+				scoreOne={'5'}
+				flagTwo={'https://static.flashscore.com/res/image/data/0SofTgVH-fB4vYUZp.png'}
+				teamTwo={'Germany'}
+				scoreTwo={'1'}
+				source={'https://www.youtube.com/embed/Q-aUoFubmFM?si=Zj3D1XWa7aFwNtMQ'}
+			/>
+			<LatestScoreTable
+				flagOne={'https://static.flashscore.com/res/image/data/S4Kz1kjC-88LAtdNt.png'}
+				teamOne={'Brazil'}
+				scoreOne={'1'}
+				flagTwo={'https://static.flashscore.com/res/image/data/Grhsr8gT-vZG58BBc.png'}
+				teamTwo={'Portugal'}
+				scoreTwo={'2'}
+				source={'https://www.youtube.com/embed/Q-aUoFubmFM?si=Zj3D1XWa7aFwNtMQ'}
+			/>
+			<LatestScoreTable
+				flagOne={'https://static.flashscore.com/res/image/data/Grhsr8gT-vZG58BBc.png'}
+				teamOne={'Portugal'}
+				scoreOne={'2'}
+				flagTwo={'https://static.flashscore.com/res/image/data/S4Kz1kjC-88LAtdNt.png'}
+				teamTwo={'Brazil'}
+				scoreTwo={'0'}
+				source={'https://www.youtube.com/embed/Q-aUoFubmFM?si=Zj3D1XWa7aFwNtMQ'}
+			/>
+			<LatestScoreName
+				emblem={<img className=' w-6 h-3' src='https://static.flashscore.com/res/_fs/build/world.b7d16db.png' />}
 				name={'WORLD: Play Offs Quarter-Finals 1/4'}
+			/>
+			<LatestScoreTable
+				flagOne={'https://static.flashscore.com/res/image/data/0SofTgVH-fB4vYUZp.png'}
+				teamOne={'Germany'}
+				scoreOne={'1'}
+				flagTwo={'https://static.flashscore.com/res/image/data/lfoVvLPq-Iyld3bDd.png'}
+				teamTwo={'England'}
+				scoreTwo={'1'}
+				source={'https://www.youtube.com/embed/Hl_Fzx-pg9E?si=Q6Sv4dsF1xjMm4HJ'}
+			/>
+			<LatestScoreTable
+				flagOne={'https://static.flashscore.com/res/image/data/lfoVvLPq-Iyld3bDd.png'}
+				teamOne={'England'}
+				scoreOne={'2'}
+				flagTwo={'https://static.flashscore.com/res/image/data/0SofTgVH-fB4vYUZp.png'}
+				teamTwo={'Germany'}
+				scoreTwo={'4'}
+				source={'https://www.youtube.com/embed/Hl_Fzx-pg9E?si=Q6Sv4dsF1xjMm4HJ'}
 			/>
 			<LatestScoreTable
 				flagOne={'https://static.flashscore.com/res/image/data/04V6zbA6-U3HPIwDq.png'}
 				teamOne={'France'}
 				scoreOne={'1'}
 				flagTwo={'https://static.flashscore.com/res/image/data/S4Kz1kjC-88LAtdNt.png'}
-				teamTwo={'Portugal'}
+				teamTwo={'Brazil'}
 				scoreTwo={'0'}
 				source={'https://www.youtube.com/embed/-qlzdcfEp20?si=w9vR0JMdLXCKtpHe'}
 			/>
