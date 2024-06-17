@@ -8,7 +8,7 @@ const LatestNews = () => {
 				<h1 className=' text-xl'>The latest news</h1>
 			</div>
 			<News
-				title={'DartRin:лучший бомбардир турнира FIFA 11'}
+				title={'DartRin: лучший бомбардир турнира FIFA 11'}
 				src={'https://i0.wp.com/primetrophies.co.uk/wp-content/uploads/2021/06/Top-Goal-Scorer-Football-Award.png?resize=600%2C600&ssl=1'}
 				info={
 					<div>
@@ -58,7 +58,7 @@ const LatestNews = () => {
 			/>
 			<News
 				title={'Португалия одержала две победы над Бразилией и выходит в финал!'}
-				src={'http://www.footballtop.ru/sites/default/files/photos/news/620188-10141758-640-360.jpg'}
+				src={'https://clubspartak.ru/uploads/CHM%202010/45/Portugal-Brazil-4.jpg'}
 				info={
 					<div>
 						<p>Сборная Португалии продемонстрировала высокий уровень игры, одержав две победы над сборной Бразилии в напряженных матчах.</p>
