@@ -1,7 +1,7 @@
 import React from 'react';
 import Posts from '../../Posts/Posts';
 
-const ClosedCompetition = () => {
+const EndedCompetition = () => {
 	return (
 		<div>
 			<Posts />
@@ -9,4 +9,4 @@ const ClosedCompetition = () => {
 	);
 }
 
-export default ClosedCompetition;
+export default EndedCompetition;
