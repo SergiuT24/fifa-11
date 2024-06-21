@@ -23,6 +23,7 @@ const UclPlayers = () => {
 				<UclPlayer src={'img/players/avatar.png'} player={'Mark'} />
 				<UclPlayer src={'img/players/pasha.png'} player={'Pasha'} />
 				<UclPlayer src={'img/players/mcrurus.png'} player={'Mcrurus'} />
+				<UclPlayer src={'img/players/radik.png'} player={'Radik'} />
 			</div>
 		</div>
 	);
