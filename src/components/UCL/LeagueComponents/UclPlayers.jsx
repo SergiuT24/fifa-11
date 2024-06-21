@@ -7,7 +7,7 @@ const UclPlayers = () => {
 			<div className='flex items-center'>
 				<h3 className='text-xl uppercase'>Players for random:</h3>
 			</div>
-			<div className=' grid sm:grid-cols-4 gap-x-36 gap-y-3'>
+			<div className='grid grid-cols-2 gap-x-5 sm:grid-cols-4 sm:gap-x-36 gap-y-3'>
 				<UclPlayer src={'img/players/Anna.png'} player={'Anna'} />
 				<UclPlayer src={'img/players/France.png'} player={'14 France'} />
 				<UclPlayer src={'img/players/Jsnick.png'} player={'Jsnick'} />
