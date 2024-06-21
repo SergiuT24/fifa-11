@@ -19,7 +19,7 @@ const UclTeams = () => {
 			<div className='flex items-center'>
 				<h3 className='text-xl uppercase'>teams for random:</h3>
 			</div>
-			<div className=' grid grid-cols-4 gap-x-36 gap-y-3'>
+			<div className=' grid sm:grid-cols-4 gap-x-36 gap-y-3'>
 				<RealMadrid />
 				<Arsenal />
 				<ManchesterUnited />

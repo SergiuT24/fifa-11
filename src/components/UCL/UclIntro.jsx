@@ -2,8 +2,8 @@ import React from 'react';
 
 const UclIntro = () => {
 	return (
-		<div className='flex justify-evenly'>
-			<div className='flex justify-start'>
+		<div className='flex flex-col sm:flex-row justify-evenly'>
+			<div className='hidden sm:flex justify-start'>
 				<img src="/img/background/cr7.png" alt="Background" className='h-96' />
 			</div>
 			<div className='flex justify-center'>
