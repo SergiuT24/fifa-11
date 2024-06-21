@@ -3,7 +3,7 @@ import UclPlayer from './UclPlayer';
 
 const UclPlayers = () => {
 	return (
-		<div className='blue-color p-5 rounded-3xl flex flex-wrap justify-around gap-4 my-8 border-t pt-5'>
+		<div className='blue-color p-5 flex flex-wrap justify-around gap-4 my-8 border-t pt-5'>
 			<div className='flex items-center'>
 				<h3 className='text-xl uppercase'>Players for random:</h3>
 			</div>
