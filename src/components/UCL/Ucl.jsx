@@ -7,7 +7,7 @@ const Ucl = () => {
 	return (
 		<div>
 			<PostTitle
-				trophy={'./cups-img/uefa-champions.png'}
+				trophy={'/img/cups/uefa-champions.png'}
 				name={'UEFA Champions League 2024'}
 			/>
 			<UclIntro />
