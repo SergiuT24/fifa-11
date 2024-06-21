@@ -1,10 +1,12 @@
 import React from 'react';
-import Ucl from '../../League/Ucl';
+import Ucl from '../../UCL/Ucl';
 
 const LiveCompetition = () => {
 	return (
 		<div>
 			<Ucl />
+			<div>
+			</div>
 		</div>
 	);
 }
