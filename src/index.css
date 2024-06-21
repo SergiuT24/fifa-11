@@ -37,7 +37,7 @@ li {
 	}
 	border-right: 1px solid #0f2d37;
 }
-.logo, .post-menu, .title, .table-head, .latest-scores {
+.logo, .post-menu, .title, .table-head, .latest-scores, .blue-color {
 	background-color: #001e28;
 }
 .menu{

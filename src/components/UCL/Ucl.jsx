@@ -2,6 +2,7 @@ import React from 'react';
 import PostTitle from '../Posts/Post/PostTitle';
 import UclTeams from './LeagueComponents/UclTeams';
 import UclIntro from './UclIntro';
+import UclPlayers from './LeagueComponents/UclPlayers';
 
 const Ucl = () => {
 	return (
@@ -12,6 +13,7 @@ const Ucl = () => {
 			/>
 			<UclIntro />
 			<UclTeams />
+			<UclPlayers />
 		</div>
 	);
 }
