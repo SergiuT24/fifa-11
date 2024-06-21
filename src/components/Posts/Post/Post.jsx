@@ -16,19 +16,16 @@ const Post = () => {
 
 	return (
 		<div className='post mb-72'>
-			<div className='flex justify-center'>
+			<div className='flex justify-center mt-9'>
 				<Players />
 			</div>
-			<div className='flex justify-center'>
-				<Draw />
-			</div>
-			<div className='flex justify-center'>
+			<div className='flex justify-center mt-9'>
 				<LatestNews />
 			</div>
-			<div className='latest-score-head flex justify-center m-3'>
+			<div className='latest-score-head flex justify-center mt-9'>
 				<LatestScores />
 			</div>
-			<div className='post-menu rounded-t-3xl flex flex-col'>
+			<div className='post-menu rounded-t-3xl flex flex-col mt-9'>
 				<PostMenu selected={selectedComponent} setSelectedComponent={setSelectedComponent} />
 				{selectedComponent === 'Main' && <MainTables />}
 				{selectedComponent === 'Play Offs' && <PlayOffs />}
