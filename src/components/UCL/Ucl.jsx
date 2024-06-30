@@ -1,6 +1,6 @@
 import React from 'react';
 import PostTitle from '../Posts/Post/PostTitle';
-import UclTeams from './LeagueComponents/UclTeams';
+import UclClubs from './LeagueComponents/UclClubs';
 import UclIntro from './UclIntro';
 import UclPlayers from './LeagueComponents/UclPlayers';
 
@@ -12,7 +12,7 @@ const Ucl = () => {
 				name={'UEFA Champions League 2024'}
 			/>
 			<UclIntro />
-			<UclTeams />
+			<UclClubs />
 			<UclPlayers />
 		</div>
 	);

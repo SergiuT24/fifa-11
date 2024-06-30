@@ -1,6 +1,6 @@
 import React from 'react';
 
-const UclPlayer = ({ src, player }) => {
+const UclTeam = ({ src, player }) => {
 	return (
 		<div className='flex gap-2 items-center'>
 			<img className='w-8 rounded-3xl' src={src} alt='player-photo' />
@@ -9,4 +9,4 @@ const UclPlayer = ({ src, player }) => {
 	);
 }
 
-export default UclPlayer;
+export default UclTeam;

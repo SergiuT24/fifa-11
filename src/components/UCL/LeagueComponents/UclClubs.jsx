@@ -13,11 +13,11 @@ import Lyon from '../UCL-Teams/Lyon';
 import ManchesterCity from '../UCL-Teams/ManchesterCity';
 
 
-const UclTeams = () => {
+const UclClubs = () => {
 	return (
 		<div className='flex flex-wrap justify-around gap-4 my-8 border-t pt-5'>
 			<div className='flex items-center'>
-				<h3 className='text-xl uppercase'>teams for random:</h3>
+				<h3 className='text-xl uppercase'>Clubs for random:</h3>
 			</div>
 			<div className='grid grid-cols-2 gap-x-16 sm:grid-cols-4 sm:gap-x-36 gap-y-3'>
 				<RealMadrid />
@@ -37,4 +37,4 @@ const UclTeams = () => {
 	);
 }
 
-export default UclTeams;
+export default UclClubs;
