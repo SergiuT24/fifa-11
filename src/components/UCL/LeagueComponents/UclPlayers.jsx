@@ -12,6 +12,7 @@ const UclPlayers = () => {
 				<PlayersTeam team={'TEAM 5'} playerOne={'Matuu ID:929057'} playerTwo={'Kevin ID:2262539'} imgOne={'/img/players/Matuu.png'} imgTwo={'/img/players/Kevin.png'} />
 				<PlayersTeam team={'TEAM 6'} playerOne={'Petr Pirat ID: 1046054'} playerTwo={'A.Wenger ID:10014005'} imgOne={'/img/players/Petr.png'} imgTwo={'/img/players/Wenger.png'} />
 				<PlayersTeam team={'TEAM 7'} playerOne={'Subz3 ID: 2837706'} playerTwo={'ytc ID: 12818063'} imgOne={'/img/players/avatar.png'} imgTwo={'/img/players/avatar.png'} />
+				<PlayersTeam team={'TEAM 8'} playerOne={'Empty ID: none'} playerTwo={'Empty ID: none'} imgOne={'/img/players/avatar.png'} imgTwo={'/img/players/avatar.png'} />
 			</div>
 		</div>
 	);
