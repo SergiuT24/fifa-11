@@ -4,7 +4,11 @@ import UclClubs from './LeagueComponents/UclClubs';
 import UclIntro from './UclIntro';
 import UclPlayers from './LeagueComponents/UclPlayers';
 import PostMenu from '../Posts/Post/PostMenu';
-import MainTables from '../Posts/Main/MainTables/MainTables';
+import UclMain from './UCL-Main/UclMain';
+import UclPlayOffs from './UCL-PlayOffs/UclPlayOffs';
+import UclTopScorers from './UCL-TopScorers/UclTopScorers';
+import UclTopAssists from './UCL-TopAssists/UclTopAssists';
+import UclDraw from './UCL-Draw/UclDraw';
 
 const Ucl = () => {
 	const [selectedComponent, setSelectedComponent] = useState('Main');
@@ -17,15 +21,16 @@ const Ucl = () => {
 			/>
 			<UclIntro />
 			<UclClubs />
+			<UclDraw />
 			<UclPlayers />
-			{/* <div className='post-menu rounded-t-3xl flex flex-col mt-9'>
+			<div className='post-menu rounded-t-3xl flex flex-col mt-9'>
 				<PostMenu selected={selectedComponent} setSelectedComponent={setSelectedComponent} />
-				{selectedComponent === 'Main' && <MainTables />}
-				{selectedComponent === 'Play Offs' && <PlayOffs />}
-				{selectedComponent === 'Top Scorers' && <TopScorers />}
-				{selectedComponent === 'Most Assists' && <TopAssists />}
-				{selectedComponent === 'Best Goals' && <BestGoals />}
-			</div> */}
+				{selectedComponent === 'Main' && <UclMain />}
+				{selectedComponent === 'Play Offs' && <UclPlayOffs />}
+				{selectedComponent === 'Top Scorers' && <UclTopScorers />}
+				{selectedComponent === 'Most Assists' && <UclTopAssists />}
+				{/* {selectedComponent === 'Best Goals' && <BestGoals />} */}
+			</div>
 		</div>
 	);
 }

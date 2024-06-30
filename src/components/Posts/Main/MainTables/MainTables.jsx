@@ -8,7 +8,7 @@ const MainTables = () => {
 		<div className='main-tables flex flex-col gap-5 p-5' style={{ backgroundColor: '#001e28' }}>
 			<TableA />
 			<TableB />
-			<TableLegend />
+			<TableLegend tournament={'FIFA World Cup'} />
 		</div>
 	);
 }
