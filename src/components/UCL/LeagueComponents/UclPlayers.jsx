@@ -20,7 +20,7 @@ const UclPlayers = () => {
 				<PlayersTeam team={'TEAM 5'} playerOne={'Matuu ID:929057'} playerTwo={'Kevin ID:2262539'} imgOne={'/img/players/Matuu.png'} imgTwo={'/img/players/Kevin.png'} club={<Lyon/>}/>
 				<PlayersTeam team={'TEAM 6'} playerOne={'Petr Pirat ID: 1046054'} playerTwo={'A.Wenger ID:10014005'} imgOne={'/img/players/Petr.png'} imgTwo={'/img/players/Wenger.png'} club={<Arsenal/>}/>
 				<PlayersTeam team={'TEAM 7'} playerOne={'Subz3 ID: 2837706'} playerTwo={'ytc ID: 12818063'} imgOne={'/img/players/avatar.png'} imgTwo={'/img/players/avatar.png'} club={<ManchesterCity/>}/>
-				<PlayersTeam team={'TEAM 8'} playerOne={'Empty ID: none'} playerTwo={'Empty ID: none'} imgOne={'/img/players/avatar.png'} imgTwo={'/img/players/avatar.png'} club={<BayernMunich/>}/>
+				<PlayersTeam team={'TEAM 8'} playerOne={'D.Drogba ID: 11701465'} playerTwo={'mysterio ID: 11701466'} imgOne={'/img/players/avatar.png'} imgTwo={'/img/players/avatar.png'} club={<BayernMunich/>}/>
 			</div>
 		</div>
 	);
