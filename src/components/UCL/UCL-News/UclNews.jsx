@@ -9,6 +9,18 @@ const UclNews = () => {
 			</div>
 			<div className='flex flex-col gap-5 items-center sm:grid sm:grid-cols-4 gap-2 p-6'>
 				<News
+					title={'AC Milan: поражение 0:1 от Manchester City на домашнем поле'}
+					src={'https://www.citytilidie.com/wp-content/uploads/2008/08/ac-milan-2008-to-09-teams-1012x1024.jpg'}
+					info={
+						<div>
+							<p>Команда AC Milan потерпела поражение со счетом 0:1 от Manchester City в домашнем матче.</p>
+							<p>Manchester City удалось забить единственный гол в матче, который и стал решающим.</p>
+							<p>Обе команды показали достойную игру, но Manchester City смогли использовать свой шанс и одержали победу.</p>
+							<p>Благодарим AC Milan и Manchester City за напряженную и интересную игру, а болельщиков за поддержку на стадионе.</p>
+						</div>
+					}
+				/>
+				<News
 					title={'Манчестер Сити: изменения в тренерском штабе'}
 					src={'https://fmmvibe.com/uploads/monthly_2024_02/Manchester-city-website.jpg.03d529a5d9ae6f72bd487acd3f332523.jpg'}
 					info={

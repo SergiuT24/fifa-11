@@ -18,6 +18,7 @@ const UclTopScorersTable = () => {
 				<TopScorersLine rank={'4'} player={"mysterio"} team={"Bayern Munich"} g={"2"} />
 				<TopScorersLine rank={'4'} player={"Mark"} team={"Machester United"} g={"2"} />
 				<TopScorersLine rank={'5'} player={"D.Drogba"} team={"Bayern Munich"} g={"1"} />
+				<TopScorersLine rank={'5'} player={"Jsnick"} team={"Manchester City"} g={"1"} />
 				{/* <TopScorersLine rank={'8'} player={"Player"} team={"Team"} g={"0"} />
 				<TopScorersLine rank={'9'} player={"Player"} team={"Team"} g={"0"} />
 				<TopScorersLine rank={'10'} player={"Player"} team={"Team"} g={"0"} />

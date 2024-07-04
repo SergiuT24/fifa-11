@@ -18,6 +18,7 @@ const UclTopAssistsTable = () => {
 				<TopAssistsLine rank={'4'} player={"D.Drogba"} team={"Bayern Munich"} a={"2"} />
 				<TopAssistsLine rank={'4'} player={"Radenek"} team={"Machester United"} a={"2"} />
 				<TopAssistsLine rank={'5'} player={"mysterio"} team={"Bayern Munich"} a={"1"} />
+				<TopAssistsLine rank={'5'} player={"DartRin"} team={"Manchester City"} a={"1"} />
 				{/* <TopAssistsLine rank={'8'} player={"Player"} team={"Team"} a={"0"} />
 				<TopAssistsLine rank={'9'} player={"Player"} team={"Team"} a={"0"} />
 				<TopAssistsLine rank={'10'} player={"Player"} team={"Team"} a={"0"} />
