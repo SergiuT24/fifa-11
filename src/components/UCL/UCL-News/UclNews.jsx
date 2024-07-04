@@ -7,7 +7,7 @@ const UclNews = () => {
 			<div className='title-latest-scores h-14 flex justify-center'>
 				<h1 className='text-xl'>The latest news</h1>
 			</div>
-			<div className='grid grid-cols-4 gap-2 p-6'>
+			<div className='flex flex-col gap-5 items-center sm:grid sm:grid-cols-4 gap-2 p-6'>
 				<News
 					title={'Манчестер Сити: изменения в тренерском штабе'}
 					src={'https://fmmvibe.com/uploads/monthly_2024_02/Manchester-city-website.jpg.03d529a5d9ae6f72bd487acd3f332523.jpg'}

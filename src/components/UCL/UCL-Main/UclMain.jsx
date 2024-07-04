@@ -5,7 +5,7 @@ import UclTableB from './UclTableB';
 
 const UclMain = () => {
 	return (
-		<div className='main-tables flex flex-col gap-5 p-5' style={{ backgroundColor: '#001e28' }}>
+		<div className='main-tables w-full overflow-x-auto flex flex-col gap-5 p-5' style={{ backgroundColor: '#001e28' }}>
 			<UclTableA />
 			<UclTableB />
 			<TableLegend tournament={'UEFA CHAMPIONS LEAGUE'} />

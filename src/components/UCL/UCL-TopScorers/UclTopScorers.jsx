@@ -3,7 +3,7 @@ import UclTopScorersTable from './UclTopScorersTable';
 
 const UclTopScorers = () => {
 	return (
-		<div className='flex pl-16 py-10 '>
+		<div className='flex w-full overflow-x-auto pl-3 pb-10'>
 			<UclTopScorersTable />
 		</div>
 	);
