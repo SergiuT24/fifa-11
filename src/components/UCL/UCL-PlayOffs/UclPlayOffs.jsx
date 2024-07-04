@@ -4,8 +4,8 @@ import PlayOffTitle from '../../Posts/Main/PlayOffs/PlayOffTitle';
 
 const UclPlayOffs = () => {
 	return (
-		<div className='p-14'>
-			<div className='flex justify-around'>
+		<div className='p-14 w-full overflow-x-auto'>
+			<div className='flex justify-around gap-32 sm:gap-0'>
 				<div className='flex flex-col gap-8 relative'>
 					<PlayOffTitle value={'1/4 Quarter-Finals'} />
 					<div className='line-quarterone border rounded-lg p-3'>

@@ -12,7 +12,7 @@ import Lyon from '../UCL-Teams/Lyon';
 const UclPlayers = () => {
 	return (
 		<div className='w-full overflow-x-auto'>
-			<div className='player-block flex gap-3 sm:gap-6'>
+			<div className='player-block flex gap-3'>
 				<PlayersTeam team={'TEAM 1'} playerOne={'Anna ID:11208470'} imgOne={'/img/players/Anna.png'} playerTwo={'NSKRaven ID:1287368'} imgTwo={'/img/players/Raven.png'} club={<AcMilan />} />
 				<PlayersTeam team={'TEAM 2'} playerOne={'Sania ID:1040066'} imgOne={'/img/players/avatar.png'} playerTwo={'Malemiria ID:9662584'} imgTwo={'/img/players/Malemiria.png'} club={<Barcelona />} />
 				<PlayersTeam team={'TEAM 3'} playerOne={'Radenek ID:1530641'} imgOne={'/img/players/avatar.png'} playerTwo={'Mark ID:1087339'} imgTwo={'/img/players/avatar.png'} club={<ManchesterUnited />} />
