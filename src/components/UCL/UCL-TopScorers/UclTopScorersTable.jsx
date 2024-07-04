@@ -8,13 +8,16 @@ const UclTopScorersTable = () => {
 				<TopScorersLine rank={'#'} player={"Player"} team={"Team"} g={"G"} />
 			</thead>
 			<tbody style={{ backgroundColor: '#010a0f' }}>
-				<TopScorersLine rank={'1'} player={"NSKRaven"} team={"AC Milan"} g={"4"} />
-				<TopScorersLine rank={'1'} player={"Malemiria"} team={"Barcelona"} g={"4"} />
-				<TopScorersLine rank={'1'} player={"Sania"} team={"Barcelona"} g={"4"} />
-				<TopScorersLine rank={'2'} player={"Anna"} team={"AC Milan"} g={"3"} />
-				<TopScorersLine rank={'3'} player={"mysterio"} team={"Bayern Munich"} g={"2"} />
-				<TopScorersLine rank={'4'} player={"D.Drogba"} team={"Bayern Munich"} g={"1"} />
-				<TopScorersLine rank={'5'} player={"mcrurus"} team={"Chelsea"} g={"1"} />
+				<TopScorersLine rank={'1'} player={"Berserk"} team={"Chelsea"} g={"6"} />
+				<TopScorersLine rank={'2'} player={"NSKRaven"} team={"AC Milan"} g={"4"} />
+				<TopScorersLine rank={'2'} player={"Malemiria"} team={"Barcelona"} g={"4"} />
+				<TopScorersLine rank={'2'} player={"Sania"} team={"Barcelona"} g={"4"} />
+				<TopScorersLine rank={'3'} player={"Anna"} team={"AC Milan"} g={"3"} />
+				<TopScorersLine rank={'3'} player={"mcrurus"} team={"Chelsea"} g={"3"} />
+				<TopScorersLine rank={'3'} player={"Radenek"} team={"Machester United"} g={"3"} />
+				<TopScorersLine rank={'4'} player={"mysterio"} team={"Bayern Munich"} g={"2"} />
+				<TopScorersLine rank={'4'} player={"Mark"} team={"Machester United"} g={"2"} />
+				<TopScorersLine rank={'5'} player={"D.Drogba"} team={"Bayern Munich"} g={"1"} />
 				{/* <TopScorersLine rank={'8'} player={"Player"} team={"Team"} g={"0"} />
 				<TopScorersLine rank={'9'} player={"Player"} team={"Team"} g={"0"} />
 				<TopScorersLine rank={'10'} player={"Player"} team={"Team"} g={"0"} />
