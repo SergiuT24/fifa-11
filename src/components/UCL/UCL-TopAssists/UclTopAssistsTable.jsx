@@ -8,17 +8,17 @@ const UclTopAssistsTable = () => {
 				<TopAssistsLine rank={'#'} player={"Player"} team={"Team"} a={"A"} />
 			</thead>
 			<tbody style={{ backgroundColor: '#010a0f' }}>
-				<TopAssistsLine rank={'1'} player={"Anna"} team={"AC Milan"} a={"7"} />
-				<TopAssistsLine rank={'2'} player={"mcrurus"} team={"Chelsea"} a={"6"} />
-				<TopAssistsLine rank={'3'} player={"Malemiria"} team={"Barcelona"} a={"4"} />
-				<TopAssistsLine rank={'3'} player={"Sania"} team={"Barcelona"} a={"4"} />
-				<TopAssistsLine rank={'4'} player={"Mark"} team={"Machester United"} a={"3"} />
-				<TopAssistsLine rank={'4'} player={"Berserk"} team={"Chelsea"} a={"3"} />
-				<TopAssistsLine rank={'4'} player={"NSKRaven"} team={"AC Milan"} a={"3"} />
-				<TopAssistsLine rank={'5'} player={"D.Drogba"} team={"Bayern Munich"} a={"2"} />
-				<TopAssistsLine rank={'5'} player={"Radenek"} team={"Machester United"} a={"2"} />
-				<TopAssistsLine rank={'6'} player={"mysterio"} team={"Bayern Munich"} a={"1"} />
-				<TopAssistsLine rank={'6'} player={"DartRin"} team={"Manchester City"} a={"1"} />
+				<TopAssistsLine rank={'1'} player={"mcrurus"} team={"Chelsea"} a={"14"} />
+				<TopAssistsLine rank={'2'} player={"Anna"} team={"AC Milan"} a={"7"} />
+				<TopAssistsLine rank={'3'} player={"Berserk"} team={"Chelsea"} a={"6"} />
+				<TopAssistsLine rank={'4'} player={"Malemiria"} team={"Barcelona"} a={"4"} />
+				<TopAssistsLine rank={'4'} player={"Sania"} team={"Barcelona"} a={"4"} />
+				<TopAssistsLine rank={'5'} player={"Mark"} team={"Machester United"} a={"3"} />
+				<TopAssistsLine rank={'5'} player={"D.Drogba"} team={"Bayern Munich"} a={"3"} />
+				<TopAssistsLine rank={'5'} player={"NSKRaven"} team={"AC Milan"} a={"3"} />
+				<TopAssistsLine rank={'6'} player={"Radenek"} team={"Machester United"} a={"2"} />
+				<TopAssistsLine rank={'6'} player={"mysterio"} team={"Bayern Munich"} a={"2"} />
+				<TopAssistsLine rank={'7'} player={"DartRin"} team={"Manchester City"} a={"1"} />
 				{/* <TopAssistsLine rank={'8'} player={"Player"} team={"Team"} a={"0"} />
 				<TopAssistsLine rank={'9'} player={"Player"} team={"Team"} a={"0"} />
 				<TopAssistsLine rank={'10'} player={"Player"} team={"Team"} a={"0"} />
