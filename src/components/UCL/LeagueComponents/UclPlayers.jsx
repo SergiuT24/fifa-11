@@ -17,8 +17,8 @@ const UclPlayers = () => {
 				<PlayersTeam team={'TEAM 2'} playerOne={'Sania ID:1040066'} imgOne={'/img/players/avatar.png'} playerTwo={'Malemiria ID:9662584'} imgTwo={'/img/players/Malemiria.png'} club={<Barcelona />} />
 				<PlayersTeam team={'TEAM 3'} playerOne={'Radenek ID:1530641'} imgOne={'/img/players/avatar.png'} playerTwo={'Mark ID:1087339'} imgTwo={'/img/players/avatar.png'} club={<ManchesterUnited />} />
 				<PlayersTeam team={'TEAM 4'} playerOne={'Berserk ID:4180544'} playerTwo={'Mcrurus ID:9984628'} imgOne={'/img/players/Berserk.png'} imgTwo={'/img/players/mcrurus.png'} club={<Chelsea />} />
-				<PlayersTeam team={'TEAM 5'} playerOne={'Matuu ID:929057'} playerTwo={'Kevin ID:2262539'} imgOne={'/img/players/Matuu.png'} imgTwo={'/img/players/Kevin.png'} club={<Lyon />} />
-				<PlayersTeam team={'TEAM 6'} playerOne={'Petr Pirat ID: 1046054'} playerTwo={'A.Wenger ID:10014005'} imgOne={'/img/players/Petr.png'} imgTwo={'/img/players/Wenger.png'} club={<Arsenal />} />
+				<PlayersTeam team={'TEAM 5'} playerOne={'Matuu ID:929057'} playerTwo={'Elite ID:12776567'} imgOne={'/img/players/Matuu.png'} imgTwo={'/img/players/avatar.png'} club={<Lyon />} />
+				<PlayersTeam team={'TEAM 6'} playerOne={'TOTO ID: 8985743'} playerTwo={'A.Wenger ID:10014005'} imgOne={'/img/players/toto.png'} imgTwo={'/img/players/Wenger.png'} club={<Arsenal />} />
 				<PlayersTeam team={'TEAM 7'} playerOne={'Jsnick ID: 3674945'} playerTwo={'DartRin ID: 10799738'} imgOne={'/img/players/Jsnick.png'} imgTwo={'/img/players/Rin.png'} club={<ManchesterCity />} />
 				<PlayersTeam team={'TEAM 8'} playerOne={'D.Drogba ID: 11701466'} playerTwo={'mysterio ID: 11701465'} imgOne={'/img/players/avatar.png'} imgTwo={'/img/players/avatar.png'} club={<BayernMunich />} />
 			</div>
