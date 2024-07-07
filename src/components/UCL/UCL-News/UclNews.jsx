@@ -9,6 +9,18 @@ const UclNews = () => {
 			</div>
 			<div className='flex flex-col gap-5 items-center sm:grid sm:grid-cols-4 gap-2 p-6'>
 				<News
+					title={'Манчестер Юнайтед получает техническое поражение и вылетает из группы Лиги чемпионов'}
+					src={'https://clutchpoints.com/_next/image?url=https%3A%2F%2Fwp.clutchpoints.com%2Fwp-content%2Fuploads%2F2024%2F06%2FChelsea-join-the-race-to-sign-Barcelona-youngster.jpg&w=1200&q=75'}
+					info={
+						<div>
+							<p>Манчестер Юнайтед столкнулся с серьёзными проблемами, получив техническое поражение, что привело к их вылету из группы Лиги чемпионов.</p>
+							<p>В плей-офф выходят команды Barcelona, Chelsea и Bayern Munich, которые продемонстрировали высококлассную игру и заслужили своё место на этой стадии турнира.</p>
+							<p>Несмотря на разочарование для болельщиков Манчестер Юнайтед, предстоящие матчи обещают быть захватывающими и полными интриги.</p>
+							<p>Поздравляем команды, прошедшие в плей-офф, и благодарим всех участников за напряжённую и увлекательную борьбу на групповом этапе.</p>
+						</div>
+					}
+				/>
+				<News
 					title={'AC Milan: триумф 3:0 над Олимпик Лион на выездном поле'}
 					src={'https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iZ9delUHJXj8/v1/-1x-1.jpg'}
 					info={
