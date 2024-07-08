@@ -4,6 +4,10 @@ import PlayOffTitle from '../../Posts/Main/PlayOffs/PlayOffTitle';
 import BayernMunich from '../UCL-Teams/BayernMunich';
 import Chelsea from '../UCL-Teams/Chelsea';
 import Barcelona from '../UCL-Teams/Barcelona';
+import Lyon from '../UCL-Teams/Lyon';
+import Arsenal from '../UCL-Teams/Arsenal';
+import AcMilan from '../UCL-Teams/AcMilan';
+
 
 const UclPlayOffs = () => {
 	return (
@@ -12,22 +16,22 @@ const UclPlayOffs = () => {
 				<div className='flex flex-col gap-8 relative'>
 					<PlayOffTitle value={'1/4 Quarter-Finals'} />
 					<div className='line-quarterone border rounded-lg p-3'>
-						<PlayOffBracket team={'Position 2 Group B'} score={'?'} scoreTwo={'?'} />
+						<PlayOffBracket team={<Lyon />} score={'?'} scoreTwo={'?'} />
 						<PlayOffBracket team={<BayernMunich />} score={'?'} scoreTwo={'?'} />
 					</div>
 					<div className='line-quarter border rounded-lg p-3'>
-						<PlayOffBracket team={<Chelsea />} score={'?'} scoreTwo={'?'} />
-						<PlayOffBracket team={'Position 3 Group B'} score={'?'} scoreTwo={'?'} />
+						<PlayOffBracket team={<Barcelona />} score={'?'} scoreTwo={'?'} />
+						<PlayOffBracket team={<Arsenal />} score={'?'} scoreTwo={'?'} />
 					</div>
 				</div>
 				<div className='flex flex-col gap-8 relative'>
 					<PlayOffTitle value={'1/2 semi-final'} />
 					<div className='line-one border rounded-lg p-3'>
-						<PlayOffBracket team={<Barcelona />} score={'?'} scoreTwo={'?'} />
+						<PlayOffBracket team={<Chelsea />} score={'?'} scoreTwo={'?'} />
 						<PlayOffBracket team={'None'} score={'?'} scoreTwo={'?'} />
 					</div>
 					<div className='line-two border rounded-lg p-3'>
-						<PlayOffBracket team={'Position 1 Group B'} score={'?'} scoreTwo={'?'} />
+						<PlayOffBracket team={<AcMilan />} score={'?'} scoreTwo={'?'} />
 						<PlayOffBracket team={'None'} score={'?'} scoreTwo={'?'} />
 					</div>
 				</div>

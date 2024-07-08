@@ -12,7 +12,7 @@ import UclDraw from './UCL-Draw/UclDraw';
 import UclNews from './UCL-News/UclNews';
 
 const Ucl = () => {
-	const [selectedComponent, setSelectedComponent] = useState('Main');
+	const [selectedComponent, setSelectedComponent] = useState('Play Offs');
 
 	return (
 		<div>
