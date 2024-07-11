@@ -10,20 +10,20 @@ const UclTopAssistsTable = () => {
 			<tbody style={{ backgroundColor: '#010a0f' }}>
 				<TopAssistsLine rank={'1'} player={"mcrurus"} team={"Chelsea"} a={"14"} />
 				<TopAssistsLine rank={'2'} player={"Anna"} team={"AC Milan"} a={"9"} />
+				<TopAssistsLine rank={'3'} player={"D.Drogba"} team={"Bayern Munich"} a={"6"} />
 				<TopAssistsLine rank={'3'} player={"Berserk"} team={"Chelsea"} a={"6"} />
-				<TopAssistsLine rank={'4'} player={"Malemiria"} team={"Barcelona"} a={"4"} />
-				<TopAssistsLine rank={'4'} player={"Sania"} team={"Barcelona"} a={"4"} />
-				<TopAssistsLine rank={'5'} player={"Mark"} team={"Machester United"} a={"3"} />
-				<TopAssistsLine rank={'5'} player={"D.Drogba"} team={"Bayern Munich"} a={"3"} />
-				<TopAssistsLine rank={'5'} player={"NSKRaven"} team={"AC Milan"} a={"3"} />
-				<TopAssistsLine rank={'5'} player={"Elite"} team={"Lyon"} a={"3"} />
-				<TopAssistsLine rank={'5'} player={"Matuu"} team={"Lyon"} a={"3"} />
-				<TopAssistsLine rank={'5'} player={"DartRin"} team={"Manchester City"} a={"3"} />
-				<TopAssistsLine rank={'6'} player={"Radenek"} team={"Machester United"} a={"2"} />
-				<TopAssistsLine rank={'6'} player={"mysterio"} team={"Bayern Munich"} a={"2"} />
-				<TopAssistsLine rank={'6'} player={"Jsnick"} team={"Manchester City"} a={"2"} />
-				<TopAssistsLine rank={'6'} player={"A.Wenger"} team={"Arsenal"} a={"2"} />
-				<TopAssistsLine rank={'7'} player={"TOTO"} team={"Arsenal"} a={"1"} />
+				<TopAssistsLine rank={'3'} player={"Elite"} team={"Lyon"} a={"6"} />
+				<TopAssistsLine rank={'4'} player={"Matuu"} team={"Lyon"} a={"5"} />
+				<TopAssistsLine rank={'4'} player={"mysterio"} team={"Bayern Munich"} a={"5"} />
+				<TopAssistsLine rank={'5'} player={"Malemiria"} team={"Barcelona"} a={"4"} />
+				<TopAssistsLine rank={'5'} player={"Sania"} team={"Barcelona"} a={"4"} />
+				<TopAssistsLine rank={'6'} player={"Mark"} team={"Machester United"} a={"3"} />
+				<TopAssistsLine rank={'6'} player={"NSKRaven"} team={"AC Milan"} a={"3"} />
+				<TopAssistsLine rank={'6'} player={"DartRin"} team={"Manchester City"} a={"3"} />
+				<TopAssistsLine rank={'7'} player={"Radenek"} team={"Machester United"} a={"2"} />
+				<TopAssistsLine rank={'7'} player={"Jsnick"} team={"Manchester City"} a={"2"} />
+				<TopAssistsLine rank={'7'} player={"A.Wenger"} team={"Arsenal"} a={"2"} />
+				<TopAssistsLine rank={'8'} player={"TOTO"} team={"Arsenal"} a={"1"} />
 
 				{/* <TopAssistsLine rank={'8'} player={"Player"} team={"Team"} a={"0"} />
 				<TopAssistsLine rank={'9'} player={"Player"} team={"Team"} a={"0"} />

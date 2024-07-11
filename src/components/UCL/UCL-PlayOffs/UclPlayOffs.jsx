@@ -16,8 +16,8 @@ const UclPlayOffs = () => {
 				<div className='flex flex-col gap-8 relative'>
 					<PlayOffTitle value={'1/4 Quarter-Finals'} />
 					<div className='line-quarterone border rounded-lg p-3'>
-						<PlayOffBracket team={<Lyon />} score={'?'} scoreTwo={'?'} />
-						<PlayOffBracket team={<BayernMunich />} score={'?'} scoreTwo={'?'} />
+						<PlayOffBracket team={<Lyon />} score={'2'} scoreTwo={'3'} />
+						<PlayOffBracket team={<BayernMunich />} score={'2'} scoreTwo={'4'} />
 					</div>
 					<div className='line-quarter border rounded-lg p-3'>
 						<PlayOffBracket team={<Barcelona />} score={'?'} scoreTwo={'?'} />
@@ -28,7 +28,7 @@ const UclPlayOffs = () => {
 					<PlayOffTitle value={'1/2 semi-final'} />
 					<div className='line-one border rounded-lg p-3'>
 						<PlayOffBracket team={<Chelsea />} score={'?'} scoreTwo={'?'} />
-						<PlayOffBracket team={'None'} score={'?'} scoreTwo={'?'} />
+						<PlayOffBracket team={<BayernMunich />} score={'?'} scoreTwo={'?'} />
 					</div>
 					<div className='line-two border rounded-lg p-3'>
 						<PlayOffBracket team={<AcMilan />} score={'?'} scoreTwo={'?'} />
