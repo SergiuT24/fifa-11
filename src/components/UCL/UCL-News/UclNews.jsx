@@ -9,6 +9,18 @@ const UclNews = () => {
 			</div>
 			<div className='flex flex-col gap-5 items-center sm:grid sm:grid-cols-4 gap-2 p-6'>
 				<News
+					title={'Бавария выходит в финал Лиги чемпионов, обыграв Челси'}
+					src={'https://m.media-amazon.com/images/M/MV5BMWQwMWFjMmUtOWM4YS00Mjg3LWE0MmItMjhiMzAwZjU0NGQ3XkEyXkFqcGdeQXVyNDg4MjkzNDk@._V1_.jpg'}
+					info={
+						<div>
+							<p>В полуфинале Лиги чемпионов Бавария встретилась с Челси. Первый матч, прошедший в Лондоне, завершился со счётом 2-2.</p>
+							<p>Во втором матче, который проходил в Мюнхене, Бавария одержала победу со счётом 5-3, что обеспечило им место в финале турнира.</p>
+							<p>Игроки обеих команд продемонстрировали высокий уровень мастерства и приверженность игре, делая каждый матч захватывающим для болельщиков.</p>
+							<p>Поздравляем Баварию с выходом в финал и благодарим Челси за достойную борьбу в этом захватывающем противостоянии.</p>
+						</div>
+					}
+				/>
+				<News
 					title={'Бавария выходит в полуфинал Лиги чемпионов, обыграв Лион'}
 					src={'https://elcomercio.pe/resizer/Pqbr_nkT8vVNqZyMlOTYNhyVaZk=/980x0/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/QHYRJWH32FCW7GZP4AGJOCUDCQ.jpg'}
 					info={
