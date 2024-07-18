@@ -1,6 +1,5 @@
 import React from 'react';
-import PostTitle from '../../Posts/Post/PostTitle';
-import News from '../../Posts/Post/LatestNews/News';
+import PostTitle from '../components/Posts/Post/PostTitle'
 
 const Home = () => {
 	return (
@@ -11,12 +10,6 @@ const Home = () => {
 				about={'Register to play with message on discord:'}
 				link={'berserk242741'}
 			/>
-			{/* <News
-				title={''}
-				src={ }
-				info={ }
-			/> */}
-
 		</div>
 	);
 }
