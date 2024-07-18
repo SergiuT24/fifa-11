@@ -37,9 +37,9 @@ const UclPlayOffs = () => {
 				</div>
 				<div className='flex flex-col gap-8 relative'>
 					<PlayOffTitle value={'final'} />
-					<div className='line-tree border rounded-lg p-3 mt-11'>
-						<PlayOffBracket team={<BayernMunich />} score={'?'} scoreTwo={'?'} />
-						<PlayOffBracket team={<Barcelona />} score={'?'} scoreTwo={'?'} />
+					<div className='line-tree border rounded-lg p-3 mt-11' title='Technical Win Bayern Munich'>
+						<PlayOffBracket team={<BayernMunich />} score={'3'} scoreTwo={'3'} />
+						<PlayOffBracket team={<Barcelona />} score={'0'} scoreTwo={'0'} />
 					</div>
 				</div>
 			</div>
