@@ -9,7 +9,7 @@ const Profile = () => {
 			const token = localStorage.getItem('token');
 			if (token) {
 				try {
-					const response = await axios.get('http://localhost:5000/api/auth/profile', {
+					const response = await axios.get('https://fifa-11-backend-k8700ck2x-serhios-projects-ec73af3d.vercel.app/api/auth/profile', {
 						headers: {
 							'Authorization': `Bearer ${token}`
 						}
