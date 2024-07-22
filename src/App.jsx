@@ -1,28 +1,27 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
-import Home from "./pages/Home"
-import Rules from "./pages/Rules"
-import SeasonOne from "./pages/tournaments/open/2x2/SeasonOne"
-import Tournaments from "./pages/Tournaments"
-import Footer from "./components/footer/Footer"
-import Header from "./components/header/Header"
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
+import AppRoutes from './Routes';
 
 function App() {
+	const [user, setUser] = useState(null);
+	const navigate = useNavigate();
+
+	const logout = () => {
+		localStorage.removeItem('token');
+		setUser(null);
+		navigate('/');
+	};
+
 	return (
-		<Router>
-			<Header />
-			<Routes>
-				{/* <Route path="/" element={<Posts />} /> */}
-				<Route path="/" element={<Home />} />
-				<Route path="/home" element={<Home />} />
-				<Route path="/tournaments/" element={<Tournaments />} />
-				<Route path="/tournaments/open/2x2/season1" element={<SeasonOne />} />
-				<Route path="/rules" element={<Rules />} />
-			</Routes>
+		<div className='flex flex-col min-h-screen'>
+			<Header user={user} logout={logout} />
+			<AppRoutes setUser={setUser} user={user} />
 			<Footer />
-		</Router>
+		</div>
 	);
 }
 
 
-export default App
-
+export default App;

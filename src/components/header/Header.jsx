@@ -1,13 +1,13 @@
 import React from 'react';
-import Logo from './Logo';
 import Menu from './Menu';
+import Navbar from './Navbar';
 
-const Header = () => {
+const Header = ({ user, logout }) => {
 	return (
-		<div>
-			<Logo />
+		<header className='mb-3'>
+			<Navbar user={user} logout={logout} />
 			<Menu />
-		</div>
+		</header>
 	);
 }
 
