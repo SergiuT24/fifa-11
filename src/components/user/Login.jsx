@@ -17,7 +17,7 @@ const Login = ({ setUser }) => {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const response = await axios.post('https://fifa-11-backend-k8700ck2x-serhios-projects-ec73af3d.vercel.app', formData);
+			const response = await axios.post('https://fifa-11-backend-k8700ck2x-serhios-projects-ec73af3d.vercel.app/api/auth/profile', formData);
 			localStorage.setItem('token', response.data.token);
 			setUser(response.data.result);
 			console.log('User logged in successfully');
