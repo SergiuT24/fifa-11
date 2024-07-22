@@ -15,7 +15,7 @@ const Register = () => {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const response = await axios.post('https://fifa-11-backend-k8700ck2x-serhios-projects-ec73af3d.vercel.app/api/auth/registration', formData);
+			const response = await axios.post('https://fifa-11-backend.vercel.app/api/auth/registration', formData);
 			localStorage.setItem('token', response.data.token);
 			console.log('User registered successfully');
 		} catch (error) {
