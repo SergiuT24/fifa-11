@@ -2,10 +2,10 @@ import React from 'react';
 import Menu from './Menu';
 import Navbar from './Navbar';
 
-const Header = ({ user, logout }) => {
+const Header = () => {
 	return (
 		<header className='mb-3'>
-			<Navbar user={user} logout={logout} />
+			<Navbar />
 			<Menu />
 		</header>
 	);

@@ -1,10 +1,10 @@
 import React from 'react';
-import LeagueTable from '../../../../../components/league/table/LeagueTable';
+import LegendLeagueTableSeasonOne from '../../../../../components/league/table/LegendLeagueTableSeasonOne';
 
 const LegendLeagueSummary = () => {
 	return (
 		<div>
-			<LeagueTable />
+			<LegendLeagueTableSeasonOne />
 		</div>
 	);
 }
