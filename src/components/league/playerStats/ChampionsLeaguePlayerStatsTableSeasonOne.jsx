@@ -49,7 +49,7 @@ const ChampionsLeaguePlayerStatsTableSeasonOne = () => {
 	return (
 		<table>
 			<thead style={{ backgroundColor: '#0f2d37' }} >
-				<PlayerStatsLine rank={'#'} player={"Player"} team={"Team"} g={"G"} mp={"MP"} a={"A"} note={"Note"} />
+				<PlayerStatsLine rank={'#'} player={"Player"} team={"Team"} g={"G"} mp={"MP"} a={"A"} note={"Rating"} />
 			</thead>
 			<tbody style={{ backgroundColor: '#010a0f' }}>
 				{sortedPlayers.map((player, index) => {

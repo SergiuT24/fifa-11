@@ -1,5 +1,6 @@
 import React from 'react';
 import PlayerStatsLine from '../components/league/playerStats/PlayerStatsLine';
+import PlayerStatsAbout from '../components/league/playerStats/PlayerStatsAbout';
 
 const defaultScorers = [
 	{ player: 'Berserk', mp: 14, goals: 22, assist: 15 },
@@ -79,6 +80,7 @@ const BestPlayers = () => {
 				</table>
 				<img className='top-scorer' src='/img/background/top-scorer.png' />
 			</div>
+			<PlayerStatsAbout />
 		</div>
 	);
 }
