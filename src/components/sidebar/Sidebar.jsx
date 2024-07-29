@@ -10,9 +10,9 @@ const Sidebar = ({ selectedLeague, setSelectedLeague }) => {
 			<div className='flex flex-col gap-1'>
 				<SidebarItem
 					imgValue={'https://static.flashscore.com/res/_fs/build/world.b7d16db.png'}
-					linkValue={'Legend League'}
-					isSelected={selectedLeague === 'Legend League'}
-					onClick={() => setSelectedLeague('Legend League')}
+					linkValue={'Pro League'}
+					isSelected={selectedLeague === 'Pro League'}
+					onClick={() => setSelectedLeague('Pro League')}
 				/>
 				<SidebarItem
 					imgValue={'https://static.flashscore.com/res/_fs/build/world.b7d16db.png'}
@@ -22,9 +22,9 @@ const Sidebar = ({ selectedLeague, setSelectedLeague }) => {
 				/>
 				<SidebarItem
 					imgValue={'https://static.flashscore.com/res/_fs/build/world.b7d16db.png'}
-					linkValue={'King Cup'}
-					isSelected={selectedLeague === 'King Cup'}
-					onClick={() => setSelectedLeague('King Cup')}
+					linkValue={`King's Cup`}
+					isSelected={selectedLeague === `King's Cup`}
+					onClick={() => setSelectedLeague(`King's Cup`)}
 				/>
 			</div>
 		</div>

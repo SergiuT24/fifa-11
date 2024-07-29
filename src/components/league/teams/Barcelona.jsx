@@ -5,7 +5,7 @@ const Barcelona = () => {
 		<div>
 			<div className='flex gap-1 items-center'>
 				<img className='w-5 h-5' src='https://static.flashscore.com/res/image/data/jZ8dSYS0-fcDVLdrL.png' />
-				<p className='text-sm'>Barcelona</p>
+				<p className='text-xs'>Barcelona</p>
 			</div>
 		</div>
 	);

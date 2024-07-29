@@ -5,7 +5,7 @@ const AcMilan = () => {
 		<div>
 			<div className='flex gap-1 items-center'>
 				<img className='w-5 h-5' src='https://static.flashscore.com/res/image/data/WOOHTbSq-fL3dmxxd.png' />
-				<p className='text-sm'>AC Milan</p>
+				<p className='text-xs'>AC Milan</p>
 			</div>
 		</div>
 	);

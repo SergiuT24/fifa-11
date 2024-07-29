@@ -2,7 +2,7 @@ import React from 'react';
 import LeaguePaths from './LeaguePaths';
 import LeagueAbout from './LeagueAbout';
 
-const LeagueMenu = ({ leagueCount, logo, name, season }) => {
+const LeagueMenu = ({ leagueCount, logo, name, season, cupImg }) => {
 	return (
 		<div className='leaguemenu darkblue rounded-xl'>
 			<LeaguePaths leagueCount={leagueCount} />
@@ -10,6 +10,7 @@ const LeagueMenu = ({ leagueCount, logo, name, season }) => {
 				logo={logo}
 				name={name}
 				season={season}
+				cupImg={cupImg}
 			/>
 		</div>
 	);

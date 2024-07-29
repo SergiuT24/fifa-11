@@ -1,5 +1,5 @@
 import React from 'react';
-import PlayersTeam from '../../Posts/Post/Players/PlayersTeam';
+import PlayersTeam from '../../league/Players/PlayersTeam';
 import AcMilan from '../UCL-Teams/AcMilan';
 import Arsenal from '../UCL-Teams/Arsenal';
 import Chelsea from '../UCL-Teams/Chelsea';

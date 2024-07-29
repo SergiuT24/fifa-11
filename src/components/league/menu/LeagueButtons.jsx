@@ -15,14 +15,9 @@ const LeagueButtons = ({ selectedButton, setSelectedButton }) => {
 				onClick={() => setSelectedButton('News')}
 			/>
 			<LeagueButton
-				value={'Top Scorers'}
-				isSelected={selectedButton === 'Top Scorers'}
-				onClick={() => setSelectedButton('Top Scorers')}
-			/>
-			<LeagueButton
-				value={'Most Assist'}
-				isSelected={selectedButton === 'Most Assist'}
-				onClick={() => setSelectedButton('Most Assist')}
+				value={'Player Stats'}
+				isSelected={selectedButton === 'Player Stats'}
+				onClick={() => setSelectedButton('Player Stats')}
 			/>
 			<LeagueButton
 				value={'Best Goals'}

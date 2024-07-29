@@ -1,30 +1,36 @@
 import React, { useState } from 'react';
 import Sidebar from '../../../components/sidebar/Sidebar';
-import LegendLeagueSeasonOne2x2 from './season1/legendleague/LegendLeagueSeasonOne2x2';
+import ProLeagueSeasonOne2x2 from './season1/proleague/ProLeagueSeasonOne2x2';
 import ChampionsLeagueSeasonOne2x2 from './season1/championsleague/ChampionsLeagueSeasonOne2x2';
-import KingCupSeasonOne2x2 from './season1/KingCupSeasonOne2x2';
+import KingsCupSeasonOne2x2 from './season1/kingscup/KingsCupSeasonOne2x2';
+import SquadsSeasonOne2x2 from './season1/SquadsSeasonOne2x2';
+import TeamsForRandomSeasonOne2x2 from './season1/TeamsForRandomSeasonOne2x2';
 
 const Tournaments2x2 = () => {
-	const [selectedLeague, setSelectedLeague] = useState('Legend League');
+	const [selectedLeague, setSelectedLeague] = useState('Pro League');
 
 	const renderContent = () => {
 		switch (selectedLeague) {
-			case 'Legend League':
-				return <LegendLeagueSeasonOne2x2 />;
+			case 'Pro League':
+				return <ProLeagueSeasonOne2x2 />;
 			case 'Champions League':
 				return <ChampionsLeagueSeasonOne2x2 />;
-			case 'King Cup':
-				return <KingCupSeasonOne2x2 />;
+			case `King's Cup`:
+				return <KingsCupSeasonOne2x2 />;
 			default:
-				return <LegendLeagueSeasonOne2x2 />;
+				return <ProLeagueSeasonOne2x2 />;
 		}
 	};
 
 	return (
 		<div className='flex-1 justify-center items-center'>
 			<div className='flex'>
-				<Sidebar selectedLeague={selectedLeague} setSelectedLeague={setSelectedLeague} />
+				<div>
+					<Sidebar selectedLeague={selectedLeague} setSelectedLeague={setSelectedLeague} />
+					<TeamsForRandomSeasonOne2x2 />
+				</div>
 				{renderContent()}
+				<SquadsSeasonOne2x2 />
 			</div>
 		</div>
 	);

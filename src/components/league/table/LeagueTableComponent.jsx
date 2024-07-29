@@ -3,14 +3,18 @@ import React from 'react';
 const LeagueTableComponent = ({ rank, img, team, mp, w, d, l, g, gd, pts, form, club }) => {
 	let rowStyle = {};
 	if (rank === 1) {
-		rowStyle = { backgroundColor: 'rgb(0, 70, 130)' };
-	} else if (rank === 2 || rank === 3) {
-		rowStyle = { backgroundColor: 'red' };
+		rowStyle = { backgroundColor: 'rgb(37, 99, 235)' };
+	} else if (rank === 2) {
+		rowStyle = { backgroundColor: 'rgb(126, 34, 206)' };
+	} else if (rank === 3 || rank === 4) {
+		rowStyle = { backgroundColor: 'rgb(249, 115, 22)' };
+	} else if (rank === 5 || rank === 6) {
+		rowStyle = { backgroundColor: 'red' }
 	}
 
 	return (
-		<tr className='table-line'>
-			<th className='w-6 h-8' title='rank' style={rowStyle}>{rank}</th>
+		<tr className='table-line border-b'>
+			<th className='w-4 h-8' title='rank' style={rowStyle}>{rank}</th>
 			<th className='flex justify-start pl-6 gap-2 items-center w-56 h-8'>{img}{team}{club}</th>
 			<th className='w-8 h-8' title="Matches played">{mp}</th>
 			<th className='w-8 h-8' title="Wins">{w}</th>

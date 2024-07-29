@@ -24,15 +24,6 @@ const UclTopScorersTable = () => {
 				<TopScorersLine rank={'9'} player={"Mark"} team={"Machester United"} g={"2"} />
 				<TopScorersLine rank={'9'} player={"DartRin"} team={"Manchester City"} g={"2"} />
 				<TopScorersLine rank={'9'} player={"A.Wenger"} team={"Arsenal"} g={"2"} />
-				{/* <TopScorersLine rank={'8'} player={"Player"} team={"Team"} g={"0"} />
-				<TopScorersLine rank={'9'} player={"Player"} team={"Team"} g={"0"} />
-				<TopScorersLine rank={'10'} player={"Player"} team={"Team"} g={"0"} />
-				<TopScorersLine rank={'11'} player={"Player"} team={"Team"} g={"0"} />
-				<TopScorersLine rank={'12'} player={"Player"} team={"Team"} g={"0"} />
-				<TopScorersLine rank={'13'} player={"Player"} team={"Team"} g={"0"} />
-				<TopScorersLine rank={'14'} player={"Player"} team={"Team"} g={"0"} />
-				<TopScorersLine rank={'15'} player={"Player"} team={"Team"} g={"0"} />
-				<TopScorersLine rank={'16'} player={"Player"} team={"Team"} g={"0"} /> */}
 			</tbody>
 		</table>
 	);
