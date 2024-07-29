@@ -6,8 +6,8 @@ import ManchesterUnited from '../components/league/teams/ManchesterUnited';
 import Chelsea from '../components/league/teams/Chelsea';
 
 export const initialTeams = [
-	{ id: 'ac-milan', name: <AcMilan />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'real-madrid', name: <BayernMunich />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'milan', name: <AcMilan />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'bavaria', name: <BayernMunich />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'arsenal', name: <Arsenal />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'liverpool', name: <Liverpool />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'manchester', name: <ManchesterUnited />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
@@ -15,7 +15,10 @@ export const initialTeams = [
 ];
 
 export const matchResults = [
-	// { id: '1', teamOne: 'ac-milan', scoreOne: 2, teamTwo: 'manchester', scoreTwo: 1 },
+	{ id: '1', teamOne: 'manchester', scoreOne: 2, teamTwo: 'chelsea', scoreTwo: 1 },
+	{ id: '2', teamOne: 'chelsea', scoreOne: 6, teamTwo: 'manchester', scoreTwo: 2 },
+	{ id: '3', teamOne: 'chelsea', scoreOne: 3, teamTwo: 'bavaria', scoreTwo: 2 },
+	{ id: '4', teamOne: 'bavaria', scoreOne: 1, teamTwo: 'chelsea', scoreTwo: 3 },
 	// { id: '2', teamOne: 'real-madrid', scoreOne: 1, teamTwo: 'ac-milan', scoreTwo: 2 },
 	// { id: '3', teamOne: 'inter', scoreOne: 2, teamTwo: 'real-madrid', scoreTwo: 1 },
 	// { id: '4', teamOne: 'real-madrid', scoreOne: 1, teamTwo: 'inter', scoreTwo: 3 },
