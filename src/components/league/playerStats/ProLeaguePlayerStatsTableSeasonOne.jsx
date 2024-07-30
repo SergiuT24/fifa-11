@@ -38,11 +38,11 @@ const ProLeaguePlayerStatsTableSeasonOne = () => {
 		};
 	});
 
-	// Сортируем игроков по количеству голов
-	const sortedPlayers = playersWithStats.sort((a, b) => b.goals - a.goals);
+	// Сортируем игроков по рейтингу
+	const sortedPlayers = playersWithStats.sort((a, b) => b.playerNote - a.playerNote);
 
 	// Рендерим таблицу с отсортированными игроками
-	let previousGoals = null;
+	let previousNote = null;
 	let previousRank = null;
 
 	return (
@@ -53,12 +53,12 @@ const ProLeaguePlayerStatsTableSeasonOne = () => {
 			<tbody style={{ backgroundColor: '#010a0f' }}>
 				{sortedPlayers.map((player, index) => {
 					let rank;
-					if (player.goals === previousGoals) {
+					if (player.playerNote === previousNote) {
 						rank = previousRank;
 					} else {
 						rank = index + 1;
 					}
-					previousGoals = player.goals;
+					previousNote = player.playerNote;
 					previousRank = rank;
 
 					return (
