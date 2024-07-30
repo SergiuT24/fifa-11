@@ -29,8 +29,8 @@ export const playerStats = [
 	// --- Berserk, mcrurus
 	{ id: 'Berserk', goals: 3, matchesPlayed: 2, assists: 0 }, // Chelsea
 	{ id: 'mcrurus', goals: 0, matchesPlayed: 2, assists: 3 }, // Chelsea
-	// { id: 'Berserk', goals: 0, matchesPlayed: 2, assists: 0 },
-	// { id: 'mcrurus', goals: 0, matchesPlayed: 2, assists: 0 },
+	{ id: 'Berserk', goals: 5, matchesPlayed: 2, assists: 2 }, // Manchester
+	{ id: 'mcrurus', goals: 2, matchesPlayed: 2, assists: 5 }, // Manchester
 	// { id: 'Berserk', goals: 0, matchesPlayed: 2, assists: 0 },
 	// { id: 'mcrurus', goals: 0, matchesPlayed: 2, assists: 0 },
 	// { id: 'Berserk', goals: 3, matchesPlayed: 2, assists: 0 },
@@ -41,10 +41,10 @@ export const playerStats = [
 	// ---- NSKRaven, Anna 
 	{ id: 'NSKRaven', goals: 2, matchesPlayed: 2, assists: 2 }, // Chelsea
 	{ id: 'Anna', goals: 2, matchesPlayed: 2, assists: 2 }, // Chelsea
-	// { id: 'NSKRaven', goals: 0, matchesPlayed: 0, assists: 0 },
-	// { id: 'Anna', goals: 0, matchesPlayed: 0, assists: 0 },
-	// { id: 'NSKRaven', goals: 0, matchesPlayed: 0, assists: 0 },
-	// { id: 'Anna', goals: 0, matchesPlayed: 0, assists: 0 },
+	{ id: 'NSKRaven', goals: 1, matchesPlayed: 2, assists: 1 }, // Milan
+	{ id: 'Anna', goals: 1, matchesPlayed: 2, assists: 1 }, // Milan
+	{ id: 'NSKRaven', goals: 3, matchesPlayed: 2, assists: 2 }, // Bavaria
+	{ id: 'Anna', goals: 4, matchesPlayed: 2, assists: 3 }, // Bavaria
 	// { id: 'NSKRaven', goals: 0, matchesPlayed: 0, assists: 0 },
 	// { id: 'Anna', goals: 0, matchesPlayed: 0, assists: 0 },
 	// { id: 'NSKRaven', goals: 0, matchesPlayed: 0, assists: 0 },
@@ -65,8 +65,8 @@ export const playerStats = [
 	// ---- Perfect, nebro 
 	{ id: 'Perfect', goals: 3, matchesPlayed: 2, assists: 0 }, // Arsenal
 	{ id: 'nebro', goals: 0, matchesPlayed: 2, assists: 3 }, // Arsenal
-	// { id: 'Perfect', goals: 3, matchesPlayed: 2, assists: 0 },
-	// { id: 'nebro', goals: 0, matchesPlayed: 2, assists: 3 },
+	{ id: 'Perfect', goals: 5, matchesPlayed: 2, assists: 5 }, // Manchester
+	{ id: 'nebro', goals: 5, matchesPlayed: 2, assists: 5 }, // Manchester
 	// { id: 'Perfect', goals: 3, matchesPlayed: 2, assists: 0 },
 	// { id: 'nebro', goals: 0, matchesPlayed: 2, assists: 3 },
 	// { id: 'Perfect', goals: 3, matchesPlayed: 2, assists: 0 },

@@ -9,6 +9,7 @@ const updateTeams = (teams, matches) => {
 	const updatedTeams = teams.map(team => ({
 		...team,
 		form: [], // Reset form before adding new results
+		headToHead: {}, // Initialize head-to-head stats
 	}));
 
 	matches.forEach(({ teamOne, scoreOne, teamTwo, scoreTwo }, matchIndex) => {
@@ -23,6 +24,18 @@ const updateTeams = (teams, matches) => {
 			updatedTeams[teamOneIndex].gc += scoreTwo;
 			updatedTeams[teamTwoIndex].g += scoreTwo;
 			updatedTeams[teamTwoIndex].gc += scoreOne;
+
+			// Update head-to-head stats
+			if (!updatedTeams[teamOneIndex].headToHead[teamTwo]) {
+				updatedTeams[teamOneIndex].headToHead[teamTwo] = { g: 0, gc: 0 };
+			}
+			if (!updatedTeams[teamTwoIndex].headToHead[teamOne]) {
+				updatedTeams[teamTwoIndex].headToHead[teamOne] = { g: 0, gc: 0 };
+			}
+			updatedTeams[teamOneIndex].headToHead[teamTwo].g += scoreOne;
+			updatedTeams[teamOneIndex].headToHead[teamTwo].gc += scoreTwo;
+			updatedTeams[teamTwoIndex].headToHead[teamOne].g += scoreTwo;
+			updatedTeams[teamTwoIndex].headToHead[teamOne].gc += scoreOne;
 
 			if (scoreOne > scoreTwo) {
 				updatedTeams[teamOneIndex].w += 1;
@@ -65,12 +78,25 @@ const updateTeams = (teams, matches) => {
 		team.gd = `${team.g}:${team.gc}`;
 	});
 
-	// Sort teams by points and then by goal difference
-	updatedTeams.sort((a, b) => b.pts - a.pts || (b.g - b.gc) - (a.g - a.gc));
+	// Sort teams by points, head-to-head goal difference, overall goal difference, goals scored, and goals conceded
+	updatedTeams.sort((a, b) => {
+		if (b.pts !== a.pts) return b.pts - a.pts;
+
+		const aHeadToHead = a.headToHead[b.id] || { g: 0, gc: 0 };
+		const bHeadToHead = b.headToHead[a.id] || { g: 0, gc: 0 };
+		const headToHeadGD = (bHeadToHead.g - bHeadToHead.gc) - (aHeadToHead.g - aHeadToHead.gc);
+		if (headToHeadGD !== 0) return headToHeadGD;
+
+		const overallGD = (b.g - b.gc) - (a.g - a.gc);
+		if (overallGD !== 0) return overallGD;
+
+		if (b.g !== a.g) return b.g - a.g;
+
+		return a.gc - b.gc;
+	});
 
 	return updatedTeams;
 };
-
 
 const ProLeagueTableSeasonOne = () => {
 	const [teams, setTeams] = useState(initialTeams);
