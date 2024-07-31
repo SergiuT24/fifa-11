@@ -45,8 +45,8 @@ export const playerStats = [
 	{ id: 'Anna', goals: 1, matchesPlayed: 2, assists: 1 }, // Milan
 	{ id: 'NSKRaven', goals: 3, matchesPlayed: 2, assists: 2 }, // Bavaria
 	{ id: 'Anna', goals: 4, matchesPlayed: 2, assists: 3 }, // Bavaria
-	// { id: 'NSKRaven', goals: 0, matchesPlayed: 0, assists: 0 },
-	// { id: 'Anna', goals: 0, matchesPlayed: 0, assists: 0 },
+	{ id: 'NSKRaven', goals: 2, matchesPlayed: 2, assists: 2 }, // Arsenal
+	{ id: 'Anna', goals: 2, matchesPlayed: 2, assists: 2 }, // Arsenal
 	// { id: 'NSKRaven', goals: 0, matchesPlayed: 0, assists: 0 },
 	// { id: 'Anna', goals: 0, matchesPlayed: 0, assists: 0 },
 	// -------------------------------------------------------------------------------------------------------------------
@@ -75,12 +75,12 @@ export const playerStats = [
 	// { id: 'nebro', goals: 0, matchesPlayed: 2, assists: 3 },
 	// -------------------------------------------------------------------------------------------------------------------
 	// --- Drogba, Mysterio 
-	{ id: 'mysterio', goals: 0, matchesPlayed: 2, assists: 0 }, // Liverpool
-	{ id: 'D.Drogba', goals: 3, matchesPlayed: 2, assists: 3 }, // Liverpool
+	{ id: 'mysterio', goals: 0, matchesPlayed: 2, assists: 3 }, // Liverpool
+	{ id: 'D.Drogba', goals: 3, matchesPlayed: 2, assists: 0 }, // Liverpool
 	{ id: 'mysterio', goals: 2, matchesPlayed: 2, assists: 2 }, // Milan
 	{ id: 'D.Drogba', goals: 3, matchesPlayed: 2, assists: 2 }, // Milan
-	// { id: 'mysterio', goals: 0, matchesPlayed: 0, assists: 0 },
-	// { id: 'D.Drogba', goals: 0, matchesPlayed: 0, assists: 0 },
+	{ id: 'mysterio', goals: 3, matchesPlayed: 2, assists: 2 }, // Manchester
+	{ id: 'D.Drogba', goals: 2, matchesPlayed: 2, assists: 1 }, // Manchester
 	// { id: 'mysterio', goals: 0, matchesPlayed: 0, assists: 0 },
 	// { id: 'D.Drogba', goals: 0, matchesPlayed: 0, assists: 0 },
 	// { id: 'mysterio', goals: 0, matchesPlayed: 0, assists: 0 },
