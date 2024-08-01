@@ -21,22 +21,22 @@ export const playerStats = [
 	{ id: 'Mr.Noob', goals: 3, matchesPlayed: 2, assists: 3 }, // Bavaria
 	{ id: 'TOTO', goals: 2, matchesPlayed: 2, assists: 1 }, // Liverpool
 	{ id: 'Mr.Noob', goals: 1, matchesPlayed: 2, assists: 2 }, // Liverpool
-	// { id: 'TOTO', goals: 0, matchesPlayed: 0, assists: 0 },
-	// { id: 'Mr.Noob', goals: 0, matchesPlayed: 0, assists: 0 },
-	// { id: 'TOTO', goals: 0, matchesPlayed: 0, assists: 0 },
-	// { id: 'Mr.Noob', goals: 0, matchesPlayed: 0, assists: 0 },
+	{ id: 'TOTO', goals: 1, matchesPlayed: 2, assists: 4 }, // Arsenal
+	{ id: 'Mr.Noob', goals: 4, matchesPlayed: 2, assists: 1 }, // Arsenal
+	// { id: 'TOTO', goals: 0, matchesPlayed: 2, assists: 0 }, // Milan
+	// { id: 'Mr.Noob', goals: 0, matchesPlayed: 2, assists: 0 }, // Milan
 	// -------------------------------------------------------------------------------------------------------------------
 	// --- Berserk, mcrurus
 	{ id: 'Berserk', goals: 3, matchesPlayed: 2, assists: 0 }, // Chelsea
 	{ id: 'mcrurus', goals: 0, matchesPlayed: 2, assists: 3 }, // Chelsea
 	{ id: 'Berserk', goals: 5, matchesPlayed: 2, assists: 2 }, // Manchester
 	{ id: 'mcrurus', goals: 2, matchesPlayed: 2, assists: 5 }, // Manchester
-	// { id: 'Berserk', goals: 0, matchesPlayed: 2, assists: 0 },
-	// { id: 'mcrurus', goals: 0, matchesPlayed: 2, assists: 0 },
-	// { id: 'Berserk', goals: 3, matchesPlayed: 2, assists: 0 },
-	// { id: 'mcrurus', goals: 0, matchesPlayed: 2, assists: 0 },
-	// { id: 'Berserk', goals: 3, matchesPlayed: 2, assists: 0 },
-	// { id: 'mcrurus', goals: 0, matchesPlayed: 2, assists: 0 },
+	{ id: 'Berserk', goals: 2, matchesPlayed: 2, assists: 3 }, // Liverpool
+	{ id: 'mcrurus', goals: 3, matchesPlayed: 2, assists: 2 }, // Liverpool
+	{ id: 'Berserk', goals: 3, matchesPlayed: 2, assists: 0 }, // Milan
+	{ id: 'mcrurus', goals: 0, matchesPlayed: 2, assists: 3 }, // Milan
+	// { id: 'Berserk', goals: 3, matchesPlayed: 2, assists: 0 }, // Arsenal
+	// { id: 'mcrurus', goals: 0, matchesPlayed: 2, assists: 0 }, // Arsenal
 	// -------------------------------------------------------------------------------------------------------------------
 	// ---- NSKRaven, Anna 
 	{ id: 'NSKRaven', goals: 2, matchesPlayed: 2, assists: 2 }, // Chelsea
@@ -47,32 +47,32 @@ export const playerStats = [
 	{ id: 'Anna', goals: 4, matchesPlayed: 2, assists: 3 }, // Bavaria
 	{ id: 'NSKRaven', goals: 2, matchesPlayed: 2, assists: 2 }, // Arsenal
 	{ id: 'Anna', goals: 2, matchesPlayed: 2, assists: 2 }, // Arsenal
-	// { id: 'NSKRaven', goals: 0, matchesPlayed: 0, assists: 0 },
-	// { id: 'Anna', goals: 0, matchesPlayed: 0, assists: 0 },
+	// { id: 'NSKRaven', goals: 0, matchesPlayed: 0, assists: 0 }, // Liverpool
+	// { id: 'Anna', goals: 0, matchesPlayed: 0, assists: 0 }, // Liverpool
 	// -------------------------------------------------------------------------------------------------------------------
 	// ---- e6JIyHTuKinDaHouse, HAM
 	{ id: 'e6JIyHTuKinDaHouse', goals: 1, matchesPlayed: 2, assists: 0 },// Chelsea
 	{ id: 'HAM', goals: 1, matchesPlayed: 2, assists: 1 }, // Chelsea
 	{ id: 'e6JIyHTuKinDaHouse', goals: 3, matchesPlayed: 2, assists: 2 }, // Arsenal
 	{ id: 'HAM', goals: 3, matchesPlayed: 2, assists: 1 }, // Arsenal
-	// { id: 'e6JIyHTuKinDaHouse', goals: 0, matchesPlayed: 0, assists: 0 },
-	// { id: 'HAM', goals: 0, matchesPlayed: 0, assists: 0 },
-	// { id: 'e6JIyHTuKinDaHouse', goals: 0, matchesPlayed: 0, assists: 0 },
-	// { id: 'HAM', goals: 0, matchesPlayed: 0, assists: 0 },
-	// { id: 'e6JIyHTuKinDaHouse', goals: 0, matchesPlayed: 0, assists: 0 },
-	// { id: 'HAM', goals: 0, matchesPlayed: 0, assists: 0 },
+	{ id: 'e6JIyHTuKinDaHouse', goals: 3, matchesPlayed: 2, assists: 2 }, // Milan
+	{ id: 'HAM', goals: 3, matchesPlayed: 2, assists: 3 }, // Milan
+	{ id: 'e6JIyHTuKinDaHouse', goals: 3, matchesPlayed: 2, assists: 5 }, // Bavaria
+	{ id: 'HAM', goals: 5, matchesPlayed: 2, assists: 3 }, // Bavaria
+	// { id: 'e6JIyHTuKinDaHouse', goals: 0, matchesPlayed: 2, assists: 0 }, // Manchester
+	// { id: 'HAM', goals: 0, matchesPlayed: 2, assists: 0 }, // Manchester
 	// -------------------------------------------------------------------------------------------------------------------
 	// ---- Perfect, nebro 
 	{ id: 'Perfect', goals: 3, matchesPlayed: 2, assists: 0 }, // Arsenal
 	{ id: 'nebro', goals: 0, matchesPlayed: 2, assists: 3 }, // Arsenal
 	{ id: 'Perfect', goals: 5, matchesPlayed: 2, assists: 5 }, // Manchester
 	{ id: 'nebro', goals: 5, matchesPlayed: 2, assists: 5 }, // Manchester
-	// { id: 'Perfect', goals: 3, matchesPlayed: 2, assists: 0 },
-	// { id: 'nebro', goals: 0, matchesPlayed: 2, assists: 3 },
-	// { id: 'Perfect', goals: 3, matchesPlayed: 2, assists: 0 },
-	// { id: 'nebro', goals: 0, matchesPlayed: 2, assists: 3 },
-	// { id: 'Perfect', goals: 3, matchesPlayed: 2, assists: 0 },
-	// { id: 'nebro', goals: 0, matchesPlayed: 2, assists: 3 },
+	{ id: 'Perfect', goals: 1, matchesPlayed: 2, assists: 1 }, // Liverpool
+	{ id: 'nebro', goals: 1, matchesPlayed: 2, assists: 1 }, // Liverpool
+	{ id: 'Perfect', goals: 2, matchesPlayed: 2, assists: 1 }, // Bavaria
+	{ id: 'nebro', goals: 1, matchesPlayed: 2, assists: 2 }, // Bavaria
+	// { id: 'Perfect', goals: 0, matchesPlayed: 2, assists: 0 }, // Chelsea
+	// { id: 'nebro', goals: 0, matchesPlayed: 2, assists: 0 }, // Chelsea
 	// -------------------------------------------------------------------------------------------------------------------
 	// --- Drogba, Mysterio 
 	{ id: 'mysterio', goals: 0, matchesPlayed: 2, assists: 3 }, // Liverpool
@@ -81,8 +81,8 @@ export const playerStats = [
 	{ id: 'D.Drogba', goals: 3, matchesPlayed: 2, assists: 2 }, // Milan
 	{ id: 'mysterio', goals: 3, matchesPlayed: 2, assists: 2 }, // Manchester
 	{ id: 'D.Drogba', goals: 2, matchesPlayed: 2, assists: 1 }, // Manchester
-	// { id: 'mysterio', goals: 0, matchesPlayed: 0, assists: 0 },
-	// { id: 'D.Drogba', goals: 0, matchesPlayed: 0, assists: 0 },
-	// { id: 'mysterio', goals: 0, matchesPlayed: 0, assists: 0 },
-	// { id: 'D.Drogba', goals: 0, matchesPlayed: 0, assists: 0 },
+	{ id: 'mysterio', goals: 2, matchesPlayed: 2, assists: 2 }, // Chelsea
+	{ id: 'D.Drogba', goals: 2, matchesPlayed: 2, assists: 1 }, // Chelsea
+	// { id: 'mysterio', goals: 0, matchesPlayed: 2, assists: 0 }, // Bavaria
+	// { id: 'D.Drogba', goals: 0, matchesPlayed: 2, assists: 0 }, // Bavaria
 ];
