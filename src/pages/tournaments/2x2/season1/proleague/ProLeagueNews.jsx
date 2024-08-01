@@ -5,6 +5,14 @@ const ProLeagueNews = () => {
 	return (
 		<div>
 			<News
+				src={'https://imgresizer.eurosport.com/unsafe/2560x1440/filters:format(jpeg)/origin-imgresizer.eurosport.com/2012/05/05/838013-20441091-2560-1440.jpg'}
+				title={'Chelsea Завоевывает Чемпионство Благодаря Разнице Голов: Поздравляем с Победой в Про Лиге тренеров ТОТО и Mr.Noob!'}
+			/>
+			<News
+				src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo7W8aMgEmjG-zBZ1l0shleq4ci41tcnnk8A&s'}
+				title={'Бавария Имеет Последний Шанс на Лигу Чемпионов: Решающие Матчи с Arsenal Впереди'}
+			/>
+			<News
 				src={'https://i2-prod.mirror.co.uk/incoming/article13438434.ece/ALTERNATES/s1200/0_Liverpool-v-Paris-Saint-Germain-UEFA-Champions-League-Group-C.jpg'}
 				title={'Liverpool находится на вершине таблицы с двумя оставшимися матчами. Их победа со счетом 3:0 над Milan укрепила их лидерство. Теперь они стремятся сохранить свое положение и завоевать титул чемпиона.'}
 			/>
@@ -27,10 +35,6 @@ const ProLeagueNews = () => {
 			<News
 				src={'https://www.arsenal.com/sites/default/files/styles/desktop_16x9/public/images/Crest1_1920x1080.jpg?auto=webp&itok=qrOoIjS7'}
 				title={'Arsenal стремится закрепиться в четверке лучших команд, чтобы получить место в Лиге Чемпионов. Их ближайшие матчи будут решающими для этой амбициозной цели.'}
-			/>
-			<News
-				src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo7W8aMgEmjG-zBZ1l0shleq4ci41tcnnk8A&s'}
-				title={'Bavaria находятся на грани вылета из гонки за топовые места. Команда должна улучшить свои результаты, чтобы избежать последнего места и сохранить шансы на успешное завершение сезона.'}
 			/>
 		</div>
 	);

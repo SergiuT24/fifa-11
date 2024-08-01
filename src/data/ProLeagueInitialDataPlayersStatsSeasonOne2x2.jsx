@@ -23,8 +23,8 @@ export const playerStats = [
 	{ id: 'Mr.Noob', goals: 1, matchesPlayed: 2, assists: 2 }, // Liverpool
 	{ id: 'TOTO', goals: 1, matchesPlayed: 2, assists: 4 }, // Arsenal
 	{ id: 'Mr.Noob', goals: 4, matchesPlayed: 2, assists: 1 }, // Arsenal
-	// { id: 'TOTO', goals: 0, matchesPlayed: 2, assists: 0 }, // Milan
-	// { id: 'Mr.Noob', goals: 0, matchesPlayed: 2, assists: 0 }, // Milan
+	{ id: 'TOTO', goals: 2, matchesPlayed: 2, assists: 3 }, // Milan
+	{ id: 'Mr.Noob', goals: 3, matchesPlayed: 2, assists: 2 }, // Milan
 	// -------------------------------------------------------------------------------------------------------------------
 	// --- Berserk, mcrurus
 	{ id: 'Berserk', goals: 3, matchesPlayed: 2, assists: 0 }, // Chelsea
@@ -47,8 +47,8 @@ export const playerStats = [
 	{ id: 'Anna', goals: 4, matchesPlayed: 2, assists: 3 }, // Bavaria
 	{ id: 'NSKRaven', goals: 2, matchesPlayed: 2, assists: 2 }, // Arsenal
 	{ id: 'Anna', goals: 2, matchesPlayed: 2, assists: 2 }, // Arsenal
-	// { id: 'NSKRaven', goals: 0, matchesPlayed: 0, assists: 0 }, // Liverpool
-	// { id: 'Anna', goals: 0, matchesPlayed: 0, assists: 0 }, // Liverpool
+	{ id: 'NSKRaven', goals: 3, matchesPlayed: 2, assists: 4 }, // Liverpool
+	{ id: 'Anna', goals: 4, matchesPlayed: 2, assists: 3 }, // Liverpool
 	// -------------------------------------------------------------------------------------------------------------------
 	// ---- e6JIyHTuKinDaHouse, HAM
 	{ id: 'e6JIyHTuKinDaHouse', goals: 1, matchesPlayed: 2, assists: 0 },// Chelsea
@@ -59,8 +59,8 @@ export const playerStats = [
 	{ id: 'HAM', goals: 3, matchesPlayed: 2, assists: 3 }, // Milan
 	{ id: 'e6JIyHTuKinDaHouse', goals: 3, matchesPlayed: 2, assists: 5 }, // Bavaria
 	{ id: 'HAM', goals: 5, matchesPlayed: 2, assists: 3 }, // Bavaria
-	// { id: 'e6JIyHTuKinDaHouse', goals: 0, matchesPlayed: 2, assists: 0 }, // Manchester
-	// { id: 'HAM', goals: 0, matchesPlayed: 2, assists: 0 }, // Manchester
+	{ id: 'e6JIyHTuKinDaHouse', goals: 2, matchesPlayed: 2, assists: 4 }, // Manchester
+	{ id: 'HAM', goals: 4, matchesPlayed: 2, assists: 2 }, // Manchester
 	// -------------------------------------------------------------------------------------------------------------------
 	// ---- Perfect, nebro 
 	{ id: 'Perfect', goals: 3, matchesPlayed: 2, assists: 0 }, // Arsenal
@@ -71,8 +71,8 @@ export const playerStats = [
 	{ id: 'nebro', goals: 1, matchesPlayed: 2, assists: 1 }, // Liverpool
 	{ id: 'Perfect', goals: 2, matchesPlayed: 2, assists: 1 }, // Bavaria
 	{ id: 'nebro', goals: 1, matchesPlayed: 2, assists: 2 }, // Bavaria
-	// { id: 'Perfect', goals: 0, matchesPlayed: 2, assists: 0 }, // Chelsea
-	// { id: 'nebro', goals: 0, matchesPlayed: 2, assists: 0 }, // Chelsea
+	{ id: 'Perfect', goals: 3, matchesPlayed: 2, assists: 0 }, // Chelsea
+	{ id: 'nebro', goals: 0, matchesPlayed: 2, assists: 3 }, // Chelsea
 	// -------------------------------------------------------------------------------------------------------------------
 	// --- Drogba, Mysterio 
 	{ id: 'mysterio', goals: 0, matchesPlayed: 2, assists: 3 }, // Liverpool

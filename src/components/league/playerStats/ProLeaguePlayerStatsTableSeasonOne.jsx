@@ -10,7 +10,7 @@ const calculatePlayerNote = (goals, assists) => {
 	const totalPoints = (goals * goalPoints) + (assists * assistPoints);
 
 	// Возвращаем общие баллы, округленные до 2 знаков после запятой
-	return totalPoints.toFixed(2);
+	return parseFloat(totalPoints.toFixed(2));
 };
 
 const ProLeaguePlayerStatsTableSeasonOne = () => {
@@ -34,7 +34,7 @@ const ProLeaguePlayerStatsTableSeasonOne = () => {
 			goals: stats.goals,
 			matchesPlayed: stats.matchesPlayed,
 			assists: stats.assists,
-			playerNote: playerNote,
+			playerNote: playerNote.toFixed(2), // Форматируем рейтинг до 2 знаков после запятой
 		};
 	});
 
@@ -43,7 +43,8 @@ const ProLeaguePlayerStatsTableSeasonOne = () => {
 
 	// Рендерим таблицу с отсортированными игроками
 	let previousNote = null;
-	let previousRank = null;
+	let rank = 0;
+	let displayRank = 0;
 
 	return (
 		<table>
@@ -52,19 +53,16 @@ const ProLeaguePlayerStatsTableSeasonOne = () => {
 			</thead>
 			<tbody style={{ backgroundColor: '#010a0f' }}>
 				{sortedPlayers.map((player, index) => {
-					let rank;
-					if (player.playerNote === previousNote) {
-						rank = previousRank;
-					} else {
-						rank = index + 1;
+					if (player.playerNote !== previousNote) {
+						rank += 1;
 					}
+					displayRank = rank;
 					previousNote = player.playerNote;
-					previousRank = rank;
 
 					return (
 						<PlayerStatsLine
 							key={player.id}
-							rank={rank}
+							rank={displayRank}
 							player={player.id}
 							team={player.team}
 							g={player.goals}
