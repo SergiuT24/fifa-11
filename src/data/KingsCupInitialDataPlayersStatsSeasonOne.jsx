@@ -14,8 +14,12 @@ export const initialPlayers = [
 export const playerStats = [
 	{ id: 'Berserk', goals: 0, matchesPlayed: 2, assists: 5 },
 	{ id: 'mcrurus', goals: 5, matchesPlayed: 2, assists: 0 },
+	{ id: 'Berserk', goals: 2, matchesPlayed: 2, assists: 4 },
+	{ id: 'mcrurus', goals: 4, matchesPlayed: 2, assists: 2 },
 	{ id: 'Anna', goals: 2, matchesPlayed: 2, assists: 2 },
 	{ id: 'NSKRaven', goals: 2, matchesPlayed: 2, assists: 2 },
+	{ id: 'TOTO', goals: 2, matchesPlayed: 2, assists: 2 },
+	{ id: 'Mr.Noob', goals: 2, matchesPlayed: 2, assists: 2 },
 	// { id: 'HAM', goals: 5, matchesPlayed: 2, assists: 2 },
 	// { id: 'e6JIyHTuKinDaHouse', goals: 2, matchesPlayed: 2, assists: 4 },
 	// { id: 'D.Drogba', goals: 3, matchesPlayed: 2, assists: 0 },
