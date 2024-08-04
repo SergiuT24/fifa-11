@@ -14,6 +14,10 @@ export const playerStats = [
 	{ id: 'e6JIyHTuKinDaHouse', goals: 2, matchesPlayed: 2, assists: 4 },
 	{ id: 'D.Drogba', goals: 3, matchesPlayed: 2, assists: 0 },
 	{ id: 'mysterio', goals: 1, matchesPlayed: 2, assists: 2 },
+	{ id: 'Mr.Noob', goals: 6, matchesPlayed: 2, assists: 1 },
+	{ id: 'TOTO', goals: 1, matchesPlayed: 2, assists: 6 },
+	{ id: 'Anna', goals: 2, matchesPlayed: 2, assists: 3 },
+	{ id: 'NSKRaven', goals: 3, matchesPlayed: 2, assists: 2 },
 	// { id: '', goals: 0, matchesPlayed: 2, assists: 0 },
 	// { id: '', goals: 0, matchesPlayed: 2, assists: 0 },
 ];

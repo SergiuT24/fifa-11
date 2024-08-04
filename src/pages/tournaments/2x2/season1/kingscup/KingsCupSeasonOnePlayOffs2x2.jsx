@@ -16,10 +16,10 @@ const KingsCupSeasonOnePlayOffs2x2 = () => {
 					<Square
 						teamOne={<ManchesterUnited />}
 						teamTwo={<BayernMunich />}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						scoreFirstTeamOne={3}
+						scoreSecondTeamOne={2}
+						scoreFirstTeamTwo={1}
+						scoreSecondTeamTwo={3}
 					/>
 					<Square
 						teamOne={<Arsenal />}
@@ -36,7 +36,7 @@ const KingsCupSeasonOnePlayOffs2x2 = () => {
 				<div className='flex flex-col gap-16'>
 					<Square
 						teamOne={<Chelsea />}
-						teamTwo={'winner from 4vs6 place'}
+						teamTwo={<BayernMunich />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}

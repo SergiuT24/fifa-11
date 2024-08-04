@@ -1,6 +1,5 @@
 export const initialPlayers = [
 	{ id: 'HAM', team: 'Liverpool', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
-	{ id: 'HAM', team: 'Liverpool', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
 	{ id: 'e6JIyHTuKinDaHouse', team: 'Liverpool', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
 	{ id: 'Mr.Noob', team: 'Chelsea', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
 	{ id: 'TOTO', team: 'Chelsea', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
@@ -13,6 +12,10 @@ export const initialPlayers = [
 ];
 
 export const playerStats = [
+	{ id: 'Berserk', goals: 0, matchesPlayed: 2, assists: 5 },
+	{ id: 'mcrurus', goals: 5, matchesPlayed: 2, assists: 0 },
+	{ id: 'Anna', goals: 2, matchesPlayed: 2, assists: 2 },
+	{ id: 'NSKRaven', goals: 2, matchesPlayed: 2, assists: 2 },
 	// { id: 'HAM', goals: 5, matchesPlayed: 2, assists: 2 },
 	// { id: 'e6JIyHTuKinDaHouse', goals: 2, matchesPlayed: 2, assists: 4 },
 	// { id: 'D.Drogba', goals: 3, matchesPlayed: 2, assists: 0 },
