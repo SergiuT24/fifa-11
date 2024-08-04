@@ -1,5 +1,11 @@
 import React from 'react';
 import Square from '../../../../../components/league/square/Square';
+import Chelsea from '../../../../../components/league/teams/Chelsea';
+import Liverpool from '../../../../../components/league/teams/Liverpool';
+import ManchesterUnited from '../../../../../components/league/teams/ManchesterUnited';
+import Arsenal from '../../../../../components/league/teams/Arsenal';
+import AcMilan from '../../../../../components/league/teams/AcMilan';
+import BayernMunich from '../../../../../components/league/teams/BayernMunich';
 
 const KingsCupSeasonOnePlayOffs2x2 = () => {
 	return (
@@ -8,20 +14,20 @@ const KingsCupSeasonOnePlayOffs2x2 = () => {
 				<h2 className='text-center text-orange-500'>Play Offs: Semi-Finals 1/4</h2>
 				<div className='flex flex-col gap-32 justify-center'>
 					<Square
-						teamOne={'4 place'}
-						teamTwo={'6 place'}
+						teamOne={<ManchesterUnited />}
+						teamTwo={<BayernMunich />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={'3 place'}
-						teamTwo={'5 place'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						teamOne={<Arsenal />}
+						teamTwo={<AcMilan />}
+						scoreFirstTeamOne={'T-W 3'}
+						scoreSecondTeamOne={'T-L 0'}
+						scoreFirstTeamTwo={'T-W 3'}
+						scoreSecondTeamTwo={'T-L 0'}
 					/>
 				</div>
 			</div>
@@ -29,7 +35,7 @@ const KingsCupSeasonOnePlayOffs2x2 = () => {
 				<h2 className='text-center text-orange-500'>Play Offs: Semi-Finals 1/2</h2>
 				<div className='flex flex-col gap-16'>
 					<Square
-						teamOne={'1 place'}
+						teamOne={<Chelsea />}
 						teamTwo={'winner from 4vs6 place'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
@@ -37,8 +43,8 @@ const KingsCupSeasonOnePlayOffs2x2 = () => {
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={'2 place'}
-						teamTwo={'winner from 3vs5 place'}
+						teamOne={<Liverpool />}
+						teamTwo={<Arsenal />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}

@@ -2,6 +2,8 @@ import React from 'react';
 import Square from '../../../../../components/league/square/Square';
 import Chelsea from '../../../../../components/league/teams/Chelsea';
 import Liverpool from '../../../../../components/league/teams/Liverpool';
+import ManchesterUnited from '../../../../../components/league/teams/ManchesterUnited';
+import Arsenal from '../../../../../components/league/teams/Arsenal';
 
 
 const ChampionsLeaguePlayOffsSeasonOne2x2 = () => {
@@ -12,7 +14,7 @@ const ChampionsLeaguePlayOffsSeasonOne2x2 = () => {
 				<div className='flex gap-14 justify-center'>
 					<Square
 						teamOne={<Chelsea />}
-						teamTwo={'4 place'}
+						teamTwo={<ManchesterUnited />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
@@ -20,11 +22,11 @@ const ChampionsLeaguePlayOffsSeasonOne2x2 = () => {
 					/>
 					<Square
 						teamOne={<Liverpool />}
-						teamTwo={'3 place'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						teamTwo={<Arsenal />}
+						scoreFirstTeamOne={3}
+						scoreSecondTeamOne={2}
+						scoreFirstTeamTwo={4}
+						scoreSecondTeamTwo={2}
 					/>
 				</div>
 			</div>
@@ -33,7 +35,7 @@ const ChampionsLeaguePlayOffsSeasonOne2x2 = () => {
 				<div className='flex gap-10 justify-center'>
 					<Square
 						teamOne={'empty'}
-						teamTwo={'empty'}
+						teamTwo={<Liverpool />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}

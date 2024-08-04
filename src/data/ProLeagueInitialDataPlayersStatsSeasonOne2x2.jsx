@@ -35,8 +35,8 @@ export const playerStats = [
 	{ id: 'mcrurus', goals: 3, matchesPlayed: 2, assists: 2 }, // Liverpool
 	{ id: 'Berserk', goals: 3, matchesPlayed: 2, assists: 0 }, // Milan
 	{ id: 'mcrurus', goals: 0, matchesPlayed: 2, assists: 3 }, // Milan
-	// { id: 'Berserk', goals: 3, matchesPlayed: 2, assists: 0 }, // Arsenal
-	// { id: 'mcrurus', goals: 0, matchesPlayed: 2, assists: 0 }, // Arsenal
+	{ id: 'Berserk', goals: 1, matchesPlayed: 2, assists: 3 }, // Arsenal
+	{ id: 'mcrurus', goals: 3, matchesPlayed: 2, assists: 1 }, // Arsenal
 	// -------------------------------------------------------------------------------------------------------------------
 	// ---- NSKRaven, Anna 
 	{ id: 'NSKRaven', goals: 2, matchesPlayed: 2, assists: 2 }, // Chelsea
@@ -83,6 +83,6 @@ export const playerStats = [
 	{ id: 'D.Drogba', goals: 2, matchesPlayed: 2, assists: 1 }, // Manchester
 	{ id: 'mysterio', goals: 2, matchesPlayed: 2, assists: 2 }, // Chelsea
 	{ id: 'D.Drogba', goals: 2, matchesPlayed: 2, assists: 1 }, // Chelsea
-	// { id: 'mysterio', goals: 0, matchesPlayed: 2, assists: 0 }, // Bavaria
-	// { id: 'D.Drogba', goals: 0, matchesPlayed: 2, assists: 0 }, // Bavaria
+	{ id: 'mysterio', goals: 2, matchesPlayed: 2, assists: 3 }, // Bavaria
+	{ id: 'D.Drogba', goals: 4, matchesPlayed: 2, assists: 2 }, // Bavaria
 ];

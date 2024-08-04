@@ -1,6 +1,6 @@
 import React from 'react';
 import PlayerStatsLine from './PlayerStatsLine';
-import { initialPlayers, playerStats } from '../../../data/ChampionsLeagueInitialDataPlayerStatsSeasonOne2x2';
+import { initialPlayers, playerStats } from '../../../data/KingsCupInitialDataPlayersStatsSeasonOne';
 
 const calculatePlayerNote = (goals, assists) => {
 	const goalPoints = 2; // Баллы за гол

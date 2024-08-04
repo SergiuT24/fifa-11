@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import LeagueButtons from '../../../../../components/league/menu/LeagueButtons';
 import LeagueMenu from '../../../../../components/league/menu/LeagueMenu';
 import KingsCupSeasonOneSummary2x2 from './KingsCupSeasonOneSummary2x2';
+import KingsCupSeasonOneNews2x2 from './KingsCupSeasonOneNews';
+import KingsCupPlayerStatsSeasonOne2x2 from './KingsCupPlayerStatsSeasonOne2x2';
 
 const KingsCupSeasonOne2x2 = () => {
 	const [selectedButton, setSelectedButton] = useState('Summary');
@@ -10,8 +12,10 @@ const KingsCupSeasonOne2x2 = () => {
 		switch (selectedButton) {
 			case 'Summary':
 				return <KingsCupSeasonOneSummary2x2 />
-			// case 'News':
-			// 	return <ChampionsLeagueNews />
+			case 'News':
+				return <KingsCupSeasonOneNews2x2 />
+			case 'Player Stats':
+				return <KingsCupPlayerStatsSeasonOne2x2 />
 			default:
 				return <KingsCupSeasonOneSummary2x2 />
 		}
