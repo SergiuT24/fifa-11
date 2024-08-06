@@ -28,7 +28,7 @@ const PlayersProfile = () => {
 		{ avatar: '/img/players/mrnoob.png', name: 'Mr.Noob', id: '10547987', time: '19:00-00:00', proLeague: '/img/trophy/pro-league.png', proLeagueCount: 'x1' },
 		{ avatar: '/img/players/avatar.png', name: 'nebro', id: '3252134', time: '21:00' },
 		{ avatar: '/img/players/ebluntik.png', name: 'e6JIyHTuKinDaHouse', id: '12138646', time: '21:00', ucl: '/img/trophy/champions-league.png', uclCount: 'x1' },
-		{ avatar: '/img/players/avatar.png', name: 'HAM', id: '7583677', time: '21:00', ucl: '/img/trophy/champions-league.png', uclCount: 'x1' },
+		{ avatar: '/img/players/avatar.png', name: 'HAM', id: '7583677', time: '21:00', ucl: '/img/trophy/champions-league.png', uclCount: 'x1', balonDor: '/img/trophy/ballon-dor.png', balonDorCount: 'x1' },
 	];
 
 	playersData.sort((a, b) => a.name.localeCompare(b.name));
@@ -49,6 +49,8 @@ const PlayersProfile = () => {
 							time={player.time}
 							goldenShoe={player.goldenShoe}
 							goldenShoeCount={player.goldenShoeCount}
+							balonDor={player.balonDor}
+							balonDorCount={player.balonDorCount}
 							proLeague={player.proLeague}
 							proLeagueCount={player.proLeagueCount}
 							ucl={player.ucl}
