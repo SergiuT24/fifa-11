@@ -20,15 +20,15 @@ const PlayersProfile = () => {
 		{ avatar: '/img/players/toto.png', name: 'TOTO', id: '8985743', time: '19:00-00:00', proLeague: '/img/trophy/pro-league.png', proLeagueCount: 'x1' },
 		{ avatar: '/img/players/wenger.png', name: 'Wenger', id: '10014005' },
 		{ avatar: '/img/players/avatar.png', name: 'Elite', id: '12776567' },
-		{ avatar: '/img/players/d-drogba.png', name: 'D.Drogba', id: '11701466', time: '20:00-00:00', ucl: '/img/trophy/champions-league.png', uclCount: 'x1' },
-		{ avatar: '/img/players/mysterio.png', name: 'mysterio', id: '11701465', time: '20:00-00:00', ucl: '/img/trophy/champions-league.png', uclCount: 'x1' },
+		{ avatar: '/img/players/d-drogba.png', name: 'D.Drogba', id: '11701466', time: '20:00-00:00', ucl: '/img/trophy/champions-league.png', uclCount: 'x1', kingsCup: '/img/trophy/kings-cup.png', kingsCupCount: 'x1' },
+		{ avatar: '/img/players/mysterio.png', name: 'mysterio', id: '11701465', time: '20:00-00:00', ucl: '/img/trophy/champions-league.png', uclCount: 'x1', kingsCup: '/img/trophy/kings-cup.png', kingsCupCount: 'x1' },
 		{ avatar: '/img/players/avatar.png', name: 'Mark', id: '1087339' },
 		{ avatar: '/img/players/avatar.png', name: 'Radenek', id: '1530641' },
 		{ avatar: '/img/players/avatar.png', name: 'Sania', id: '1040066' },
 		{ avatar: '/img/players/mrnoob.png', name: 'Mr.Noob', id: '10547987', time: '19:00-00:00', proLeague: '/img/trophy/pro-league.png', proLeagueCount: 'x1' },
 		{ avatar: '/img/players/avatar.png', name: 'nebro', id: '3252134', time: '21:00' },
 		{ avatar: '/img/players/ebluntik.png', name: 'e6JIyHTuKinDaHouse', id: '12138646', time: '21:00', ucl: '/img/trophy/champions-league.png', uclCount: 'x1' },
-		{ avatar: '/img/players/avatar.png', name: 'HAM', id: '7583677', time: '21:00', ucl: '/img/trophy/champions-league.png', uclCount: 'x1', balonDor: '/img/trophy/ballon-dor.png', balonDorCount: 'x1' },
+		{ avatar: '/img/players/avatar.png', name: 'HAM', id: '7583677', time: '21:00', ucl: '/img/trophy/champions-league.png', uclCount: 'x1', balonDor: '/img/trophy/ballon-dor.png', balonDorCount: 'x1', goldenShoe: '/img/trophy/golden-shoe.png', goldenShoeCount: 'x1' },
 	];
 
 	playersData.sort((a, b) => a.name.localeCompare(b.name));
@@ -56,6 +56,7 @@ const PlayersProfile = () => {
 							ucl={player.ucl}
 							uclCount={player.uclCount}
 							kingsCup={player.kingsCup}
+							kingsCupCount={player.kingsCupCount}
 							worldCup={player.worldCup}
 							worldCupCount={player.worldCupCount}
 						/>

@@ -24,6 +24,10 @@ export const playerStats = [
 	{ id: 'e6JIyHTuKinDaHouse', goals: 0, matchesPlayed: 2, assists: 2 },
 	{ id: 'D.Drogba', goals: 2, matchesPlayed: 2, assists: 2 },
 	{ id: 'mysterio', goals: 2, matchesPlayed: 2, assists: 1 },
+	{ id: 'D.Drogba', goals: 2, matchesPlayed: 2, assists: 0 },
+	{ id: 'mysterio', goals: 0, matchesPlayed: 2, assists: 2 },
+	{ id: 'Berserk', goals: 0, matchesPlayed: 2, assists: 1 },
+	{ id: 'mcrurus', goals: 1, matchesPlayed: 2, assists: 0 },
 	// { id: '', goals: 0, matchesPlayed: 2, assists: 0 },
 	// { id: '', goals: 0, matchesPlayed: 2, assists: 0 },
 ];

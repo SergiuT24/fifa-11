@@ -3,27 +3,32 @@ import PlayerStatsLine from '../components/league/playerStats/PlayerStatsLine';
 import PlayerStatsAbout from '../components/league/playerStats/PlayerStatsAbout';
 
 const defaultScorers = [
-	{ player: 'Berserk', mp: 14, goals: 22, assist: 15 },
-	{ player: 'NSKRaven', mp: 14, goals: 18, assist: 6 },
-	{ player: 'D.Drogba', mp: 8, goals: 9, assist: 8 },
-	{ player: 'mysterio', mp: 8, goals: 9, assist: 7 },
-	{ player: 'Sania', mp: 16, goals: 12, assist: 15 },
-	{ player: 'mcrurus', mp: 8, goals: 8, assist: 17 },
+	{ player: 'HAM', mp: 16, goals: 28, assist: 13 },
+	{ player: 'Mr.Noob', mp: 16, goals: 25, assist: 16 },
+	{ player: 'TOTO', mp: 24, goals: 19, assist: 25 },
+	{ player: 'e6JIyHTuKinDaHouse', mp: 16, goals: 16, assist: 24 },
+	{ player: 'Berserk', mp: 30, goals: 38, assist: 33 },
+	{ player: 'mcrurus', mp: 24, goals: 26, assist: 33 },
+	{ player: 'Anna', mp: 28, goals: 31, assist: 39 },
+	{ player: 'D.Drogba', mp: 24, goals: 30, assist: 16 },
+	{ player: 'NSKRaven', mp: 28, goals: 34, assist: 21 },
+	{ player: 'mysterio', mp: 24, goals: 21, assist: 24 },
+	{ player: 'Perfect', mp: 18, goals: 20, assist: 12 },
+	{ player: 'nebro', mp: 10, goals: 7, assist: 14 },
+	{ player: 'DartRin', mp: 12, goals: 15, assist: 12 },
 	{ player: 'Malemiria', mp: 16, goals: 15, assist: 10 },
-	{ player: 'Matuu', mp: 6, goals: 6, assist: 5 },
-	{ player: 'Elite', mp: 6, goals: 5, assist: 6 },
-	{ player: 'Anna', mp: 14, goals: 14, assist: 23 },
+	{ player: 'Sania', mp: 16, goals: 12, assist: 15 },
 	{ player: 'Radenek', mp: 10, goals: 12, assist: 6 },
-	{ player: 'TOTO', mp: 8, goals: 3, assist: 2 },
 	{ player: 'Jsnick', mp: 12, goals: 9, assist: 8 },
 	{ player: 'Mark', mp: 10, goals: 7, assist: 12 },
-	{ player: 'DartRin', mp: 12, goals: 15, assist: 12 },
+	{ player: 'Matuu', mp: 6, goals: 6, assist: 5 },
+	{ player: 'Elite', mp: 6, goals: 5, assist: 6 },
 	{ player: 'A.Wenger', mp: 10, goals: 3, assist: 4 },
-	{ player: 'Perfect', mp: 8, goals: 6, assist: 5 },
 	{ player: 'Box', mp: 4, goals: 2, assist: 1 },
 	{ player: '14_France', mp: 4, goals: 1, assist: 2 },
 	{ player: 'SergeyFace', mp: 2, goals: 1, assist: 1 }
 ];
+
 
 const BestPlayers = () => {
 	// Вычисление рейтинга для каждого игрока
