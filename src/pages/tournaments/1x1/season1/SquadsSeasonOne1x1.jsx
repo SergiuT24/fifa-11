@@ -7,6 +7,7 @@ import Brazil from '../../../../components/league/national-teams/Brazil'
 import Holland from '../../../../components/league/national-teams/Holland'
 import Portugal from '../../../../components/league/national-teams/Portugal'
 import Spain from '../../../../components/league/national-teams/Spain'
+import Uruguay from '../../../../components/league/national-teams/Uruguay'
 
 const SquadsSeasonOne1x1 = () => {
 	return (
@@ -46,6 +47,11 @@ const SquadsSeasonOne1x1 = () => {
 				playerOne={'DartRin'}
 				imgOne={'/img/players/rin.png'}
 				club={<Spain />} />
+			<PlayersTeam
+				team={'TEAM 8'}
+				playerOne={'A.Wenger'}
+				imgOne={'/img/players/wenger.png'}
+				club={<Uruguay />} />
 		</div>
 	);
 }

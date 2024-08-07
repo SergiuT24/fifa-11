@@ -5,6 +5,7 @@ import Brazil from '../components/league/national-teams/Brazil'
 import Holland from '../components/league/national-teams/Holland'
 import Portugal from '../components/league/national-teams/Portugal'
 import Spain from '../components/league/national-teams/Spain'
+import Uruguay from '../components/league/national-teams/Uruguay'
 
 export const initialTeams = [
 	{ id: 'italy', name: <Italy />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
@@ -14,8 +15,12 @@ export const initialTeams = [
 	{ id: 'holland', name: <Holland />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'portugal', name: <Portugal />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'spain', name: <Spain />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'uruguay', name: <Uruguay />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
 export const matchResults = [
-	// { id: '1', teamOne: 'italy', scoreOne: 2, teamTwo: 'argentina', scoreTwo: 1 },
+	{ id: '1', teamOne: 'argentina', scoreOne: 2, teamTwo: 'france', scoreTwo: 2 },
+	{ id: '1', teamOne: 'france', scoreOne: 1, teamTwo: 'argentina', scoreTwo: 3 },
+	{ id: '1', teamOne: 'holland', scoreOne: 3, teamTwo: 'argentina', scoreTwo: 0 },
+	{ id: '1', teamOne: 'argentina', scoreOne: 3, teamTwo: 'holland', scoreTwo: 3 },
 ];
