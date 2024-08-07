@@ -2,7 +2,7 @@ import React from 'react';
 import Square from '../../../../../components/league/square/Square';
 
 
-const ChampionsLeaguePlayOffsSeasonOne2x2 = () => {
+const ChampionsLeaguePlayOffsSeasonOne1x1 = () => {
 	return (
 		<div className='py-16 darkblue'>
 			<div className='flex flex-col gap-10'>
@@ -43,4 +43,4 @@ const ChampionsLeaguePlayOffsSeasonOne2x2 = () => {
 	);
 }
 
-export default ChampionsLeaguePlayOffsSeasonOne2x2;
+export default ChampionsLeaguePlayOffsSeasonOne1x1;

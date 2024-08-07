@@ -1,6 +1,6 @@
 import React from 'react';
 import PlayerStatsLine from './PlayerStatsLine';
-import { initialPlayers, playerStats } from '../../../data/KingsCupInitialDataPlayersStatsSeasonOne';
+import { initialPlayers, playerStats } from '../../../data/ProLeagueInitialDataPlayersStatsSeasonOne1x1';
 
 const calculatePlayerNote = (goals, assists) => {
 	const goalPoints = 2; // Баллы за гол
@@ -13,7 +13,7 @@ const calculatePlayerNote = (goals, assists) => {
 	return parseFloat(totalPoints.toFixed(2));
 };
 
-const ProLeaguePlayerStatsTableSeasonOne = () => {
+const ProLeaguePlayerStatsTableSeasonOne1x1 = () => {
 	// Агрегируем голы, сыгранные матчи и ассисты для каждого игрока
 	const aggregatedStats = playerStats.reduce((acc, { id, goals, matchesPlayed, assists }) => {
 		if (!acc[id]) {
@@ -77,4 +77,4 @@ const ProLeaguePlayerStatsTableSeasonOne = () => {
 	);
 }
 
-export default ProLeaguePlayerStatsTableSeasonOne;
+export default ProLeaguePlayerStatsTableSeasonOne1x1;

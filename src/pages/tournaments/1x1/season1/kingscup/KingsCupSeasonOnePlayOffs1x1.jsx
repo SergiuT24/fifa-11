@@ -1,7 +1,7 @@
 import React from 'react';
 import Square from '../../../../../components/league/square/Square';
 
-const KingsCupSeasonOnePlayOffs2x2 = () => {
+const KingsCupSeasonOnePlayOffs1x1 = () => {
 	return (
 		<div className='flex gap-8 px-3 py-20 darkblue'>
 			<div className='flex flex-col gap-6'>
@@ -63,4 +63,4 @@ const KingsCupSeasonOnePlayOffs2x2 = () => {
 	);
 }
 
-export default KingsCupSeasonOnePlayOffs2x2;
+export default KingsCupSeasonOnePlayOffs1x1;

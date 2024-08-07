@@ -1,11 +1,11 @@
 import React from 'react';
-import ProLeaguePlayerStatsTableSeasonOne from '../../../../../components/league/playerStats/ProLeaguePlayerStatsTableSeasonOne';
+import ProLeaguePlayerStatsTableSeasonOne2x2 from '../../../../../components/league/playerStats/ProLeaguePlayerStatsTableSeasonOne2x2';
 import PlayerStatsAbout from '../../../../../components/league/playerStats/PlayerStatsAbout';
 
 const ProLeagueTopScorers = () => {
 	return (
 		<div>
-			<ProLeaguePlayerStatsTableSeasonOne />
+			<ProLeaguePlayerStatsTableSeasonOne2x2 />
 			<PlayerStatsAbout />
 		</div>
 	);

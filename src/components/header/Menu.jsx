@@ -6,7 +6,7 @@ const Menu = () => {
 		<nav className='menu whitespace-nowrap overflow-x-auto'>
 			<div className='mx-5 flex gap-3 py-1'>
 				<MenuLink value={'Home'} to="/home" />
-				{/* <MenuLink value={'Tournaments 1x1'} to="/tournaments" /> */}
+				<MenuLink value={'Tournaments 1x1'} to="/tournaments/1x1" />
 				<MenuLink value={'Tournaments 2x2'} to="/tournaments/2x2" />
 				<MenuLink value={'Archive'} to="/ended-competitions" />
 				<MenuLink value={'Players Profile'} to="/players/profile" />

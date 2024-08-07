@@ -3,10 +3,10 @@ import LeagueButtons from '../../../../../components/league/menu/LeagueButtons';
 import LeagueMenu from '../../../../../components/league/menu/LeagueMenu';
 import ProLeagueSummary from './ProLeagueSummary';
 import ProLeagueNews from './ProLeagueNews';
-import ProLeaguePlayerStatsSeasonOne2x2 from './ProLeaguePlayerStatsSeasonOne2x2';
+import ProLeaguePlayerStatsSeasonOne1x1 from './ProLeaguePlayerStatsSeasonOne1x1';
 import ProLeagueBestGoals from './ProLeagueBestGoals';
 
-const ProLeagueSeasonOne2x2 = () => {
+const ProLeagueSeasonOne1x1 = () => {
 	const [selectedButton, setSelectedButton] = useState('Summary');
 
 	const renderContent = () => {
@@ -16,7 +16,7 @@ const ProLeagueSeasonOne2x2 = () => {
 			case 'News':
 				return <ProLeagueNews />
 			case 'Player Stats':
-				return <ProLeaguePlayerStatsSeasonOne2x2 />
+				return <ProLeaguePlayerStatsSeasonOne1x1 />
 			case 'Best Goals':
 				return <ProLeagueBestGoals />
 			default:
@@ -27,8 +27,8 @@ const ProLeagueSeasonOne2x2 = () => {
 	return (
 		<div>
 			<LeagueMenu
-				leagueCount={'2x2 > Pro League'}
-				logo={'/img/league/pro-league.png'}
+				leagueCount={'1x1 > Pro League'}
+				logo={'/img/league/pro-league1x1.png'}
 				name={'Pro League'}
 				season={'Season 1'}
 				cupImg={'/img/trophy/pro-league.png'}
@@ -39,4 +39,4 @@ const ProLeagueSeasonOne2x2 = () => {
 	);
 }
 
-export default ProLeagueSeasonOne2x2;
+export default ProLeagueSeasonOne1x1;

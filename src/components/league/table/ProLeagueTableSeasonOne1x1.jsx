@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import LeagueTableComponent from './LeagueTableComponent.jsx';
-import { initialTeams, matchResults } from '../../../data/ProLeagueInitialDataSeasonOne2x2.jsx';
+import { initialTeams, matchResults } from '../../../data/ProLeagueInitialDataSeasonOne1x1.jsx';
 import WinButton from '../outcomes/WinButton.jsx';
 import LoseButton from '../outcomes/LoseButton.jsx';
 import DrawButton from '../outcomes/DrawButton.jsx';
@@ -98,7 +98,7 @@ const updateTeams = (teams, matches) => {
 	return updatedTeams;
 };
 
-const ProLeagueTableSeasonOne = () => {
+const ProLeagueTableSeasonOne2x2 = () => {
 	const [teams, setTeams] = useState(initialTeams);
 
 	useEffect(() => {
@@ -131,4 +131,4 @@ const ProLeagueTableSeasonOne = () => {
 	);
 }
 
-export default ProLeagueTableSeasonOne;
+export default ProLeagueTableSeasonOne2x2;

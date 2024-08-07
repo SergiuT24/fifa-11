@@ -1,10 +1,10 @@
 import React from 'react';
-import KingsCupPlayersStatsTableSeasonOne from '../../../../../components/league/playerStats/KingsCupPlayersStatsTableSeasonOne'
+import KingsCupPlayersStatsTableSeasonOne2x2 from '../../../../../components/league/playerStats/KingsCupPlayersStatsTableSeasonOne2x2'
 
 const KingsCupPlayerStatsSeasonOne2x2 = () => {
 	return (
 		<div>
-			<KingsCupPlayersStatsTableSeasonOne />
+			<KingsCupPlayersStatsTableSeasonOne2x2 />
 		</div>
 	);
 }

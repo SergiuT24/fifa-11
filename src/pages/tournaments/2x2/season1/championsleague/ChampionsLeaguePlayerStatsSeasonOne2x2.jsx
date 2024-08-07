@@ -1,11 +1,11 @@
 import React from 'react';
-import ChampionsLeaguePlayerStatsTableSeasonOne from '../../../../../components/league/playerStats/ChampionsLeaguePlayerStatsTableSeasonOne';
+import ChampionsLeaguePlayerStatsTableSeasonOne2x2 from '../../../../../components/league/playerStats/ChampionsLeaguePlayerStatsTableSeasonOne2x2';
 import PlayerStatsAbout from '../../../../../components/league/playerStats/PlayerStatsAbout';
 
 const ChampionsLeaguePlayerStatsSeasonOne2x2 = () => {
 	return (
 		<div>
-			<ChampionsLeaguePlayerStatsTableSeasonOne />
+			<ChampionsLeaguePlayerStatsTableSeasonOne2x2 />
 			<PlayerStatsAbout />
 		</div>
 	);
