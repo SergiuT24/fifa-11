@@ -33,4 +33,6 @@ export const matchResults = [
 	{ id: '12', teamOne: 'spain', scoreOne: 1, teamTwo: 'brazil', scoreTwo: 5 },
 	{ id: '13', teamOne: 'spain', scoreOne: 0, teamTwo: 'holland', scoreTwo: 2 },
 	{ id: '14', teamOne: 'holland', scoreOne: 5, teamTwo: 'spain', scoreTwo: 0 },
+	{ id: '15', teamOne: 'brazil', scoreOne: 4, teamTwo: 'portugal', scoreTwo: 2 },
+	{ id: '16', teamOne: 'portugal', scoreOne: 1, teamTwo: 'brazil', scoreTwo: 5 },
 ];
