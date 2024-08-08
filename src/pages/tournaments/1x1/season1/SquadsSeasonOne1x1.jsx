@@ -44,8 +44,8 @@ const SquadsSeasonOne1x1 = () => {
 				club={<Portugal />} />
 			<PlayersTeam
 				team={'TEAM 7'}
-				playerOne={'DartRin'}
-				imgOne={'/img/players/rin.png'}
+				playerOne={'NSKRaven'}
+				imgOne={'/img/players/raven.png'}
 				club={<Spain />} />
 			<PlayersTeam
 				team={'TEAM 8'}

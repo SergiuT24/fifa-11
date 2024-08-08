@@ -5,15 +5,19 @@ export const initialPlayers = [
 	{ id: 'Anna', team: 'Brazil', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
 	{ id: 'Berserk', team: 'Holland', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
 	{ id: 'TOTO', team: 'Portugal', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
-	{ id: 'DartRin', team: 'Spain', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
+	{ id: 'NSKRaven', team: 'Spain', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
 	{ id: 'A.Wenger', team: 'Uruguay', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
 ];
 
 export const playerStats = [
-	{ id: 'mysterio', goals: 3, matchesPlayed: 2, assists: 0 }, // Argentina
-	{ id: 'D.Drogba', goals: 5, matchesPlayed: 2, assists: 0 }, // France
-	{ id: 'D.Drogba', goals: 3, matchesPlayed: 2, assists: 0 }, // Holland
-	{ id: 'Berserk', goals: 6, matchesPlayed: 2, assists: 0 }, // Argentina
+	{ id: 'mysterio', goals: 9, matchesPlayed: 4, assists: 0 },
+	{ id: 'D.Drogba', goals: 8, matchesPlayed: 4, assists: 0 },
+	{ id: 'Berserk', goals: 32, matchesPlayed: 10, assists: 0 },
+	{ id: 'NSKRaven', goals: 4, matchesPlayed: 4, assists: 0 },
+	{ id: 'TOTO', goals: 2, matchesPlayed: 2, assists: 0 },
+	{ id: 'Anna', goals: 19, matchesPlayed: 4, assists: 0 },
+	// { id: 'A.Wenger', goals: , matchesPlayed: 2, assists: 0 },
+	// { id: 'HAM', goals: , matchesPlayed: 2, assists: 0 },
 	// { id: '', goals: 0, matchesPlayed: 2, assists: 0 },
 	// { id: '', goals: 0, matchesPlayed: 2, assists: 0 },
 ];
