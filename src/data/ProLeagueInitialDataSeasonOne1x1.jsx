@@ -53,6 +53,8 @@ export const matchResults = [
 	{ id: '32', teamOne: 'italy', scoreOne: 7, teamTwo: 'spain', scoreTwo: 2 },
 	{ id: '33', teamOne: 'france', scoreOne: 4, teamTwo: 'spain', scoreTwo: 0 },
 	{ id: '34', teamOne: 'spain', scoreOne: 1, teamTwo: 'france', scoreTwo: 5 },
-	{ id: '31', teamOne: 'italy', scoreOne: 3, teamTwo: 'portugal', scoreTwo: 1 },
-	{ id: '32', teamOne: 'portugal', scoreOne: 1, teamTwo: 'italy', scoreTwo: 2 },
+	{ id: '35', teamOne: 'italy', scoreOne: 3, teamTwo: 'portugal', scoreTwo: 1 },
+	{ id: '36', teamOne: 'portugal', scoreOne: 1, teamTwo: 'italy', scoreTwo: 2 },
+	{ id: '37', teamOne: 'argentina', scoreOne: 4, teamTwo: 'portugal', scoreTwo: 0 },
+	{ id: '38', teamOne: 'portugal', scoreOne: 1, teamTwo: 'argentina', scoreTwo: 3 },
 ];

@@ -11,10 +11,10 @@ export const initialPlayers = [
 
 export const playerStats = [
 	{ id: 'mysterio', goals: 20, matchesPlayed: 10, assists: 0 },
-	{ id: 'D.Drogba', goals: 22, matchesPlayed: 10, assists: 0 },
+	{ id: 'D.Drogba', goals: 29, matchesPlayed: 12, assists: 0 },
 	{ id: 'Berserk', goals: 39, matchesPlayed: 12, assists: 0 },
 	{ id: 'NSKRaven', goals: 10, matchesPlayed: 10, assists: 0 },
-	{ id: 'TOTO', goals: 7, matchesPlayed: 6, assists: 0 },
+	{ id: 'TOTO', goals: 8, matchesPlayed: 8, assists: 0 },
 	{ id: 'Anna', goals: 41, matchesPlayed: 12, assists: 0 },
 	{ id: 'HAM', goals: 38, matchesPlayed: 12, assists: 0 },
 	// { id: 'A.Wenger', goals: , matchesPlayed: 2, assists: 0 },
