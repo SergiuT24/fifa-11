@@ -1,5 +1,7 @@
 import React from 'react';
 import Square from '../../../../../components/league/square/Square';
+import Italy from '../../../../../components/league/national-teams/Italy';
+import Brazil from '../../../../../components/league/national-teams/Brazil';
 
 const KingsCupSeasonOnePlayOffs1x1 = () => {
 	return (
@@ -29,7 +31,7 @@ const KingsCupSeasonOnePlayOffs1x1 = () => {
 				<h2 className='text-center text-orange-500'>Play Offs: Semi-Finals 1/2</h2>
 				<div className='flex flex-col gap-16'>
 					<Square
-						teamOne={'1 place'}
+						teamOne={<Italy />}
 						teamTwo={'winner from 4vs6 place'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
@@ -37,7 +39,7 @@ const KingsCupSeasonOnePlayOffs1x1 = () => {
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={'2 place'}
+						teamOne={<Brazil />}
 						teamTwo={'winner from 3vs5 place'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
