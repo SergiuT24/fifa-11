@@ -108,7 +108,7 @@ const ProLeagueTableSeasonTwo2x2 = () => {
 	return (
 		<table className='table'>
 			<thead style={{ backgroundColor: '#0f2d37' }}>
-				<LeagueTableComponent rank={"#"} team={"Pro League Season 1"} mp={"MP"} w={"W"} d={"D"} l={"L"} g={"G"} gd={"GD"} pts={"PTS"} form={"FORM"} />
+				<LeagueTableComponent rank={"#"} team={"Pro League Season 2"} mp={"MP"} w={"W"} d={"D"} l={"L"} g={"G"} gd={"GD"} pts={"PTS"} form={"FORM"} />
 			</thead>
 			<tbody style={{ backgroundColor: '#010a0f' }}>
 				{teams.map((team, index) => (
