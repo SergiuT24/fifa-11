@@ -1,31 +1,27 @@
 import React, { useState } from 'react';
 import LeagueButtons from '../../../../../components/league/menu/LeagueButtons';
 import LeagueMenu from '../../../../../components/league/menu/LeagueMenu';
-import KingsCupSeasonOneSummary1x1 from './KingsCupSeasonOneSummary1x1';
-import KingsCupSeasonOne1x1News from './KingsCupSeasonOne1x1News';
-import KingsCupPlayerStatsSeasonOne1x1 from './KingsCupPlayerStatsSeasonOne1x1';
+import KingsCupSeasonTwoSummary2x2 from './KingsCupSeasonTwoSummary2x2';
 
-const KingsCupSeasonOne1x1 = () => {
+const KingsCupSeasonTwo2x2 = () => {
 	const [selectedButton, setSelectedButton] = useState('Summary');
 
 	const renderContent = () => {
 		switch (selectedButton) {
 			case 'Summary':
-				return <KingsCupSeasonOneSummary1x1 />
-			case 'News':
-				return <KingsCupSeasonOne1x1News />
-			case 'Player Stats':
-				return <KingsCupPlayerStatsSeasonOne1x1 />
+				return <KingsCupSeasonTwoSummary2x2 />
+			// case 'News':
+			// 	return <ChampionsLeagueNews />
 			default:
-				return <KingsCupSeasonOneSummary1x1 />
+				return <KingsCupSeasonTwoSummary2x2 />
 		}
 	}
 
 	return (
 		<div>
 			<LeagueMenu
-				leagueCount={`1x1 > King's Cup`}
-				logo={'/img/league/kings-cup1x1.png'}
+				leagueCount={`2x2 > King's Cup`}
+				logo={'/img/league/kings-cup.png'}
 				name={`King's Cup`}
 				season={'Season 1'}
 				cupImg={'/img/trophy/kings-cup.png'}
@@ -36,4 +32,4 @@ const KingsCupSeasonOne1x1 = () => {
 	);
 }
 
-export default KingsCupSeasonOne1x1;
+export default KingsCupSeasonTwo2x2;

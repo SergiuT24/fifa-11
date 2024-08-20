@@ -6,7 +6,7 @@ import KingsCupSeasonOne2x2 from './season1/kingscup/KingsCupSeasonOne2x2';
 import SquadsSeasonOne2x2 from './season1/SquadsSeasonOne2x2';
 import TeamsForRandomSeasonOne2x2 from './season1/TeamsForRandomSeasonOne2x2';
 
-const Tournaments2x2 = () => {
+const TournamentsSeasonOne2x2 = () => {
 	const [selectedLeague, setSelectedLeague] = useState('Pro League');
 
 	const renderContent = () => {
@@ -36,4 +36,4 @@ const Tournaments2x2 = () => {
 	);
 }
 
-export default Tournaments2x2;
+export default TournamentsSeasonOne2x2;

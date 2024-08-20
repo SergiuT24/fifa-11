@@ -16,18 +16,18 @@ const KingsCupSeasonOnePlayOffs1x1 = () => {
 					<Square
 						teamOne={<Argentina />}
 						teamTwo={<France />}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						scoreFirstTeamOne={2}
+						scoreSecondTeamOne={1}
+						scoreFirstTeamTwo={4}
+						scoreSecondTeamTwo={0}
 					/>
 					<Square
 						teamOne={<Holland />}
 						teamTwo={<Portugal />}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						scoreFirstTeamOne={0}
+						scoreSecondTeamOne={0}
+						scoreFirstTeamTwo={5}
+						scoreSecondTeamTwo={4}
 					/>
 				</div>
 			</div>
@@ -36,19 +36,19 @@ const KingsCupSeasonOnePlayOffs1x1 = () => {
 				<div className='flex flex-col gap-16'>
 					<Square
 						teamOne={<Italy />}
-						teamTwo={'winner from 4vs6 place'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						teamTwo={<Argentina />}
+						scoreFirstTeamOne={1}
+						scoreSecondTeamOne={2}
+						scoreFirstTeamTwo={1}
+						scoreSecondTeamTwo={4}
 					/>
 					<Square
 						teamOne={<Brazil />}
-						teamTwo={'winner from 3vs5 place'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						teamTwo={<Holland />}
+						scoreFirstTeamOne={3}
+						scoreSecondTeamOne={0}
+						scoreFirstTeamTwo={3}
+						scoreSecondTeamTwo={7}
 					/>
 				</div>
 			</div>
@@ -56,12 +56,12 @@ const KingsCupSeasonOnePlayOffs1x1 = () => {
 				<h2 className='text-center text-orange-600'>FINAL</h2>
 				<div>
 					<Square
-						teamOne={'empty'}
-						teamTwo={'empty'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						teamOne={<Argentina />}
+						teamTwo={<Holland />}
+						scoreFirstTeamOne={1}
+						scoreSecondTeamOne={4}
+						scoreFirstTeamTwo={2}
+						scoreSecondTeamTwo={4}
 					/>
 				</div>
 			</div>
