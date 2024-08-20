@@ -30,7 +30,7 @@ const ProLeagueSeasonTwo2x2 = () => {
 				leagueCount={'2x2 > Pro League'}
 				logo={'/img/league/pro-league.png'}
 				name={'Pro League'}
-				season={'Season 1'}
+				season={'Season 2'}
 				cupImg={'/img/trophy/pro-league.png'}
 			/>
 			<LeagueButtons selectedButton={selectedButton} setSelectedButton={setSelectedButton} />
