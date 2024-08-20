@@ -11,7 +11,7 @@ const PostTitle = ({ name, about, trophy, link }) => {
 				<h2 className='sm:text-lg sm:uppercase text-center text-white'>{about}</h2>
 				<p className='sm:text-lg'>{link}</p>
 			</div>
-			<h2 className='sm:text-xl pl-1 pt-2 text-white pb-3 text-center'>Game Mode: 1x1 (in future), 2x2(now)</h2>
+			<h2 className='sm:text-xl pl-1 pt-2 text-white pb-3 text-center'>Game Mode: 1x1 , 2x2</h2>
 		</div>
 	);
 }
