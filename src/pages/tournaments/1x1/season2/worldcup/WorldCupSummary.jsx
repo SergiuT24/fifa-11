@@ -1,10 +1,10 @@
 import React from 'react';
-import WorldCupPlayOffsSeasonOne1x1 from './WorldCupPlayOffsSeasonOne1x1';
+import WorldCupPlayOffs from './WorldCupPlayOffs';
 
 const WorldCupSummary = () => {
 	return (
 		<div>
-			<WorldCupPlayOffsSeasonOne1x1 />
+			<WorldCupPlayOffs />
 		</div>
 	);
 }

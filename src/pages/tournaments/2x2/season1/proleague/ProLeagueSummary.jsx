@@ -1,12 +1,12 @@
 import React from 'react';
-import ProLeagueTableSeasonOne2x2 from '../../../../../components/league/table/ProLeagueTableSeasonOne2x2';
+import { SeasonOne2x2 } from '../../../../../components/league/table/ProLeagueTableSeasons';
 import LeagueTableLegend from '../../../../../components/league/table/LeagueTableLegend';
 import News from '../../../../../components/league/news/News';
 
 const ProLeagueSummary = () => {
 	return (
 		<div className='flex flex-col gap-10'>
-			<ProLeagueTableSeasonOne2x2 />
+			<SeasonOne2x2 />
 			<News
 				src={'/img/league/final-table-season-one-2x2.png'}
 				title={'Поздравляем игрока HAM из команды Liverpool с завоеванием золотой бутсы сезона 1! С впечатляющими 28 голами он стал лучшим бомбардиром турнира.Ассистентом сезона 1 стал игрок e6JIyHTuKinDaHouse из команды Liverpool, который совершил наибольшее количество голевых передач - 24 ассиста.'}

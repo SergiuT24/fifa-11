@@ -1,10 +1,10 @@
 import React from 'react';
-import ChampionsLeaguePlayOffsSeasonTwo2x2 from './ChampionsLeaguePlayOffsSeasonTwo2x2';
+import ChampionsLeaguePlayOffs from './ChampionsLeaguePlayOffs';
 
 const ChampionsLeagueSummary = () => {
 	return (
 		<div>
-			<ChampionsLeaguePlayOffsSeasonTwo2x2 />
+			<ChampionsLeaguePlayOffs />
 		</div>
 	);
 }

@@ -1,12 +1,12 @@
 import React from 'react';
-import ProLeagueTableSeasonOne1x1 from '../../../../../components/league/table/ProLeagueTableSeasonOne1x1';
+import { SeasonOne1x1 } from '../../../../../components/league/table/ProLeagueTableSeasons';
 import LeagueTableLegendWorldCup from '../../../../../components/league/table/LeagueTableLegendWorldCup';
 import News from '../../../../../components/league/news/News';
 
 const ProLeagueSummary = () => {
 	return (
 		<div className='flex flex-col gap-10'>
-			<ProLeagueTableSeasonOne1x1 />
+			<SeasonOne1x1 />
 			<News
 				src={'/img/league/final-table-season-one-1x1.png'}
 				title={'Поздравляем игрока Berserk из команды Holland с впечатляющими 71 голами он стал лучшим бомбардиром турнира.'}
