@@ -14,7 +14,9 @@ export const initialPlayers = [
 ];
 
 export const playerStats = [
-	// // TOTO - HAM 
+	// TOTO - HAM 
+	{ id: 'TOTO', goals: 2, matchesPlayed: 2, assists: 2 }, // Napoli
+	{ id: 'HAM', goals: 2, matchesPlayed: 2, assists: 2 }, // Napoli
 	// { id: 'TOTO', goals: 3, matchesPlayed: 2, assists: 3 }, // Man
 	// { id: 'HAM', goals: 4, matchesPlayed: 2, assists: 3 }, // Man
 
