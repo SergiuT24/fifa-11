@@ -1,16 +1,16 @@
 export const initialPlayers = [
-	{ id: 'D.Drogba', team: 'empty', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
-	{ id: 'mysterio', team: 'empty', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
-	{ id: 'HAM', team: 'empty', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
-	{ id: 'TOTO', team: 'empty', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
-	{ id: 'Perfect', team: 'empty', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
-	{ id: 'Anna', team: 'empty', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
-	{ id: 'Berserk', team: 'empty', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
-	{ id: 'Jsnick', team: 'empty', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
-	{ id: 'Kevin', team: 'empty', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
-	{ id: 'Matuu', team: 'empty', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
-	{ id: 'empty', team: 'empty', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
-	{ id: 'empty', team: 'empty', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
+	{ id: 'D.Drogba', team: 'Galatasaray', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
+	{ id: 'mysterio', team: 'Galatasaray', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
+	{ id: 'HAM', team: 'CSKA', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
+	{ id: 'TOTO', team: 'CSKA', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
+	{ id: 'Perfect', team: 'Fiorentina', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
+	{ id: 'Anna', team: 'Fiorentina', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
+	{ id: 'Berserk', team: 'Schalke', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
+	{ id: 'Jsnick', team: 'Schalke', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
+	{ id: 'Kevin', team: 'Zenit', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
+	{ id: 'Matuu', team: 'Zenit', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
+	{ id: 'VITALY', team: 'Napoli', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
+	{ id: 'M@KSON', team: 'Napoli', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
 ];
 
 export const playerStats = [
@@ -31,7 +31,7 @@ export const playerStats = [
 	// { id: 'Matuu', goals: 1, matchesPlayed: 2, assists: 0 },// Chelsea
 	// { id: 'Kevin', goals: 1, matchesPlayed: 2, assists: 1 }, // Chelsea
 	// // -------------------------------------------------------------------------------------------------------------------
-	// // ---- empty, empty 
+	// // ---- VITALY, M@KSON 
 	// { id: 'empty', goals: 3, matchesPlayed: 2, assists: 0 }, // Arsenal
 	// { id: 'empty', goals: 0, matchesPlayed: 2, assists: 3 }, // Arsenal
 

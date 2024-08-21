@@ -19,6 +19,8 @@ const PlayersProfile = () => {
 		{ avatar: '/img/players/sergeyface.png', name: 'SergeyFace', id: '1235135' },
 		{ avatar: '/img/players/toto.png', name: 'TOTO', id: '8985743', time: '19:00-00:00', proLeague: '/img/trophy/pro-league.png', proLeagueCount: 'x1' },
 		{ avatar: '/img/players/wenger.png', name: 'Wenger', id: '10014005' },
+		{ avatar: '/img/players/avatar.png', name: 'VITALY', id: '12968009' },
+		{ avatar: '/img/players/avatar.png', name: 'M@KSON', id: '4255221' },
 		{ avatar: '/img/players/avatar.png', name: 'Elite', id: '12776567' },
 		{ avatar: '/img/players/d-drogba.png', name: 'D.Drogba', id: '11701466', time: '20:00-00:00', ucl: '/img/trophy/champions-league.png', uclCount: 'x1', kingsCup: '/img/trophy/kings-cup.png', kingsCupCount: 'x1' },
 		{ avatar: '/img/players/mysterio.png', name: 'mysterio', id: '11701465', time: '20:00-00:00', ucl: '/img/trophy/champions-league.png', uclCount: 'x1', kingsCup: '/img/trophy/kings-cup.png', kingsCupCount: 'x1' },
