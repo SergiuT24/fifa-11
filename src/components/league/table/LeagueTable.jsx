@@ -117,7 +117,7 @@ const LeagueTable = ({ initialTeams, matchResults, seasonTitle }) => {
 						g={team.g}
 						gd={team.gd}
 						pts={team.pts}
-						form={<div className='flex gap-1 justify-center'>{team.form}</div>}
+						form={<div className='flex gap-1 justify-start'>{team.form}</div>}
 					/>
 				))}
 			</tbody>

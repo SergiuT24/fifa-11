@@ -6,18 +6,19 @@ import Zenit from '../../components/league/4star-teams/Zenit';
 import Napoli from '../../components/league/4star-teams/Napoli';
 
 export const initialTeams = [
-	{ id: 'galatasaray', name: <Galatasaray />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'cska', name: <Cska />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'fiorentina', name: <Fiorentina />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'schalke', name: <Schalke />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'zenit', name: <Zenit />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'napoli', name: <Napoli />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Galatasaray', name: <Galatasaray />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'CSKA', name: <Cska />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Fiorentina', name: <Fiorentina />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Schalke', name: <Schalke />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Zenit', name: <Zenit />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Napoli', name: <Napoli />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
 export const matchResults = [
-	{ id: '1', teamOne: 'napoli', scoreOne: 1, teamTwo: 'cska', scoreTwo: 2 },
-	{ id: '2', teamOne: 'cska', scoreOne: 2, teamTwo: 'napoli', scoreTwo: 3 },
-	{ id: '3', teamOne: 'schalke', scoreOne: 0, teamTwo: 'cska', scoreTwo: 2 },
-	{ id: '4', teamOne: 'cska', scoreOne: 3, teamTwo: 'schalke', scoreTwo: 3 },
-	// { id: '1', teamOne: 'manchester', scoreOne: 2, teamTwo: 'chelsea', scoreTwo: 1 },
+	{ id: '1', teamOne: 'Napoli', scoreOne: 1, teamTwo: 'CSKA', scoreTwo: 2 },
+	{ id: '2', teamOne: 'CSKA', scoreOne: 2, teamTwo: 'Napoli', scoreTwo: 3 },
+	{ id: '3', teamOne: 'Schalke', scoreOne: 0, teamTwo: 'CSKA', scoreTwo: 2 },
+	{ id: '4', teamOne: 'CSKA', scoreOne: 3, teamTwo: 'Schalke', scoreTwo: 3 },
+	{ id: '5', teamOne: 'Fiorentina', scoreOne: 4, teamTwo: 'CSKA', scoreTwo: 1 },
+	{ id: '6', teamOne: 'CSKA', scoreOne: 3, teamTwo: 'Fiorentina', scoreTwo: 1 },
 ];

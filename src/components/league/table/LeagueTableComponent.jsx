@@ -23,7 +23,7 @@ const LeagueTableComponent = ({ rank, img, team, mp, w, d, l, g, gd, pts, form, 
 			<th className='w-12 h-8' title='Goals'>{g}</th>
 			<th className='w-12 h-8' title='Goal difference'>{gd}</th>
 			<th className='w-12 h-8' title='Points'>{pts}</th>
-			<th className='w-40 h-8' title='Form'>{form}</th>
+			<th className='w-40 h-8' >{form}</th>
 		</tr>
 	);
 }

@@ -19,6 +19,8 @@ export const playerStats = [
 	{ id: 'HAM', goals: 2, matchesPlayed: 2, assists: 2 }, // Napoli
 	{ id: 'TOTO', goals: 1, matchesPlayed: 2, assists: 2 }, // Schalke
 	{ id: 'HAM', goals: 4, matchesPlayed: 2, assists: 1 }, // Schalke
+	{ id: 'TOTO', goals: 1, matchesPlayed: 2, assists: 3 }, // Fiorentina
+	{ id: 'HAM', goals: 3, matchesPlayed: 2, assists: 1 }, // Fiorentina
 	// { id: 'TOTO', goals: 3, matchesPlayed: 2, assists: 3 }, // Man
 	// { id: 'HAM', goals: 4, matchesPlayed: 2, assists: 3 }, // Man
 
@@ -29,7 +31,9 @@ export const playerStats = [
 	// { id: 'Berserk', goals: 3, matchesPlayed: 2, assists: 0 }, // Chelsea
 	// { id: 'Jsnick', goals: 0, matchesPlayed: 2, assists: 3 }, // Chelsea
 	// // -------------------------------------------------------------------------------------------------------------------
-	// // ---- Perfect, Anna 
+	// ---- Perfect, Anna 
+	{ id: 'Perfect', goals: 1, matchesPlayed: 2, assists: 4 }, // CSKA
+	{ id: 'Anna', goals: 4, matchesPlayed: 2, assists: 1 }, // CSKA
 	// { id: 'Perfect', goals: 2, matchesPlayed: 2, assists: 2 }, // Chelsea
 	// { id: 'Anna', goals: 2, matchesPlayed: 2, assists: 2 }, // Chelsea
 	// // -------------------------------------------------------------------------------------------------------------------
