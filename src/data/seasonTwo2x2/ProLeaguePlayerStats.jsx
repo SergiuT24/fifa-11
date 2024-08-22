@@ -17,11 +17,15 @@ export const playerStats = [
 	// TOTO - HAM 
 	{ id: 'TOTO', goals: 2, matchesPlayed: 2, assists: 2 }, // Napoli
 	{ id: 'HAM', goals: 2, matchesPlayed: 2, assists: 2 }, // Napoli
+	{ id: 'TOTO', goals: 1, matchesPlayed: 2, assists: 2 }, // Schalke
+	{ id: 'HAM', goals: 4, matchesPlayed: 2, assists: 1 }, // Schalke
 	// { id: 'TOTO', goals: 3, matchesPlayed: 2, assists: 3 }, // Man
 	// { id: 'HAM', goals: 4, matchesPlayed: 2, assists: 3 }, // Man
 
 	// // -------------------------------------------------------------------------------------------------------------------
-	// // --- Berserk, Jsnick
+	// --- Berserk, Jsnick
+	{ id: 'Berserk', goals: 3, matchesPlayed: 2, assists: 0 }, // CSKA
+	{ id: 'Jsnick', goals: 0, matchesPlayed: 2, assists: 3 }, // CSKA
 	// { id: 'Berserk', goals: 3, matchesPlayed: 2, assists: 0 }, // Chelsea
 	// { id: 'Jsnick', goals: 0, matchesPlayed: 2, assists: 3 }, // Chelsea
 	// // -------------------------------------------------------------------------------------------------------------------
@@ -33,9 +37,11 @@ export const playerStats = [
 	// { id: 'Matuu', goals: 1, matchesPlayed: 2, assists: 0 },// Chelsea
 	// { id: 'Kevin', goals: 1, matchesPlayed: 2, assists: 1 }, // Chelsea
 	// // -------------------------------------------------------------------------------------------------------------------
-	// // ---- VITALY, M@KSON 
-	// { id: 'empty', goals: 3, matchesPlayed: 2, assists: 0 }, // Arsenal
-	// { id: 'empty', goals: 0, matchesPlayed: 2, assists: 3 }, // Arsenal
+	// ---- VITALY, M@KSON 
+	{ id: 'VITALY', goals: 1, matchesPlayed: 2, assists: 3 }, // CSKA
+	{ id: 'M@KSON', goals: 3, matchesPlayed: 2, assists: 1 }, // CSKA
+	// { id: 'VITALY', goals: 3, matchesPlayed: 2, assists: 0 }, // Arsenal
+	// { id: 'M@KSON', goals: 0, matchesPlayed: 2, assists: 3 }, // Arsenal
 
 	// // -------------------------------------------------------------------------------------------------------------------
 	// // --- Drogba, Mysterio 
