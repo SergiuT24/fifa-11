@@ -21,4 +21,12 @@ export const matchResults = [
 	{ id: '4', teamOne: 'CSKA', scoreOne: 3, teamTwo: 'Schalke', scoreTwo: 3 },
 	{ id: '5', teamOne: 'Fiorentina', scoreOne: 4, teamTwo: 'CSKA', scoreTwo: 1 },
 	{ id: '6', teamOne: 'CSKA', scoreOne: 3, teamTwo: 'Fiorentina', scoreTwo: 1 },
+	{ id: '7', teamOne: 'Fiorentina', scoreOne: 4, teamTwo: 'Schalke', scoreTwo: 1 },
+	{ id: '8', teamOne: 'Schalke', scoreOne: 3, teamTwo: 'Fiorentina', scoreTwo: 4 },
+	{ id: '9', teamOne: 'Napoli', scoreOne: 2, teamTwo: 'Fiorentina', scoreTwo: 3 },
+	{ id: '10', teamOne: 'Fiorentina', scoreOne: 8, teamTwo: 'Napoli', scoreTwo: 1 },
+	{ id: '11', teamOne: 'CSKA', scoreOne: 2, teamTwo: 'Galatasaray', scoreTwo: 1 },
+	{ id: '12', teamOne: 'Galatasaray', scoreOne: 3, teamTwo: 'CSKA', scoreTwo: 2 },
+	{ id: '13', teamOne: 'Schalke', scoreOne: 3, teamTwo: 'Napoli', scoreTwo: 2 },
+	{ id: '14', teamOne: 'Napoli', scoreOne: 1, teamTwo: 'Schalke', scoreTwo: 3 },
 ];
