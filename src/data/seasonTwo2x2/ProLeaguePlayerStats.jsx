@@ -44,16 +44,24 @@ export const playerStats = [
 	{ id: 'Anna', goals: 5, matchesPlayed: 2, assists: 3 }, // Schalke
 	{ id: 'Perfect', goals: 6, matchesPlayed: 2, assists: 5 }, // Napoli
 	{ id: 'Anna', goals: 5, matchesPlayed: 2, assists: 6 }, // Napoli
+	{ id: 'Perfect', goals: 6, matchesPlayed: 2, assists: 5 }, // Zenit
+	{ id: 'Anna', goals: 5, matchesPlayed: 2, assists: 6 }, // Zenit
 	// { id: 'Perfect', goals: 2, matchesPlayed: 2, assists: 2 }, // Chelsea
 	// { id: 'Anna', goals: 2, matchesPlayed: 2, assists: 2 }, // Chelsea
 	// // -------------------------------------------------------------------------------------------------------------------
-	// // ---- Matuu, Kevin
+	// ---- Matuu, Kevin
+	{ id: 'Matuu', goals: 0, matchesPlayed: 2, assists: 2 },// Fiorentina
+	{ id: 'Kevin', goals: 2, matchesPlayed: 2, assists: 0 }, // Fiorentina
 	// { id: 'Matuu', goals: 1, matchesPlayed: 2, assists: 0 },// Chelsea
 	// { id: 'Kevin', goals: 1, matchesPlayed: 2, assists: 1 }, // Chelsea
 	// // -------------------------------------------------------------------------------------------------------------------
 	// ---- VITALY, M@KSON 
 	{ id: 'VITALY', goals: 1, matchesPlayed: 2, assists: 3 }, // CSKA
 	{ id: 'M@KSON', goals: 3, matchesPlayed: 2, assists: 1 }, // CSKA
+	{ id: 'VITALY', goals: 3, matchesPlayed: 2, assists: 0 }, // Schalke
+	{ id: 'M@KSON', goals: 0, matchesPlayed: 2, assists: 3 }, // Schalke
+	{ id: 'VITALY', goals: 0, matchesPlayed: 2, assists: 3 }, // Fiorentina
+	{ id: 'M@KSON', goals: 3, matchesPlayed: 2, assists: 0 }, // Fiorentina
 	// { id: 'VITALY', goals: 3, matchesPlayed: 2, assists: 0 }, // Arsenal
 	// { id: 'M@KSON', goals: 0, matchesPlayed: 2, assists: 3 }, // Arsenal
 
