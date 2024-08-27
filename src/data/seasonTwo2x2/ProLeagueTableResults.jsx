@@ -31,4 +31,6 @@ export const matchResults = [
 	{ id: '14', teamOne: 'Napoli', scoreOne: 1, teamTwo: 'Schalke', scoreTwo: 3 },
 	{ id: '15', teamOne: 'Fiorentina', scoreOne: 3, teamTwo: 'Zenit', scoreTwo: 0 },
 	{ id: '16', teamOne: 'Zenit', scoreOne: 2, teamTwo: 'Fiorentina', scoreTwo: 9 },
+	{ id: '17', teamOne: 'Napoli', scoreOne: 5, teamTwo: 'Zenit', scoreTwo: 6 },
+	{ id: '18', teamOne: 'Zenit', scoreOne: 3, teamTwo: 'Napoli', scoreTwo: 1 },
 ];

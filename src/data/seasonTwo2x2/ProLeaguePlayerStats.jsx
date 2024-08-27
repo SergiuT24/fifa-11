@@ -52,6 +52,8 @@ export const playerStats = [
 	// ---- Matuu, Kevin
 	{ id: 'Matuu', goals: 0, matchesPlayed: 2, assists: 2 },// Fiorentina
 	{ id: 'Kevin', goals: 2, matchesPlayed: 2, assists: 0 }, // Fiorentina
+	{ id: 'Matuu', goals: 4, matchesPlayed: 2, assists: 4 },// Napoli
+	{ id: 'Kevin', goals: 5, matchesPlayed: 2, assists: 3 }, // Napoli
 	// { id: 'Matuu', goals: 1, matchesPlayed: 2, assists: 0 },// Chelsea
 	// { id: 'Kevin', goals: 1, matchesPlayed: 2, assists: 1 }, // Chelsea
 	// // -------------------------------------------------------------------------------------------------------------------
@@ -62,6 +64,8 @@ export const playerStats = [
 	{ id: 'M@KSON', goals: 0, matchesPlayed: 2, assists: 3 }, // Schalke
 	{ id: 'VITALY', goals: 0, matchesPlayed: 2, assists: 3 }, // Fiorentina
 	{ id: 'M@KSON', goals: 3, matchesPlayed: 2, assists: 0 }, // Fiorentina
+	{ id: 'VITALY', goals: 3, matchesPlayed: 2, assists: 3 }, // Zenit
+	{ id: 'M@KSON', goals: 3, matchesPlayed: 2, assists: 3 }, // Zenit
 	// { id: 'VITALY', goals: 3, matchesPlayed: 2, assists: 0 }, // Arsenal
 	// { id: 'M@KSON', goals: 0, matchesPlayed: 2, assists: 3 }, // Arsenal
 
