@@ -50,7 +50,7 @@ const SquadsForSeason = () => {
 				playerOne={'VITALY (C.)'}
 				imgOne={'/img/players/avatar.png'}
 				playerTwo={'M@KSON'}
-				imgTwo={'/img/players/avatar.png'}
+				imgTwo={'/img/players/makson.png'}
 				club={<Napoli />} />
 		</div>
 	);

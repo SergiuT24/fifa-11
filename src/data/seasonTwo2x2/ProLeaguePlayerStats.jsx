@@ -34,8 +34,10 @@ export const playerStats = [
 	{ id: 'Jsnick', goals: 2, matchesPlayed: 2, assists: 2 }, // Fiorentina
 	{ id: 'Berserk', goals: 3, matchesPlayed: 2, assists: 3 }, // Napoli
 	{ id: 'Jsnick', goals: 3, matchesPlayed: 2, assists: 3 }, // Napoli
-	// { id: 'Berserk', goals: 3, matchesPlayed: 2, assists: 0 }, // Chelsea
-	// { id: 'Jsnick', goals: 0, matchesPlayed: 2, assists: 3 }, // Chelsea
+	{ id: 'Berserk', goals: 2, matchesPlayed: 2, assists: 5 }, // Zenit
+	{ id: 'Jsnick', goals: 5, matchesPlayed: 2, assists: 2 }, // Zenit
+	{ id: 'Berserk', goals: 1, matchesPlayed: 2, assists: 8 }, // Galatasaray
+	{ id: 'Jsnick', goals: 8, matchesPlayed: 2, assists: 1 }, // Galatasaray
 	// // -------------------------------------------------------------------------------------------------------------------
 	// ---- Perfect, Anna 
 	{ id: 'Perfect', goals: 1, matchesPlayed: 2, assists: 4 }, // CSKA
@@ -54,6 +56,8 @@ export const playerStats = [
 	{ id: 'Kevin', goals: 2, matchesPlayed: 2, assists: 0 }, // Fiorentina
 	{ id: 'Matuu', goals: 4, matchesPlayed: 2, assists: 4 },// Napoli
 	{ id: 'Kevin', goals: 5, matchesPlayed: 2, assists: 3 }, // Napoli
+	{ id: 'Matuu', goals: 1, matchesPlayed: 2, assists: 3 },// Schalke
+	{ id: 'Kevin', goals: 5, matchesPlayed: 2, assists: 1 }, // Schalke
 	// { id: 'Matuu', goals: 1, matchesPlayed: 2, assists: 0 },// Chelsea
 	// { id: 'Kevin', goals: 1, matchesPlayed: 2, assists: 1 }, // Chelsea
 	// // -------------------------------------------------------------------------------------------------------------------
