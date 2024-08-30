@@ -10,7 +10,7 @@ const WinButton = ({ title }) => {
 				onMouseEnter={() => setShowTooltip(true)}
 				onMouseLeave={() => setShowTooltip(false)}
 			>
-				<span>W</span>
+				<span className='font-thin'>W</span>
 			</button>
 			{showTooltip && (
 				<div className='absolute z-10 top-full -left-10 mb-2 w-max p-3 bg-gray-500 text-white text-xs rounded-md'>

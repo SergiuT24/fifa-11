@@ -10,7 +10,7 @@ const DrawButton = ({ title }) => {
 				onMouseEnter={() => setShowTooltip(true)}
 				onMouseLeave={() => setShowTooltip(false)}
 			>
-				<span>D</span>
+				<span className='font-thin'>D</span>
 			</button>
 			{showTooltip && (
 				<div className='absolute z-10 top-full -left-10 mb-2 w-max p-3 bg-gray-500 text-white text-xs rounded-md'>

@@ -6,11 +6,11 @@ const NotPlayedButton = ({ title }) => {
 	return (
 		<div className='relative inline-block'>
 			<button
-				className='w-5 h-5 rounded-md bg-gray-300'
+				className='w-5 h-5 rounded-md bg-gray-400'
 				onMouseEnter={() => setShowTooltip(true)}
 				onMouseLeave={() => setShowTooltip(false)}
 			>
-				<span>?</span>
+				<span className='font-thin'>?</span>
 			</button>
 			{showTooltip && (
 				<div className='absolute z-10 top-full -left-10 mb-2 w-max p-3 bg-gray-500 text-white text-xs rounded-md'>
