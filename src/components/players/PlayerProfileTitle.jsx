@@ -2,7 +2,7 @@ import React from 'react';
 
 const PlayerProfileTitle = ({ avatar, name, id, time, goldenShoe, balonDor, proLeague, ucl, kingsCup, worldCup }) => {
 	return (
-		<tr className='darkblue border-b text-sm'>
+		<tr className='darkblue border-b border-b-green-950 text-sm'>
 			<th className='w-24 h-10'>{avatar}</th>
 			<th className='w-40 h-10'>{name}</th>
 			<th className='w-24 h-10'>{id}</th>

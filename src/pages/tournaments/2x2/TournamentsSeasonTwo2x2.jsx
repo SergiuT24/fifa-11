@@ -30,7 +30,12 @@ const TournamentsSeasonTwo2x2 = () => {
 					<TeamsForRandom />
 				</div>
 				{renderContent()}
-				<SquadsForSeason />
+				<div className='flex flex-col'>
+					<SquadsForSeason />
+					<div className='flex justify-center mt-40'>
+						<img className='w-64' src='/img/background/cr7.png' />
+					</div>
+				</div>
 			</div>
 		</div>
 	);

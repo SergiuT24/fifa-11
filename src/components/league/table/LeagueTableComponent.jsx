@@ -13,17 +13,17 @@ const LeagueTableComponent = ({ rank, img, team, mp, w, d, l, g, gd, pts, form, 
 	}
 
 	return (
-		<tr className='table-line border-b hover:bg-teal-900'>
-			<th className='w-4 h-8' title='rank' style={rowStyle}>{rank}</th>
-			<th className='flex justify-start pl-6 gap-2 items-center w-56 h-8'>{img}{team}{club}</th>
-			<th className='w-8 h-8' title="Matches played">{mp}</th>
-			<th className='w-8 h-8' title="Wins">{w}</th>
-			<th className='w-8 h-8' title='Draws'>{d}</th>
-			<th className='w-8 h-8' title='Losses'>{l}</th>
-			<th className='w-12 h-8' title='Goals'>{g}</th>
-			<th className='w-12 h-8' title='Goal difference'>{gd}</th>
-			<th className='w-12 h-8' title='Points'>{pts}</th>
-			<th className='w-40 h-8' >{form}</th>
+		<tr className='table-line border-b border-b-green-950 hover:bg-teal-900'>
+			<th className='w-4 h-9' title='rank' style={rowStyle}>{rank}</th>
+			<th className='flex justify-start pl-6 gap-2 items-center w-56 h-9'>{img}{team}{club}</th>
+			<th className='w-8 h-9' title="Matches played">{mp}</th>
+			<th className='w-8 h-9' title="Wins">{w}</th>
+			<th className='w-8 h-9' title='Draws'>{d}</th>
+			<th className='w-8 h-9' title='Losses'>{l}</th>
+			<th className='w-12 h-9' title='Goals'>{g}</th>
+			<th className='w-12 h-9' title='Goal difference'>{gd}</th>
+			<th className='w-12 h-9' title='Points'>{pts}</th>
+			<th className='w-40 h-9' >{form}</th>
 		</tr>
 	);
 }
