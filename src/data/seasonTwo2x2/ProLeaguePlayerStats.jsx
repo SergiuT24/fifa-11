@@ -23,8 +23,8 @@ export const playerStats = [
 	{ id: 'HAM', goals: 3, matchesPlayed: 2, assists: 1 }, // Fiorentina
 	{ id: 'TOTO', goals: 1, matchesPlayed: 2, assists: 3 }, // Galatasaray
 	{ id: 'HAM', goals: 3, matchesPlayed: 2, assists: 0 }, // Galatasaray
-	// { id: 'TOTO', goals: 3, matchesPlayed: 2, assists: 3 }, // Man
-	// { id: 'HAM', goals: 4, matchesPlayed: 2, assists: 3 }, // Man
+	{ id: 'TOTO', goals: 1, matchesPlayed: 2, assists: 4 }, // Zenit
+	{ id: 'HAM', goals: 5, matchesPlayed: 2, assists: 1 }, // Zenit
 
 	// // -------------------------------------------------------------------------------------------------------------------
 	// --- Berserk, Jsnick
@@ -58,8 +58,8 @@ export const playerStats = [
 	{ id: 'Kevin', goals: 5, matchesPlayed: 2, assists: 3 }, // Napoli
 	{ id: 'Matuu', goals: 1, matchesPlayed: 2, assists: 3 },// Schalke
 	{ id: 'Kevin', goals: 5, matchesPlayed: 2, assists: 1 }, // Schalke
-	// { id: 'Matuu', goals: 1, matchesPlayed: 2, assists: 0 },// Chelsea
-	// { id: 'Kevin', goals: 1, matchesPlayed: 2, assists: 1 }, // Chelsea
+	{ id: 'Matuu', goals: 5, matchesPlayed: 2, assists: 2 },// CSKA
+	{ id: 'Kevin', goals: 2, matchesPlayed: 2, assists: 3 }, // CSKA
 	// // -------------------------------------------------------------------------------------------------------------------
 	// ---- VITALY, M@KSON 
 	{ id: 'VITALY', goals: 1, matchesPlayed: 2, assists: 3 }, // CSKA

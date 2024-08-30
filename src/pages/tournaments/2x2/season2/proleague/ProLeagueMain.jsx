@@ -27,7 +27,7 @@ const ProLeagueMain = () => {
 	return (
 		<div>
 			<LeagueMenu
-				leagueCount={'2x2 > Pro League > Start: August 21 22:00 (MSK) - End: 12 September 4, 22:00 (MSK)'}
+				leagueCount={'2x2 > Pro League > Start: August 21 22:00 (MSK) - End: September 4, 22:00 (MSK)'}
 				logo={'/img/league/pro-league.png'}
 				name={'Pro League'}
 				season={'Season 2'}
