@@ -3,6 +3,7 @@ import LeagueTableComponent from './LeagueTableComponent.jsx';
 import WinButton from '../outcomes/WinButton.jsx';
 import LoseButton from '../outcomes/LoseButton.jsx';
 import DrawButton from '../outcomes/DrawButton.jsx';
+import NotPlayedButton from '../outcomes/NotPlayedButton.jsx'
 
 const updateTeams = (teams, matches) => {
 	const updatedTeams = teams.map(team => ({
@@ -16,54 +17,68 @@ const updateTeams = (teams, matches) => {
 		const teamTwoIndex = updatedTeams.findIndex(t => t.id === teamTwo);
 
 		if (teamOneIndex !== -1 && teamTwoIndex !== -1) {
-			updatedTeams[teamOneIndex].mp += 1;
-			updatedTeams[teamTwoIndex].mp += 1;
-			updatedTeams[teamOneIndex].g += scoreOne;
-			updatedTeams[teamOneIndex].gc += scoreTwo;
-			updatedTeams[teamTwoIndex].g += scoreTwo;
-			updatedTeams[teamTwoIndex].gc += scoreOne;
+			// Check if scores are not '?'
+			const scoreOneIsNumber = !isNaN(scoreOne);
+			const scoreTwoIsNumber = !isNaN(scoreTwo);
 
-			if (!updatedTeams[teamOneIndex].headToHead[teamTwo]) {
-				updatedTeams[teamOneIndex].headToHead[teamTwo] = { g: 0, gc: 0 };
-			}
-			if (!updatedTeams[teamTwoIndex].headToHead[teamOne]) {
-				updatedTeams[teamTwoIndex].headToHead[teamOne] = { g: 0, gc: 0 };
-			}
-			updatedTeams[teamOneIndex].headToHead[teamTwo].g += scoreOne;
-			updatedTeams[teamOneIndex].headToHead[teamTwo].gc += scoreTwo;
-			updatedTeams[teamTwoIndex].headToHead[teamOne].g += scoreTwo;
-			updatedTeams[teamTwoIndex].headToHead[teamOne].gc += scoreOne;
+			if (scoreOneIsNumber && scoreTwoIsNumber) {
+				updatedTeams[teamOneIndex].mp += 1;
+				updatedTeams[teamTwoIndex].mp += 1;
+				updatedTeams[teamOneIndex].g += scoreOne;
+				updatedTeams[teamOneIndex].gc += scoreTwo;
+				updatedTeams[teamTwoIndex].g += scoreTwo;
+				updatedTeams[teamTwoIndex].gc += scoreOne;
 
-			if (scoreOne > scoreTwo) {
-				updatedTeams[teamOneIndex].w += 1;
-				updatedTeams[teamTwoIndex].l += 1;
-				updatedTeams[teamOneIndex].pts += 3;
-				updatedTeams[teamOneIndex].form.push(
-					<WinButton key={`${teamOne}-${teamTwo}-${matchIndex}-win`} title={`${teamOne} ${scoreOne}:${scoreTwo} ${teamTwo}`} />
-				);
-				updatedTeams[teamTwoIndex].form.push(
-					<LoseButton key={`${teamOne}-${teamTwo}-${matchIndex}-lose`} title={`${teamOne} ${scoreOne}:${scoreTwo} ${teamTwo}`} />
-				);
-			} else if (scoreTwo > scoreOne) {
-				updatedTeams[teamTwoIndex].w += 1;
-				updatedTeams[teamOneIndex].l += 1;
-				updatedTeams[teamTwoIndex].pts += 3;
-				updatedTeams[teamTwoIndex].form.push(
-					<WinButton key={`${teamOne}-${teamTwo}-${matchIndex}-win`} title={`${teamOne} ${scoreOne}:${scoreTwo} ${teamTwo}`} />
-				);
-				updatedTeams[teamOneIndex].form.push(
-					<LoseButton key={`${teamOne}-${teamTwo}-${matchIndex}-lose`} title={`${teamOne} ${scoreOne}:${scoreTwo} ${teamTwo}`} />
-				);
+				if (!updatedTeams[teamOneIndex].headToHead[teamTwo]) {
+					updatedTeams[teamOneIndex].headToHead[teamTwo] = { g: 0, gc: 0 };
+				}
+				if (!updatedTeams[teamTwoIndex].headToHead[teamOne]) {
+					updatedTeams[teamTwoIndex].headToHead[teamOne] = { g: 0, gc: 0 };
+				}
+				updatedTeams[teamOneIndex].headToHead[teamTwo].g += scoreOne;
+				updatedTeams[teamOneIndex].headToHead[teamTwo].gc += scoreTwo;
+				updatedTeams[teamTwoIndex].headToHead[teamOne].g += scoreTwo;
+				updatedTeams[teamTwoIndex].headToHead[teamOne].gc += scoreOne;
+
+				if (scoreOne > scoreTwo) {
+					updatedTeams[teamOneIndex].w += 1;
+					updatedTeams[teamTwoIndex].l += 1;
+					updatedTeams[teamOneIndex].pts += 3;
+					updatedTeams[teamOneIndex].form.push(
+						<WinButton key={`${teamOne}-${teamTwo}-${matchIndex}-win`} title={`${teamOne} ${scoreOne}:${scoreTwo} ${teamTwo}`} />
+					);
+					updatedTeams[teamTwoIndex].form.push(
+						<LoseButton key={`${teamOne}-${teamTwo}-${matchIndex}-lose`} title={`${teamOne} ${scoreOne}:${scoreTwo} ${teamTwo}`} />
+					);
+				} else if (scoreTwo > scoreOne) {
+					updatedTeams[teamTwoIndex].w += 1;
+					updatedTeams[teamOneIndex].l += 1;
+					updatedTeams[teamTwoIndex].pts += 3;
+					updatedTeams[teamTwoIndex].form.push(
+						<WinButton key={`${teamOne}-${teamTwo}-${matchIndex}-win`} title={`${teamOne} ${scoreOne}:${scoreTwo} ${teamTwo}`} />
+					);
+					updatedTeams[teamOneIndex].form.push(
+						<LoseButton key={`${teamOne}-${teamTwo}-${matchIndex}-lose`} title={`${teamOne} ${scoreOne}:${scoreTwo} ${teamTwo}`} />
+					);
+				} else {
+					updatedTeams[teamOneIndex].d += 1;
+					updatedTeams[teamTwoIndex].d += 1;
+					updatedTeams[teamOneIndex].pts += 1;
+					updatedTeams[teamTwoIndex].pts += 1;
+					updatedTeams[teamOneIndex].form.push(
+						<DrawButton key={`${teamOne}-${teamTwo}-${matchIndex}-draw`} title={`${teamOne} ${scoreOne}:${scoreTwo} ${teamTwo}`} />
+					);
+					updatedTeams[teamTwoIndex].form.push(
+						<DrawButton key={`${teamOne}-${teamTwo}-${matchIndex}-draw`} title={`${teamOne} ${scoreOne}:${scoreTwo} ${teamTwo}`} />
+					);
+				}
 			} else {
-				updatedTeams[teamOneIndex].d += 1;
-				updatedTeams[teamTwoIndex].d += 1;
-				updatedTeams[teamOneIndex].pts += 1;
-				updatedTeams[teamTwoIndex].pts += 1;
+				// Handle unplayed matches
 				updatedTeams[teamOneIndex].form.push(
-					<DrawButton key={`${teamOne}-${teamTwo}-${matchIndex}-draw`} title={`${teamOne} ${scoreOne}:${scoreTwo} ${teamTwo}`} />
+					<NotPlayedButton key={`${teamOne}-${teamTwo}-${matchIndex}-notPlayed`} title={`${teamOne} ${scoreOne}:${scoreTwo} ${teamTwo}`} />
 				);
 				updatedTeams[teamTwoIndex].form.push(
-					<DrawButton key={`${teamOne}-${teamTwo}-${matchIndex}-draw`} title={`${teamOne} ${scoreOne}:${scoreTwo} ${teamTwo}`} />
+					<NotPlayedButton key={`${teamOne}-${teamTwo}-${matchIndex}-notPlayed`} title={`${teamOne} ${scoreOne}:${scoreTwo} ${teamTwo}`} />
 				);
 			}
 		}
@@ -88,7 +103,6 @@ const updateTeams = (teams, matches) => {
 
 		return a.gc - b.gc;
 	});
-
 	return updatedTeams;
 };
 
