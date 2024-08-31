@@ -32,7 +32,7 @@ const TournamentsSeasonTwo2x2 = () => {
 				{renderContent()}
 				<div className='flex flex-col'>
 					<SquadsForSeason />
-					<div className='flex justify-center mt-40'>
+					<div className='flex justify-center mt-20'>
 						<img className='w-64' src='/img/background/cr7.png' />
 					</div>
 				</div>

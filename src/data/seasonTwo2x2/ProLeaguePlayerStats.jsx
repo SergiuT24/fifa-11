@@ -48,8 +48,8 @@ export const playerStats = [
 	{ id: 'Anna', goals: 5, matchesPlayed: 2, assists: 6 }, // Napoli
 	{ id: 'Perfect', goals: 6, matchesPlayed: 2, assists: 5 }, // Zenit
 	{ id: 'Anna', goals: 5, matchesPlayed: 2, assists: 6 }, // Zenit
-	// { id: 'Perfect', goals: 2, matchesPlayed: 2, assists: 2 }, // Chelsea
-	// { id: 'Anna', goals: 2, matchesPlayed: 2, assists: 2 }, // Chelsea
+	{ id: 'Perfect', goals: 1, matchesPlayed: 2, assists: 2 }, // Galatasaray
+	{ id: 'Anna', goals: 2, matchesPlayed: 2, assists: 1 }, // Galatasaray
 	// // -------------------------------------------------------------------------------------------------------------------
 	// ---- Matuu, Kevin
 	{ id: 'Matuu', goals: 0, matchesPlayed: 2, assists: 2 },// Fiorentina
@@ -75,8 +75,8 @@ export const playerStats = [
 
 	// // -------------------------------------------------------------------------------------------------------------------
 	// --- Drogba, Mysterio 
-	{ id: 'mysterio', goals: 2, matchesPlayed: 2, assists: 1 }, // CSKA
-	{ id: 'D.Drogba', goals: 2, matchesPlayed: 2, assists: 1 }, // CSKA
+	{ id: 'mysterio', goals: 6, matchesPlayed: 6, assists: 6 }, // CSKA
+	{ id: 'D.Drogba', goals: 6, matchesPlayed: 6, assists: 6 }, // CSKA
 	// { id: 'mysterio', goals: 0, matchesPlayed: 2, assists: 3 }, // Liverpool
 	// { id: 'D.Drogba', goals: 3, matchesPlayed: 2, assists: 0 }, // Liverpool
 ];
