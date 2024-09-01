@@ -3,7 +3,7 @@ import LeagueButtons from '../../../../../components/league/menu/LeagueButtons';
 import LeagueMenu from '../../../../../components/league/menu/LeagueMenu';
 import ChampionsLeagueSummary from './ChampionsLeagueSummary';
 import ChampionsLeagueNews from './ChampionsLeagueNews';
-import ChampionsLeaguePlayOffs from './ChampionsLeaguePlayOffs';
+import ChampionsLeaguePlayerStats from './ChampionsLeaguePlayerStats';
 
 const ChampionsLeagueMain = () => {
 	const [selectedButton, setSelectedButton] = useState('Summary');
@@ -15,7 +15,7 @@ const ChampionsLeagueMain = () => {
 			case 'News':
 				return <ChampionsLeagueNews />
 			case 'Player Stats':
-				return <ChampionsLeaguePlayOffs />
+				return <ChampionsLeaguePlayerStats />
 			default:
 				return <ChampionsLeagueSummary />
 		}

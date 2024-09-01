@@ -4,7 +4,7 @@ import PlayerProfile from '../components/players/PlayerProfile';
 
 const PlayersProfile = () => {
 	const playersData = [
-		{ avatar: '/img/players/anna.png', name: 'Anna', id: '11208470', time: 'very active', worldCup: '/img/trophy/world-cup.png', worldCupCount: 'x1' },
+		{ avatar: '/img/players/anna.png', name: 'Anna', id: '11208470', time: 'very active', proLeague: '/img/trophy/pro-league.png', proLeagueCount: 'x1', worldCup: '/img/trophy/world-cup.png', worldCupCount: 'x1' },
 		{ avatar: '/img/players/rin.png', name: 'DartRin', id: '10799738', goldenShoe: '/img/trophy/golden-shoe.png', goldenShoeCount: 'x1', worldCup: '/img/trophy/world-cup.png', worldCupCount: 'x1' },
 		{ avatar: '/img/players/berserk.png', name: 'Berserk', id: '4180544', time: 'very active', goldenShoe: '/img/trophy/golden-shoe.png', goldenShoeCount: 'x1' },
 		{ avatar: '/img/players/box.png', name: 'Box', },
@@ -13,7 +13,7 @@ const PlayersProfile = () => {
 		{ avatar: '/img/players/malemiria.png', name: 'Malemiria', id: '9662584' },
 		{ avatar: '/img/players/matuu.png', name: 'Matuu', id: '929057' },
 		{ avatar: '/img/players/mcrurus.png', name: 'mcrurus', id: '9984628', time: '16:00-04:00' },
-		{ avatar: '/img/players/perfect.png', name: 'Perfect', id: '5459556', time: '21:00' },
+		{ avatar: '/img/players/perfect.png', name: 'Perfect', id: '5459556', time: '21:00', proLeague: '/img/trophy/pro-league.png', proLeagueCount: 'x1' },
 		{ avatar: '/img/players/petr.png', name: 'Petr Pirat' },
 		{ avatar: '/img/players/raven.png', name: 'NSKRaven', id: '1287368', time: '12:00-20:00' },
 		{ avatar: '/img/players/sergeyface.png', name: 'SergeyFace', id: '1235135' },
