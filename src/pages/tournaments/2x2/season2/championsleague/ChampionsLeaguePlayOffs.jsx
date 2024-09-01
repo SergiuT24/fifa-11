@@ -1,6 +1,10 @@
 import React from 'react';
 import Square from '../../../../../components/league/square/Square';
 import Fiorentina from '../../../../../components/league/4star-teams/Fiorentina';
+import Schalke from '../../../../../components/league/4star-teams/Schalke';
+import Cska from '../../../../../components/league/4star-teams/Cska';
+import Galatasaray from '../../../../../components/league/4star-teams/Galatasaray';
+
 
 
 const ChampionsLeaguePlayOffs = () => {
@@ -11,15 +15,15 @@ const ChampionsLeaguePlayOffs = () => {
 				<div className='flex gap-14 justify-center'>
 					<Square
 						teamOne={<Fiorentina />}
-						teamTwo={'4 place'}
+						teamTwo={<Galatasaray />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={'2 place'}
-						teamTwo={'3 place'}
+						teamOne={<Cska />}
+						teamTwo={<Schalke />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}

@@ -1,6 +1,11 @@
 import React from 'react';
 import Square from '../../../../../components/league/square/Square';
 import Fiorentina from '../../../../../components/league/4star-teams/Fiorentina';
+import Schalke from '../../../../../components/league/4star-teams/Schalke';
+import Cska from '../../../../../components/league/4star-teams/Cska';
+import Galatasaray from '../../../../../components/league/4star-teams/Galatasaray';
+import Zenit from '../../../../../components/league/4star-teams/Zenit';
+import Napoli from '../../../../../components/league/4star-teams/Napoli';
 
 
 const KingsCupPlayOffs = () => {
@@ -10,16 +15,16 @@ const KingsCupPlayOffs = () => {
 				<h2 className='text-center text-orange-500'>Play Offs: Semi-Finals 1/4</h2>
 				<div className='flex flex-col gap-32 justify-center'>
 					<Square
-						teamOne={'4 place'}
-						teamTwo={'6 place'}
+						teamOne={<Galatasaray />}
+						teamTwo={<Napoli />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={'3 place'}
-						teamTwo={'5 place'}
+						teamOne={<Schalke />}
+						teamTwo={<Zenit />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
@@ -39,7 +44,7 @@ const KingsCupPlayOffs = () => {
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={'2 place'}
+						teamOne={<Cska />}
 						teamTwo={'winner from 3vs5 place'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}

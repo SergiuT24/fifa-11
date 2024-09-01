@@ -60,6 +60,8 @@ export const playerStats = [
 	{ id: 'Kevin', goals: 5, matchesPlayed: 2, assists: 1 }, // Schalke
 	{ id: 'Matuu', goals: 5, matchesPlayed: 2, assists: 2 },// CSKA
 	{ id: 'Kevin', goals: 2, matchesPlayed: 2, assists: 3 }, // CSKA
+	{ id: 'Matuu', goals: 1, matchesPlayed: 2, assists: 2 },// Galatasaray
+	{ id: 'Kevin', goals: 2, matchesPlayed: 2, assists: 1 }, // Galatasaray
 	// // -------------------------------------------------------------------------------------------------------------------
 	// ---- VITALY, M@KSON 
 	{ id: 'VITALY', goals: 1, matchesPlayed: 2, assists: 3 }, // CSKA
@@ -75,6 +77,6 @@ export const playerStats = [
 
 	// // -------------------------------------------------------------------------------------------------------------------
 	// --- Drogba, Mysterio 
-	{ id: 'mysterio', goals: 9, matchesPlayed: 8, assists: 8 }, // CSKA
-	{ id: 'D.Drogba', goals: 8, matchesPlayed: 8, assists: 9 }, // CSKA
+	{ id: 'mysterio', goals: 11, matchesPlayed: 10, assists: 11 }, // CSKA
+	{ id: 'D.Drogba', goals: 11, matchesPlayed: 10, assists: 11 }, // CSKA
 ];
