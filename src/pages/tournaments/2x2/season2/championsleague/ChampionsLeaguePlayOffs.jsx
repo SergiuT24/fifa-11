@@ -39,8 +39,8 @@ const ChampionsLeaguePlayOffs = () => {
 						teamTwo={<Cska />}
 						scoreFirstTeamOne={3}
 						scoreSecondTeamOne={3}
-						scoreFirstTeamTwo={1}
-						scoreSecondTeamTwo={3}
+						scoreFirstTeamTwo={3}
+						scoreSecondTeamTwo={1}
 					/>
 				</div>
 			</div>
