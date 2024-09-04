@@ -12,7 +12,7 @@ const KingsCupPlayOffs = () => {
 	return (
 		<div className='flex gap-8 px-3 py-20 darkblue'>
 			<div className='flex flex-col gap-6'>
-				<h2 className='text-center text-orange-500'>Play Offs: Semi-Finals 1/4</h2>
+				<h2 className='text-center text-orange-500'>Play Offs: Quarter-finals 1/4</h2>
 				<div className='flex flex-col gap-32 justify-center'>
 					<Square
 						teamOne={<Galatasaray />}

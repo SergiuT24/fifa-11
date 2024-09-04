@@ -11,7 +11,7 @@ const ChampionsLeaguePlayOffs = () => {
 	return (
 		<div className='py-16 darkblue'>
 			<div className='flex flex-col gap-10'>
-				<h2 className='text-center'>Play Offs: Semi-Finals 1/2</h2>
+				<h2 className='text-center'>Play Offs: Quarter-finals 1/4</h2>
 				<div className='flex gap-14 justify-center'>
 					<Square
 						teamOne={<Fiorentina />}
@@ -37,10 +37,10 @@ const ChampionsLeaguePlayOffs = () => {
 					<Square
 						teamOne={<Fiorentina />}
 						teamTwo={<Cska />}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						scoreFirstTeamOne={3}
+						scoreSecondTeamOne={3}
+						scoreFirstTeamTwo={1}
+						scoreSecondTeamTwo={3}
 					/>
 				</div>
 			</div>
