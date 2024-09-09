@@ -1,7 +1,7 @@
 import React from 'react';
 import PlayersImg from './PlayersImg';
 
-const PlayersTeam = ({ team, playerOne, playerTwo, imgOne, imgTwo, club }) => {
+const PlayersTeam = ({ team, playerOne, playerTwo, playerTree, imgOne, imgTwo, imgTree, club }) => {
 	return (
 		<div className='text-xs darkblue flex justify-around gap-2 w-80 rounded-2xl p-2'>
 			<div className='players flex flex-col gap-2 text-left'>
@@ -14,6 +14,12 @@ const PlayersTeam = ({ team, playerOne, playerTwo, imgOne, imgTwo, club }) => {
 					<div className='flex gap-2 items-center'>
 						<PlayersImg avatar={imgTwo} />
 						<p>{playerTwo}</p>
+					</div>
+				</div>
+				<div>
+					<div className='flex gap-2 items-center'>
+						<PlayersImg avatar={imgTree} />
+						<p>{playerTree}</p>
 					</div>
 				</div>
 			</div>

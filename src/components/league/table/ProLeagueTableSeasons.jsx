@@ -3,6 +3,7 @@ import LeagueTable from './LeagueTable.jsx';
 import { initialTeams as initialTeamsSeasonOne1x1, matchResults as matchResultsSeasonOne1x1 } from '../../../data/seasonOne1x1/ProLeagueTableResults.jsx';
 import { initialTeams as initialTeamsSeasonOne2x2, matchResults as matchResultsSeasonOne2x2 } from '../../../data/seasonOne2x2/ProLeagueTableResults.jsx';
 import { initialTeams as initialTeamsSeasonTwo2x2, matchResults as matchResultsSeasonTwo2x2 } from '../../../data/seasonTwo2x2/ProLeagueTableResults.jsx';
+import { initialTeams as initialTeamsSeasonOne3x3, matchResults as matchResultsSeasonOne3x3 } from '../../../data/seasonOne3x3/ProLeagueTableResults.jsx';
 
 const SeasonOne1x1 = () => (
 	<LeagueTable
@@ -28,4 +29,12 @@ const SeasonTwo2x2 = () => (
 	/>
 );
 
-export { SeasonOne1x1, SeasonOne2x2, SeasonTwo2x2 };
+const SeasonOne3x3 = () => (
+	<LeagueTable
+		initialTeams={initialTeamsSeasonOne3x3}
+		matchResults={matchResultsSeasonOne3x3}
+		seasonTitle="Pro League Season 1 (3x3)"
+	/>
+);
+
+export { SeasonOne1x1, SeasonOne2x2, SeasonTwo2x2, SeasonOne3x3 };

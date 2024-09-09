@@ -12,6 +12,10 @@ import { initialPlayers as initialPlayersSeasonOneKings2x2, playerStats as playe
 import { initialPlayers as initialPlayersSeasonTwoPro2x2, playerStats as playerStatsSeasonTwoPro2x2 } from '../../../data/seasonTwo2x2/ProLeaguePlayerStats.jsx';
 import { initialPlayers as initialPlayersSeasonTwoUCL2x2, playerStats as playerStatsSeasonTwoUCL2x2 } from '../../../data/seasonTwo2x2/UCLPlayerStats.jsx';
 import { initialPlayers as initialPlayersSeasonTwoKings2x2, playerStats as playerStatsSeasonTwoKings2x2 } from '../../../data/seasonTwo2x2/KingsCupPlayerStats.jsx';
+// Season 1 3x3
+import { initialPlayers as initialPlayersSeasonOnePro3x3, playerStats as playerStatsSeasonOnePro3x3 } from '../../../data/seasonOne3x3/ProLeaguePlayerStats.jsx';
+import { initialPlayers as initialPlayersSeasonOneUCL3x3, playerStats as playerStatsSeasonOneUCL3x3 } from '../../../data/seasonOne3x3/UCLPlayerStats.jsx';
+import { initialPlayers as initialPlayersSeasonOneKings3x3, playerStats as playerStatsSeasonOneKings3x3 } from '../../../data/seasonOne3x3/KingsCupPlayerStats.jsx';
 
 // Season 1 1x1
 const ProLeagueSeasonOnePlayerStats1x1 = () => (
@@ -70,6 +74,25 @@ const KingsCupSeasonTwoPlayerStats2x2 = () => (
 		playerStats={playerStatsSeasonTwoKings2x2}
 	/>
 );
+// Season 1 3x3
+const ProLeagueSeasonOnePlayerStats3x3 = () => (
+	<PlayerStatsTables
+		initialPlayers={initialPlayersSeasonOnePro3x3}
+		playerStats={playerStatsSeasonOnePro3x3}
+	/>
+);
+const UCLSeasonOnePlayerStats3x3 = () => (
+	<PlayerStatsTables
+		initialPlayers={initialPlayersSeasonOneUCL3x3}
+		playerStats={playerStatsSeasonOneUCL3x3}
+	/>
+);
+const KingsCupSeasonOnePlayerStats3x3 = () => (
+	<PlayerStatsTables
+		initialPlayers={initialPlayersSeasonOneKings3x3}
+		playerStats={playerStatsSeasonOneKings3x3}
+	/>
+);
 
 export {
 	//Season 1 1x1
@@ -83,5 +106,9 @@ export {
 	// Season 2 2x2
 	ProLeagueSeasonTwoPlayerStats2x2,
 	UCLSeasonTwoPlayerStats2x2,
-	KingsCupSeasonTwoPlayerStats2x2
+	KingsCupSeasonTwoPlayerStats2x2,
+	// Season 1 3x3
+	ProLeagueSeasonOnePlayerStats3x3,
+	UCLSeasonOnePlayerStats3x3,
+	KingsCupSeasonOnePlayerStats3x3
 };
