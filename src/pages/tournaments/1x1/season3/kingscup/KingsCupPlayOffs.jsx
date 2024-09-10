@@ -30,7 +30,7 @@ const KingsCupPlayOffs = () => {
 				<div className='flex flex-col gap-16'>
 					<Square
 						teamOne={'1 place'}
-						teamTwo={'winner from 3vs5 place'}
+						teamTwo={'winner from 4vs6 place'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
@@ -38,7 +38,7 @@ const KingsCupPlayOffs = () => {
 					/>
 					<Square
 						teamOne={'2 place'}
-						teamTwo={'winner from 4vs6 place'}
+						teamTwo={'winner from 3vs5 place'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}

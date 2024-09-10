@@ -8,14 +8,14 @@ const LeagueTableLegend = ({ tournament }) => {
 				<div>
 					<p>Winner Pro League Season</p>
 					<p>Promotion - Champions League (Play Offs: SEMI-FINALS 1/2, played versus 4rd place)</p>
-					<p>Promotion - King's Cup (Play Offs: SEMI-FINALS 1/2) plays against (4rd-6rd places)</p>
+					<p>Promotion - King's Cup (Play Offs: SEMI-FINALS 1/2)</p>
 				</div>
 			</div>
 			<div className='flex gap-4 items-center'>
 				<div className=' bg-purple-700 w-4 h-6'></div>
 				<div>
 					<p>Promotion - Champions League (Play Offs: SEMI-FINALS 1/2, played versus 3rd place)</p>
-					<p>Promotion - King's Cup (Play Offs: SEMI-FINALS 1/2) plays against (3rd-5rd places)</p>
+					<p>Promotion - King's Cup (Play Offs: SEMI-FINALS 1/2)</p>
 				</div>
 			</div>
 			<div className='flex gap-4 items-center'>

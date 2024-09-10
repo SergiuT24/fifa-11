@@ -6,7 +6,7 @@ const SquadsForSeason = () => {
 		<div className='flex flex-col gap-5 ml-4'>
 			<PlayersTeam
 				team={'TEAM 1'}
-				playerOne={'D.Drogba'}
+				playerOne={'D.Drogba (C.)'}
 				imgOne={'/img/players/d-drogba.png'}
 				playerTwo={'mysterio'}
 				imgTwo={'/img/players/mysterio.png'}

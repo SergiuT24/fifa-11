@@ -11,6 +11,11 @@ const Archive = () => {
 					<MenuLink to={'/archive/tournament/2x2/season/1'} value={'Tournament 2x2 Season 1'} />
 					<p>Date: Start: July 29 17:00 (MSK) - End: 12 August 17:00 (MSK)</p>
 				</li>
+				<li className='flex items-center gap-9'>
+					<p>1.</p>
+					<MenuLink to={'/archive/tournament/1x1/season/1'} value={'Tournament 1x1 Season 1'} />
+					<p>Date: Start: August 7 20:00 (MSK) - End: 18 August 20:00 (MSK)</p>
+				</li>
 			</ul>
 		</div>
 	);
