@@ -40,6 +40,15 @@ const SquadsForSeason = () => {
 				playerTree={'Andy'}
 				imgTree={'/img/players/avatar.png'}
 				club={'empty'} />
+			<PlayersTeam
+				team={'TEAM 5'}
+				playerOne={'Anna'}
+				imgOne={'/img/players/anna.png'}
+				playerTwo={'Matuu'}
+				imgTwo={'/img/players/matuu.png'}
+				playerTree={'Kevin'}
+				imgTree={'/img/players/kevin.png'}
+				club={'empty'} />
 		</div>
 	);
 }
