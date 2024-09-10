@@ -15,7 +15,7 @@ const LeagueTableComponent = ({ rank, img, team, mp, w, d, l, g, gd, pts, form, 
 	return (
 		<tr className='table-line border-b border-b-green-950 hover:bg-teal-900'>
 			<th className='w-4 h-9' title='rank' style={rowStyle}>{rank}</th>
-			<th className='flex justify-start pl-6 gap-2 items-center w-56 h-9'>{img}{team}{club}</th>
+			<th className='flex justify-start pl-1 gap-2 items-center w-32 h-9'>{img}{team}{club}</th>
 			<th className='w-8 h-9' title="Matches played">{mp}</th>
 			<th className='w-8 h-9' title="Wins">{w}</th>
 			<th className='w-8 h-9' title='Draws'>{d}</th>

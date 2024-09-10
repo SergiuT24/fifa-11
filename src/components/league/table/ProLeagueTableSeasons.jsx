@@ -42,7 +42,7 @@ const SeasonTwo1x1 = () => (
 	<LeagueTable
 		initialTeams={initialTeamsSeasonTwo1x1}
 		matchResults={matchResultsSeasonTwo1x1}
-		seasonTitle="Pro League Season 2 (1x1)"
+		seasonTitle="Season 2 (1x1) "
 	/>
 );
 
