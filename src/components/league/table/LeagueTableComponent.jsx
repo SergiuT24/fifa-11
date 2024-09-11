@@ -10,6 +10,8 @@ const LeagueTableComponent = ({ rank, img, team, mp, w, d, l, g, gd, pts, form, 
 		rowStyle = { backgroundColor: 'rgb(249, 115, 22)' };
 	} else if (rank === 5 || rank === 6) {
 		rowStyle = { backgroundColor: 'red' }
+	} else if (rank === 7 || rank === 8) {
+		rowStyle = { backgroundColor: 'pink' }
 	}
 
 	return (
