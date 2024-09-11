@@ -24,7 +24,7 @@ const ChampionsLeagueMain = () => {
 	return (
 		<div>
 			<LeagueMenu
-				leagueCount={'2x2 > Champions League'}
+				leagueCount={'1x1 > Champions League'}
 				logo={'/img/league/champions-league.png'}
 				name={'Champions League'}
 				season={'Season 2'}
