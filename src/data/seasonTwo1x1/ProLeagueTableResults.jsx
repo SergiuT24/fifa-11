@@ -96,6 +96,8 @@ export const matchResults = [
 	{ id: '9', teamOne: 'Atletico Madrid', scoreOne: 0, teamTwo: 'Real Madrid', scoreTwo: 2 },
 	{ id: '5', teamOne: 'Liverpool', scoreOne: 1, teamTwo: 'Barcelona', scoreTwo: 3 },
 	{ id: '10', teamOne: 'Barcelona', scoreOne: 1, teamTwo: 'Liverpool', scoreTwo: 3 },
+	{ id: '6', teamOne: 'Manchester United', scoreOne: 2, teamTwo: 'Liverpool', scoreTwo: 2 },
+	{ id: '5', teamOne: 'Liverpool', scoreOne: 5, teamTwo: 'Manchester United', scoreTwo: 0 },
 	// Real Madrid
 	{ id: '1', teamOne: 'Real Madrid', scoreOne: '?', teamTwo: 'Chelsea', scoreTwo: '?' },
 	// AC Milan
@@ -107,10 +109,8 @@ export const matchResults = [
 	// Arsenal
 	{ id: '4', teamOne: 'Arsenal', scoreOne: '?', teamTwo: 'Atletico Madrid', scoreTwo: '?' },
 	// Liverpool
-	{ id: '5', teamOne: 'Liverpool', scoreOne: '?', teamTwo: 'Manchester United', scoreTwo: '?' },
 	{ id: '5', teamOne: 'Liverpool', scoreOne: '?', teamTwo: 'Chelsea', scoreTwo: '?' },
 	// Manchester United
-	{ id: '6', teamOne: 'Manchester United', scoreOne: '?', teamTwo: 'Liverpool', scoreTwo: '?' },
 	{ id: '6', teamOne: 'Manchester United', scoreOne: '?', teamTwo: 'Atletico Madrid', scoreTwo: '?' },
 	// Chelsea 
 	{ id: '7', teamOne: 'Chelsea', scoreOne: '?', teamTwo: 'Liverpool', scoreTwo: '?' },
