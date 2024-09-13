@@ -1,5 +1,15 @@
 import React from 'react';
 import Square from '../../../../../components/league/square/Square';
+import AcMilan from '../../../../../components/league/teams/AcMilan';
+import BayernMunich from '../../../../../components/league/teams/BayernMunich';
+import Arsenal from '../../../../../components/league/teams/Arsenal';
+import Liverpool from '../../../../../components/league/teams/Liverpool';
+import ManchesterUnited from '../../../../../components/league/teams/ManchesterUnited';
+import Chelsea from '../../../../../components/league/teams/Chelsea';
+import RealMadrid from '../../../../../components/league/teams/RealMadrid';
+import AtleticoMadrid from '../../../../../components/league/teams/AtleticoMadrid';
+import Lyon from '../../../../../components/league/teams/Lyon';
+import Barcelona from '../../../../../components/league/teams/Barcelona';
 
 const KingsCupPlayOffs = () => {
 	return (
@@ -29,7 +39,7 @@ const KingsCupPlayOffs = () => {
 				<h2 className='text-center text-orange-500'>1/8-Finals</h2>
 				<div className='flex gap-14 justify-center'>
 					<Square
-						teamOne={'5 place'}
+						teamOne={<Barcelona />}
 						teamTwo={'empty'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
@@ -37,7 +47,7 @@ const KingsCupPlayOffs = () => {
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={'6 place'}
+						teamOne={<Arsenal />}
 						teamTwo={'empty'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
@@ -50,7 +60,7 @@ const KingsCupPlayOffs = () => {
 				<h2 className='text-center text-orange-500'>Play Offs: Quarter-Finals 1/4</h2>
 				<div className='flex gap-14 justify-center'>
 					<Square
-						teamOne={'3 place'}
+						teamOne={<Chelsea />}
 						teamTwo={'empty'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
@@ -58,7 +68,7 @@ const KingsCupPlayOffs = () => {
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={'4 place'}
+						teamOne={<Lyon />}
 						teamTwo={'empty'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
@@ -71,7 +81,7 @@ const KingsCupPlayOffs = () => {
 				<h2 className='text-center text-orange-500'>Play Offs: Semi-Finals 1/2</h2>
 				<div className='flex gap-14 justify-center'>
 					<Square
-						teamOne={'1 place'}
+						teamOne={<BayernMunich />}
 						teamTwo={'empty'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
@@ -79,7 +89,7 @@ const KingsCupPlayOffs = () => {
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={'2 place'}
+						teamOne={<AcMilan />}
 						teamTwo={'empty'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
