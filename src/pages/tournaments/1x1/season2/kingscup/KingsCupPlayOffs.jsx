@@ -18,16 +18,16 @@ const KingsCupPlayOffs = () => {
 				<h2 className='text-center text-orange-500'>League Stage</h2>
 				<div className='flex gap-14 justify-center'>
 					<Square
-						teamOne={'10 place'}
-						teamTwo={'8 place'}
+						teamOne={<ManchesterUnited />}
+						teamTwo={<RealMadrid />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={'9 place'}
-						teamTwo={'7 place'}
+						teamOne={<AtleticoMadrid />}
+						teamTwo={<Liverpool />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
