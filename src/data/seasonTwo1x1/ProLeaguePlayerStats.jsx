@@ -12,14 +12,14 @@ export const initialPlayers = [
 ];
 
 export const playerStats = [
-	{ id: 'Berserk', goals: 45, matchesPlayed: 14, assists: 0 },
-	{ id: 'Jsnick', goals: 38, matchesPlayed: 14, assists: 0 },
+	{ id: 'Berserk', goals: 58, matchesPlayed: 18, assists: 0 },
+	{ id: 'Jsnick', goals: 50, matchesPlayed: 18, assists: 0 },
 	{ id: 'Anna', goals: 65, matchesPlayed: 18, assists: 0 },
 	{ id: 'M@KSON', goals: 31, matchesPlayed: 18, assists: 0 },
-	{ id: 'D.Drogba', goals: 30, matchesPlayed: 16, assists: 0 },
-	{ id: 'mysterio', goals: 30, matchesPlayed: 16, assists: 0 },
-	{ id: 'HAM', goals: 27, matchesPlayed: 12, assists: 0 },
-	{ id: 'Nikita', goals: 19, matchesPlayed: 16, assists: 0 },
-	{ id: 'TOTO', goals: 15, matchesPlayed: 12, assists: 0 },
-	{ id: 'DartRin', goals: 29, matchesPlayed: 16, assists: 0 }
+	{ id: 'D.Drogba', goals: 34, matchesPlayed: 18, assists: 0 },
+	{ id: 'mysterio', goals: 32, matchesPlayed: 18, assists: 0 },
+	{ id: 'HAM', goals: 58, matchesPlayed: 18, assists: 0 },
+	{ id: 'Nikita', goals: 20, matchesPlayed: 18, assists: 0 },
+	{ id: 'TOTO', goals: 21, matchesPlayed: 18, assists: 0 },
+	{ id: 'DartRin', goals: 30, matchesPlayed: 18, assists: 0 }
 ];

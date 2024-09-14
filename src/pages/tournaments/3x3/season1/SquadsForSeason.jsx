@@ -36,7 +36,7 @@ const SquadsForSeason = () => {
 				playerOne={'M@KSON (C.)'}
 				imgOne={'/img/players/makson.png'}
 				playerTwo={'VITALY'}
-				imgTwo={'/img/players/avatar.png'}
+				imgTwo={'/img/players/vitaly.png'}
 				playerTree={'Andy'}
 				imgTree={'/img/players/avatar.png'}
 				club={'empty'} />
