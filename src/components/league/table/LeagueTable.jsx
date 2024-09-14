@@ -85,7 +85,8 @@ const updateTeams = (teams, matches) => {
 	});
 
 	updatedTeams.forEach(team => {
-		team.gd = `${team.g}:${team.gc}`;
+		const goalDifference = team.g - team.gc;
+		team.gd = goalDifference >= 0 ? `+${goalDifference}` : `${goalDifference}`;
 	});
 
 	updatedTeams.sort((a, b) => {

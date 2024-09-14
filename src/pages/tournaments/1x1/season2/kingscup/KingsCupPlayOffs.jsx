@@ -13,10 +13,12 @@ import Barcelona from '../../../../../components/league/teams/Barcelona';
 
 const KingsCupPlayOffs = () => {
 	return (
-		<div className='py-16 darkblue'>
-			<div className='flex flex-col gap-10'>
-				<h2 className='text-center text-orange-500'>League Stage</h2>
-				<div className='flex gap-14 justify-center'>
+		<div className='flex gap-10 overflow-x-scroll leaguemenu py-16 darkblue'>
+			<div className='flex flex-col ml-3 gap-10'>
+				<div>
+					<h2 className='text-center text-orange-500'>Stage 1</h2>
+				</div>
+				<div className='flex flex-col gap-14 justify-center'>
 					<Square
 						teamOne={<ManchesterUnited />}
 						teamTwo={<RealMadrid />}
@@ -26,18 +28,21 @@ const KingsCupPlayOffs = () => {
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={<AtleticoMadrid />}
-						teamTwo={<Liverpool />}
+						teamOne={<Lyon />}
+						teamTwo={'empty'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
 						scoreSecondTeamTwo={'?'}
 					/>
-				</div>
-			</div>
-			<div className='flex flex-col gap-10 mt-9'>
-				<h2 className='text-center text-orange-500'>1/8-Finals</h2>
-				<div className='flex gap-14 justify-center'>
+					<Square
+						teamOne={<AcMilan />}
+						teamTwo={'empty'}
+						scoreFirstTeamOne={'?'}
+						scoreSecondTeamOne={'?'}
+						scoreFirstTeamTwo={'?'}
+						scoreSecondTeamTwo={'?'}
+					/>
 					<Square
 						teamOne={<Barcelona />}
 						teamTwo={'empty'}
@@ -54,11 +59,6 @@ const KingsCupPlayOffs = () => {
 						scoreFirstTeamTwo={'?'}
 						scoreSecondTeamTwo={'?'}
 					/>
-				</div>
-			</div>
-			<div className='flex flex-col gap-10 mt-9'>
-				<h2 className='text-center text-orange-500'>Play Offs: Quarter-Finals 1/4</h2>
-				<div className='flex gap-14 justify-center'>
 					<Square
 						teamOne={<Chelsea />}
 						teamTwo={'empty'}
@@ -68,19 +68,6 @@ const KingsCupPlayOffs = () => {
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={<Lyon />}
-						teamTwo={'empty'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
-					/>
-				</div>
-			</div>
-			<div className='flex flex-col gap-10 mt-9'>
-				<h2 className='text-center text-orange-500'>Play Offs: Semi-Finals 1/2</h2>
-				<div className='flex gap-14 justify-center'>
-					<Square
 						teamOne={<BayernMunich />}
 						teamTwo={'empty'}
 						scoreFirstTeamOne={'?'}
@@ -89,8 +76,8 @@ const KingsCupPlayOffs = () => {
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={<AcMilan />}
-						teamTwo={'empty'}
+						teamOne={<AtleticoMadrid />}
+						teamTwo={<Liverpool />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
@@ -98,17 +85,93 @@ const KingsCupPlayOffs = () => {
 					/>
 				</div>
 			</div>
-			<div className='flex flex-col gap-3 mt-9'>
-				<h2 className='text-center text-orange-500'>FINAL</h2>
-				<div className='flex gap-10 justify-center'>
+			<div className='flex flex-col gap-10'>
+				<div>
+					<h2 className='text-center text-orange-500'>Quarter-Finals 1/4</h2>
+				</div>
+				<div className='flex flex-col pt-20 justify-center'>
 					<Square
 						teamOne={'empty'}
-						teamTwo={'empty'}
+						teamTwo={<Lyon />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
 						scoreSecondTeamTwo={'?'}
 					/>
+					<div className='mt-48'>
+						<Square
+							teamOne={<AcMilan />}
+							teamTwo={<Barcelona />}
+							scoreFirstTeamOne={'?'}
+							scoreSecondTeamOne={'?'}
+							scoreFirstTeamTwo={'?'}
+							scoreSecondTeamTwo={'?'}
+						/>
+					</div>
+					<div className='mt-48'>
+						<Square
+							teamOne={<Arsenal />}
+							teamTwo={<Chelsea />}
+							scoreFirstTeamOne={'?'}
+							scoreSecondTeamOne={'?'}
+							scoreFirstTeamTwo={'?'}
+							scoreSecondTeamTwo={'?'}
+						/>
+					</div>
+					<div className='mt-48'>
+						<Square
+							teamOne={<BayernMunich />}
+							teamTwo={'empty'}
+							scoreFirstTeamOne={'?'}
+							scoreSecondTeamOne={'?'}
+							scoreFirstTeamTwo={'?'}
+							scoreSecondTeamTwo={'?'}
+						/>
+					</div>
+				</div>
+			</div>
+			<div className='flex flex-col gap-10'>
+				<div>
+					<h2 className='text-center text-orange-500'>Semi-Finals 1/2</h2>
+				</div>
+				<div className='flex flex-col pt-20 justify-center'>
+					<div className='mt-36'>
+						<Square
+							teamOne={'empty'}
+							teamTwo={'empty'}
+							scoreFirstTeamOne={'?'}
+							scoreSecondTeamOne={'?'}
+							scoreFirstTeamTwo={'?'}
+							scoreSecondTeamTwo={'?'}
+						/>
+					</div>
+					<div className='mt-96 pt-16'>
+						<Square
+							teamOne={'empty'}
+							teamTwo={'empty'}
+							scoreFirstTeamOne={'?'}
+							scoreSecondTeamOne={'?'}
+							scoreFirstTeamTwo={'?'}
+							scoreSecondTeamTwo={'?'}
+						/>
+					</div>
+				</div>
+			</div>
+			<div className='flex flex-col gap-10'>
+				<div>
+					<h2 className='text-center text-orange-500'>Final</h2>
+				</div>
+				<div className='flex flex-col pt-20 justify-center'>
+					<div className='mt-96 pt-6'>
+						<Square
+							teamOne={'empty'}
+							teamTwo={'empty'}
+							scoreFirstTeamOne={'?'}
+							scoreSecondTeamOne={'?'}
+							scoreFirstTeamTwo={'?'}
+							scoreSecondTeamTwo={'?'}
+						/>
+					</div>
 				</div>
 			</div>
 		</div>
