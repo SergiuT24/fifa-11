@@ -20,10 +20,10 @@ const ChampionsLeaguePlayOffs = () => {
 					<Square
 						teamOne={<Barcelona />}
 						teamTwo={<AtleticoMadrid />}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						scoreFirstTeamOne={2}
+						scoreSecondTeamOne={0}
+						scoreFirstTeamTwo={2}
+						scoreSecondTeamTwo={2}
 					/>
 					<Square
 						teamOne={<Arsenal />}
@@ -40,7 +40,7 @@ const ChampionsLeaguePlayOffs = () => {
 				<div className='flex gap-14 justify-center'>
 					<Square
 						teamOne={<Lyon />}
-						teamTwo={'empty'}
+						teamTwo={<Barcelona />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
