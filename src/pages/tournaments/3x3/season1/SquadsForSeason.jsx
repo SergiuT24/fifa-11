@@ -1,5 +1,11 @@
 import React from 'react';
 import PlayersTeam from '../../../../components/league/players/PlayersTeam';
+import AtleticoMadrid from '../../../../components/league/teams/AtleticoMadrid';
+import AcMilan from '../../../../components/league/teams/AcMilan';
+import BayernMunich from '../../../../components/league/teams/BayernMunich';
+import Arsenal from '../../../../components/league/teams/Arsenal';
+import ManchesterCity from '../../../../components/league/teams/ManchesterCity';
+import Lyon from '../../../../components/league/teams/Lyon';
 
 const SquadsForSeason = () => {
 	return (
@@ -12,7 +18,7 @@ const SquadsForSeason = () => {
 				imgTwo={'/img/players/mysterio.png'}
 				playerTree={'TOTO'}
 				imgTree={'/img/players/toto.png'}
-				club={'empty'} />
+				club={<AtleticoMadrid />} />
 			<PlayersTeam
 				team={'TEAM 2'}
 				playerOne={'DartRin (C.)'}
@@ -21,7 +27,7 @@ const SquadsForSeason = () => {
 				imgTwo={'/img/players/france.png'}
 				playerTree={'SergeyFace'}
 				imgTree={'/img/players/sergeyface.png'}
-				club={'empty'} />
+				club={<ManchesterCity />} />
 			<PlayersTeam
 				team={'TEAM 3'}
 				playerOne={'Berserk (C.)'}
@@ -30,7 +36,7 @@ const SquadsForSeason = () => {
 				imgTwo={'/img/players/jsnick.png'}
 				playerTree={'HAM'}
 				imgTree={'/img/players/avatar.png'}
-				club={'empty'} />
+				club={<BayernMunich />} />
 			<PlayersTeam
 				team={'TEAM 4'}
 				playerOne={'M@KSON (C.)'}
@@ -39,7 +45,7 @@ const SquadsForSeason = () => {
 				imgTwo={'/img/players/vitaly.png'}
 				playerTree={'Andy'}
 				imgTree={'/img/players/avatar.png'}
-				club={'empty'} />
+				club={<Lyon />} />
 			<PlayersTeam
 				team={'TEAM 5'}
 				playerOne={'Matuu (C.)'}
@@ -48,16 +54,16 @@ const SquadsForSeason = () => {
 				imgTwo={'/img/players/anna.png'}
 				playerTree={'Kevin'}
 				imgTree={'/img/players/kevin.png'}
-				club={'empty'} />
+				club={<Arsenal />} />
 			<PlayersTeam
 				team={'TEAM 6'}
-				playerOne={'mcrurus'}
+				playerOne={'mcrurus (C.)'}
 				imgOne={'/img/players/mcrurus.png'}
-				playerTwo={'Pro[100]Raspasovschik'}
+				playerTwo={'Robinho'}
 				imgTwo={'/img/players/avatar.png'}
 				playerTree={'Kebab'}
 				imgTree={'/img/players/avatar.png'}
-				club={'empty'} />
+				club={<AcMilan />} />
 		</div>
 	);
 }

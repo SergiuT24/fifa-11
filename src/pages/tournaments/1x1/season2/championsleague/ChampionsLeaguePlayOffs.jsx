@@ -28,10 +28,10 @@ const ChampionsLeaguePlayOffs = () => {
 					<Square
 						teamOne={<Arsenal />}
 						teamTwo={<Liverpool />}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						scoreFirstTeamOne={3}
+						scoreSecondTeamOne={1}
+						scoreFirstTeamTwo={3}
+						scoreSecondTeamTwo={2}
 					/>
 				</div>
 			</div>
@@ -41,18 +41,18 @@ const ChampionsLeaguePlayOffs = () => {
 					<Square
 						teamOne={<Lyon />}
 						teamTwo={<Barcelona />}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						scoreFirstTeamOne={5}
+						scoreSecondTeamOne={2}
+						scoreFirstTeamTwo={2}
+						scoreSecondTeamTwo={3}
 					/>
 					<Square
 						teamOne={<Chelsea />}
-						teamTwo={'empty'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						teamTwo={<Arsenal />}
+						scoreFirstTeamOne={4}
+						scoreSecondTeamOne={2}
+						scoreFirstTeamTwo={4}
+						scoreSecondTeamTwo={1}
 					/>
 				</div>
 			</div>
@@ -61,19 +61,19 @@ const ChampionsLeaguePlayOffs = () => {
 				<div className='flex gap-14 justify-center'>
 					<Square
 						teamOne={<BayernMunich />}
-						teamTwo={'empty'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						teamTwo={<Lyon />}
+						scoreFirstTeamOne={1}
+						scoreSecondTeamOne={3}
+						scoreFirstTeamTwo={6}
+						scoreSecondTeamTwo={2}
 					/>
 					<Square
 						teamOne={<AcMilan />}
-						teamTwo={'empty'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						teamTwo={<Chelsea />}
+						scoreFirstTeamOne={1}
+						scoreSecondTeamOne={4}
+						scoreFirstTeamTwo={2}
+						scoreSecondTeamTwo={2}
 					/>
 				</div>
 			</div>
@@ -81,12 +81,12 @@ const ChampionsLeaguePlayOffs = () => {
 				<h2 className='text-center'>FINAL</h2>
 				<div className='flex gap-10 justify-center'>
 					<Square
-						teamOne={'empty'}
-						teamTwo={'empty'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						teamOne={<BayernMunich />}
+						teamTwo={<Chelsea />}
+						scoreFirstTeamOne={1}
+						scoreSecondTeamOne={0}
+						scoreFirstTeamTwo={1}
+						scoreSecondTeamTwo={3}
 					/>
 				</div>
 			</div>
