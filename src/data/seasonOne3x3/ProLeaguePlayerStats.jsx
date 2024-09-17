@@ -20,4 +20,12 @@ export const initialPlayers = [
 ];
 
 export const playerStats = [
+	// Bayern Munich
+	{ id: 'Berserk', team: 'Bayern Munich', goals: 1, matchesPlayed: 2, assists: 2, }, // Man City
+	{ id: 'Jsnick', team: 'Bayern Munich', goals: 1, matchesPlayed: 2, assists: 2, },
+	{ id: 'HAM', team: 'Bayern Munich', goals: 2, matchesPlayed: 2, assists: 0, },
+	// Manchester City
+	{ id: 'DartRin', team: 'Manchester City', goals: 1, matchesPlayed: 2, assists: 0, },
+	{ id: '14 France', team: 'Manchester City', goals: 2, matchesPlayed: 2, assists: 0, },
+	{ id: 'SergeyFace', team: 'Manchester City', goals: 0, matchesPlayed: 2, assists: 0, },
 ];

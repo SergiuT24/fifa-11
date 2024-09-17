@@ -27,7 +27,7 @@ const ProLeagueMain = () => {
 	return (
 		<div>
 			<LeagueMenu
-				leagueCount={'3x3 > Pro League'}
+				leagueCount={'3x3 > Pro League > Start: Sep 16 17:00 (MSK) - End: 30 Sep 17:00 (MSK)'}
 				logo={'/img/league/pro-league3x3.png'}
 				name={'Pro League'}
 				season={'Season 1'}

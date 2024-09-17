@@ -15,6 +15,8 @@ export const initialTeams = [
 ];
 
 export const matchResults = [
+	{ id: '3', teamOne: 'Bayern Munich', scoreOne: 2, teamTwo: 'Manchester City', scoreTwo: 3 },
+	{ id: '5', teamOne: 'Manchester City', scoreOne: 0, teamTwo: 'Bayern Munich', scoreTwo: 2 },
 	// Atletico Madrid
 	{ id: '1', teamOne: 'Atletico Madrid', scoreOne: '?', teamTwo: 'AC Milan', scoreTwo: '?' },
 	{ id: '1', teamOne: 'Atletico Madrid', scoreOne: '?', teamTwo: 'Bayern Munich', scoreTwo: '?' },
@@ -31,7 +33,6 @@ export const matchResults = [
 	{ id: '3', teamOne: 'Bayern Munich', scoreOne: '?', teamTwo: 'Atletico Madrid', scoreTwo: '?' },
 	{ id: '3', teamOne: 'Bayern Munich', scoreOne: '?', teamTwo: 'AC Milan', scoreTwo: '?' },
 	{ id: '3', teamOne: 'Bayern Munich', scoreOne: '?', teamTwo: 'Arsenal', scoreTwo: '?' },
-	{ id: '3', teamOne: 'Bayern Munich', scoreOne: '?', teamTwo: 'Manchester City', scoreTwo: '?' },
 	{ id: '3', teamOne: 'Bayern Munich', scoreOne: '?', teamTwo: 'Lyon', scoreTwo: '?' },
 	// Arsenal
 	{ id: '4', teamOne: 'Arsenal', scoreOne: '?', teamTwo: 'Atletico Madrid', scoreTwo: '?' },
@@ -42,7 +43,6 @@ export const matchResults = [
 	// Manchester City
 	{ id: '5', teamOne: 'Manchester City', scoreOne: '?', teamTwo: 'Atletico Madrid', scoreTwo: '?' },
 	{ id: '5', teamOne: 'Manchester City', scoreOne: '?', teamTwo: 'AC Milan', scoreTwo: '?' },
-	{ id: '5', teamOne: 'Manchester City', scoreOne: '?', teamTwo: 'Bayern Munich', scoreTwo: '?' },
 	{ id: '5', teamOne: 'Manchester City', scoreOne: '?', teamTwo: 'Arsenal', scoreTwo: '?' },
 	{ id: '5', teamOne: 'Manchester City', scoreOne: '?', teamTwo: 'Lyon', scoreTwo: '?' },
 	// Lyon
