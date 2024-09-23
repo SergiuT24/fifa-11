@@ -16,6 +16,8 @@ export const initialTeams = [
 
 export const matchResults = [
 	// Played Games
+	{ id: '1', teamOne: 'HAM', scoreOne: 5, teamTwo: 'Nikita', scoreTwo: 4 },
+	{ id: '1', teamOne: 'Nikita', scoreOne: 0, teamTwo: 'HAM', scoreTwo: 5 },
 	// RAYON13
 	{ id: '1', teamOne: 'RAYON13', scoreOne: '?', teamTwo: 'HAM', scoreTwo: '?' },
 	{ id: '1', teamOne: 'RAYON13', scoreOne: '?', teamTwo: 'Dagestan', scoreTwo: '?' },
@@ -31,7 +33,6 @@ export const matchResults = [
 	// HAM
 	{ id: '1', teamOne: 'HAM', scoreOne: '?', teamTwo: 'RAYON13', scoreTwo: '?' },
 	{ id: '1', teamOne: 'HAM', scoreOne: '?', teamTwo: 'Dagestan', scoreTwo: '?' },
-	{ id: '1', teamOne: 'HAM', scoreOne: '?', teamTwo: 'Nikita', scoreTwo: '?' },
 	{ id: '1', teamOne: 'HAM', scoreOne: '?', teamTwo: 'mysterio', scoreTwo: '?' },
 	{ id: '1', teamOne: 'HAM', scoreOne: '?', teamTwo: 'DartRin', scoreTwo: '?' },
 	{ id: '1', teamOne: 'HAM', scoreOne: '?', teamTwo: 'D.Drogba', scoreTwo: '?' },
@@ -53,7 +54,6 @@ export const matchResults = [
 	{ id: '1', teamOne: 'Dagestan', scoreOne: '?', teamTwo: 'VITALY', scoreTwo: '?' },
 	{ id: '1', teamOne: 'Dagestan', scoreOne: '?', teamTwo: 'Anna', scoreTwo: '?' },
 	// Nikita
-	{ id: '1', teamOne: 'Nikita', scoreOne: '?', teamTwo: 'HAM', scoreTwo: '?' },
 	{ id: '1', teamOne: 'Nikita', scoreOne: '?', teamTwo: 'RAYON13', scoreTwo: '?' },
 	{ id: '1', teamOne: 'Nikita', scoreOne: '?', teamTwo: 'Dagestan', scoreTwo: '?' },
 	{ id: '1', teamOne: 'Nikita', scoreOne: '?', teamTwo: 'mysterio', scoreTwo: '?' },
