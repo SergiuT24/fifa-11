@@ -17,9 +17,18 @@ export const initialTeams = [
 export const matchResults = [
 	{ id: '3', teamOne: 'Bayern Munich', scoreOne: 2, teamTwo: 'Manchester City', scoreTwo: 3 },
 	{ id: '5', teamOne: 'Manchester City', scoreOne: 0, teamTwo: 'Bayern Munich', scoreTwo: 2 },
+	{ id: '3', teamOne: 'Bayern Munich', scoreOne: 6, teamTwo: 'Lyon', scoreTwo: 2 },
+	{ id: '6', teamOne: 'Lyon', scoreOne: 4, teamTwo: 'Bayern Munich', scoreTwo: 1 },
+	{ id: '5', teamOne: 'Manchester City', scoreOne: 1, teamTwo: 'Arsenal', scoreTwo: 0 },
+	{ id: '4', teamOne: 'Arsenal', scoreOne: 4, teamTwo: 'Manchester City', scoreTwo: 2 },
+	{ id: '4', teamOne: 'Arsenal', scoreOne: 2, teamTwo: 'Bayern Munich', scoreTwo: 1 },
+	{ id: '3', teamOne: 'Bayern Munich', scoreOne: 2, teamTwo: 'Arsenal', scoreTwo: 1 },
+	{ id: '6', teamOne: 'Lyon', scoreOne: 1, teamTwo: 'Arsenal', scoreTwo: 4 },
+	{ id: '4', teamOne: 'Arsenal', scoreOne: 1, teamTwo: 'Lyon', scoreTwo: 2 },
+	{ id: '3', teamOne: 'Bayern Munich', scoreOne: 2, teamTwo: 'Atletico Madrid', scoreTwo: 4 },
+	{ id: '1', teamOne: 'Atletico Madrid', scoreOne: 4, teamTwo: 'Bayern Munich', scoreTwo: 2 },
 	// Atletico Madrid
 	{ id: '1', teamOne: 'Atletico Madrid', scoreOne: '?', teamTwo: 'AC Milan', scoreTwo: '?' },
-	{ id: '1', teamOne: 'Atletico Madrid', scoreOne: '?', teamTwo: 'Bayern Munich', scoreTwo: '?' },
 	{ id: '1', teamOne: 'Atletico Madrid', scoreOne: '?', teamTwo: 'Arsenal', scoreTwo: '?' },
 	{ id: '1', teamOne: 'Atletico Madrid', scoreOne: '?', teamTwo: 'Manchester City', scoreTwo: '?' },
 	{ id: '1', teamOne: 'Atletico Madrid', scoreOne: '?', teamTwo: 'Lyon', scoreTwo: '?' },
@@ -30,25 +39,16 @@ export const matchResults = [
 	{ id: '2', teamOne: 'AC Milan', scoreOne: '?', teamTwo: 'Manchester City', scoreTwo: '?' },
 	{ id: '2', teamOne: 'AC Milan', scoreOne: '?', teamTwo: 'Lyon', scoreTwo: '?' },
 	// Bayern Munich
-	{ id: '3', teamOne: 'Bayern Munich', scoreOne: '?', teamTwo: 'Atletico Madrid', scoreTwo: '?' },
 	{ id: '3', teamOne: 'Bayern Munich', scoreOne: '?', teamTwo: 'AC Milan', scoreTwo: '?' },
-	{ id: '3', teamOne: 'Bayern Munich', scoreOne: '?', teamTwo: 'Arsenal', scoreTwo: '?' },
-	{ id: '3', teamOne: 'Bayern Munich', scoreOne: '?', teamTwo: 'Lyon', scoreTwo: '?' },
 	// Arsenal
 	{ id: '4', teamOne: 'Arsenal', scoreOne: '?', teamTwo: 'Atletico Madrid', scoreTwo: '?' },
 	{ id: '4', teamOne: 'Arsenal', scoreOne: '?', teamTwo: 'AC Milan', scoreTwo: '?' },
-	{ id: '4', teamOne: 'Arsenal', scoreOne: '?', teamTwo: 'Bayern Munich', scoreTwo: '?' },
-	{ id: '4', teamOne: 'Arsenal', scoreOne: '?', teamTwo: 'Manchester City', scoreTwo: '?' },
-	{ id: '4', teamOne: 'Arsenal', scoreOne: '?', teamTwo: 'Lyon', scoreTwo: '?' },
 	// Manchester City
 	{ id: '5', teamOne: 'Manchester City', scoreOne: '?', teamTwo: 'Atletico Madrid', scoreTwo: '?' },
 	{ id: '5', teamOne: 'Manchester City', scoreOne: '?', teamTwo: 'AC Milan', scoreTwo: '?' },
-	{ id: '5', teamOne: 'Manchester City', scoreOne: '?', teamTwo: 'Arsenal', scoreTwo: '?' },
 	{ id: '5', teamOne: 'Manchester City', scoreOne: '?', teamTwo: 'Lyon', scoreTwo: '?' },
 	// Lyon
 	{ id: '6', teamOne: 'Lyon', scoreOne: '?', teamTwo: 'Atletico Madrid', scoreTwo: '?' },
 	{ id: '6', teamOne: 'Lyon', scoreOne: '?', teamTwo: 'AC Milan', scoreTwo: '?' },
-	{ id: '6', teamOne: 'Lyon', scoreOne: '?', teamTwo: 'Bayern Munich', scoreTwo: '?' },
-	{ id: '6', teamOne: 'Lyon', scoreOne: '?', teamTwo: 'Arsenal', scoreTwo: '?' },
 	{ id: '6', teamOne: 'Lyon', scoreOne: '?', teamTwo: 'Manchester City', scoreTwo: '?' },
 ];

@@ -15,7 +15,17 @@ import Uruguay from '../../../../components/league/national-teams/Uruguay';
 const TeamsForRandom = () => {
 	return (
 		<div className='flex mt-10 pl-6 flex-col gap-4'>
-			{/* <h3 className='text-center'>Teams For Random</h3> */}
+			<h3 className='text-center'>Teams For Random</h3>
+			<Argentina />
+			<Brazil />
+			<England />
+			<France />
+			<Germany />
+			<Holland />
+			<Italy />
+			<Portugal />
+			<Spain />
+			<Uruguay />
 		</div>
 	);
 }
