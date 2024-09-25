@@ -33,6 +33,9 @@ export const playerStats = [
 	{ id: 'Berserk', team: 'Bayern Munich', goals: 0, matchesPlayed: 2, assists: 3, }, // Atletico Madrid
 	{ id: 'Jsnick', team: 'Bayern Munich', goals: 0, matchesPlayed: 2, assists: 1, },
 	{ id: 'HAM', team: 'Bayern Munich', goals: 4, matchesPlayed: 2, assists: 0, },
+	{ id: 'Berserk', team: 'Bayern Munich', goals: 1, matchesPlayed: 2, assists: 0, }, // AC Milan
+	{ id: 'Jsnick', team: 'Bayern Munich', goals: 2, matchesPlayed: 2, assists: 1, },
+	{ id: 'HAM', team: 'Bayern Munich', goals: 1, matchesPlayed: 2, assists: 3, },
 	// Manchester City
 	{ id: 'DartRin', team: 'Manchester City', goals: 1, matchesPlayed: 2, assists: 0, }, // Bayern Munich
 	{ id: '14 France', team: 'Manchester City', goals: 2, matchesPlayed: 2, assists: 0, },
@@ -47,6 +50,9 @@ export const playerStats = [
 	{ id: 'M@KSON', team: 'Lyon', goals: 2, matchesPlayed: 2, assists: 0, }, // Arsenal
 	{ id: 'VITALY', team: 'Lyon', goals: 1, matchesPlayed: 2, assists: 1, },
 	{ id: 'Andy', team: 'Lyon', goals: 0, matchesPlayed: 2, assists: 2, },
+	{ id: 'M@KSON', team: 'Lyon', goals: 1, matchesPlayed: 2, assists: 1, }, // Manchester City
+	{ id: 'VITALY', team: 'Lyon', goals: 2, matchesPlayed: 2, assists: 0, },
+	{ id: 'Andy', team: 'Lyon', goals: 1, matchesPlayed: 2, assists: 1, },
 	// Arsenal 
 	{ id: 'Matuu', team: 'Arsenal', goals: 0, matchesPlayed: 2, assists: 0, }, // Manchester City
 	{ id: 'Anna', team: 'Arsenal', goals: 1, matchesPlayed: 2, assists: 1, },
@@ -54,8 +60,27 @@ export const playerStats = [
 	{ id: 'Matuu', team: 'Arsenal', goals: 1, matchesPlayed: 2, assists: 2, }, // Bayern Munich
 	{ id: 'Anna', team: 'Arsenal', goals: 2, matchesPlayed: 2, assists: 0, },
 	{ id: 'Kevin', team: 'Arsenal', goals: 0, matchesPlayed: 2, assists: 1, },
+	{ id: 'Matuu', team: 'Arsenal', goals: 2, matchesPlayed: 2, assists: 2, }, // Lyon
+	{ id: 'Anna', team: 'Arsenal', goals: 1, matchesPlayed: 2, assists: 1, },
+	{ id: 'Kevin', team: 'Arsenal', goals: 2, matchesPlayed: 2, assists: 1, },
+	{ id: 'Matuu', team: 'Arsenal', goals: 0, matchesPlayed: 2, assists: 2, }, // Atletico Madrid
+	{ id: 'Anna', team: 'Arsenal', goals: 6, matchesPlayed: 2, assists: 1, },
+	{ id: 'Kevin', team: 'Arsenal', goals: 2, matchesPlayed: 2, assists: 2, },
 	// Atletico Madrid
 	{ id: 'D.Drogba', team: 'Atletico Madrid', goals: 3, matchesPlayed: 2, assists: 3, }, // Bayern Munich
 	{ id: 'mysterio', team: 'Atletico Madrid', goals: 0, matchesPlayed: 2, assists: 2, },
 	{ id: 'TOTO', team: 'Atletico Madrid', goals: 4, matchesPlayed: 2, assists: 1, },
+	{ id: 'D.Drogba', team: 'Atletico Madrid', goals: 0, matchesPlayed: 2, assists: 0, }, // Manchester City
+	{ id: 'mysterio', team: 'Atletico Madrid', goals: 0, matchesPlayed: 2, assists: 1, },
+	{ id: 'TOTO', team: 'Atletico Madrid', goals: 1, matchesPlayed: 2, assists: 0, },
+	{ id: 'D.Drogba', team: 'Atletico Madrid', goals: 2, matchesPlayed: 2, assists: 5, }, // Arsenal
+	{ id: 'mysterio', team: 'Atletico Madrid', goals: 5, matchesPlayed: 2, assists: 2, },
+	{ id: 'TOTO', team: 'Atletico Madrid', goals: 3, matchesPlayed: 2, assists: 1, },
+	// AC Milan
+	{ id: 'mcrurus', team: 'AC Milan', goals: 1, matchesPlayed: 2, assists: 0, }, // Bayern Munich
+	{ id: 'Robinho', team: 'AC Milan', goals: 1, matchesPlayed: 2, assists: 1, },
+	{ id: 'Kebab', team: 'AC Milan', goals: 0, matchesPlayed: 2, assists: 1, },
+	{ id: 'mcrurus', team: 'AC Milan', goals: 2, matchesPlayed: 2, assists: 0, }, // Atletico Madrid
+	{ id: 'Robinho', team: 'AC Milan', goals: 0, matchesPlayed: 2, assists: 3, },
+	{ id: 'Kebab', team: 'AC Milan', goals: 1, matchesPlayed: 2, assists: 1, },
 ];

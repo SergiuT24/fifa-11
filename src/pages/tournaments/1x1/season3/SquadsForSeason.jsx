@@ -42,8 +42,8 @@ const SquadsForSeason = () => {
 				club={<Chelsea />} />
 			<PlayersTeam
 				team={'TEAM 7'}
-				playerOne={'D.Drogba'}
-				imgOne={'/img/players/d-drogba.png'}
+				playerOne={'Matuu'}
+				imgOne={'/img/players/matuu.png'}
 				club={<BayernMunich />} />
 			<PlayersTeam
 				team={'TEAM 8'}
