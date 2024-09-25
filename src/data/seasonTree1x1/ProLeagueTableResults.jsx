@@ -76,6 +76,10 @@ export const matchResults = [
 	{ id: '1', teamOne: 'Anna', scoreOne: 3, teamTwo: 'DartRin', scoreTwo: 2 },
 	{ id: '1', teamOne: 'Anna', scoreOne: 6, teamTwo: 'Berserk', scoreTwo: 3 },
 	{ id: '1', teamOne: 'Anna', scoreOne: 2, teamTwo: 'TOTO', scoreTwo: 2 },
+	{ id: '1', teamOne: 'TOTO', scoreOne: 3, teamTwo: 'Dagestan', scoreTwo: 5 },
+	{ id: '1', teamOne: 'Dagestan', scoreOne: 3, teamTwo: 'TOTO', scoreTwo: 3 },
+	{ id: '1', teamOne: 'M@KSON', scoreOne: 3, teamTwo: 'VITALY', scoreTwo: 0 },
+	{ id: '1', teamOne: 'VITALY', scoreOne: 2, teamTwo: 'M@KSON', scoreTwo: 1 },
 	// RAYON13
 	{ id: '1', teamOne: 'RAYON13', scoreOne: '?', teamTwo: 'mysterio', scoreTwo: '?' },
 	{ id: '1', teamOne: 'RAYON13', scoreOne: '?', teamTwo: 'DartRin', scoreTwo: '?' },
@@ -92,7 +96,6 @@ export const matchResults = [
 	// Dagestan
 	{ id: '1', teamOne: 'Dagestan', scoreOne: '?', teamTwo: 'Matuu', scoreTwo: '?' },
 	{ id: '1', teamOne: 'Dagestan', scoreOne: '?', teamTwo: 'M@KSON', scoreTwo: '?' },
-	{ id: '1', teamOne: 'Dagestan', scoreOne: '?', teamTwo: 'TOTO', scoreTwo: '?' },
 	{ id: '1', teamOne: 'Dagestan', scoreOne: '?', teamTwo: 'VITALY', scoreTwo: '?' },
 	// Nikita
 	{ id: '1', teamOne: 'Nikita', scoreOne: '?', teamTwo: 'Matuu', scoreTwo: '?' },
@@ -134,12 +137,10 @@ export const matchResults = [
 	{ id: '1', teamOne: 'M@KSON', scoreOne: '?', teamTwo: 'DartRin', scoreTwo: '?' },
 	{ id: '1', teamOne: 'M@KSON', scoreOne: '?', teamTwo: 'Matuu', scoreTwo: '?' },
 	{ id: '1', teamOne: 'M@KSON', scoreOne: '?', teamTwo: 'TOTO', scoreTwo: '?' },
-	{ id: '1', teamOne: 'M@KSON', scoreOne: '?', teamTwo: 'VITALY', scoreTwo: '?' },
 	{ id: '1', teamOne: 'M@KSON', scoreOne: '?', teamTwo: 'Anna', scoreTwo: '?' },
 	// TOTO
 	{ id: '1', teamOne: 'TOTO', scoreOne: '?', teamTwo: 'HAM', scoreTwo: '?' },
 	{ id: '1', teamOne: 'TOTO', scoreOne: '?', teamTwo: 'RAYON13', scoreTwo: '?' },
-	{ id: '1', teamOne: 'TOTO', scoreOne: '?', teamTwo: 'Dagestan', scoreTwo: '?' },
 	{ id: '1', teamOne: 'TOTO', scoreOne: '?', teamTwo: 'DartRin', scoreTwo: '?' },
 	{ id: '1', teamOne: 'TOTO', scoreOne: '?', teamTwo: 'Matuu', scoreTwo: '?' },
 	{ id: '1', teamOne: 'TOTO', scoreOne: '?', teamTwo: 'Berserk', scoreTwo: '?' },
@@ -152,7 +153,6 @@ export const matchResults = [
 	{ id: '1', teamOne: 'VITALY', scoreOne: '?', teamTwo: 'DartRin', scoreTwo: '?' },
 	{ id: '1', teamOne: 'VITALY', scoreOne: '?', teamTwo: 'Matuu', scoreTwo: '?' },
 	{ id: '1', teamOne: 'VITALY', scoreOne: '?', teamTwo: 'Berserk', scoreTwo: '?' },
-	{ id: '1', teamOne: 'VITALY', scoreOne: '?', teamTwo: 'M@KSON', scoreTwo: '?' },
 	{ id: '1', teamOne: 'VITALY', scoreOne: '?', teamTwo: 'TOTO', scoreTwo: '?' },
 	{ id: '1', teamOne: 'VITALY', scoreOne: '?', teamTwo: 'Anna', scoreTwo: '?' },
 	// Anna
