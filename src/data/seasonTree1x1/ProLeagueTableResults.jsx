@@ -105,11 +105,12 @@ export const matchResults = [
 	{ id: '1', teamOne: 'Anna', scoreOne: 3, teamTwo: 'HAM', scoreTwo: 2 },
 	{ id: '1', teamOne: 'Anna', scoreOne: 7, teamTwo: 'M@KSON', scoreTwo: 2 },
 	{ id: '1', teamOne: 'Anna', scoreOne: 3, teamTwo: 'VITALY', scoreTwo: 1 },
+	{ id: '1', teamOne: 'M@KSON', scoreOne: 0, teamTwo: 'Dagestan', scoreTwo: 0 },
+	{ id: '1', teamOne: 'Dagestan', scoreOne: 0, teamTwo: 'M@KSON', scoreTwo: 5 },
 	// RAYON13
 	{ id: '1', teamOne: 'RAYON13', scoreOne: '?', teamTwo: 'DartRin', scoreTwo: '?' },
 	// HAM
 	// Dagestan
-	{ id: '1', teamOne: 'Dagestan', scoreOne: '?', teamTwo: 'M@KSON', scoreTwo: '?' },
 	// Nikita
 	// mysterio
 	{ id: '1', teamOne: 'mysterio', scoreOne: '?', teamTwo: 'M@KSON', scoreTwo: '?' },
@@ -122,7 +123,6 @@ export const matchResults = [
 	// Berserk
 	{ id: '1', teamOne: 'Berserk', scoreOne: '?', teamTwo: 'TOTO', scoreTwo: '?' },
 	// M@KSON
-	{ id: '1', teamOne: 'M@KSON', scoreOne: '?', teamTwo: 'Dagestan', scoreTwo: '?' },
 	{ id: '1', teamOne: 'M@KSON', scoreOne: '?', teamTwo: 'mysterio', scoreTwo: '?' },
 	{ id: '1', teamOne: 'M@KSON', scoreOne: '?', teamTwo: 'DartRin', scoreTwo: '?' },
 	{ id: '1', teamOne: 'M@KSON', scoreOne: '?', teamTwo: 'TOTO', scoreTwo: '?' },
