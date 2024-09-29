@@ -29,7 +29,9 @@ const TournamentsSeasonTree1x1 = () => {
 					<Sidebar selectedLeague={selectedLeague} setSelectedLeague={setSelectedLeague} />
 					<TeamsForRandom />
 				</div>
-				{renderContent()}
+				<div className='flex-col'>
+					{renderContent()}
+				</div>
 				<SquadsForSeason />
 			</div>
 		</div>

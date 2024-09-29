@@ -3,7 +3,7 @@ import PlayersImg from './PlayersImg';
 
 const PlayersTeam = ({ team, playerOne, playerTwo, playerTree, imgOne, imgTwo, imgTree, club }) => {
 	return (
-		<div className='text-xs darkblue flex justify-around gap-2 w-80 rounded-2xl p-2'>
+		<div className='text-xs darkblue flex justify-around gap-2 w-64 rounded-2xl p-2'>
 			<div className='players flex flex-col gap-2 text-left'>
 				<h3 className='text-center'>{team}</h3>
 				<div className='flex gap-2 items-center'>
