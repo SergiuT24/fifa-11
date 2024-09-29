@@ -121,15 +121,8 @@ export const matchResults = [
 	{ id: '1', teamOne: 'VITALY', scoreOne: 3, teamTwo: 'mysterio', scoreTwo: 0 },
 	{ id: '1', teamOne: 'TOTO', scoreOne: 1, teamTwo: 'Berserk', scoreTwo: 2 },
 	{ id: '1', teamOne: 'Berserk', scoreOne: 3, teamTwo: 'TOTO', scoreTwo: 1 },
-
-	{ id: '1', teamOne: 'mysterio', scoreOne: '?', teamTwo: 'M@KSON', scoreTwo: '?' },
-	// DartRin
+	{ id: '1', teamOne: 'mysterio', scoreOne: 1, teamTwo: 'M@KSON', scoreTwo: 4 },
+	{ id: '1', teamOne: 'M@KSON', scoreOne: 3, teamTwo: 'mysterio', scoreTwo: 0 },
 	{ id: '1', teamOne: 'DartRin', scoreOne: '?', teamTwo: 'VITALY', scoreTwo: '?' },
-	// Berserk
-	// M@KSON
-	{ id: '1', teamOne: 'M@KSON', scoreOne: '?', teamTwo: 'mysterio', scoreTwo: '?' },
-	// TOTO
-	// VITALY
 	{ id: '1', teamOne: 'VITALY', scoreOne: '?', teamTwo: 'DartRin', scoreTwo: '?' },
-	// Anna
 ];
