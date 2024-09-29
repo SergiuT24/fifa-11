@@ -123,6 +123,6 @@ export const matchResults = [
 	{ id: '1', teamOne: 'Berserk', scoreOne: 3, teamTwo: 'TOTO', scoreTwo: 1 },
 	{ id: '1', teamOne: 'mysterio', scoreOne: 1, teamTwo: 'M@KSON', scoreTwo: 4 },
 	{ id: '1', teamOne: 'M@KSON', scoreOne: 3, teamTwo: 'mysterio', scoreTwo: 0 },
-	{ id: '1', teamOne: 'DartRin', scoreOne: '?', teamTwo: 'VITALY', scoreTwo: '?' },
-	{ id: '1', teamOne: 'VITALY', scoreOne: '?', teamTwo: 'DartRin', scoreTwo: '?' },
+	{ id: '1', teamOne: 'DartRin', scoreOne: 3, teamTwo: 'VITALY', scoreTwo: 0 },
+	{ id: '1', teamOne: 'VITALY', scoreOne: 3, teamTwo: 'DartRin', scoreTwo: 0 },
 ];
