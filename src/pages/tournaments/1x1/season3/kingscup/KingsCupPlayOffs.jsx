@@ -164,10 +164,10 @@ const KingsCupPlayOffs = () => {
 								<PlayersImg avatar={'/img/players/avatar.png'} />
 								<p>{'HAM'}</p>
 							</div>}
-							scoreFirstTeamOne={'?'}
-							scoreSecondTeamOne={'?'}
-							scoreFirstTeamTwo={'?'}
-							scoreSecondTeamTwo={'?'}
+							scoreFirstTeamOne={4}
+							scoreSecondTeamOne={4}
+							scoreFirstTeamTwo={2}
+							scoreSecondTeamTwo={5}
 						/>
 					</div>
 				</div>
@@ -193,7 +193,10 @@ const KingsCupPlayOffs = () => {
 								<PlayersImg avatar={'/img/players/rin.png'} />
 								<p>{'DartRin'}</p>
 							</div>}
-							teamTwo={'empty'}
+							teamTwo={<div className='flex gap-2 items-center'>
+								<PlayersImg avatar={'/img/players/avatar.png'} />
+								<p>{'HAM'}</p>
+							</div>}
 							scoreFirstTeamOne={'?'}
 							scoreSecondTeamOne={'?'}
 							scoreFirstTeamTwo={'?'}
