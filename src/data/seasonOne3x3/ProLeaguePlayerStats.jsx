@@ -95,4 +95,7 @@ export const playerStats = [
 	{ id: 'mcrurus', team: 'AC Milan', goals: 0, matchesPlayed: 2, assists: 4, }, // Lyon
 	{ id: 'Robinho', team: 'AC Milan', goals: 4, matchesPlayed: 2, assists: 4, },
 	{ id: 'Kebab', team: 'AC Milan', goals: 5, matchesPlayed: 2, assists: 1, },
+	{ id: 'mcrurus', team: 'AC Milan', goals: 0, matchesPlayed: 2, assists: 3, }, // Manchester City
+	{ id: 'Robinho', team: 'AC Milan', goals: 3, matchesPlayed: 2, assists: 0, },
+	{ id: 'Kebab', team: 'AC Milan', goals: 1, matchesPlayed: 2, assists: 0, },
 ];
