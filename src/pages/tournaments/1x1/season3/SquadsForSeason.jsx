@@ -4,7 +4,6 @@ import Chelsea from '../../../../components/league/teams/Chelsea';
 import Inter from '../../../../components/league/teams/Inter';
 import Barcelona from '../../../../components/league/teams/Barcelona';
 import AcMilan from '../../../../components/league/teams/AcMilan';
-import BayernMunich from '../../../../components/league/teams/BayernMunich';
 import RealMadrid from '../../../../components/league/teams/RealMadrid';
 
 const SquadsForSeason = () => {

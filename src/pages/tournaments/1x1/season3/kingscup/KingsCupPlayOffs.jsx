@@ -1,5 +1,6 @@
 import React from 'react';
 import Square from '../../../../../components/league/square/Square';
+import PlayersImg from '../../../../../components/league/players/PlayersImg';
 
 const KingsCupPlayOffs = () => {
 	return (
@@ -10,7 +11,10 @@ const KingsCupPlayOffs = () => {
 				</div>
 				<div className='flex flex-col gap-14 justify-center'>
 					<Square
-						teamOne={'Anna'}
+						teamOne={<div className='flex gap-2 items-center'>
+							<PlayersImg avatar={'/img/players/anna.png'} />
+							<p>{'Anna'}</p>
+						</div>}
 						teamTwo={'empty'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
@@ -18,15 +22,24 @@ const KingsCupPlayOffs = () => {
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={'TOTO'}
-						teamTwo={'VITALY'}
+						teamOne={<div className='flex gap-2 items-center'>
+							<PlayersImg avatar={'/img/players/toto.png'} />
+							<p>{'TOTO'}</p>
+						</div>}
+						teamTwo={<div className='flex gap-2 items-center'>
+							<PlayersImg avatar={'/img/players/vitaly.png'} />
+							<p>{'VITALY'}</p>
+						</div>}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={'Berserk'}
+						teamOne={<div className='flex gap-2 items-center'>
+							<PlayersImg avatar={'/img/players/berserk.png'} />
+							<p>{'Berserk'}</p>
+						</div>}
 						teamTwo={'empty'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
@@ -34,7 +47,10 @@ const KingsCupPlayOffs = () => {
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={'Dagestan'}
+						teamOne={<div className='flex gap-2 items-center'>
+							<PlayersImg avatar={'/img/players/dagestan.png'} />
+							<p>{'Dagestan'}</p>
+						</div>}
 						teamTwo={'empty'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
@@ -42,7 +58,10 @@ const KingsCupPlayOffs = () => {
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={'DartRin'}
+						teamOne={<div className='flex gap-2 items-center'>
+							<PlayersImg avatar={'/img/players/rin.png'} />
+							<p>{'DartRin'}</p>
+						</div>}
 						teamTwo={'empty'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
@@ -50,15 +69,24 @@ const KingsCupPlayOffs = () => {
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={'Nikita'}
-						teamTwo={'mysterio'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						teamOne={<div className='flex gap-2 items-center'>
+							<PlayersImg avatar={'/img/players/nikita.png'} />
+							<p>{'Nikita'}</p>
+						</div>}
+						teamTwo={<div className='flex gap-2 items-center'>
+							<PlayersImg avatar={'/img/players/mysterio.png'} />
+							<p>{'mysterio'}</p>
+						</div>}
+						scoreFirstTeamOne={3}
+						scoreSecondTeamOne={0}
+						scoreFirstTeamTwo={3}
+						scoreSecondTeamTwo={0}
 					/>
 					<Square
-						teamOne={'M@KSON'}
+						teamOne={<div className='flex gap-2 items-center'>
+							<PlayersImg avatar={'/img/players/makson.png'} />
+							<p>{'M@KSON'}</p>
+						</div>}
 						teamTwo={'empty'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
@@ -66,7 +94,10 @@ const KingsCupPlayOffs = () => {
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={'HAM'}
+						teamOne={<div className='flex gap-2 items-center'>
+							<PlayersImg avatar={'/img/players/avatar.png'} />
+							<p>{'HAM'}</p>
+						</div>}
 						teamTwo={'empty'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
@@ -81,7 +112,10 @@ const KingsCupPlayOffs = () => {
 				</div>
 				<div className='flex flex-col pt-20 justify-center'>
 					<Square
-						teamOne={'empty'}
+						teamOne={<div className='flex gap-2 items-center'>
+							<PlayersImg avatar={'/img/players/anna.png'} />
+							<p>{'Anna'}</p>
+						</div>}
 						teamTwo={'empty'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
@@ -90,8 +124,14 @@ const KingsCupPlayOffs = () => {
 					/>
 					<div className='mt-48'>
 						<Square
-							teamOne={'Berserk'}
-							teamTwo={'Dagestan'}
+							teamOne={<div className='flex gap-2 items-center'>
+								<PlayersImg avatar={'/img/players/berserk.png'} />
+								<p>{'Berserk'}</p>
+							</div>}
+							teamTwo={<div className='flex gap-2 items-center'>
+								<PlayersImg avatar={'/img/players/dagestan.png'} />
+								<p>{'Dagestan'}</p>
+							</div>}
 							scoreFirstTeamOne={'?'}
 							scoreSecondTeamOne={'?'}
 							scoreFirstTeamTwo={'?'}
@@ -100,18 +140,30 @@ const KingsCupPlayOffs = () => {
 					</div>
 					<div className='mt-48'>
 						<Square
-							teamOne={'empty'}
-							teamTwo={'empty'}
-							scoreFirstTeamOne={'?'}
-							scoreSecondTeamOne={'?'}
-							scoreFirstTeamTwo={'?'}
-							scoreSecondTeamTwo={'?'}
+							teamOne={<div className='flex gap-2 items-center'>
+								<PlayersImg avatar={'/img/players/rin.png'} />
+								<p>{'DartRin'}</p>
+							</div>}
+							teamTwo={<div className='flex gap-2 items-center'>
+								<PlayersImg avatar={'/img/players/nikita.png'} />
+								<p>{'Nikita'}</p>
+							</div>}
+							scoreFirstTeamOne={3}
+							scoreSecondTeamOne={0}
+							scoreFirstTeamTwo={2}
+							scoreSecondTeamTwo={1}
 						/>
 					</div>
 					<div className='mt-48'>
 						<Square
-							teamOne={'M@KSON'}
-							teamTwo={'HAM'}
+							teamOne={<div className='flex gap-2 items-center'>
+								<PlayersImg avatar={'/img/players/makson.png'} />
+								<p>{'M@KSON'}</p>
+							</div>}
+							teamTwo={<div className='flex gap-2 items-center'>
+								<PlayersImg avatar={'/img/players/avatar.png'} />
+								<p>{'HAM'}</p>
+							</div>}
 							scoreFirstTeamOne={'?'}
 							scoreSecondTeamOne={'?'}
 							scoreFirstTeamTwo={'?'}
@@ -137,7 +189,10 @@ const KingsCupPlayOffs = () => {
 					</div>
 					<div className='mt-96 pt-16'>
 						<Square
-							teamOne={'empty'}
+							teamOne={<div className='flex gap-2 items-center'>
+								<PlayersImg avatar={'/img/players/rin.png'} />
+								<p>{'DartRin'}</p>
+							</div>}
 							teamTwo={'empty'}
 							scoreFirstTeamOne={'?'}
 							scoreSecondTeamOne={'?'}
