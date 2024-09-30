@@ -17,10 +17,10 @@ const ChampionsLeaguePlayOffs = () => {
 							<PlayersImg avatar={'/img/players/nikita.png'} />
 							<p>{'Nikita'}</p>
 						</div>}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						scoreFirstTeamOne={'1'}
+						scoreSecondTeamOne={'2'}
+						scoreFirstTeamTwo={'3 | Extra Time: 3'}
+						scoreSecondTeamTwo={'2 | Extra Time: 1'}
 					/>
 					<Square
 						teamOne={<div className='flex gap-2 items-center'>
@@ -31,10 +31,10 @@ const ChampionsLeaguePlayOffs = () => {
 							<PlayersImg avatar={'/img/players/toto.png'} />
 							<p>{'TOTO'}</p>
 						</div>}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						scoreFirstTeamOne={0}
+						scoreSecondTeamOne={3}
+						scoreFirstTeamTwo={0}
+						scoreSecondTeamTwo={3}
 					/>
 				</div>
 			</div>
@@ -46,7 +46,10 @@ const ChampionsLeaguePlayOffs = () => {
 							<PlayersImg avatar={'/img/players/dagestan.png'} />
 							<p>{'Dagestan'}</p>
 						</div>}
-						teamTwo={'empty'}
+						teamTwo={<div className='flex gap-2 items-center'>
+							<PlayersImg avatar={'/img/players/makson.png'} />
+							<p>{'M@KSON'}</p>
+						</div>}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
@@ -57,7 +60,10 @@ const ChampionsLeaguePlayOffs = () => {
 							<PlayersImg avatar={'/img/players/anna.png'} />
 							<p>{'Anna'}</p>
 						</div>}
-						teamTwo={'empty'}
+						teamTwo={<div className='flex gap-2 items-center'>
+							<PlayersImg avatar={'/img/players/toto.png'} />
+							<p>{'TOTO'}</p>
+						</div>}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
