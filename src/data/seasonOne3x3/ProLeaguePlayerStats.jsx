@@ -40,9 +40,9 @@ export const playerStats = [
 	{ id: 'DartRin', team: 'Manchester City', goals: 1, matchesPlayed: 2, assists: 0, }, // Bayern Munich
 	{ id: '14 France', team: 'Manchester City', goals: 2, matchesPlayed: 2, assists: 0, },
 	{ id: 'SergeyFace', team: 'Manchester City', goals: 0, matchesPlayed: 2, assists: 0, },
-	{ id: 'DartRin', team: 'Manchester City', goals: 1, matchesPlayed: 2, assists: 0, }, // Arsenal
-	{ id: '14 France', team: 'Manchester City', goals: 2, matchesPlayed: 2, assists: 0, },
-	{ id: 'SergeyFace', team: 'Manchester City', goals: 0, matchesPlayed: 2, assists: 0, },
+	{ id: 'DartRin', team: 'Manchester City', goals: 1, matchesPlayed: 8, assists: 0, }, // Arsenal
+	{ id: '14 France', team: 'Manchester City', goals: 2, matchesPlayed: 8, assists: 0, },
+	{ id: 'SergeyFace', team: 'Manchester City', goals: 0, matchesPlayed: 8, assists: 0, },
 	// Lyon
 	{ id: 'M@KSON', team: 'Lyon', goals: 2, matchesPlayed: 2, assists: 0, }, // Bayern Munich
 	{ id: 'VITALY', team: 'Lyon', goals: 1, matchesPlayed: 2, assists: 5, },
@@ -72,6 +72,9 @@ export const playerStats = [
 	{ id: 'Matuu', team: 'Arsenal', goals: 0, matchesPlayed: 2, assists: 2, }, // Atletico Madrid
 	{ id: 'Anna', team: 'Arsenal', goals: 6, matchesPlayed: 2, assists: 1, },
 	{ id: 'Kevin', team: 'Arsenal', goals: 2, matchesPlayed: 2, assists: 2, },
+	{ id: 'Matuu', team: 'Arsenal', goals: 1, matchesPlayed: 2, assists: 2, }, // AC Milan
+	{ id: 'Anna', team: 'Arsenal', goals: 1, matchesPlayed: 2, assists: 3, },
+	{ id: 'Kevin', team: 'Arsenal', goals: 3, matchesPlayed: 2, assists: 0, },
 	// Atletico Madrid
 	{ id: 'D.Drogba', team: 'Atletico Madrid', goals: 3, matchesPlayed: 2, assists: 3, }, // Bayern Munich
 	{ id: 'mysterio', team: 'Atletico Madrid', goals: 0, matchesPlayed: 2, assists: 2, },
@@ -95,7 +98,7 @@ export const playerStats = [
 	{ id: 'mcrurus', team: 'AC Milan', goals: 0, matchesPlayed: 2, assists: 4, }, // Lyon
 	{ id: 'Robinho', team: 'AC Milan', goals: 4, matchesPlayed: 2, assists: 4, },
 	{ id: 'Kebab', team: 'AC Milan', goals: 5, matchesPlayed: 2, assists: 1, },
-	{ id: 'mcrurus', team: 'AC Milan', goals: 0, matchesPlayed: 2, assists: 3, }, // Manchester City
-	{ id: 'Robinho', team: 'AC Milan', goals: 3, matchesPlayed: 2, assists: 0, },
-	{ id: 'Kebab', team: 'AC Milan', goals: 1, matchesPlayed: 2, assists: 0, },
+	{ id: 'mcrurus', team: 'AC Milan', goals: 0, matchesPlayed: 4, assists: 3, }, // Manchester City
+	{ id: 'Robinho', team: 'AC Milan', goals: 3, matchesPlayed: 4, assists: 0, },
+	{ id: 'Kebab', team: 'AC Milan', goals: 1, matchesPlayed: 4, assists: 0, },
 ];

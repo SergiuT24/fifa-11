@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import LeagueButtons from '../../../../../components/league/menu/LeagueButtons';
 import LeagueMenu from '../../../../../components/league/menu/LeagueMenu';
 import KingsCupSummary from './KingsCupSummary';
-import KingsCupPlayerStats from './KingsCupPlayerStats';
 
 const KingsCupMain = () => {
 	const [selectedButton, setSelectedButton] = useState('Summary');
@@ -11,8 +10,8 @@ const KingsCupMain = () => {
 		switch (selectedButton) {
 			case 'Summary':
 				return <KingsCupSummary />
-			case 'Player Stats':
-				return <KingsCupPlayerStats />
+			// case 'News':
+			// 	return <ChampionsLeagueNews />
 			default:
 				return <KingsCupSummary />
 		}
@@ -24,7 +23,7 @@ const KingsCupMain = () => {
 				leagueCount={`2x2 > King's Cup`}
 				logo={'/img/league/kings-cup.png'}
 				name={`King's Cup`}
-				season={'Season 3'}
+				season={'Season 2'}
 				cupImg={'/img/trophy/kings-cup.png'}
 			/>
 			<LeagueButtons selectedButton={selectedButton} setSelectedButton={setSelectedButton} />

@@ -16,6 +16,10 @@ import { initialPlayers as initialPlayersSeasonOneKings2x2, playerStats as playe
 import { initialPlayers as initialPlayersSeasonTwoPro2x2, playerStats as playerStatsSeasonTwoPro2x2 } from '../../../data/seasonTwo2x2/ProLeaguePlayerStats.jsx';
 import { initialPlayers as initialPlayersSeasonTwoUCL2x2, playerStats as playerStatsSeasonTwoUCL2x2 } from '../../../data/seasonTwo2x2/UCLPlayerStats.jsx';
 import { initialPlayers as initialPlayersSeasonTwoKings2x2, playerStats as playerStatsSeasonTwoKings2x2 } from '../../../data/seasonTwo2x2/KingsCupPlayerStats.jsx';
+// Season 3 2x2
+import { initialPlayers as initialPlayersSeasonTreePro2x2, playerStats as playerStatsSeasonTreePro2x2 } from '../../../data/seasonTree2x2/ProLeaguePlayerStats.jsx';
+import { initialPlayers as initialPlayersSeasonTreeWorldCup2x2, playerStats as playerStatsSeasonTreeWorldCup2x2 } from '../../../data/seasonTree2x2/WorldCupPlayerStats.jsx';
+import { initialPlayers as initialPlayersSeasonTreeKings2x2, playerStats as playerStatsSeasonTreeKings2x2 } from '../../../data/seasonTree2x2/KingsCupPlayerStats.jsx';
 // Season 1 3x3
 import { initialPlayers as initialPlayersSeasonOnePro3x3, playerStats as playerStatsSeasonOnePro3x3 } from '../../../data/seasonOne3x3/ProLeaguePlayerStats.jsx';
 import { initialPlayers as initialPlayersSeasonOneUCL3x3, playerStats as playerStatsSeasonOneUCL3x3 } from '../../../data/seasonOne3x3/UCLPlayerStats.jsx';
@@ -117,6 +121,26 @@ const KingsCupSeasonOnePlayerStats3x3 = () => (
 	/>
 );
 
+// Season 3 2x2
+const ProLeagueSeasonTreePlayerStats2x2 = () => (
+	<PlayerStatsTables
+		initialPlayers={initialPlayersSeasonTreePro2x2}
+		playerStats={playerStatsSeasonTreePro2x2}
+	/>
+);
+const WorldCupSeasonTreePlayerStats2x2 = () => (
+	<PlayerStatsTables
+		initialPlayers={initialPlayersSeasonTreeWorldCup2x2}
+		playerStats={playerStatsSeasonTreeWorldCup2x2}
+	/>
+);
+const KingsCupSeasonTreePlayerStats2x2 = () => (
+	<PlayerStatsTables
+		initialPlayers={initialPlayersSeasonTreeKings2x2}
+		playerStats={playerStatsSeasonTreeKings2x2}
+	/>
+);
+
 export {
 	//Season 1 1x1
 	ProLeagueSeasonOnePlayerStats1x1,
@@ -137,5 +161,9 @@ export {
 	// Season 1 3x3
 	ProLeagueSeasonOnePlayerStats3x3,
 	UCLSeasonOnePlayerStats3x3,
-	KingsCupSeasonOnePlayerStats3x3
+	KingsCupSeasonOnePlayerStats3x3,
+	// Season 3 3x3
+	ProLeagueSeasonTreePlayerStats2x2,
+	WorldCupSeasonTreePlayerStats2x2,
+	KingsCupSeasonTreePlayerStats2x2
 };

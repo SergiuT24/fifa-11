@@ -120,10 +120,10 @@ const KingsCupPlayOffs = () => {
 							<PlayersImg avatar={'/img/players/toto.png'} />
 							<p>{'TOTO'}</p>
 						</div>}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						scoreFirstTeamOne={5}
+						scoreSecondTeamOne={7}
+						scoreFirstTeamTwo={1}
+						scoreSecondTeamTwo={3}
 					/>
 					<div className='mt-48'>
 						<Square
@@ -135,10 +135,10 @@ const KingsCupPlayOffs = () => {
 								<PlayersImg avatar={'/img/players/dagestan.png'} />
 								<p>{'Dagestan'}</p>
 							</div>}
-							scoreFirstTeamOne={'?'}
-							scoreSecondTeamOne={'?'}
-							scoreFirstTeamTwo={'?'}
-							scoreSecondTeamTwo={'?'}
+							scoreFirstTeamOne={4}
+							scoreSecondTeamOne={2}
+							scoreFirstTeamTwo={3}
+							scoreSecondTeamTwo={0}
 						/>
 					</div>
 					<div className='mt-48'>
@@ -182,12 +182,18 @@ const KingsCupPlayOffs = () => {
 				<div className='flex flex-col pt-20 justify-center'>
 					<div className='mt-36'>
 						<Square
-							teamOne={'empty'}
-							teamTwo={'empty'}
-							scoreFirstTeamOne={'?'}
-							scoreSecondTeamOne={'?'}
-							scoreFirstTeamTwo={'?'}
-							scoreSecondTeamTwo={'?'}
+							teamOne={<div className='flex gap-2 items-center'>
+								<PlayersImg avatar={'/img/players/toto.png'} />
+								<p>{'TOTO'}</p>
+							</div>}
+							teamTwo={<div className='flex gap-2 items-center'>
+								<PlayersImg avatar={'/img/players/berserk.png'} />
+								<p>{'Berserk'}</p>
+							</div>}
+							scoreFirstTeamOne={1}
+							scoreSecondTeamOne={4}
+							scoreFirstTeamTwo={1}
+							scoreSecondTeamTwo={3}
 						/>
 					</div>
 					<div className='mt-96 pt-16'>
@@ -215,15 +221,18 @@ const KingsCupPlayOffs = () => {
 				<div className='flex flex-col pt-20 justify-center'>
 					<div className='mt-96 pt-6'>
 						<Square
-							teamOne={'empty'}
+							teamOne={<div className='flex gap-2 items-center'>
+								<PlayersImg avatar={'/img/players/berserk.png'} />
+								<p>{'Berserk'}</p>
+							</div>}
 							teamTwo={<div className='flex gap-2 items-center'>
 								<PlayersImg avatar={'/img/players/avatar.png'} />
 								<p>{'HAM'}</p>
 							</div>}
-							scoreFirstTeamOne={'?'}
-							scoreSecondTeamOne={'?'}
-							scoreFirstTeamTwo={'?'}
-							scoreSecondTeamTwo={'?'}
+							scoreFirstTeamOne={5}
+							scoreSecondTeamOne={2}
+							scoreFirstTeamTwo={6}
+							scoreSecondTeamTwo={5}
 						/>
 					</div>
 				</div>

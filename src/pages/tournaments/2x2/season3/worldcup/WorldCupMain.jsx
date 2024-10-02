@@ -1,31 +1,34 @@
 import React, { useState } from 'react';
 import LeagueButtons from '../../../../../components/league/menu/LeagueButtons';
 import LeagueMenu from '../../../../../components/league/menu/LeagueMenu';
-import KingsCupSummary from './KingsCupSummary';
-import KingsCupPlayerStats from './KingsCupPlayerStats';
+import WorldCupSummary from './WorldCupSummary';
+import WorldCupNews from './WorldCupNews';
+import WorldCupPlayerStats from './WorldCupPlayerStats';
 
-const KingsCupMain = () => {
+const WorldCupMain = () => {
 	const [selectedButton, setSelectedButton] = useState('Summary');
 
 	const renderContent = () => {
 		switch (selectedButton) {
 			case 'Summary':
-				return <KingsCupSummary />
+				return <WorldCupSummary />
+			case 'News':
+				return <WorldCupNews />
 			case 'Player Stats':
-				return <KingsCupPlayerStats />
+				return <WorldCupPlayerStats />
 			default:
-				return <KingsCupSummary />
+				return <WorldCupSummary />
 		}
 	}
 
 	return (
 		<div>
 			<LeagueMenu
-				leagueCount={`2x2 > King's Cup`}
-				logo={'/img/league/kings-cup.png'}
-				name={`King's Cup`}
+				leagueCount={'2x2 > World Cup'}
+				logo={'/img/league/world-cup.png'}
+				name={'World Cup'}
 				season={'Season 3'}
-				cupImg={'/img/trophy/kings-cup.png'}
+				cupImg={'/img/trophy/world-cup.png'}
 			/>
 			<LeagueButtons selectedButton={selectedButton} setSelectedButton={setSelectedButton} />
 			{renderContent()}
@@ -33,4 +36,4 @@ const KingsCupMain = () => {
 	);
 }
 
-export default KingsCupMain;
+export default WorldCupMain;

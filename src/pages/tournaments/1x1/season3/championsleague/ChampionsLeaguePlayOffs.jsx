@@ -50,10 +50,10 @@ const ChampionsLeaguePlayOffs = () => {
 							<PlayersImg avatar={'/img/players/makson.png'} />
 							<p>{'M@KSON'}</p>
 						</div>}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						scoreFirstTeamOne={8}
+						scoreSecondTeamOne={0}
+						scoreFirstTeamTwo={7}
+						scoreSecondTeamTwo={0}
 					/>
 					<Square
 						teamOne={<div className='flex gap-2 items-center'>
@@ -64,10 +64,10 @@ const ChampionsLeaguePlayOffs = () => {
 							<PlayersImg avatar={'/img/players/toto.png'} />
 							<p>{'TOTO'}</p>
 						</div>}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						scoreFirstTeamOne={3}
+						scoreSecondTeamOne={3}
+						scoreFirstTeamTwo={2}
+						scoreSecondTeamTwo={5}
 					/>
 				</div>
 			</div>
@@ -79,22 +79,28 @@ const ChampionsLeaguePlayOffs = () => {
 							<PlayersImg avatar={'/img/players/avatar.png'} />
 							<p>{'HAM'}</p>
 						</div>}
-						teamTwo={'empty'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						teamTwo={<div className='flex gap-2 items-center'>
+							<PlayersImg avatar={'/img/players/dagestan.png'} />
+							<p>{'Dagestan'}</p>
+						</div>}
+						scoreFirstTeamOne={2}
+						scoreSecondTeamOne={6}
+						scoreFirstTeamTwo={4}
+						scoreSecondTeamTwo={1}
 					/>
 					<Square
 						teamOne={<div className='flex gap-2 items-center'>
 							<PlayersImg avatar={'/img/players/berserk.png'} />
 							<p>{'Berserk'}</p>
 						</div>}
-						teamTwo={'empty'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						teamTwo={<div className='flex gap-2 items-center'>
+							<PlayersImg avatar={'/img/players/toto.png'} />
+							<p>{'TOTO'}</p>
+						</div>}
+						scoreFirstTeamOne={4}
+						scoreSecondTeamOne={3}
+						scoreFirstTeamTwo={3}
+						scoreSecondTeamTwo={3}
 					/>
 				</div>
 			</div>
@@ -102,12 +108,18 @@ const ChampionsLeaguePlayOffs = () => {
 				<h2 className='text-center'>FINAL</h2>
 				<div className='flex gap-10 justify-center'>
 					<Square
-						teamOne={'empty'}
-						teamTwo={'empty'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						teamOne={<div className='flex gap-2 items-center'>
+							<PlayersImg avatar={'/img/players/dagestan.png'} />
+							<p>{'Dagestan'}</p>
+						</div>}
+						teamTwo={<div className='flex gap-2 items-center'>
+							<PlayersImg avatar={'/img/players/berserk.png'} />
+							<p>{'Berserk'}</p>
+						</div>}
+						scoreFirstTeamOne={3}
+						scoreSecondTeamOne={4}
+						scoreFirstTeamTwo={0}
+						scoreSecondTeamTwo={2}
 					/>
 				</div>
 			</div>
