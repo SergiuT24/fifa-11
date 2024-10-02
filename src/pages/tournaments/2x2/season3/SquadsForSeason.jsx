@@ -6,7 +6,6 @@ import France from '../../../../components/league/national-teams/France'
 import Brazil from '../../../../components/league/national-teams/Brazil'
 import Italy from '../../../../components/league/national-teams/Italy'
 import England from '../../../../components/league/national-teams/England'
-import Spain from '../../../../components/league/national-teams/Spain'
 import Uruguay from '../../../../components/league/national-teams/Uruguay'
 
 
@@ -15,55 +14,48 @@ const SquadsForSeason = () => {
 		<div className='flex flex-col gap-5 ml-4'>
 			<PlayersTeam
 				team={'TEAM 1'}
-				playerOne={'Dagestan (C.)'}
-				imgOne={'/img/players/dagestan.png'}
-				playerTwo={'Perfect'}
-				imgTwo={'/img/players/perfect.png'}
-				club={<Spain />} />
-			<PlayersTeam
-				team={'TEAM 2'}
 				playerOne={'HAM (C.)'}
 				imgOne={'/img/players/avatar.png'}
 				playerTwo={'Jsnick'}
 				imgTwo={'/img/players/jsnick.png'}
 				club={<France />} />
 			<PlayersTeam
-				team={'TEAM 3'}
+				team={'TEAM 2'}
 				playerOne={'M@KSON (C.)'}
 				imgOne={'/img/players/makson.png'}
 				playerTwo={'VITALY'}
 				imgTwo={'/img/players/vitaly.png'}
 				club={<Germany />} />
 			<PlayersTeam
-				team={'TEAM 4'}
+				team={'TEAM 3'}
 				playerOne={'RAYON 13 (C.)'}
 				imgOne={'/img/players/rayon13.png'}
 				playerTwo={'Sega'}
 				imgTwo={'/img/players/avatar.png'}
 				club={<Holland />} />
 			<PlayersTeam
-				team={'TEAM 5'}
+				team={'TEAM 4'}
 				playerOne={'Anna (C.)'}
 				imgOne={'/img/players/anna.png'}
 				playerTwo={'TOTO'}
 				imgTwo={'/img/players/toto.png'}
 				club={<Uruguay />} />
 			<PlayersTeam
-				team={'TEAM 6'}
+				team={'TEAM 5'}
 				playerOne={'Robinho (C.)'}
 				imgOne={'/img/players/avatar.png'}
 				playerTwo={'mcrurus'}
 				imgTwo={'/img/players/mcrurus.png'}
 				club={<England />} />
 			<PlayersTeam
-				team={'TEAM 7'}
+				team={'TEAM 6'}
 				playerOne={'Sania (C.)'}
 				imgOne={'/img/players/avatar.png'}
 				playerTwo={'Berserk'}
 				imgTwo={'/img/players/berserk.png'}
 				club={<Italy />} />
 			<PlayersTeam
-				team={'TEAM 8'}
+				team={'TEAM 7'}
 				playerOne={'Matuu (C.)'}
 				imgOne={'/img/players/matuu.png'}
 				playerTwo={'Kevin'}
