@@ -1,6 +1,4 @@
 export const initialPlayers = [
-	{ id: 'Dagestan', team: 'Spain', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
-	{ id: 'Perfect', team: 'Spain', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
 	{ id: 'HAM', team: 'France', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
 	{ id: 'Jsnick', team: 'France', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
 	{ id: 'M@KSON', team: 'Germany', goals: 0, matchesPlayed: 0, assists: 0, playerNote: 0 },
@@ -18,21 +16,6 @@ export const initialPlayers = [
 ];
 
 export const playerStats = [
-	// Dagestan - Perfect 
-	{ id: 'Dagestan', goals: 2, matchesPlayed: 3, assists: 0 }, // 
-	{ id: 'Perfect', goals: 0, matchesPlayed: 3, assists: 2 }, //
-	// { id: 'Dagestan', goals: 0, matchesPlayed: 2, assists: 0 }, // 
-	// { id: 'Perfect', goals: 0, matchesPlayed: 2, assists: 0 }, //
-	// { id: 'Dagestan', goals: 0, matchesPlayed: 2, assists: 0 }, // 
-	// { id: 'Perfect', goals: 0, matchesPlayed: 2, assists: 0 }, //
-	// { id: 'Dagestan', goals: 0, matchesPlayed: 2, assists: 0 }, // 
-	// { id: 'Perfect', goals: 0, matchesPlayed: 2, assists: 0 }, //
-	// { id: 'Dagestan', goals: 0, matchesPlayed: 2, assists: 0 }, // 
-	// { id: 'Perfect', goals: 0, matchesPlayed: 2, assists: 0 }, //
-	// { id: 'Dagestan', goals: 0, matchesPlayed: 2, assists: 0 }, // 
-	// { id: 'Perfect', goals: 0, matchesPlayed: 2, assists: 0 }, //
-	// { id: 'Dagestan', goals: 0, matchesPlayed: 2, assists: 0 }, // 
-	// { id: 'Perfect', goals: 0, matchesPlayed: 2, assists: 0 }, //
 	// -------------------------------------------------------------------------------------------------------------------
 	// --- HAM, Jsnick
 	// { id: 'HAM', goals: 0, matchesPlayed: 2, assists: 0 }, // 
@@ -83,8 +66,8 @@ export const playerStats = [
 	// { id: 'Sega', goals: 0, matchesPlayed: 2, assists: 0 }, //
 	// -------------------------------------------------------------------------------------------------------------------
 	// ---- Anna, TOTO
-	// { id: 'Anna', goals: 0, matchesPlayed: 2, assists: 0 }, //
-	// { id: 'TOTO', goals: 0, matchesPlayed: 2, assists: 0 }, //
+	{ id: 'Anna', goals: 2, matchesPlayed: 2, assists: 3 }, // Brazil
+	{ id: 'TOTO', goals: 3, matchesPlayed: 2, assists: 2 }, //
 	// { id: 'Anna', goals: 0, matchesPlayed: 2, assists: 0 }, //
 	// { id: 'TOTO', goals: 0, matchesPlayed: 2, assists: 0 }, //
 	// { id: 'Anna', goals: 0, matchesPlayed: 2, assists: 0 }, //
@@ -131,8 +114,8 @@ export const playerStats = [
 	// { id: 'Berserk', goals: 0, matchesPlayed: 2, assists: 0 }, //
 	// -------------------------------------------------------------------------------------------------------------------
 	// --- Matuu, Kevin 
-	// { id: 'Matuu', goals: 0, matchesPlayed: 2, assists: 0 }, //
-	// { id: 'Kevin', goals: 0, matchesPlayed: 2, assists: 0 }, //
+	{ id: 'Matuu', goals: 2, matchesPlayed: 2, assists: 4 }, // Uruguay
+	{ id: 'Kevin', goals: 4, matchesPlayed: 2, assists: 2 }, //
 	// { id: 'Matuu', goals: 0, matchesPlayed: 2, assists: 0 }, //
 	// { id: 'Kevin', goals: 0, matchesPlayed: 2, assists: 0 }, //
 	// { id: 'Matuu', goals: 0, matchesPlayed: 2, assists: 0 }, //
