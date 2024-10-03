@@ -18,8 +18,8 @@ export const initialPlayers = [
 export const playerStats = [
 	// -------------------------------------------------------------------------------------------------------------------
 	// --- HAM, Jsnick
-	// { id: 'HAM', goals: 0, matchesPlayed: 2, assists: 0 }, // 
-	// { id: 'Jsnick', goals: 0, matchesPlayed: 2, assists: 0 }, //
+	{ id: 'HAM', goals: 2, matchesPlayed: 2, assists: 6 }, // England
+	{ id: 'Jsnick', goals: 6, matchesPlayed: 2, assists: 2 }, //
 	// { id: 'HAM', goals: 0, matchesPlayed: 2, assists: 0 }, // 
 	// { id: 'Jsnick', goals: 0, matchesPlayed: 2, assists: 0 }, //
 	// { id: 'HAM', goals: 0, matchesPlayed: 2, assists: 0 }, // 
