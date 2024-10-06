@@ -24,10 +24,10 @@ export const playerStats = [
 	{ id: 'Jsnick', goals: 3, matchesPlayed: 2, assists: 6 }, //
 	{ id: 'HAM', goals: 4, matchesPlayed: 2, assists: 2 }, //  Uruguay
 	{ id: 'Jsnick', goals: 3, matchesPlayed: 2, assists: 4 }, //
-	// { id: 'HAM', goals: 0, matchesPlayed: 2, assists: 0 }, // 
-	// { id: 'Jsnick', goals: 0, matchesPlayed: 2, assists: 0 }, //
-	// { id: 'HAM', goals: 0, matchesPlayed: 2, assists: 0 }, // 
-	// { id: 'Jsnick', goals: 0, matchesPlayed: 2, assists: 0 }, //
+	{ id: 'HAM', goals: 4, matchesPlayed: 2, assists: 1 }, // Italy
+	{ id: 'Jsnick', goals: 2, matchesPlayed: 2, assists: 3 }, //
+	{ id: 'HAM', goals: 6, matchesPlayed: 2, assists: 7 }, // Holland
+	{ id: 'Jsnick', goals: 8, matchesPlayed: 2, assists: 5 }, //
 	// { id: 'HAM', goals: 0, matchesPlayed: 2, assists: 0 }, // 
 	// { id: 'Jsnick', goals: 0, matchesPlayed: 2, assists: 0 }, //
 	// { id: 'HAM', goals: 0, matchesPlayed: 2, assists: 0 }, // 
@@ -74,8 +74,8 @@ export const playerStats = [
 	{ id: 'TOTO', goals: 2, matchesPlayed: 2, assists: 0 }, //
 	{ id: 'Anna', goals: 1, matchesPlayed: 2, assists: 3 }, // Germany
 	{ id: 'TOTO', goals: 3, matchesPlayed: 2, assists: 1 }, //
-	// { id: 'Anna', goals: 0, matchesPlayed: 2, assists: 0 }, //
-	// { id: 'TOTO', goals: 0, matchesPlayed: 2, assists: 0 }, //
+	{ id: 'Anna', goals: 2, matchesPlayed: 2, assists: 3 }, // Holland
+	{ id: 'TOTO', goals: 3, matchesPlayed: 2, assists: 2 }, //
 	// { id: 'Anna', goals: 0, matchesPlayed: 2, assists: 0 }, //
 	// { id: 'TOTO', goals: 0, matchesPlayed: 2, assists: 0 }, //
 	// { id: 'Anna', goals: 0, matchesPlayed: 2, assists: 0 }, //

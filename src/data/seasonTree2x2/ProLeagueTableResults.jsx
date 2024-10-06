@@ -37,13 +37,18 @@ export const matchResults = [
 	{ id: '18', teamOne: 'France', scoreOne: 3, teamTwo: 'Uruguay', scoreTwo: 2 },
 	{ id: '19', teamOne: 'Germany', scoreOne: 1, teamTwo: 'Uruguay', scoreTwo: 3 },
 	{ id: '20', teamOne: 'Uruguay', scoreOne: 1, teamTwo: 'Germany', scoreTwo: 1 },
+	{ id: '1', teamOne: 'England', scoreOne: 7, teamTwo: 'Holland', scoreTwo: 2 },
+	{ id: '1', teamOne: 'Holland', scoreOne: 0, teamTwo: 'England', scoreTwo: 3 },
+	{ id: '1', teamOne: 'Holland', scoreOne: 1, teamTwo: 'Uruguay', scoreTwo: 5 },
+	{ id: '1', teamOne: 'Uruguay', scoreOne: 3, teamTwo: 'Holland', scoreTwo: 0 },
+	{ id: '1', teamOne: 'Holland', scoreOne: 3, teamTwo: 'France', scoreTwo: 8 },
+	{ id: '1', teamOne: 'France', scoreOne: 6, teamTwo: 'Holland', scoreTwo: 1 },
 	// Germany
 	{ id: '1', teamOne: 'Germany', scoreOne: '?', teamTwo: 'Brazil', scoreTwo: '?' },
 	{ id: '1', teamOne: 'Germany', scoreOne: '?', teamTwo: 'Holland', scoreTwo: '?' },
 	{ id: '1', teamOne: 'Germany', scoreOne: '?', teamTwo: 'Italy', scoreTwo: '?' },
 	//France
 	{ id: '1', teamOne: 'France', scoreOne: '?', teamTwo: 'Brazil', scoreTwo: '?' },
-	{ id: '1', teamOne: 'France', scoreOne: '?', teamTwo: 'Holland', scoreTwo: '?' },
 	// Brazil
 	{ id: '1', teamOne: 'Brazil', scoreOne: '?', teamTwo: 'Germany', scoreTwo: '?' },
 	{ id: '1', teamOne: 'Brazil', scoreOne: '?', teamTwo: 'France', scoreTwo: '?' },
@@ -51,19 +56,14 @@ export const matchResults = [
 	{ id: '1', teamOne: 'Brazil', scoreOne: '?', teamTwo: 'England', scoreTwo: '?' },
 	// Holland
 	{ id: '1', teamOne: 'Holland', scoreOne: '?', teamTwo: 'Germany', scoreTwo: '?' },
-	{ id: '1', teamOne: 'Holland', scoreOne: '?', teamTwo: 'France', scoreTwo: '?' },
 	{ id: '1', teamOne: 'Holland', scoreOne: '?', teamTwo: 'Brazil', scoreTwo: '?' },
 	{ id: '1', teamOne: 'Holland', scoreOne: '?', teamTwo: 'Italy', scoreTwo: '?' },
-	{ id: '1', teamOne: 'Holland', scoreOne: '?', teamTwo: 'England', scoreTwo: '?' },
-	{ id: '1', teamOne: 'Holland', scoreOne: '?', teamTwo: 'Uruguay', scoreTwo: '?' },
 	// Italy
 	{ id: '1', teamOne: 'Italy', scoreOne: '?', teamTwo: 'Germany', scoreTwo: '?' },
 	{ id: '1', teamOne: 'Italy', scoreOne: '?', teamTwo: 'Holland', scoreTwo: '?' },
 	{ id: '1', teamOne: 'Italy', scoreOne: '?', teamTwo: 'England', scoreTwo: '?' },
 	// England
 	{ id: '1', teamOne: 'England', scoreOne: '?', teamTwo: 'Brazil', scoreTwo: '?' },
-	{ id: '1', teamOne: 'England', scoreOne: '?', teamTwo: 'Holland', scoreTwo: '?' },
 	{ id: '1', teamOne: 'England', scoreOne: '?', teamTwo: 'Italy', scoreTwo: '?' },
 	// Uruguay
-	{ id: '1', teamOne: 'Uruguay', scoreOne: '?', teamTwo: 'Holland', scoreTwo: '?' },
 ];

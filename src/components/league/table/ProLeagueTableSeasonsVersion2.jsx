@@ -7,7 +7,7 @@ const SeasonTree2x2 = () => (
 	<LeagueTableVersion2
 		initialTeams={initialTeamsSeasonTree2x2}
 		matchResults={matchResultsSeasonTree2x2}
-		seasonTitle="Season 3 (1x1) "
+		seasonTitle="Season 3 (2x2) "
 	/>
 );
 
