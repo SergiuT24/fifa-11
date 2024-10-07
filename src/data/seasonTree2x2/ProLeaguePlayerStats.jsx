@@ -28,10 +28,8 @@ export const playerStats = [
 	{ id: 'Jsnick', goals: 2, matchesPlayed: 2, assists: 3 }, //
 	{ id: 'HAM', goals: 6, matchesPlayed: 2, assists: 7 }, // Holland
 	{ id: 'Jsnick', goals: 8, matchesPlayed: 2, assists: 5 }, //
-	// { id: 'HAM', goals: 0, matchesPlayed: 2, assists: 0 }, // 
-	// { id: 'Jsnick', goals: 0, matchesPlayed: 2, assists: 0 }, //
-	// { id: 'HAM', goals: 0, matchesPlayed: 2, assists: 0 }, // 
-	// { id: 'Jsnick', goals: 0, matchesPlayed: 2, assists: 0 }, //
+	{ id: 'HAM', goals: 0, matchesPlayed: 2, assists: 3 }, // Brazil
+	{ id: 'Jsnick', goals: 3, matchesPlayed: 2, assists: 0 }, //
 	// -------------------------------------------------------------------------------------------------------------------
 	// ---- M@KSON, VITALY 
 	{ id: 'M@KSON', goals: 1, matchesPlayed: 2, assists: 4 }, // France
@@ -40,10 +38,8 @@ export const playerStats = [
 	{ id: 'VITALY', goals: 1, matchesPlayed: 2, assists: 3 }, //
 	{ id: 'M@KSON', goals: 2, matchesPlayed: 2, assists: 0 }, // Uruguay
 	{ id: 'VITALY', goals: 0, matchesPlayed: 2, assists: 1 }, //
-	// { id: 'M@KSON', goals: 0, matchesPlayed: 2, assists: 0 }, // 
-	// { id: 'VITALY', goals: 0, matchesPlayed: 2, assists: 0 }, //
-	// { id: 'M@KSON', goals: 0, matchesPlayed: 2, assists: 0 }, // 
-	// { id: 'VITALY', goals: 0, matchesPlayed: 2, assists: 0 }, //
+	{ id: 'M@KSON', goals: 0, matchesPlayed: 2, assists: 0 }, // Holland
+	{ id: 'VITALY', goals: 0, matchesPlayed: 2, assists: 0 }, //
 	// { id: 'M@KSON', goals: 0, matchesPlayed: 2, assists: 0 }, // 
 	// { id: 'VITALY', goals: 0, matchesPlayed: 2, assists: 0 }, //
 	// { id: 'M@KSON', goals: 0, matchesPlayed: 2, assists: 0 }, // 
@@ -76,10 +72,6 @@ export const playerStats = [
 	{ id: 'TOTO', goals: 3, matchesPlayed: 2, assists: 1 }, //
 	{ id: 'Anna', goals: 2, matchesPlayed: 2, assists: 3 }, // Holland
 	{ id: 'TOTO', goals: 3, matchesPlayed: 2, assists: 2 }, //
-	// { id: 'Anna', goals: 0, matchesPlayed: 2, assists: 0 }, //
-	// { id: 'TOTO', goals: 0, matchesPlayed: 2, assists: 0 }, //
-	// { id: 'Anna', goals: 0, matchesPlayed: 2, assists: 0 }, //
-	// { id: 'TOTO', goals: 0, matchesPlayed: 2, assists: 0 }, //
 	// -------------------------------------------------------------------------------------------------------------------
 	// --- Robinho, mcrurus 
 	// { id: 'Robinho', goals: 0, matchesPlayed: 2, assists: 0 }, //
@@ -104,8 +96,8 @@ export const playerStats = [
 	{ id: 'Berserk', goals: 6, matchesPlayed: 2, assists: 1 }, //
 	{ id: 'Sania', goals: 2, matchesPlayed: 2, assists: 3 }, // France
 	{ id: 'Berserk', goals: 4, matchesPlayed: 2, assists: 2 }, //
-	// { id: 'Sania', goals: 0, matchesPlayed: 2, assists: 0 }, //
-	// { id: 'Berserk', goals: 0, matchesPlayed: 2, assists: 0 }, //
+	{ id: 'Sania', goals: 4, matchesPlayed: 2, assists: 2 }, // Holland
+	{ id: 'Berserk', goals: 2, matchesPlayed: 2, assists: 4 }, //
 	// { id: 'Sania', goals: 0, matchesPlayed: 2, assists: 0 }, //
 	// { id: 'Berserk', goals: 0, matchesPlayed: 2, assists: 0 }, //
 	// { id: 'Sania', goals: 0, matchesPlayed: 2, assists: 0 }, //
@@ -118,10 +110,10 @@ export const playerStats = [
 	{ id: 'Kevin', goals: 4, matchesPlayed: 2, assists: 2 }, //
 	{ id: 'Matuu', goals: 1, matchesPlayed: 2, assists: 0 }, // Italy
 	{ id: 'Kevin', goals: 0, matchesPlayed: 2, assists: 1 }, //
-	// { id: 'Matuu', goals: 0, matchesPlayed: 2, assists: 0 }, //
-	// { id: 'Kevin', goals: 0, matchesPlayed: 2, assists: 0 }, //
-	// { id: 'Matuu', goals: 0, matchesPlayed: 2, assists: 0 }, //
-	// { id: 'Kevin', goals: 0, matchesPlayed: 2, assists: 0 }, //
+	{ id: 'Matuu', goals: 0, matchesPlayed: 2, assists: 0 }, // Holland
+	{ id: 'Kevin', goals: 0, matchesPlayed: 2, assists: 0 }, //
+	{ id: 'Matuu', goals: 2, matchesPlayed: 2, assists: 1 }, // France
+	{ id: 'Kevin', goals: 2, matchesPlayed: 2, assists: 1 }, //
 	// { id: 'Matuu', goals: 0, matchesPlayed: 2, assists: 0 }, //
 	// { id: 'Kevin', goals: 0, matchesPlayed: 2, assists: 0 }, //
 	// { id: 'Matuu', goals: 0, matchesPlayed: 2, assists: 0 }, //
