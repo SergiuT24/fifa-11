@@ -10,8 +10,8 @@ const KingsCupPlayOffs = () => {
 				</div>
 				<div className='flex flex-col pt-20 justify-center'>
 					<Square
-						teamOne={'empty'}
-						teamTwo={'empty'}
+						teamOne={'place 3'}
+						teamTwo={'place 5'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
@@ -19,28 +19,8 @@ const KingsCupPlayOffs = () => {
 					/>
 					<div className='mt-48'>
 						<Square
-							teamOne={'empty'}
-							teamTwo={'empty'}
-							scoreFirstTeamOne={'?'}
-							scoreSecondTeamOne={'?'}
-							scoreFirstTeamTwo={'?'}
-							scoreSecondTeamTwo={'?'}
-						/>
-					</div>
-					<div className='mt-48'>
-						<Square
-							teamOne={'empty'}
-							teamTwo={'empty'}
-							scoreFirstTeamOne={'?'}
-							scoreSecondTeamOne={'?'}
-							scoreFirstTeamTwo={'?'}
-							scoreSecondTeamTwo={'?'}
-						/>
-					</div>
-					<div className='mt-48'>
-						<Square
-							teamOne={'empty'}
-							teamTwo={'empty'}
+							teamOne={'place 4'}
+							teamTwo={'place 6'}
 							scoreFirstTeamOne={'?'}
 							scoreSecondTeamOne={'?'}
 							scoreFirstTeamTwo={'?'}
@@ -54,9 +34,9 @@ const KingsCupPlayOffs = () => {
 					<h2 className='text-center text-orange-500'>Semi-Finals 1/2</h2>
 				</div>
 				<div className='flex flex-col pt-20 justify-center'>
-					<div className='mt-36'>
+					<div className='mt-10'>
 						<Square
-							teamOne={'empty'}
+							teamOne={'place 1'}
 							teamTwo={'empty'}
 							scoreFirstTeamOne={'?'}
 							scoreSecondTeamOne={'?'}
@@ -64,9 +44,9 @@ const KingsCupPlayOffs = () => {
 							scoreSecondTeamTwo={'?'}
 						/>
 					</div>
-					<div className='mt-96 pt-16'>
+					<div className='mt-10 pt-16'>
 						<Square
-							teamOne={'empty'}
+							teamOne={'place 2'}
 							teamTwo={'empty'}
 							scoreFirstTeamOne={'?'}
 							scoreSecondTeamOne={'?'}
@@ -81,7 +61,7 @@ const KingsCupPlayOffs = () => {
 					<h2 className='text-center text-orange-500'>Final</h2>
 				</div>
 				<div className='flex flex-col pt-20 justify-center'>
-					<div className='mt-96 pt-6'>
+					<div className='mt-28 pt-6'>
 						<Square
 							teamOne={'empty'}
 							teamTwo={'empty'}
