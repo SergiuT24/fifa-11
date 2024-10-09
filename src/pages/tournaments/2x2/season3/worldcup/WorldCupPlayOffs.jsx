@@ -10,7 +10,7 @@ const WorldCupPlayOffs = () => {
 	return (
 		<div className='py-16 darkblue'>
 			<div className='flex flex-col gap-10'>
-				<h2 className='text-center'>Play Offs: Semi-Finals 1/4</h2>
+				<h2 className='text-center'>Play Offs: Quarter-Finals 1/4</h2>
 				<div className='flex gap-14 justify-center'>
 					<Square
 						teamOne={'place 4'}

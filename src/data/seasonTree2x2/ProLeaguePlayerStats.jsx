@@ -64,7 +64,7 @@ export const playerStats = [
 	// ---- Anna, TOTO
 	{ id: 'Anna', goals: 2, matchesPlayed: 2, assists: 3 }, // Brazil
 	{ id: 'TOTO', goals: 3, matchesPlayed: 2, assists: 2 }, //
-	{ id: 'Anna', goals: 4, matchesPlayed: 2, assists: 4 }, // England
+	{ id: 'Anna', goals: 4, matchesPlayed: 2, assists: 3 }, // England
 	{ id: 'TOTO', goals: 3, matchesPlayed: 2, assists: 3 }, //
 	{ id: 'Anna', goals: 0, matchesPlayed: 2, assists: 2 }, // Italy
 	{ id: 'TOTO', goals: 2, matchesPlayed: 2, assists: 0 }, //
