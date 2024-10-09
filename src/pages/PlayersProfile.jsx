@@ -6,7 +6,7 @@ const PlayersProfile = () => {
 	const playersData = [
 		{ avatar: '/img/players/anna.png', name: 'Anna', id: '11208470', time: 'very active', balonDor: '/img/trophy/ballon-dor.png', balonDorCount: 'x1', goldenShoe: '/img/trophy/golden-shoe.png', goldenShoeCount: 'x1', proLeague: '/img/trophy/pro-league.png', proLeagueCount: 'x1', ucl: '/img/trophy/champions-league.png', uclCount: 'x1', kingsCup: '/img/trophy/kings-cup.png', kingsCupCount: 'x1', worldCup: '/img/trophy/world-cup.png', worldCupCount: 'x1' },
 		{ avatar: '/img/players/rin.png', name: 'DartRin', id: '10799738', goldenShoe: '/img/trophy/golden-shoe.png', goldenShoeCount: 'x1', worldCup: '/img/trophy/world-cup.png', worldCupCount: 'x1' },
-		{ avatar: '/img/players/berserk.png', name: 'Berserk', id: '4180544', time: 'very active', goldenShoe: '/img/trophy/golden-shoe.png', goldenShoeCount: 'x1' },
+		{ avatar: '/img/players/berserk.png', name: 'Berserk', id: '4180544', time: 'very active', goldenShoe: '/img/trophy/golden-shoe.png', goldenShoeCount: 'x1', proLeague: '/img/trophy/pro-league.png', proLeagueCount: 'x1', },
 		{ avatar: '/img/players/box.png', name: 'Box', },
 		{ avatar: '/img/players/france.png', name: '14 France', },
 		{ avatar: '/img/players/jsnick.png', name: 'Jsnick', id: '3674945' },
@@ -27,7 +27,7 @@ const PlayersProfile = () => {
 		{ avatar: '/img/players/mysterio.png', name: 'mysterio', id: '11701466', time: '20:00-00:00', proLeague: '/img/trophy/pro-league.png', proLeagueCount: 'x1', ucl: '/img/trophy/champions-league.png', uclCount: 'x1', kingsCup: '/img/trophy/kings-cup.png', kingsCupCount: 'x1' },
 		{ avatar: '/img/players/avatar.png', name: 'Mark', id: '1087339' },
 		{ avatar: '/img/players/avatar.png', name: 'Radenek', id: '1530641' },
-		{ avatar: '/img/players/avatar.png', name: 'Sania', id: '1040066' },
+		{ avatar: '/img/players/avatar.png', name: 'Sania', id: '1040066', proLeague: '/img/trophy/pro-league.png', proLeagueCount: 'x1', },
 		{ avatar: '/img/players/avatar.png', name: 'Pro[100]Raspasovschik', id: '4196256' },
 		{ avatar: '/img/players/avatar.png', name: 'Kebab', id: '7482915' },
 		{ avatar: '/img/players/mrnoob.png', name: 'Mr.Noob', id: '10547987', time: '19:00-00:00', proLeague: '/img/trophy/pro-league.png', proLeagueCount: 'x1' },

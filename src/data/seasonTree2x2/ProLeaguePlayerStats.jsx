@@ -40,8 +40,8 @@ export const playerStats = [
 	{ id: 'VITALY', goals: 0, matchesPlayed: 2, assists: 1 }, //
 	{ id: 'M@KSON', goals: 0, matchesPlayed: 2, assists: 0 }, // Holland
 	{ id: 'VITALY', goals: 0, matchesPlayed: 2, assists: 0 }, //
-	// { id: 'M@KSON', goals: 0, matchesPlayed: 2, assists: 0 }, // 
-	// { id: 'VITALY', goals: 0, matchesPlayed: 2, assists: 0 }, //
+	{ id: 'M@KSON', goals: 2, matchesPlayed: 2, assists: 0 }, // Italy
+	{ id: 'VITALY', goals: 1, matchesPlayed: 2, assists: 0 }, //
 	// { id: 'M@KSON', goals: 0, matchesPlayed: 2, assists: 0 }, // 
 	// { id: 'VITALY', goals: 0, matchesPlayed: 2, assists: 0 }, //
 	// -------------------------------------------------------------------------------------------------------------------
@@ -72,6 +72,8 @@ export const playerStats = [
 	{ id: 'TOTO', goals: 3, matchesPlayed: 2, assists: 1 }, //
 	{ id: 'Anna', goals: 2, matchesPlayed: 2, assists: 3 }, // Holland
 	{ id: 'TOTO', goals: 3, matchesPlayed: 2, assists: 2 }, //
+	{ id: 'Anna', goals: 0, matchesPlayed: 2, assists: 0 }, // France
+	{ id: 'TOTO', goals: 0, matchesPlayed: 2, assists: 0 }, //
 	// -------------------------------------------------------------------------------------------------------------------
 	// --- Robinho, mcrurus 
 	// { id: 'Robinho', goals: 0, matchesPlayed: 2, assists: 0 }, //
@@ -98,10 +100,10 @@ export const playerStats = [
 	{ id: 'Berserk', goals: 4, matchesPlayed: 2, assists: 2 }, //
 	{ id: 'Sania', goals: 4, matchesPlayed: 2, assists: 2 }, // Holland
 	{ id: 'Berserk', goals: 2, matchesPlayed: 2, assists: 4 }, //
-	// { id: 'Sania', goals: 0, matchesPlayed: 2, assists: 0 }, //
-	// { id: 'Berserk', goals: 0, matchesPlayed: 2, assists: 0 }, //
-	// { id: 'Sania', goals: 0, matchesPlayed: 2, assists: 0 }, //
-	// { id: 'Berserk', goals: 0, matchesPlayed: 2, assists: 0 }, //
+	{ id: 'Sania', goals: 7, matchesPlayed: 2, assists: 5 }, // Germany
+	{ id: 'Berserk', goals: 5, matchesPlayed: 2, assists: 7 }, //
+	{ id: 'Sania', goals: 1, matchesPlayed: 2, assists: 0 }, // England
+	{ id: 'Berserk', goals: 0, matchesPlayed: 2, assists: 1 }, //
 	// { id: 'Sania', goals: 0, matchesPlayed: 2, assists: 0 }, //
 	// { id: 'Berserk', goals: 0, matchesPlayed: 2, assists: 0 }, //
 	// -------------------------------------------------------------------------------------------------------------------
