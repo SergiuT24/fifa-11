@@ -1,10 +1,11 @@
 import React from 'react';
 import Square from '../../../../../components/league/square/Square';
-import Italy from '../../../../../components/league/national-teams/Italy';
-import Brazil from '../../../../../components/league/national-teams/Brazil';
-import Argentina from '../../../../../components/league/national-teams/Argentina';
-import Holland from '../../../../../components/league/national-teams/Holland';
-
+import Germany from '../../../../../components/league/national-teams/Germany';
+import France from '../../../../../components/league/national-teams/France'
+import Brazil from '../../../../../components/league/national-teams/Brazil'
+import Italy from '../../../../../components/league/national-teams/Italy'
+import England from '../../../../../components/league/national-teams/England'
+import Uruguay from '../../../../../components/league/national-teams/Uruguay'
 
 const WorldCupPlayOffs = () => {
 	return (
@@ -22,7 +23,7 @@ const WorldCupPlayOffs = () => {
 					/>
 					<Square
 						teamOne={'place 3'}
-						teamTwo={'place 6'}
+						teamTwo={<Germany />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
@@ -34,7 +35,7 @@ const WorldCupPlayOffs = () => {
 				<h2 className='text-center'>Play Offs: Semi-Finals 1/2</h2>
 				<div className='flex gap-14 justify-center'>
 					<Square
-						teamOne={'place 1'}
+						teamOne={<Italy />}
 						teamTwo={'empty'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
@@ -42,7 +43,7 @@ const WorldCupPlayOffs = () => {
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={'place 2'}
+						teamOne={<France />}
 						teamTwo={'empty'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}

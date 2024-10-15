@@ -42,8 +42,8 @@ export const playerStats = [
 	{ id: 'VITALY', goals: 0, matchesPlayed: 2, assists: 0 }, //
 	{ id: 'M@KSON', goals: 2, matchesPlayed: 2, assists: 0 }, // Italy
 	{ id: 'VITALY', goals: 1, matchesPlayed: 2, assists: 0 }, //
-	// { id: 'M@KSON', goals: 0, matchesPlayed: 2, assists: 0 }, // 
-	// { id: 'VITALY', goals: 0, matchesPlayed: 2, assists: 0 }, //
+	{ id: 'M@KSON', goals: 1, matchesPlayed: 2, assists: 2 }, // Brazil
+	{ id: 'VITALY', goals: 2, matchesPlayed: 2, assists: 0 }, //
 	// -------------------------------------------------------------------------------------------------------------------
 	// ---- Rayon13, Sega
 	// { id: 'Rayon13', goals: 0, matchesPlayed: 2, assists: 0 }, //
@@ -116,8 +116,8 @@ export const playerStats = [
 	{ id: 'Kevin', goals: 0, matchesPlayed: 2, assists: 0 }, //
 	{ id: 'Matuu', goals: 2, matchesPlayed: 2, assists: 1 }, // France
 	{ id: 'Kevin', goals: 2, matchesPlayed: 2, assists: 1 }, //
-	// { id: 'Matuu', goals: 0, matchesPlayed: 2, assists: 0 }, //
-	// { id: 'Kevin', goals: 0, matchesPlayed: 2, assists: 0 }, //
+	{ id: 'Matuu', goals: 6, matchesPlayed: 2, assists: 1 }, // Germany
+	{ id: 'Kevin', goals: 1, matchesPlayed: 2, assists: 6 }, //
 	// { id: 'Matuu', goals: 0, matchesPlayed: 2, assists: 0 }, //
 	// { id: 'Kevin', goals: 0, matchesPlayed: 2, assists: 0 }, //
 	// { id: 'Matuu', goals: 0, matchesPlayed: 2, assists: 0 }, //
