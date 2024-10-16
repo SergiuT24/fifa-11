@@ -16,4 +16,6 @@ export const initialPlayers = [
 export const playerStats = [
 	{ id: 'Matuu', goals: 5, matchesPlayed: 2, assists: 5 }, // Germany
 	{ id: 'Kevin', goals: 5, matchesPlayed: 2, assists: 4 }, //
+	{ id: 'M@KSON', goals: 1, matchesPlayed: 2, assists: 0 }, // Brazil
+	{ id: 'VITALY', goals: 0, matchesPlayed: 2, assists: 1 }, //
 ];
