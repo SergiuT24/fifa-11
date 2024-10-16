@@ -16,8 +16,8 @@ const KingsCupPlayOffs = () => {
 				</div>
 				<div className='flex flex-col pt-20 justify-center'>
 					<Square
-						teamOne={'place 3'}
-						teamTwo={'place 5'}
+						teamOne={<England />}
+						teamTwo={<Uruguay />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
@@ -25,7 +25,7 @@ const KingsCupPlayOffs = () => {
 					/>
 					<div className='mt-48'>
 						<Square
-							teamOne={'place 4'}
+							teamOne={<Brazil />}
 							teamTwo={<Germany />}
 							scoreFirstTeamOne={'?'}
 							scoreSecondTeamOne={'?'}

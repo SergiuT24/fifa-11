@@ -14,15 +14,15 @@ const WorldCupPlayOffs = () => {
 				<h2 className='text-center'>Play Offs: Quarter-Finals 1/4</h2>
 				<div className='flex gap-14 justify-center'>
 					<Square
-						teamOne={'place 4'}
-						teamTwo={'place 5'}
+						teamOne={<Brazil />}
+						teamTwo={<Uruguay />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={'place 3'}
+						teamOne={<England />}
 						teamTwo={<Germany />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
