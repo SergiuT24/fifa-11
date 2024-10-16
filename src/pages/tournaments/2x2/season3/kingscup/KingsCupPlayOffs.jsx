@@ -54,10 +54,10 @@ const KingsCupPlayOffs = () => {
 						<Square
 							teamOne={<France />}
 							teamTwo={<Brazil />}
-							scoreFirstTeamOne={'?'}
-							scoreSecondTeamOne={'?'}
-							scoreFirstTeamTwo={'?'}
-							scoreSecondTeamTwo={'?'}
+							scoreFirstTeamOne={3}
+							scoreSecondTeamOne={2}
+							scoreFirstTeamTwo={3}
+							scoreSecondTeamTwo={4}
 						/>
 					</div>
 				</div>
