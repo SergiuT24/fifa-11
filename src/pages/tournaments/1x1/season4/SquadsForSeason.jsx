@@ -54,6 +54,11 @@ const SquadsForSeason = () => {
 				playerOne={'Robinho'}
 				imgOne={'/img/players/avatar.png'}
 				club={'empty'} />
+			<PlayersTeam
+				team={'TEAM 11'}
+				playerOne={'Berserk'}
+				imgOne={'/img/players/berserk.png'}
+				club={'empty'} />
 		</div>
 	);
 }

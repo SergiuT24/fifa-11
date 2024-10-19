@@ -1,6 +1,7 @@
 import React from 'react';
 import Ajax from '../../../../components/league/4star-teams/Ajax';
 import Besiktas from '../../../../components/league/4star-teams/Besiktas';
+import Bordeaux from '../../../../components/league/4star-teams/Bordeaux';
 import Bilbao from '../../../../components/league/4star-teams/Bilbao';
 import Cska from '../../../../components/league/4star-teams/Cska';
 import Dortmund from '../../../../components/league/4star-teams/Dortmund';
@@ -35,6 +36,7 @@ const TeamsForRandom = () => {
 			<h3 className='text-center'>Teams For Random</h3>
 			<Ajax />
 			<Besiktas />
+			<Bordeaux />
 			<Bilbao />
 			<Cska />
 			<Dortmund />
