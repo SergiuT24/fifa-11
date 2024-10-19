@@ -24,10 +24,10 @@ const WorldCupPlayOffs = () => {
 					<Square
 						teamOne={<England />}
 						teamTwo={<Germany />}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						scoreFirstTeamOne={5}
+						scoreSecondTeamOne={2}
+						scoreFirstTeamTwo={5}
+						scoreSecondTeamTwo={0}
 					/>
 				</div>
 			</div>
@@ -44,11 +44,11 @@ const WorldCupPlayOffs = () => {
 					/>
 					<Square
 						teamOne={<France />}
-						teamTwo={'empty'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						teamTwo={<England />}
+						scoreFirstTeamOne={2}
+						scoreSecondTeamOne={5}
+						scoreFirstTeamTwo={3}
+						scoreSecondTeamTwo={1}
 					/>
 				</div>
 			</div>
@@ -57,7 +57,7 @@ const WorldCupPlayOffs = () => {
 				<div className='flex gap-10 justify-center'>
 					<Square
 						teamOne={'empty'}
-						teamTwo={'empty'}
+						teamTwo={<England />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}

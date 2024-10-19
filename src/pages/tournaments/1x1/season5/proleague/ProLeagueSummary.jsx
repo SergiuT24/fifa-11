@@ -1,11 +1,11 @@
 import React from 'react';
-import { SeasonFour1x1 } from '../../../../../components/league/table/ProLeagueTableSeasonsVersion2';
+import ProLeagueTableSeasonOne1x1 from '../../../../../components/league/table/ProLeagueTableSeasonOne1x1';
 import LeagueTableLegendWorldCup from '../../../../../components/league/table/LeagueTableLegendWorldCup';
 
 const ProLeagueSummary = () => {
 	return (
 		<div className='flex flex-col gap-10'>
-			<SeasonFour1x1 />
+			<ProLeagueTableSeasonOne1x1 />
 			<LeagueTableLegendWorldCup />
 		</div>
 	);
