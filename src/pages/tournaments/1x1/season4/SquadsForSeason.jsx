@@ -61,13 +61,13 @@ const SquadsForSeason = () => {
 				playerOne={'Niks'}
 				imgOne={'/img/players/nikita.png'}
 				club={<WestHam />} />
-			<PlayersTeam
+			{/* <PlayersTeam
 				team={'TEAM 10'}
 				playerOne={'Robinho'}
 				imgOne={'/img/players/avatar.png'}
-				club={<Bilbao />} />
+				club={<Bilbao />} /> */}
 			<PlayersTeam
-				team={'TEAM 11'}
+				team={'TEAM 10'}
 				playerOne={'Berserk'}
 				imgOne={'/img/players/berserk.png'}
 				club={<Bordeaux />} />
