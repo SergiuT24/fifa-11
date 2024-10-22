@@ -13,12 +13,14 @@ import TournamentsSeasonOne3x3 from './pages/tournaments/3x3/TournamentsSeasonOn
 import PlayersProfile from './pages/PlayersProfile';
 import BestPlayers from './pages/BestPlayers';
 import Archive from './pages/Archive';
+import DraftSeasonOne from './pages/draft/DraftSeasonOne';
 
 function AppRoutes() {
 	return (
 		<Routes>
 			<Route path="/" element={<Home />} />
 			<Route path="/home" element={<Home />} />
+			<Route path="/draft/season1" element={<DraftSeasonOne />} />
 			<Route path="/tournaments/1x1" element={<TournamentsSeasonFour1x1 />} />
 			<Route path="/tournaments/2x2" element={<TournamentsSeasonTree2x2 />} />
 			<Route path="/tournaments/3x3" element={<TournamentsSeasonOne3x3 />} />

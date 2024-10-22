@@ -195,8 +195,14 @@ h1, h2 {
 .leaguemenu {
 	width: 825px;
 }
+.draftmenu {
+	width: 1300px;
+}
 .table {
 	width: 825px;
+}
+.draft-table {
+	width: 600px;
 }
 .player-stats {
 	width: 758px;
