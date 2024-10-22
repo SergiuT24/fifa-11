@@ -1,6 +1,5 @@
 import Everton from '../../components/league/4star-teams/Everton';
 import Bordeaux from '../../components/league/4star-teams/Bordeaux';
-import Bilbao from '../../components/league/4star-teams/Bilbao';
 import Cska from '../../components/league/4star-teams/Cska';
 import Fenerbahce from '../../components/league/4star-teams/Fenerbahce';
 import Genoa from '../../components/league/4star-teams/Genoa';
@@ -77,31 +76,38 @@ export const matchResults = [
 	{ id: '50', teamOne: 'Genoa', scoreOne: 1, teamTwo: 'Fenerbahce', scoreTwo: 3 },
 	{ id: '51', teamOne: 'Fenerbahce', scoreOne: 3, teamTwo: 'Getafe', scoreTwo: 0 },
 	{ id: '52', teamOne: 'Getafe', scoreOne: 1, teamTwo: 'Fenerbahce', scoreTwo: 5 },
+	{ id: '1', teamOne: 'Fenerbahce', scoreOne: 2, teamTwo: 'CSKA', scoreTwo: 1 },
+	{ id: '1', teamOne: 'CSKA', scoreOne: 0, teamTwo: 'Fenerbahce', scoreTwo: 4 },
+	{ id: '1', teamOne: 'Sporting', scoreOne: 2, teamTwo: 'Getafe', scoreTwo: 0 },
+	{ id: '1', teamOne: 'Getafe', scoreOne: 1, teamTwo: 'Sporting', scoreTwo: 3 },
+	{ id: '1', teamOne: 'Genoa', scoreOne: 2, teamTwo: 'WestHam', scoreTwo: 1 },
+	{ id: '1', teamOne: 'WestHam', scoreOne: 0, teamTwo: 'Genoa', scoreTwo: 5 },
+	{ id: '1', teamOne: 'Fenerbahce', scoreOne: 1, teamTwo: 'Bordeaux', scoreTwo: 5 },
+	{ id: '1', teamOne: 'Bordeaux', scoreOne: 3, teamTwo: 'Fenerbahce', scoreTwo: 2 },
+	{ id: '1', teamOne: 'Getafe', scoreOne: 0, teamTwo: 'CSKA', scoreTwo: 4 },
+	{ id: '1', teamOne: 'CSKA', scoreOne: 2, teamTwo: 'Getafe', scoreTwo: 1 },
+	{ id: '1', teamOne: 'Everton', scoreOne: 5, teamTwo: 'Sporting', scoreTwo: 3 },
+	{ id: '1', teamOne: 'Sporting', scoreOne: 1, teamTwo: 'Everton', scoreTwo: 2 },
+	{ id: '1', teamOne: 'Bordeaux', scoreOne: 4, teamTwo: 'Getafe', scoreTwo: 0 },
+	{ id: '1', teamOne: 'Getafe', scoreOne: 1, teamTwo: 'Bordeaux', scoreTwo: 3 },
+	{ id: '1', teamOne: 'Everton', scoreOne: 5, teamTwo: 'Fenerbahce', scoreTwo: 1 },
+	{ id: '1', teamOne: 'Fenerbahce', scoreOne: 1, teamTwo: 'Everton', scoreTwo: 2 },
+	{ id: '1', teamOne: 'WestHam', scoreOne: 0, teamTwo: 'Bordeaux', scoreTwo: 6 },
+	{ id: '1', teamOne: 'Bordeaux', scoreOne: 4, teamTwo: 'WestHam', scoreTwo: 0 },
 	// Everton
-	{ id: '1', teamOne: 'Everton', scoreOne: '?', teamTwo: 'Sporting', scoreTwo: '?' },
-	{ id: '1', teamOne: 'Everton', scoreOne: '?', teamTwo: 'Fenerbahce', scoreTwo: '?' },
 	{ id: '1', teamOne: 'Everton', scoreOne: '?', teamTwo: 'Sampdoria', scoreTwo: '?' },
 	{ id: '1', teamOne: 'Everton', scoreOne: '?', teamTwo: 'WestHam', scoreTwo: '?' },
 	// Genoa
-	{ id: '1', teamOne: 'Genoa', scoreOne: '?', teamTwo: 'WestHam', scoreTwo: '?' },
 	{ id: '1', teamOne: 'Genoa', scoreOne: '?', teamTwo: 'Bordeaux', scoreTwo: '?' },
 	// Sporting CP
-	{ id: '1', teamOne: 'Sporting', scoreOne: '?', teamTwo: 'Everton', scoreTwo: '?' },
-	{ id: '1', teamOne: 'Sporting', scoreOne: '?', teamTwo: 'Getafe', scoreTwo: '?' },
 	{ id: '1', teamOne: 'Sporting', scoreOne: '?', teamTwo: 'Fenerbahce', scoreTwo: '?' },
 	{ id: '1', teamOne: 'Sporting', scoreOne: '?', teamTwo: 'Lille', scoreTwo: '?' },
 	{ id: '1', teamOne: 'Sporting', scoreOne: '?', teamTwo: 'CSKA', scoreTwo: '?' },
 	{ id: '1', teamOne: 'Sporting', scoreOne: '?', teamTwo: 'Bordeaux', scoreTwo: '?' },
 	// Getafe
-	{ id: '1', teamOne: 'Getafe', scoreOne: '?', teamTwo: 'Sporting', scoreTwo: '?' },
-	{ id: '1', teamOne: 'Getafe', scoreOne: '?', teamTwo: 'CSKA', scoreTwo: '?' },
 	{ id: '1', teamOne: 'Getafe', scoreOne: '?', teamTwo: 'WestHam', scoreTwo: '?' },
-	{ id: '1', teamOne: 'Getafe', scoreOne: '?', teamTwo: 'Bordeaux', scoreTwo: '?' },
 	// Fenerbahce
-	{ id: '1', teamOne: 'Fenerbahce', scoreOne: '?', teamTwo: 'Everton', scoreTwo: '?' },
 	{ id: '1', teamOne: 'Fenerbahce', scoreOne: '?', teamTwo: 'Sporting', scoreTwo: '?' },
-	{ id: '1', teamOne: 'Fenerbahce', scoreOne: '?', teamTwo: 'CSKA', scoreTwo: '?' },
-	{ id: '1', teamOne: 'Fenerbahce', scoreOne: '?', teamTwo: 'Bordeaux', scoreTwo: '?' },
 	// Sampdoria
 	{ id: '1', teamOne: 'Sampdoria', scoreOne: '?', teamTwo: 'Everton', scoreTwo: '?' },
 	// Lille
@@ -109,41 +115,13 @@ export const matchResults = [
 	{ id: '1', teamOne: 'Lille', scoreOne: '?', teamTwo: 'WestHam', scoreTwo: '?' },
 	// CSKA Moscow
 	{ id: '1', teamOne: 'CSKA', scoreOne: '?', teamTwo: 'Sporting', scoreTwo: '?' },
-	{ id: '1', teamOne: 'CSKA', scoreOne: '?', teamTwo: 'Getafe', scoreTwo: '?' },
-	{ id: '1', teamOne: 'CSKA', scoreOne: '?', teamTwo: 'Fenerbahce', scoreTwo: '?' },
 	{ id: '1', teamOne: 'CSKA', scoreOne: '?', teamTwo: 'Bordeaux', scoreTwo: '?' },
 	// West Ham
 	{ id: '1', teamOne: 'WestHam', scoreOne: '?', teamTwo: 'Everton', scoreTwo: '?' },
-	{ id: '1', teamOne: 'WestHam', scoreOne: '?', teamTwo: 'Genoa', scoreTwo: '?' },
 	{ id: '1', teamOne: 'WestHam', scoreOne: '?', teamTwo: 'Getafe', scoreTwo: '?' },
 	{ id: '1', teamOne: 'WestHam', scoreOne: '?', teamTwo: 'Lille', scoreTwo: '?' },
-	{ id: '1', teamOne: 'WestHam', scoreOne: '?', teamTwo: 'Bordeaux', scoreTwo: '?' },
 	// Bordeaux
 	{ id: '1', teamOne: 'Bordeaux', scoreOne: '?', teamTwo: 'Genoa', scoreTwo: '?' },
 	{ id: '1', teamOne: 'Bordeaux', scoreOne: '?', teamTwo: 'Sporting', scoreTwo: '?' },
-	{ id: '1', teamOne: 'Bordeaux', scoreOne: '?', teamTwo: 'Getafe', scoreTwo: '?' },
-	{ id: '1', teamOne: 'Bordeaux', scoreOne: '?', teamTwo: 'Fenerbahce', scoreTwo: '?' },
 	{ id: '1', teamOne: 'Bordeaux', scoreOne: '?', teamTwo: 'CSKA', scoreTwo: '?' },
-	{ id: '1', teamOne: 'Bordeaux', scoreOne: '?', teamTwo: 'WestHam', scoreTwo: '?' },
 ];
-// { id: '1', teamOne: 'Everton', scoreOne: '?', teamTwo: 'Bilbao', scoreTwo: '?' },
-// { id: '1', teamOne: 'Genoa', scoreOne: '?', teamTwo: 'Bilbao', scoreTwo: '?' },
-// { id: '1', teamOne: 'Sporting', scoreOne: '?', teamTwo: 'Bilbao', scoreTwo: '?' },
-// { id: '1', teamOne: 'Getafe', scoreOne: '?', teamTwo: 'Bilbao', scoreTwo: '?' },
-// { id: '1', teamOne: 'Fenerbahce', scoreOne: '?', teamTwo: 'Bilbao', scoreTwo: '?' },
-// { id: '1', teamOne: 'Sampdoria', scoreOne: '?', teamTwo: 'Bilbao', scoreTwo: '?' },
-// { id: '1', teamOne: 'Lille', scoreOne: '?', teamTwo: 'Bilbao', scoreTwo: '?' },
-// { id: '1', teamOne: 'CSKA', scoreOne: '?', teamTwo: 'Bilbao', scoreTwo: '?' },
-// { id: '1', teamOne: 'WestHam', scoreOne: '?', teamTwo: 'Bilbao', scoreTwo: '?' },
-// { id: '1', teamOne: 'Bordeaux', scoreOne: '?', teamTwo: 'Bilbao', scoreTwo: '?' },
-// Ath Bilbao
-// { id: '1', teamOne: 'Bilbao', scoreOne: '?', teamTwo: 'Everton', scoreTwo: '?' },
-// { id: '1', teamOne: 'Bilbao', scoreOne: '?', teamTwo: 'Genoa', scoreTwo: '?' },
-// { id: '1', teamOne: 'Bilbao', scoreOne: '?', teamTwo: 'Sporting', scoreTwo: '?' },
-// { id: '1', teamOne: 'Bilbao', scoreOne: '?', teamTwo: 'Getafe', scoreTwo: '?' },
-// { id: '1', teamOne: 'Bilbao', scoreOne: '?', teamTwo: 'Fenerbahce', scoreTwo: '?' },
-// { id: '1', teamOne: 'Bilbao', scoreOne: '?', teamTwo: 'Sampdoria', scoreTwo: '?' },
-// { id: '1', teamOne: 'Bilbao', scoreOne: '?', teamTwo: 'Lille', scoreTwo: '?' },
-// { id: '1', teamOne: 'Bilbao', scoreOne: '?', teamTwo: 'CSKA', scoreTwo: '?' },
-// { id: '1', teamOne: 'Bilbao', scoreOne: '?', teamTwo: 'WestHam', scoreTwo: '?' },
-// { id: '1', teamOne: 'Bilbao', scoreOne: '?', teamTwo: 'Bordeaux', scoreTwo: '?' },
