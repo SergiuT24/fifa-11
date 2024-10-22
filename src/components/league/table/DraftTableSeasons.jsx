@@ -1,77 +1,63 @@
 import React from 'react';
 import DraftTable from './DraftTable.jsx';
 
-import { initialTeams as initialTeamsSeasonOneGroupA1x1, matchResults as matchResultsSeasonOneGroupA1x1 } from '../../../data/draftOne/DraftSeasonOneGroupATableResults1x1.jsx';
-import { initialTeams as initialTeamsSeasonOneGroupB1x1, matchResults as matchResultsSeasonOneGroupB1x1 } from '../../../data/draftOne/DraftSeasonOneGroupBTableResults1x1.jsx';
-import { initialTeams as initialTeamsSeasonOneGroupA2x2, matchResults as matchResultsSeasonOneGroupA2x2 } from '../../../data/draftOne/DraftSeasonOneGroupATableResults2x2.jsx';
-import { initialTeams as initialTeamsSeasonOneGroupB2x2, matchResults as matchResultsSeasonOneGroupB2x2 } from '../../../data/draftOne/DraftSeasonOneGroupBTableResults2x2.jsx';
-import { initialTeams as initialTeamsSeasonOneGroupA3x3, matchResults as matchResultsSeasonOneGroupA3x3 } from '../../../data/draftOne/DraftSeasonOneGroupATableResults3x3.jsx';
-import { initialTeams as initialTeamsSeasonOneGroupB3x3, matchResults as matchResultsSeasonOneGroupB3x3 } from '../../../data/draftOne/DraftSeasonOneGroupBTableResults3x3.jsx';
-import { initialTeams as initialTeamsSeasonOneGroupA4x4, matchResults as matchResultsSeasonOneGroupA4x4 } from '../../../data/draftOne/DraftSeasonOneGroupATableResults4x4.jsx';
-import { initialTeams as initialTeamsSeasonOneGroupB4x4, matchResults as matchResultsSeasonOneGroupB4x4 } from '../../../data/draftOne/DraftSeasonOneGroupBTableResults4x4.jsx';
+import { initialTeams as initialTeamsSeasonOne1x1, additionalTeams as additionalTeamsSeasonOne1x1, matchResults as matchResultsSeasonOne1x1 } from '../../../data/draftOne/DraftSeasonOneTableResults1x1.jsx';
+import { initialTeams as initialTeamsSeasonOne2x2, additionalTeams as additionalTeamsSeasonOne2x2, matchResults as matchResultsSeasonOne2x2 } from '../../../data/draftOne/DraftSeasonOneTableResults2x2.jsx';
+import { initialTeams as initialTeamsSeasonOne3x3, additionalTeams as additionalTeamsSeasonOne3x3, matchResults as matchResultsSeasonOne3x3 } from '../../../data/draftOne/DraftSeasonOneTableResults3x3.jsx';
+import { initialTeams as initialTeamsSeasonOne4x4, additionalTeams as additionalTeamsSeasonOne4x4, matchResults as matchResultsSeasonOne4x4 } from '../../../data/draftOne/DraftSeasonOneTableResults4x4.jsx';
 
-const DraftSeasonOneGroupA1x1 = () => (
+const DraftSeasonOne1x1 = () => (
 	<DraftTable
-		initialTeams={initialTeamsSeasonOneGroupA1x1}
-		matchResults={matchResultsSeasonOneGroupA1x1}
-		seasonTitle="Group A Season 1 (1x1) "
+		initialTeams={initialTeamsSeasonOne1x1}
+		additionalTeams={additionalTeamsSeasonOne1x1}
+		matchResults={matchResultsSeasonOne1x1}
+		seasonTitleOne="Group A (1x1) "
+		seasonTitleTwo="Group B (1x1) "
+		groupStage={'Stage 1x1'}
 	/>
 );
 
-const DraftSeasonOneGroupB1x1 = () => (
+const DraftSeasonOne2x2 = () => (
 	<DraftTable
-		initialTeams={initialTeamsSeasonOneGroupB1x1}
-		matchResults={matchResultsSeasonOneGroupB1x1}
-		seasonTitle="Group B Season 1 (1x1)"
+		initialTeams={initialTeamsSeasonOne2x2}
+		additionalTeams={additionalTeamsSeasonOne2x2}
+		matchResults={matchResultsSeasonOne2x2}
+		seasonTitleOne="Group A (2x2) "
+		seasonTitleTwo="Group B (2x2) "
+		groupStage={'Stage 2x2'}
+		draftDescription={'Команда выбирается рандомом для каждой группы (1, 2, 3) из тех команд, что уже находятся в группе B. Играются 2 матча против команды-соперника (Team1 vs Team1, Team2 vs Team2, Team3 vs Team3)'}
+		first={'Team 1 = place 1 and place 6'}
+		second={'Team 2 = place 2 and place 5'}
+		tree={'Team 3 = place 3 and place 4'}
 	/>
 );
 
-const DraftSeasonOneGroupA2x2 = () => (
+const DraftSeasonOne3x3 = () => (
 	<DraftTable
-		initialTeams={initialTeamsSeasonOneGroupA2x2}
-		matchResults={matchResultsSeasonOneGroupA2x2}
-		seasonTitle="Group A Season 1 (2x2) "
+		initialTeams={initialTeamsSeasonOne3x3}
+		additionalTeams={additionalTeamsSeasonOne3x3}
+		matchResults={matchResultsSeasonOne3x3}
+		seasonTitleOne="Group A (3x3) "
+		seasonTitleTwo="Group B (3x3) "
+		groupStage={'Stage 3x3'}
+		draftDescription={'Команда выбирается рандомом для каждой группы (1, 2) из тех команд, что уже находятся в группе B. Играются 2 матча против команды-соперника (Team1 vs Team1, Team2 vs Team2).'}
+		first={'Team 1 = place 1, place 3, place 6'}
+		second={'Team 2 = place 2, place 4, place 5'}
 	/>
 );
 
-const DraftSeasonOneGroupB2x2 = () => (
+const DraftSeasonOne4x4 = () => (
 	<DraftTable
-		initialTeams={initialTeamsSeasonOneGroupB2x2}
-		matchResults={matchResultsSeasonOneGroupB2x2}
-		seasonTitle="Group B Season 1 (2x2)"
+		initialTeams={initialTeamsSeasonOne4x4}
+		additionalTeams={additionalTeamsSeasonOne4x4}
+		matchResults={matchResultsSeasonOne4x4}
+		seasonTitleOne="Group A (4x4) "
+		seasonTitleTwo="Group B (4x4) "
+		groupStage={'Stage 4x4'}
+		draftDescription={'Команда выбирается рандомом для каждой группы (1) из тех команд, что уже находятся в группе B. Играются 2 матча против команды-соперника (Team1 vs Team1).'}
+		first={'Team 1 = place 1, place 2, place 3, place 4'}
 	/>
 );
 
-const DraftSeasonOneGroupA3x3 = () => (
-	<DraftTable
-		initialTeams={initialTeamsSeasonOneGroupA3x3}
-		matchResults={matchResultsSeasonOneGroupA3x3}
-		seasonTitle="Group A Season 1 (3x3) "
-	/>
-);
 
-const DraftSeasonOneGroupB3x3 = () => (
-	<DraftTable
-		initialTeams={initialTeamsSeasonOneGroupB3x3}
-		matchResults={matchResultsSeasonOneGroupB3x3}
-		seasonTitle="Group B Season 1 (3x3)"
-	/>
-);
-
-const DraftSeasonOneGroupA4x4 = () => (
-	<DraftTable
-		initialTeams={initialTeamsSeasonOneGroupA4x4}
-		matchResults={matchResultsSeasonOneGroupA4x4}
-		seasonTitle="Group A Season 1 (4x4) "
-	/>
-);
-
-const DraftSeasonOneGroupB4x4 = () => (
-	<DraftTable
-		initialTeams={initialTeamsSeasonOneGroupB4x4}
-		matchResults={matchResultsSeasonOneGroupB4x4}
-		seasonTitle="Group B Season 1 (4x4)"
-	/>
-);
-
-export { DraftSeasonOneGroupA1x1, DraftSeasonOneGroupB1x1, DraftSeasonOneGroupA2x2, DraftSeasonOneGroupB2x2, DraftSeasonOneGroupA3x3, DraftSeasonOneGroupB3x3, DraftSeasonOneGroupA4x4, DraftSeasonOneGroupB4x4 };
+export { DraftSeasonOne1x1, DraftSeasonOne2x2, DraftSeasonOne3x3, DraftSeasonOne4x4 };

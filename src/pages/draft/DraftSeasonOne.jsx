@@ -3,8 +3,7 @@ import SquadsForSeasonGroupA from './season1/SquadsForSeasonGroupA';
 import SquadsForSeasonGroupB from './season1/SquadsForSeasonGroupB';
 import TeamsForRandom from './season1/TeamsForRandom';
 import DraftLeagueMain from './season1/draftleague/DraftLeagueMain';
-import DraftTableA from './season1/draftleague/DraftTableA'
-import DraftTableB from './season1/draftleague/DraftTableB'
+import DraftTable from './season1/draftleague/DraftTable'
 import Basket from '../../components/league/draft/Basket';
 
 const DraftSeasonOne = () => {
@@ -42,8 +41,7 @@ const DraftSeasonOne = () => {
 				</div>
 			</div>
 			<div className='flex ml-5 gap-14'>
-				<DraftTableA />
-				<DraftTableB />
+				<DraftTable />
 			</div>
 			<h4 className='text-lg py-7'>В случае ничьей играется дополнительный матч 5 на 5, в котором участвуют первые 5 игроков из каждой группы.</h4>
 		</div>

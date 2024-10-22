@@ -3,7 +3,7 @@ import DraftTableComponent from './DraftTableComponent.jsx';
 import WinButton from '../outcomes/WinButton.jsx';
 import LoseButton from '../outcomes/LoseButton.jsx';
 import DrawButton from '../outcomes/DrawButton.jsx';
-import NotPlayedButton from '../outcomes/NotPlayedButton.jsx'
+import NotPlayedButton from '../outcomes/NotPlayedButton.jsx';
 
 const updateTeams = (teams, matches) => {
 	const updatedTeams = teams.map(team => ({
@@ -17,7 +17,6 @@ const updateTeams = (teams, matches) => {
 		const teamTwoIndex = updatedTeams.findIndex(t => t.id === teamTwo);
 
 		if (teamOneIndex !== -1 && teamTwoIndex !== -1) {
-			// Check if scores are not '?'
 			const scoreOneIsNumber = !isNaN(scoreOne);
 			const scoreTwoIsNumber = !isNaN(scoreTwo);
 
@@ -73,7 +72,6 @@ const updateTeams = (teams, matches) => {
 					);
 				}
 			} else {
-				// Handle unplayed matches
 				updatedTeams[teamOneIndex].form.push(
 					<NotPlayedButton key={`${teamOne}-${teamTwo}-${matchIndex}-notPlayed`} title={`${teamOne} ${scoreOne}:${scoreTwo} ${teamTwo}`} />
 				);
@@ -91,64 +89,120 @@ const updateTeams = (teams, matches) => {
 	updatedTeams.sort((a, b) => {
 		if (b.pts !== a.pts) return b.pts - a.pts;
 
-		// Личные встречи: сравниваем очки в личных встречах
 		const aHeadToHead = a.headToHead[b.id] || { g: 0, gc: 0 };
 		const bHeadToHead = b.headToHead[a.id] || { g: 0, gc: 0 };
-
-		// Считаем разницу мячей в личных встречах
 		const headToHeadGD = (bHeadToHead.g - bHeadToHead.gc) - (aHeadToHead.g - aHeadToHead.gc);
 		if (headToHeadGD !== 0) return headToHeadGD;
 
-		// Если очки и разница мячей в личных встречах равны, сравниваем общую разницу мячей
 		const overallGD = (b.g - b.gc) - (a.g - a.gc);
 		if (overallGD !== 0) return overallGD;
 
-		// Если общая разница мячей равна, сравниваем по количеству забитых голов
 		if (b.g !== a.g) return b.g - a.g;
 
-		// Если забитые голы равны, сравниваем по количеству пропущенных голов
 		return a.gc - b.gc;
 	});
-	const totalPoints = updatedTeams.reduce((sum, team) => sum + team.pts, 0);
 
-	return { updatedTeams, totalPoints };
+	return updatedTeams;
 };
 
-const DraftTable = ({ initialTeams, matchResults, seasonTitle }) => {
+const DraftTable = ({ initialTeams, additionalTeams, matchResults, seasonTitleOne, seasonTitleTwo, groupStage, draftDescription, first, second, tree }) => {
 	const [teams, setTeams] = useState(initialTeams);
-	const [totalPoints, setTotalPoints] = useState(0);
+	const [totalPointsFirstTable, setTotalPointsFirstTable] = useState(0);
+	const [totalPointsSecondTable, setTotalPointsSecondTable] = useState(0);
+
+	const allTeams = [...initialTeams, ...additionalTeams];
 
 	useEffect(() => {
-		const { updatedTeams, totalPoints } = updateTeams(initialTeams, matchResults);
+		const updatedTeams = updateTeams(allTeams, matchResults);
 		setTeams(updatedTeams);
-		setTotalPoints(totalPoints);
-	}, [initialTeams, matchResults]);
+
+		const firstTablePoints = updatedTeams
+			.filter(team => initialTeams.some(t => t.id === team.id))
+			.reduce((sum, team) => sum + team.pts, 0);
+
+		const secondTablePoints = updatedTeams
+			.filter(team => additionalTeams.some(t => t.id === team.id))
+			.reduce((sum, team) => sum + team.pts, 0);
+
+		setTotalPointsFirstTable(firstTablePoints);
+		setTotalPointsSecondTable(secondTablePoints);
+	}, [initialTeams, additionalTeams, matchResults]);
+
+	const teamsForFirstTable = teams.filter(team => initialTeams.some(t => t.id === team.id));
+	const teamsForSecondTable = teams.filter(team => additionalTeams.some(t => t.id === team.id));
 
 	return (
 		<div>
-			<table className='draft-table'>
-				<thead style={{ backgroundColor: '#0f2d37' }}>
-					<DraftTableComponent rank={"#"} team={seasonTitle} mp={"MP"} w={"W"} d={"D"} l={"L"} g={"G"} gd={"GD"} pts={"PTS"} form={"FORM"} />
-				</thead>
-				<tbody style={{ backgroundColor: '#010a0f' }}>
-					{teams.map((team, index) => (
-						<DraftTableComponent
-							key={team.id}
-							rank={index + 1}
-							team={team.name}
-							mp={team.mp}
-							w={team.w}
-							d={team.d}
-							l={team.l}
-							g={team.g}
-							gd={team.gd}
-							pts={team.pts}
-							form={<div className='flex gap-1 justify-start'>{team.form}</div>}
-						/>
-					))}
-				</tbody>
-			</table>
-			<h4 className='text-xl mt-6'>Points: {totalPoints}</h4>
+			<div className='flex ml-5 gap-14'>
+				<div>
+					<div className='my-10'>
+						<h3 className='text-xl pb-5'>{groupStage}</h3>
+						<h4 className='text-base mb-4'>{draftDescription}</h4>
+						<ul>
+							<li>{first}</li>
+							<li>{second}</li>
+							<li>{tree}</li>
+						</ul>
+					</div>
+					<table className='draft-table'>
+						<thead style={{ backgroundColor: '#0f2d37' }}>
+							<DraftTableComponent rank={"#"} team={seasonTitleOne} mp={"MP"} w={"W"} d={"D"} l={"L"} g={"G"} gd={"GD"} pts={"PTS"} form={"FORM"} />
+						</thead>
+						<tbody>
+							{teamsForFirstTable.map((team, index) => (
+								<DraftTableComponent
+									key={team.id}
+									rank={index + 1}
+									team={team.name}
+									mp={team.mp}
+									w={team.w}
+									d={team.d}
+									l={team.l}
+									g={team.g}
+									gd={team.gd}
+									pts={team.pts}
+									form={<div className='flex gap-1 justify-start'>{team.form}</div>}
+								/>
+							))}
+						</tbody>
+					</table>
+					<p className='text-xl mt-4'>Points: {totalPointsFirstTable}</p>
+				</div>
+				<div>
+					<div className='my-10'>
+						<h3 className='text-xl pb-5'>{groupStage}</h3>
+						<h4 className='text-base mb-4'>{draftDescription}</h4>
+						<ul>
+							<li>{first}</li>
+							<li>{second}</li>
+							<li>{tree}</li>
+						</ul>
+					</div>
+					<table className='draft-table'>
+						<thead style={{ backgroundColor: '#0f2d37' }}>
+							<DraftTableComponent rank={"#"} team={seasonTitleTwo} mp={"MP"} w={"W"} d={"D"} l={"L"} g={"G"} gd={"GD"} pts={"PTS"} form={"FORM"} />
+						</thead>
+						<tbody>
+							{teamsForSecondTable.map((team, index) => (
+								<DraftTableComponent
+									key={team.id}
+									rank={index + 1}
+									team={team.name}
+									mp={team.mp}
+									w={team.w}
+									d={team.d}
+									l={team.l}
+									g={team.g}
+									gd={team.gd}
+									pts={team.pts}
+									form={<div className='flex gap-1 justify-start'>{team.form}</div>}
+								/>
+							))}
+						</tbody>
+					</table>
+					<p className='text-xl mt-4'>Points: {totalPointsSecondTable}</p>
+				</div>
+			</div>
 		</div>
 	);
 };
