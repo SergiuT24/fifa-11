@@ -15,30 +15,33 @@ const DraftSeasonOne = () => {
 			<h1 className='text-3xl text-center py-2'>Побеждает группа, которая по завершению всех матчей набирает больше очков.</h1>
 			<div className='flex mt-10 gap-16'>
 				<TeamsForRandom />
-				<div className='flex gap-24'>
+				<div className='flex gap-10'>
 					<Basket
 						basket={'Basket of the Strong'}
-						player1={'empty'}
-						player2={'empty'}
-						player3={'empty'}
-						player4={'empty'}
-						player5={'empty'}
-						player6={'empty'}
+						player1={'1.Anna'}
+						player2={'2.M@KSON'}
+						player3={'3.Jsnick'}
+						player4={'4.TOTO'}
+						player5={'5.DartRin'}
+						player6={'6.mysterio'}
+					/>
+					<Basket
+						basket={'Basket of the medium players'}
+						player1={'1.VITALY'}
+						player2={'2.Niks'}
 					/>
 					<Basket
 						basket={'Basket of the Weak'}
-						player1={'empty'}
-						player2={'empty'}
-						player3={'empty'}
-						player4={'empty'}
+						player1={'1.Rayon 13'}
+						player2={'2.A.Wenger'}
 					/>
 				</div>
-				<div className='flex gap-24'>
+				<div className='flex justify-center gap-24'>
 					<SquadsForSeasonGroupA />
 					<SquadsForSeasonGroupB />
 				</div>
 			</div>
-			<div className='flex justify-center gap-14'>
+			<div className='flex ml-5 gap-14'>
 				<DraftTableA />
 				<DraftTableB />
 			</div>

@@ -6,7 +6,7 @@
 // import Chelsea from '../../components/league/teams/Chelsea';
 
 export const initialTeams = [
-	{ id: 'empty', name: 'empty', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Anna', name: 'Anna', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'empty', name: 'empty', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'empty', name: 'empty', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'empty', name: 'empty', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
@@ -15,5 +15,5 @@ export const initialTeams = [
 ];
 
 export const matchResults = [
-	// { id: '1', teamOne: 'manchester', scoreOne: 2, teamTwo: 'chelsea', scoreTwo: 1 },
+	// { id: '1', teamOne: 'Anna', scoreOne: 2, teamTwo: 'chelsea', scoreTwo: 1 },
 ];
