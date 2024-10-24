@@ -21,7 +21,7 @@ const DraftSeasonOne = () => {
 						player2={'2.M@KSON'}
 						player3={'3.Jsnick'}
 						player4={'4.TOTO'}
-						player5={'5.DartRin'}
+						player5={'5.Dagestan'}
 						player6={'6.mysterio'}
 					/>
 					<Basket
