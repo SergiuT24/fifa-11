@@ -35,7 +35,7 @@ const DraftSeasonOne = () => {
 						player2={'2.A.Wenger'}
 					/>
 				</div>
-				<div className='flex justify-center gap-24'>
+				<div className='flex justify-center gap-10 mr-20'>
 					<SquadsForSeasonGroupA />
 					<SquadsForSeasonGroupB />
 				</div>

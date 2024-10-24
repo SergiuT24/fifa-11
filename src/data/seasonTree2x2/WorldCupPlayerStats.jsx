@@ -20,4 +20,9 @@ export const playerStats = [
 	{ id: 'mcrurus', goals: 10, matchesPlayed: 4, assists: 0 }, //
 	{ id: 'M@KSON', goals: 1, matchesPlayed: 2, assists: 0 }, // England
 	{ id: 'VITALY', goals: 1, matchesPlayed: 2, assists: 1 }, //
+	{ id: 'Berserk', goals: 3, matchesPlayed: 2, assists: 3 }, // Brazil
+	{ id: 'Sania', goals: 3, matchesPlayed: 2, assists: 2 }, //
+	{ id: 'Berserk', goals: 3, matchesPlayed: 2, assists: 1 }, // England
+	{ id: 'Sania', goals: 1, matchesPlayed: 2, assists: 3 }, //
+
 ];

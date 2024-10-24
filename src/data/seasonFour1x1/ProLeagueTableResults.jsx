@@ -104,20 +104,16 @@ export const matchResults = [
 	{ id: '1', teamOne: 'WestHam', scoreOne: 1, teamTwo: 'Getafe', scoreTwo: 1 },
 	{ id: '1', teamOne: 'Sporting', scoreOne: 2, teamTwo: 'CSKA', scoreTwo: 1 },
 	{ id: '1', teamOne: 'CSKA', scoreOne: 1, teamTwo: 'Sporting', scoreTwo: 3 },
-	// Genoa
-	{ id: '1', teamOne: 'Genoa', scoreOne: '?', teamTwo: 'Bordeaux', scoreTwo: '?' },
+	{ id: '1', teamOne: 'Lille', scoreOne: 3, teamTwo: 'Sporting', scoreTwo: 1 },
+	{ id: '1', teamOne: 'Sporting', scoreOne: 4, teamTwo: 'Lille', scoreTwo: 2 },
+	{ id: '1', teamOne: 'CSKA', scoreOne: 1, teamTwo: 'Bordeaux', scoreTwo: 2 },
+	{ id: '1', teamOne: 'Bordeaux', scoreOne: 2, teamTwo: 'CSKA', scoreTwo: 2 },
+	{ id: '1', teamOne: 'Genoa', scoreOne: 0, teamTwo: 'Bordeaux', scoreTwo: 2 },
+	{ id: '1', teamOne: 'Bordeaux', scoreOne: 2, teamTwo: 'Genoa', scoreTwo: 7 },
+	{ id: '1', teamOne: 'Bordeaux', scoreOne: 1, teamTwo: 'Sporting', scoreTwo: 3 },
+	{ id: '1', teamOne: 'Sporting', scoreOne: 1, teamTwo: 'Bordeaux', scoreTwo: 2 },
 	// Sporting CP
 	{ id: '1', teamOne: 'Sporting', scoreOne: '?', teamTwo: 'Fenerbahce', scoreTwo: '?' },
-	{ id: '1', teamOne: 'Sporting', scoreOne: '?', teamTwo: 'Lille', scoreTwo: '?' },
-	{ id: '1', teamOne: 'Sporting', scoreOne: '?', teamTwo: 'Bordeaux', scoreTwo: '?' },
 	// Fenerbahce
 	{ id: '1', teamOne: 'Fenerbahce', scoreOne: '?', teamTwo: 'Sporting', scoreTwo: '?' },
-	// Lille
-	{ id: '1', teamOne: 'Lille', scoreOne: '?', teamTwo: 'Sporting', scoreTwo: '?' },
-	// CSKA Moscow
-	{ id: '1', teamOne: 'CSKA', scoreOne: '?', teamTwo: 'Bordeaux', scoreTwo: '?' },
-	// Bordeaux
-	{ id: '1', teamOne: 'Bordeaux', scoreOne: '?', teamTwo: 'Genoa', scoreTwo: '?' },
-	{ id: '1', teamOne: 'Bordeaux', scoreOne: '?', teamTwo: 'Sporting', scoreTwo: '?' },
-	{ id: '1', teamOne: 'Bordeaux', scoreOne: '?', teamTwo: 'CSKA', scoreTwo: '?' },
 ];

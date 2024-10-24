@@ -58,10 +58,10 @@ const WorldCupPlayOffs = () => {
 					<Square
 						teamOne={<Italy />}
 						teamTwo={<England />}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						scoreFirstTeamOne={1}
+						scoreSecondTeamOne={0}
+						scoreFirstTeamTwo={'0 | Overtime 3'}
+						scoreSecondTeamTwo={'1 | Overtime 0'}
 					/>
 				</div>
 			</div>
