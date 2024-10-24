@@ -40,10 +40,10 @@ const DraftSeasonOne = () => {
 					<SquadsForSeasonGroupB />
 				</div>
 			</div>
-			<div className='flex ml-5 gap-14'>
+			<div className='flex ml-1 gap-14'>
 				<DraftTable />
 			</div>
-			<h4 className='text-lg py-7'>В случае ничьей играется дополнительный матч 5 на 5, в котором участвуют первые 5 игроков из каждой группы.</h4>
+			<h4 className='text-lg ml-5 py-7'>В случае ничьей играется дополнительный матч 5 на 5, в котором участвуют первые 5 игроков из каждой группы.</h4>
 		</div>
 	);
 }
