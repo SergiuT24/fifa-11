@@ -1,14 +1,14 @@
-import Porto from '../../components/league/teams/Porto';
 import Arsenal from '../../components/league/teams/Arsenal';
 import Roma from '../../components/league/teams/Roma';
 import Valencia from '../../components/league/teams/Valencia';
-import BayernMunich from '../../components/league/teams/BayernMunich';
-import Liverpool from '../../components/league/teams/Liverpool';
 import Lyon from '../../components/league/teams/Lyon';
-import Sevilla from '../../components/league/teams/Sevilla';
 import Juventus from '../../components/league/teams/Juventus';
 import AstonVilla from '../../components/league/teams/AstonVilla';
+import Porto from '../../components/league/teams/Porto';
+import Liverpool from '../../components/league/teams/Liverpool';
+import Sevilla from '../../components/league/teams/Sevilla';
 import ManchesterCity from '../../components/league/teams/ManchesterCity';
+import BayernMunich from '../../components/league/teams/BayernMunich';
 import AcMilan from '../../components/league/teams/AcMilan';
 
 const initialTeams = [
@@ -86,38 +86,29 @@ const matchResults = [
 	{ teamOne: 'Bayern Munich', scoreOne: 1, teamTwo: 'Manchester City', scoreTwo: 4 },
 	{ teamOne: 'Roma', scoreOne: 2, teamTwo: 'Juventus', scoreTwo: 0 },
 	{ teamOne: 'Juventus', scoreOne: 0, teamTwo: 'Roma', scoreTwo: 3 },
+	{ teamOne: 'Porto', scoreOne: 1, teamTwo: 'Manchester City', scoreTwo: 4 },
+	{ teamOne: 'Manchester City', scoreOne: 1, teamTwo: 'Porto', scoreTwo: 2 },
+	{ teamOne: 'Valencia', scoreOne: 3, teamTwo: 'Manchester City', scoreTwo: 1 },
+	{ teamOne: 'Manchester City', scoreOne: 2, teamTwo: 'Valencia', scoreTwo: 2 },
+	{ teamOne: 'Aston Villa', scoreOne: 3, teamTwo: 'Liverpool', scoreTwo: 0 },
+	{ teamOne: 'Bayern Munich', scoreOne: 0, teamTwo: 'Juventus', scoreTwo: 6 },
+	{ teamOne: 'Juventus', scoreOne: 1, teamTwo: 'Bayern Munich', scoreTwo: 0 },
+	{ teamOne: 'Liverpool', scoreOne: 2, teamTwo: 'AC Milan', scoreTwo: 2 },
+	{ teamOne: 'AC Milan', scoreOne: 0, teamTwo: 'Liverpool', scoreTwo: 2 },
+	{ teamOne: 'Bayern Munich', scoreOne: 0, teamTwo: 'Aston Villa', scoreTwo: 5 },
+	{ teamOne: 'Aston Villa', scoreOne: 2, teamTwo: 'Bayern Munich', scoreTwo: 2 },
+	{ teamOne: 'Bayern Munich', scoreOne: 2, teamTwo: 'AC Milan', scoreTwo: 1 },
+	{ teamOne: 'AC Milan', scoreOne: 1, teamTwo: 'Bayern Munich', scoreTwo: 0 },
 	// Group A
-	// Porto
-	{ teamOne: 'Porto', scoreOne: '?', teamTwo: 'Manchester City', scoreTwo: '?' },
-	// Liverpool
-	{ teamOne: 'Liverpool', scoreOne: '?', teamTwo: 'AC Milan', scoreTwo: '?' },
-	// Arsenal
 	// Roma
 	{ teamOne: 'Roma', scoreOne: '?', teamTwo: 'Sevilla', scoreTwo: '?' },
-	// Valencia
-	{ teamOne: 'Valencia', scoreOne: '?', teamTwo: 'Manchester City', scoreTwo: '?' },
 	// Bayern Munich
 	{ teamOne: 'Bayern Munich', scoreOne: '?', teamTwo: 'Sevilla', scoreTwo: '?' },
-	{ teamOne: 'Bayern Munich', scoreOne: '?', teamTwo: 'Juventus', scoreTwo: '?' },
-	{ teamOne: 'Bayern Munich', scoreOne: '?', teamTwo: 'Aston Villa', scoreTwo: '?' },
-	{ teamOne: 'Bayern Munich', scoreOne: '?', teamTwo: 'AC Milan', scoreTwo: '?' },
 
 	// Group B
-	// Lyon
 	// Sevilla
 	{ teamOne: 'Sevilla', scoreOne: '?', teamTwo: 'Roma', scoreTwo: '?' },
 	{ teamOne: 'Sevilla', scoreOne: '?', teamTwo: 'Bayern Munich', scoreTwo: '?' },
-	// Juventus
-	{ teamOne: 'Juventus', scoreOne: '?', teamTwo: 'Bayern Munich', scoreTwo: '?' },
-	// Aston Villa
-	{ teamOne: 'Aston Villa', scoreOne: '?', teamTwo: 'Liverpool', scoreTwo: '?' },
-	{ teamOne: 'Aston Villa', scoreOne: '?', teamTwo: 'Bayern Munich', scoreTwo: '?' },
-	// Manchester City
-	{ teamOne: 'Manchester City', scoreOne: '?', teamTwo: 'Porto', scoreTwo: '?' },
-	{ teamOne: 'Manchester City', scoreOne: '?', teamTwo: 'Valencia', scoreTwo: '?' },
-	// AC Milan
-	{ teamOne: 'AC Milan', scoreOne: '?', teamTwo: 'Liverpool', scoreTwo: '?' },
-	{ teamOne: 'AC Milan', scoreOne: '?', teamTwo: 'Bayern Munich', scoreTwo: '?' },
 ];
 
 export { initialTeams, additionalTeams, matchResults };

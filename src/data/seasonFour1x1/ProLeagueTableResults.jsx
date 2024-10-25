@@ -112,8 +112,6 @@ export const matchResults = [
 	{ id: '1', teamOne: 'Bordeaux', scoreOne: 2, teamTwo: 'Genoa', scoreTwo: 7 },
 	{ id: '1', teamOne: 'Bordeaux', scoreOne: 1, teamTwo: 'Sporting', scoreTwo: 3 },
 	{ id: '1', teamOne: 'Sporting', scoreOne: 1, teamTwo: 'Bordeaux', scoreTwo: 2 },
-	// Sporting CP
-	{ id: '1', teamOne: 'Sporting', scoreOne: '?', teamTwo: 'Fenerbahce', scoreTwo: '?' },
-	// Fenerbahce
-	{ id: '1', teamOne: 'Fenerbahce', scoreOne: '?', teamTwo: 'Sporting', scoreTwo: '?' },
+	{ id: '1', teamOne: 'Sporting', scoreOne: 0, teamTwo: 'Fenerbahce', scoreTwo: 1 },
+	{ id: '1', teamOne: 'Fenerbahce', scoreOne: 2, teamTwo: 'Sporting', scoreTwo: 1 },
 ];
