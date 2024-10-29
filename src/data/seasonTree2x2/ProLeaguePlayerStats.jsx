@@ -102,10 +102,8 @@ export const playerStats = [
 	{ id: 'Berserk', goals: 2, matchesPlayed: 2, assists: 4 }, //
 	{ id: 'Sania', goals: 7, matchesPlayed: 2, assists: 5 }, // Germany
 	{ id: 'Berserk', goals: 5, matchesPlayed: 2, assists: 7 }, //
-	{ id: 'Sania', goals: 1, matchesPlayed: 2, assists: 0 }, // England
+	{ id: 'Sania', goals: 1, matchesPlayed: 2, assists: 2 }, // England
 	{ id: 'Berserk', goals: 0, matchesPlayed: 2, assists: 1 }, //
-	// { id: 'Sania', goals: 0, matchesPlayed: 2, assists: 0 }, //
-	// { id: 'Berserk', goals: 0, matchesPlayed: 2, assists: 0 }, //
 	// -------------------------------------------------------------------------------------------------------------------
 	// --- Matuu, Kevin 
 	{ id: 'Matuu', goals: 2, matchesPlayed: 2, assists: 4 }, // Uruguay
