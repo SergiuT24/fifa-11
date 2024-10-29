@@ -29,6 +29,7 @@ const DraftSeasonOne2x2 = () => (
 		first={'Team 1 = place 1 and place 6'}
 		second={'Team 2 = place 2 and place 5'}
 		tree={'Team 3 = place 3 and place 4'}
+		staticPoints={106}
 	/>
 );
 
@@ -41,8 +42,8 @@ const DraftSeasonOne3x3 = () => (
 		seasonTitleTwo="Group B (3x3) "
 		groupStage={'Stage 3x3'}
 		draftDescription={'Команда выбирается рандомом для каждой группы (1, 2) из тех команд, что уже находятся в группе B. Играются 2 матча против команды-соперника (Team1 vs Team1, Team2 vs Team2).'}
-		first={'Team 1 = place 1, place 3, place 6'}
-		second={'Team 2 = place 2, place 4, place 5'}
+		first={'Team 1 = place 1, place 3, place 5'}
+		second={'Team 2 = place 2, place 4, place 6'}
 	/>
 );
 

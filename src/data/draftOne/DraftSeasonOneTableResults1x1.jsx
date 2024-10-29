@@ -99,16 +99,10 @@ const matchResults = [
 	{ teamOne: 'Aston Villa', scoreOne: 2, teamTwo: 'Bayern Munich', scoreTwo: 2 },
 	{ teamOne: 'Bayern Munich', scoreOne: 2, teamTwo: 'AC Milan', scoreTwo: 1 },
 	{ teamOne: 'AC Milan', scoreOne: 1, teamTwo: 'Bayern Munich', scoreTwo: 0 },
-	// Group A
-	// Roma
-	{ teamOne: 'Roma', scoreOne: '?', teamTwo: 'Sevilla', scoreTwo: '?' },
-	// Bayern Munich
-	{ teamOne: 'Bayern Munich', scoreOne: '?', teamTwo: 'Sevilla', scoreTwo: '?' },
-
-	// Group B
-	// Sevilla
-	{ teamOne: 'Sevilla', scoreOne: '?', teamTwo: 'Roma', scoreTwo: '?' },
-	{ teamOne: 'Sevilla', scoreOne: '?', teamTwo: 'Bayern Munich', scoreTwo: '?' },
+	{ teamOne: 'Roma', scoreOne: 4, teamTwo: 'Sevilla', scoreTwo: 3 },
+	{ teamOne: 'Sevilla', scoreOne: 2, teamTwo: 'Roma', scoreTwo: 8 },
+	{ teamOne: 'Sevilla', scoreOne: 3, teamTwo: 'Bayern Munich', scoreTwo: 4 },
+	{ teamOne: 'Bayern Munich', scoreOne: 3, teamTwo: 'Sevilla', scoreTwo: 0 },
 ];
 
 export { initialTeams, additionalTeams, matchResults };

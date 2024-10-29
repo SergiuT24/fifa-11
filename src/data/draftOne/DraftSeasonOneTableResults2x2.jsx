@@ -19,29 +19,26 @@ const additionalTeams = [
 ];
 
 const matchResults = [
-	// Team1A
-	{ teamOne: 'Bayern Munich', scoreOne: '?', teamTwo: 'Manchester City', scoreTwo: '?' },
-	{ teamOne: 'Bayern Munich', scoreOne: '?', teamTwo: 'Sevilla', scoreTwo: '?' },
-	{ teamOne: 'Bayern Munich', scoreOne: '?', teamTwo: 'AC Milan', scoreTwo: '?' },
-	// Team2A
-	{ teamOne: 'Liverpool', scoreOne: '?', teamTwo: 'Manchester City', scoreTwo: '?' },
-	{ teamOne: 'Liverpool', scoreOne: '?', teamTwo: 'Sevilla', scoreTwo: '?' },
-	{ teamOne: 'Liverpool', scoreOne: '?', teamTwo: 'AC Milan', scoreTwo: '?' },
+	{ teamOne: 'Manchester City', scoreOne: 3, teamTwo: 'Bayern Munich', scoreTwo: 0 },
+	{ teamOne: 'Bayern Munich', scoreOne: 2, teamTwo: 'Manchester City', scoreTwo: 2 },
+	{ teamOne: 'Bayern Munich', scoreOne: 1, teamTwo: 'AC Milan', scoreTwo: 3 },
+	{ teamOne: 'AC Milan', scoreOne: 4, teamTwo: 'Bayern Munich', scoreTwo: 1 },
+	{ teamOne: 'Bayern Munich', scoreOne: 0, teamTwo: 'Sevilla', scoreTwo: 3 },
+	{ teamOne: 'Sevilla', scoreOne: 3, teamTwo: 'Bayern Munich', scoreTwo: 0 },
+	{ teamOne: 'Porto', scoreOne: 1, teamTwo: 'Sevilla', scoreTwo: 3 },
+	{ teamOne: 'Sevilla', scoreOne: 1, teamTwo: 'Porto', scoreTwo: 0 },
+	{ teamOne: 'Liverpool', scoreOne: 6, teamTwo: 'Sevilla', scoreTwo: 1 },
+	{ teamOne: 'Sevilla', scoreOne: 0, teamTwo: 'Liverpool', scoreTwo: 7 },
+	{ teamOne: 'Liverpool', scoreOne: 6, teamTwo: 'AC Milan', scoreTwo: 1 },
+	{ teamOne: 'AC Milan', scoreOne: 0, teamTwo: 'Liverpool', scoreTwo: 4 },
+	{ teamOne: 'Liverpool', scoreOne: 2, teamTwo: 'Manchester City', scoreTwo: 1 },
+	{ teamOne: 'Manchester City', scoreOne: 0, teamTwo: 'Liverpool', scoreTwo: 6 },
 	// Team3A
 	{ teamOne: 'Porto', scoreOne: '?', teamTwo: 'Manchester City', scoreTwo: '?' },
-	{ teamOne: 'Porto', scoreOne: '?', teamTwo: 'Sevilla', scoreTwo: '?' },
 	{ teamOne: 'Porto', scoreOne: '?', teamTwo: 'AC Milan', scoreTwo: '?' },
 	// Team 1B
-	{ teamOne: 'Manchester City', scoreOne: '?', teamTwo: 'Bayern Munich', scoreTwo: '?' },
-	{ teamOne: 'Manchester City', scoreOne: '?', teamTwo: 'Liverpool', scoreTwo: '?' },
 	{ teamOne: 'Manchester City', scoreOne: '?', teamTwo: 'Porto', scoreTwo: '?' },
-	// Team 2B
-	{ teamOne: 'Sevilla', scoreOne: '?', teamTwo: 'Bayern Munich', scoreTwo: '?' },
-	{ teamOne: 'Sevilla', scoreOne: '?', teamTwo: 'Liverpool', scoreTwo: '?' },
-	{ teamOne: 'Sevilla', scoreOne: '?', teamTwo: 'Porto', scoreTwo: '?' },
 	// Team 3B
-	{ teamOne: 'AC Milan', scoreOne: '?', teamTwo: 'Bayern Munich', scoreTwo: '?' },
-	{ teamOne: 'AC Milan', scoreOne: '?', teamTwo: 'Liverpool', scoreTwo: '?' },
 	{ teamOne: 'AC Milan', scoreOne: '?', teamTwo: 'Porto', scoreTwo: '?' },
 ];
 

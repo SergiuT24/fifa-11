@@ -105,7 +105,7 @@ const updateTeams = (teams, matches) => {
 	return updatedTeams;
 };
 
-const DraftTable = ({ initialTeams, additionalTeams, matchResults, seasonTitleOne, seasonTitleTwo, groupStage, draftDescription, first, second, tree }) => {
+const DraftTable = ({ initialTeams, additionalTeams, matchResults, seasonTitleOne, seasonTitleTwo, groupStage, draftDescription, first, second, tree, staticPoints }) => {
 	const [teams, setTeams] = useState(initialTeams);
 	const [totalPointsFirstTable, setTotalPointsFirstTable] = useState(0);
 	const [totalPointsSecondTable, setTotalPointsSecondTable] = useState(0);
