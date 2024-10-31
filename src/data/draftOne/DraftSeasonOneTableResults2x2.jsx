@@ -33,13 +33,10 @@ const matchResults = [
 	{ teamOne: 'AC Milan', scoreOne: 0, teamTwo: 'Liverpool', scoreTwo: 4 },
 	{ teamOne: 'Liverpool', scoreOne: 2, teamTwo: 'Manchester City', scoreTwo: 1 },
 	{ teamOne: 'Manchester City', scoreOne: 0, teamTwo: 'Liverpool', scoreTwo: 6 },
-	// Team3A
-	{ teamOne: 'Porto', scoreOne: '?', teamTwo: 'Manchester City', scoreTwo: '?' },
-	{ teamOne: 'Porto', scoreOne: '?', teamTwo: 'AC Milan', scoreTwo: '?' },
-	// Team 1B
-	{ teamOne: 'Manchester City', scoreOne: '?', teamTwo: 'Porto', scoreTwo: '?' },
-	// Team 3B
-	{ teamOne: 'AC Milan', scoreOne: '?', teamTwo: 'Porto', scoreTwo: '?' },
+	{ teamOne: 'Porto', scoreOne: 0, teamTwo: 'AC Milan', scoreTwo: 0 },
+	{ teamOne: 'AC Milan', scoreOne: 2, teamTwo: 'Porto', scoreTwo: 0 },
+	{ teamOne: 'Porto', scoreOne: 3, teamTwo: 'Manchester City', scoreTwo: 1 },
+	{ teamOne: 'Manchester City', scoreOne: 1, teamTwo: 'Porto', scoreTwo: 1 },
 ];
 
 export { initialTeams, additionalTeams, matchResults };

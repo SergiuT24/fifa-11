@@ -14,14 +14,14 @@ const additionalTeams = [
 ];
 
 const matchResults = [
-	{ teamOne: 'AS Roma', scoreOne: '?', teamTwo: 'Manchester City', scoreTwo: '?' },
-	{ teamOne: 'AS Roma', scoreOne: '?', teamTwo: 'AC Milan', scoreTwo: '?' },
-	{ teamOne: 'Valencia', scoreOne: '?', teamTwo: 'Manchester City', scoreTwo: '?' },
-	{ teamOne: 'Valencia', scoreOne: '?', teamTwo: 'AC Milan', scoreTwo: '?' },
-	{ teamOne: 'Manchester City', scoreOne: '?', teamTwo: 'AS Roma', scoreTwo: '?' },
-	{ teamOne: 'Manchester City', scoreOne: '?', teamTwo: 'Valencia', scoreTwo: '?' },
-	{ teamOne: 'AC Milan', scoreOne: '?', teamTwo: 'AS Roma', scoreTwo: '?' },
-	{ teamOne: 'AC Milan', scoreOne: '?', teamTwo: 'Valencia', scoreTwo: '?' },
+	{ teamOne: 'Valencia', scoreOne: 3, teamTwo: 'AC Milan', scoreTwo: 1 },
+	{ teamOne: 'AC Milan', scoreOne: 5, teamTwo: 'Valencia', scoreTwo: 0 },
+	{ teamOne: 'Valencia', scoreOne: 0, teamTwo: 'Manchester City', scoreTwo: 6 },
+	{ teamOne: 'Manchester City', scoreOne: 7, teamTwo: 'Valencia', scoreTwo: 0 },
+	{ teamOne: 'AS Roma', scoreOne: 1, teamTwo: 'Manchester City', scoreTwo: 7 },
+	{ teamOne: 'Manchester City', scoreOne: 5, teamTwo: 'AS Roma', scoreTwo: 1 },
+	{ teamOne: 'AS Roma', scoreOne: 6, teamTwo: 'AC Milan', scoreTwo: 1 },
+	{ teamOne: 'AC Milan', scoreOne: 0, teamTwo: 'AS Roma', scoreTwo: 3 },
 ];
 
 export { initialTeams, additionalTeams, matchResults };
