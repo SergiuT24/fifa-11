@@ -9,11 +9,6 @@ import Italy from '../../../../components/league/national-teams/Italy';
 import Portugal from '../../../../components/league/national-teams/Portugal';
 import Spain from '../../../../components/league/national-teams/Spain';
 import Uruguay from '../../../../components/league/national-teams/Uruguay';
-import Russia from '../../../../components/league/national-teams/Russia';
-import Croatia from '../../../../components/league/national-teams/Croatia';
-import Turkey from '../../../../components/league/national-teams/Turkey';
-
-
 
 
 
@@ -31,9 +26,6 @@ const TeamsForRandom = () => {
 			<Portugal />
 			<Spain />
 			<Uruguay />
-			<Russia />
-			<Croatia />
-			<Turkey />
 		</div>
 	);
 }

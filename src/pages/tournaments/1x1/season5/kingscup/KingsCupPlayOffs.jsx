@@ -1,5 +1,11 @@
 import React from 'react';
 import Square from '../../../../../components/league/square/Square';
+import Italy from '../../../../../components/league/national-teams/Italy';
+import Brazil from '../../../../../components/league/national-teams/Brazil';
+import Holland from '../../../../../components/league/national-teams/Holland';
+import Argentina from '../../../../../components/league/national-teams/Argentina';
+import Portugal from '../../../../../components/league/national-teams/Portugal';
+import France from '../../../../../components/league/national-teams/France';
 
 const KingsCupPlayOffs = () => {
 	return (
@@ -8,20 +14,20 @@ const KingsCupPlayOffs = () => {
 				<h2 className='text-center text-orange-500'>Play Offs: Semi-Finals 1/4</h2>
 				<div className='flex flex-col gap-32 justify-center'>
 					<Square
-						teamOne={'4 place'}
-						teamTwo={'6 place'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						teamOne={'empty'}
+						teamTwo={'empty'}
+						scoreFirstTeamOne={'0'}
+						scoreSecondTeamOne={'0'}
+						scoreFirstTeamTwo={'0'}
+						scoreSecondTeamTwo={'0'}
 					/>
 					<Square
-						teamOne={'3 place'}
-						teamTwo={'5 place'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						teamOne={'empty'}
+						teamTwo={'empty'}
+						scoreFirstTeamOne={'0'}
+						scoreSecondTeamOne={'0'}
+						scoreFirstTeamTwo={'0'}
+						scoreSecondTeamTwo={'0'}
 					/>
 				</div>
 			</div>
@@ -29,20 +35,20 @@ const KingsCupPlayOffs = () => {
 				<h2 className='text-center text-orange-500'>Play Offs: Semi-Finals 1/2</h2>
 				<div className='flex flex-col gap-16'>
 					<Square
-						teamOne={'1 place'}
-						teamTwo={'winner from 4vs6 place'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						teamOne={'empty'}
+						teamTwo={'empty'}
+						scoreFirstTeamOne={'0'}
+						scoreSecondTeamOne={'0'}
+						scoreFirstTeamTwo={'0'}
+						scoreSecondTeamTwo={'0'}
 					/>
 					<Square
-						teamOne={'2 place'}
-						teamTwo={'winner from 3vs5 place'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						teamOne={'empty'}
+						teamTwo={'empty'}
+						scoreFirstTeamOne={'0'}
+						scoreSecondTeamOne={'0'}
+						scoreFirstTeamTwo={'0'}
+						scoreSecondTeamTwo={'0'}
 					/>
 				</div>
 			</div>
@@ -52,10 +58,10 @@ const KingsCupPlayOffs = () => {
 					<Square
 						teamOne={'empty'}
 						teamTwo={'empty'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						scoreFirstTeamOne={'0'}
+						scoreSecondTeamOne={'0'}
+						scoreFirstTeamTwo={'0'}
+						scoreSecondTeamTwo={'0'}
 					/>
 				</div>
 			</div>
