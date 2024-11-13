@@ -31,6 +31,7 @@ function AppRoutes() {
 			<Route path='/archive/tournament/1x1/season/1' element={<TournamentsSeasonOne1x1 />} />
 			<Route path='/archive/tournament/1x1/season/2' element={<TournamentsSeasonTwo1x1 />} />
 			<Route path='/archive/tournament/1x1/season/3' element={<TournamentsSeasonTree1x1 />} />
+			<Route path='/archive/tournament/1x1/season/4' element={<TournamentsSeasonFour1x1 />} />
 			<Route path="/players/profile" element={<PlayersProfile />} />
 			<Route path="/best-players" element={<BestPlayers />} />
 			<Route path="/rules" element={<Rules />} />

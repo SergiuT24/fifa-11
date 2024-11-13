@@ -19,7 +19,7 @@ import Turkey from '../../../../components/league/national-teams/Turkey';
 
 const TeamsForRandom = () => {
 	return (
-		<div className='flex mt-10 pl-6 flex-col gap-4'>
+		<div className='flex mt-10 pl-5 flex-col gap-4'>
 			<h3 className='text-center'>Teams For Random</h3>
 			<Argentina />
 			<Brazil />

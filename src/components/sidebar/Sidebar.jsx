@@ -3,7 +3,7 @@ import SidebarItem from './SidebarItem';
 
 const Sidebar = ({ selectedLeague, setSelectedLeague }) => {
 	return (
-		<div className='mx-5 w-40 flex flex-col gap-2'>
+		<div className='mx-2 w-32 flex flex-col gap-2'>
 			<div className='border-b'>
 				<h2 className='text-center pb-1 text-sm'>PINNED LEAGUES</h2>
 			</div>
