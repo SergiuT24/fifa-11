@@ -10,8 +10,6 @@ import Turkey from '../../components/league/national-teams/Turkey'
 import Germany from '../../components/league/national-teams/Germany'
 import { getResults } from './matchResults';
 
-import { useState, useEffect } from 'react';
-
 console.log(getResults);
 
 export const initialTeams = [
@@ -27,11 +25,7 @@ export const initialTeams = [
 	{ id: 'Germany', name: <Germany />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
-export const matchResults = () => {
-	const [matches, setmacthes] = useState([]);
-
-	setmacthes(getResults);
-}
+export const matchResults = [getResults];
 
 
 
