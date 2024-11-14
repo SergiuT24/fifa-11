@@ -1,8 +1,5 @@
 import React from 'react';
 import MenuLink from '../components/header/MenuLink';
-import { getResults } from './matchResults';
-
-console.log(...getResults);
 
 const Archive = () => {
 	return (
