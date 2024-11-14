@@ -25,7 +25,6 @@ export const initialTeams = [
 	{ id: 'Germany', name: <Germany />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
-export const matchResults = [];
 
 const fetchMatchResults = async () => {
 	try {
@@ -44,6 +43,7 @@ const fetchMatchResults = async () => {
 // Call fetchMatchResults to load data into matchResults
 fetchMatchResults();
 
+export const matchResults = [];
 
 
 // export const matchResults = [
