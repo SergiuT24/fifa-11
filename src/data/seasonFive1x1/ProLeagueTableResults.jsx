@@ -8,8 +8,10 @@ import Russia from '../../components/league/national-teams/Russia'
 import Croatia from '../../components/league/national-teams/Croatia'
 import Turkey from '../../components/league/national-teams/Turkey'
 import Germany from '../../components/league/national-teams/Germany'
+import { getResults } from './matchResults';
 
 
+console.log(getResults);
 
 
 export const initialTeams = [
@@ -26,24 +28,7 @@ export const initialTeams = [
 ];
 
 
-const fetchMatchResults = async () => {
-	try {
-		// Replace with the URL of your JSON file stored in S3
-		const response = await fetch('https://match-results-bucket.s3.eu-central-1.amazonaws.com/matchResults.json');
-		const data = await response.json();
 
-		// Update the matchResults array with the fetched data
-		matchResults.length = 0; // Clear the existing data (if any)
-		matchResults.push(...data); // Add the fetched data to the array
-	} catch (error) {
-		console.error('Error fetching match results:', error);
-	}
-};
-
-// Call fetchMatchResults to load data into matchResults
-fetchMatchResults();
-
-export const matchResults = [];
 
 
 // export const matchResults = [

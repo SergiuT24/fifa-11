@@ -1,6 +1,4 @@
-// matchResults.js or wherever you need to export matchResults
-
-export let matchResults = [];  // Start with an empty array
+export let getResults = [];  // Start with an empty array
 
 // Function to fetch data from S3 and format it
 const fetchMatchResults = async () => {
@@ -9,7 +7,7 @@ const fetchMatchResults = async () => {
 		const data = await response.json();
 
 		// Format the data as needed
-		matchResults = data.map((match, index) => ({
+		getResults = data.map((match, index) => ({
 			id: (index + 1).toString(),  // Ensure the id is a string and starts from 1
 			teamOne: match.teamOne,
 			scoreOne: match.scoreOne,
@@ -17,7 +15,7 @@ const fetchMatchResults = async () => {
 			scoreTwo: match.scoreTwo
 		}));
 
-		console.log(matchResults);  // Log to see the results in the console
+		console.log(getResults);  // Log to see the results in the console
 
 	} catch (error) {
 		console.error('Error fetching match results:', error);
