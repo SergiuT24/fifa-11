@@ -28,7 +28,7 @@ export const initialTeams = [
 ];
 
 export const matchResults = [
-	console.log(getResults)
+	...getResults
 ];
 
 
