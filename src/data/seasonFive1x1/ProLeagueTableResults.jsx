@@ -21,59 +21,21 @@ export const initialTeams = [
 	{ id: 'Germany', name: <Germany />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
-// Function to fetch match results from a remote JSON file
-export const matchResults = async () => {
-	const fileUrl = 'https://match-results-bucket.s3.eu-central-1.amazonaws.com/matchResults.json'; // URL-ul fișierului tău JSON
+const matchResults = [];
 
+const fetchMatchResults = async () => {
 	try {
-		const response = await fetch(fileUrl);
-
-		// Check if response is ok (status 200-299)
-		if (!response.ok) {
-			throw new Error(`HTTP error! Status: ${response.status}`);
-		}
-
-		const jsonData = await response.json();
-
-		// Verifică dacă jsonData este un array valid
-		if (Array.isArray(jsonData)) {
-			// Verificăm dacă datele au forma așteptată
-			const results = jsonData.map((item) => ({
-				id: item.id,
-				teamOne: item.teamOne,
-				scoreOne: item.scoreOne,
-				teamTwo: item.teamTwo,
-				scoreTwo: item.scoreTwo,
-			}));
-
-			return results;
-		} else {
-			// Dacă jsonData nu este un array valid, loghează eroarea
-			console.error('Datele JSON nu sunt un array valid:', jsonData);
-			return []; // Returnează un array gol
-		}
+		const response = await fetch('https://your-bucket-name.s3.amazonaws.com/match-results.json');
+		const data = await response.json();  // Fetch the JSON data
+		matchResults.push(...data);  // Push the fetched data into matchResults
+		console.log(matchResults);  // Log the match results to see them
 	} catch (error) {
-		// Gestionăm erorile de rețea sau de procesare a JSON-ului
-		console.error('Eroare la preluarea fișierului JSON:', error);
-		return []; // Returnează un array gol în caz de eroare
+		console.error("Error fetching match results:", error);
 	}
 };
 
-// Exemplu de utilizare a rezultatelor
-const loadResults = async () => {
-	const results = await matchResults();
-	if (results.length > 0) {
-		// Verificăm și iterăm prin rezultate
-		results.forEach(result => {
-			console.log(`${result.teamOne} ${result.scoreOne} - ${result.scoreTwo} ${result.teamTwo}`);
-		});
-	} else {
-		console.log('Nu există rezultate disponibile sau a apărut o eroare.');
-	}
-};
+fetchMatchResults();
 
-// Call the loadResults function to display match results
-loadResults();
 
 
 
