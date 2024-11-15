@@ -25,24 +25,50 @@ export const matchResults = async () => {
 
 	try {
 		const response = await fetch(fileUrl);
+
+		// Verifică dacă răspunsul este valid
+		if (!response.ok) {
+			throw new Error('Eroare la încărcarea fișierului JSON: ' + response.statusText);
+		}
+
 		const jsonData = await response.json();
 
-		// Transformă datele într-un format compatibil cu structura ta
-		const results = Object.values(jsonData).map((item) => ({
-			id: item.id,
-			teamOne: item.teamOne,
-			scoreOne: item.scoreOne,
-			teamTwo: item.teamTwo,
-			scoreTwo: item.scoreTwo,
-		}));
+		// Verifică dacă jsonData este un array
+		if (!Array.isArray(jsonData)) {
+			console.error('Datele JSON nu sunt un array. Structura datelor:', jsonData);
+			return []; // Returnează un array gol dacă datele nu sunt un array
+		}
 
+		// Verifică dacă fiecare element din jsonData conține câmpurile necesare
+		const results = jsonData.map((item, index) => {
+			if (
+				!item.hasOwnProperty('id') ||
+				!item.hasOwnProperty('teamOne') ||
+				!item.hasOwnProperty('scoreOne') ||
+				!item.hasOwnProperty('teamTwo') ||
+				!item.hasOwnProperty('scoreTwo')
+			) {
+				console.error(`Eroare: Elementul ${index} nu are toate câmpurile necesare`, item);
+				return null; // Returnează null pentru elementele care nu sunt corecte
+			}
 
-		return results;
+			return {
+				id: item.id,
+				teamOne: item.teamOne,
+				scoreOne: item.scoreOne,
+				teamTwo: item.teamTwo,
+				scoreTwo: item.scoreTwo,
+			};
+		});
+
+		// Filtrează elementele null (care nu aveau toate câmpurile necesare)
+		return results.filter(item => item !== null);
 	} catch (error) {
 		console.error('Eroare la preluarea fișierului JSON:', error);
 		return []; // În caz de eroare, returnează un array gol
 	}
 };
+
 
 
 // import France from '../../components/league/national-teams/France'
