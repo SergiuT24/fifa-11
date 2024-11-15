@@ -1,11 +1,9 @@
-// results.js
-
 export const fetchResults = async () => {
 	try {
 		const response = await fetch('https://match-results-bucket.s3.eu-central-1.amazonaws.com/results.json');
 		const data = await response.json();
 
-		// Formatează datele pentru a fi utilizate în componentă
+		// Prelucrarea datelor și returnarea lor într-un format dorit
 		return data.map((match, index) => ({
 			id: (index + 1).toString(),
 			teamOne: match.teamOne,
