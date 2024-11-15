@@ -7,6 +7,7 @@ import Russia from '../../components/league/national-teams/Russia';
 import Croatia from '../../components/league/national-teams/Croatia';
 import Turkey from '../../components/league/national-teams/Turkey';
 import Germany from '../../components/league/national-teams/Germany';
+import { matchResults } from './matchResults';
 
 // Initial teams array with React components for teams
 export const initialTeams = [
@@ -21,20 +22,7 @@ export const initialTeams = [
 	{ id: 'Germany', name: <Germany />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
-const matchResults = [];
-
-const fetchMatchResults = async () => {
-	try {
-		const response = await fetch('https://your-bucket-name.s3.amazonaws.com/match-results.json');
-		const data = await response.json();  // Fetch the JSON data
-		matchResults.push(...data);  // Push the fetched data into matchResults
-		console.log(matchResults);  // Log the match results to see them
-	} catch (error) {
-		console.error("Error fetching match results:", error);
-	}
-};
-
-fetchMatchResults();
+export const matchResults = matchResults;
 
 
 
