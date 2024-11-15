@@ -28,13 +28,14 @@ export const matchResults = async () => {
 		const jsonData = await response.json();
 
 		// Transformă datele într-un format compatibil cu structura ta
-		const results = jsonData.map((item) => ({
+		const results = Object.values(jsonData).map((item) => ({
 			id: item.id,
 			teamOne: item.teamOne,
 			scoreOne: item.scoreOne,
 			teamTwo: item.teamTwo,
 			scoreTwo: item.scoreTwo,
 		}));
+
 
 		return results;
 	} catch (error) {
