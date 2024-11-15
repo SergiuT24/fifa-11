@@ -21,15 +21,15 @@ export const initialTeams = [
 ];
 
 export const matchResults = async () => {
-	const fileUrl = 'https://match-results-bucket.s3.eu-central-1.amazonaws.com/matchResults.json'; // Înlocuiește cu URL-ul public al fișierului tău JSON
+	const fileUrl = 'https://match-results-bucket.s3.eu-central-1.amazonaws.com/matchResults.json'; // URL-ul fișierului tău JSON
 
 	try {
 		const response = await fetch(fileUrl);
 		const jsonData = await response.json();
 
-		// Verifică dacă jsonData este un array
+		// Verifică dacă jsonData este un array valid
 		if (Array.isArray(jsonData)) {
-			// Transformă datele într-un format compatibil cu structura ta
+			// Verificăm dacă datele au forma așteptată
 			const results = jsonData.map((item) => ({
 				id: item.id,
 				teamOne: item.teamOne,
@@ -40,30 +40,32 @@ export const matchResults = async () => {
 
 			return results;
 		} else {
-			// Dacă jsonData nu este un array, loghează o eroare
-			console.error('Datele din JSON nu sunt un array:', jsonData);
-			return []; // Returnează un array gol în caz de eroare
+			// Dacă jsonData nu este un array valid, loghează eroarea
+			console.error('Datele JSON nu sunt un array valid:', jsonData);
+			return []; // Returnează un array gol
 		}
 	} catch (error) {
-		// Tratează erorile de rețea sau orice alt tip de eroare
+		// Gestionăm erorile de rețea sau de procesare a JSON-ului
 		console.error('Eroare la preluarea fișierului JSON:', error);
-		return []; // În caz de eroare, returnează un array gol
+		return []; // Returnează un array gol în caz de eroare
 	}
 };
 
-// Exemplu de utilizare
+// Exemplu de utilizare a rezultatelor
 const loadResults = async () => {
 	const results = await matchResults();
 	if (results.length > 0) {
+		// Verificăm și iterăm prin rezultate
 		results.forEach(result => {
 			console.log(`Match: ${result.teamOne} ${result.scoreOne} - ${result.scoreTwo} ${result.teamTwo}`);
 		});
 	} else {
-		console.log('Nu există rezultate disponibile.');
+		console.log('Nu există rezultate disponibile sau a apărut o eroare.');
 	}
 };
 
 loadResults();
+
 
 
 // import France from '../../components/league/national-teams/France'
