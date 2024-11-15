@@ -1,13 +1,14 @@
-import France from '../../components/league/national-teams/France'
-import Brazil from '../../components/league/national-teams/Brazil'
-import Holland from '../../components/league/national-teams/Holland'
-import Spain from '../../components/league/national-teams/Spain'
-import Uruguay from '../../components/league/national-teams/Uruguay'
-import Russia from '../../components/league/national-teams/Russia'
-import Croatia from '../../components/league/national-teams/Croatia'
-import Turkey from '../../components/league/national-teams/Turkey'
-import Germany from '../../components/league/national-teams/Germany'
+import France from '../../components/league/national-teams/France';
+import Brazil from '../../components/league/national-teams/Brazil';
+import Holland from '../../components/league/national-teams/Holland';
+import Spain from '../../components/league/national-teams/Spain';
+import Uruguay from '../../components/league/national-teams/Uruguay';
+import Russia from '../../components/league/national-teams/Russia';
+import Croatia from '../../components/league/national-teams/Croatia';
+import Turkey from '../../components/league/national-teams/Turkey';
+import Germany from '../../components/league/national-teams/Germany';
 
+// Initial teams array with React components for teams
 export const initialTeams = [
 	{ id: 'France', name: <France />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Brazil', name: <Brazil />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
@@ -20,11 +21,18 @@ export const initialTeams = [
 	{ id: 'Germany', name: <Germany />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
+// Function to fetch match results from a remote JSON file
 export const matchResults = async () => {
 	const fileUrl = 'https://match-results-bucket.s3.eu-central-1.amazonaws.com/matchResults.json'; // URL-ul fișierului tău JSON
 
 	try {
 		const response = await fetch(fileUrl);
+
+		// Check if response is ok (status 200-299)
+		if (!response.ok) {
+			throw new Error(`HTTP error! Status: ${response.status}`);
+		}
+
 		const jsonData = await response.json();
 
 		// Verifică dacă jsonData este un array valid
@@ -57,14 +65,16 @@ const loadResults = async () => {
 	if (results.length > 0) {
 		// Verificăm și iterăm prin rezultate
 		results.forEach(result => {
-			console.log(`Match: ${result.teamOne} ${result.scoreOne} - ${result.scoreTwo} ${result.teamTwo}`);
+			console.log(`${result.teamOne} ${result.scoreOne} - ${result.scoreTwo} ${result.teamTwo}`);
 		});
 	} else {
 		console.log('Nu există rezultate disponibile sau a apărut o eroare.');
 	}
 };
 
+// Call the loadResults function to display match results
 loadResults();
+
 
 
 
