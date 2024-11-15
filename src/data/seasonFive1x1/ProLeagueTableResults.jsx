@@ -1,3 +1,5 @@
+import React, { useEffect, useState } from 'react';
+import { fetchResults } from './results';  // Importă funcția care preia datele
 import France from '../../components/league/national-teams/France';
 import Brazil from '../../components/league/national-teams/Brazil';
 import Holland from '../../components/league/national-teams/Holland';
@@ -7,9 +9,8 @@ import Russia from '../../components/league/national-teams/Russia';
 import Croatia from '../../components/league/national-teams/Croatia';
 import Turkey from '../../components/league/national-teams/Turkey';
 import Germany from '../../components/league/national-teams/Germany';
-import { matchResults } from './matchResults';
 
-// Initial teams array with React components for teams
+// Lista inițială de echipe
 export const initialTeams = [
 	{ id: 'France', name: <France />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Brazil', name: <Brazil />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
@@ -22,7 +23,37 @@ export const initialTeams = [
 	{ id: 'Germany', name: <Germany />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
-export const matchResults = matchResults;
+const MatchResults = () => {
+	const [matches, setMatches] = useState([]);
+
+	// Preia rezultatele și actualizează starea componentelor
+	useEffect(() => {
+		const loadResults = async () => {
+			const fetchedResults = await fetchResults();
+			setMatches(fetchedResults);
+		};
+
+		loadResults();
+	}, []);  // Aceasta va fi apelată o singură dată la montarea componentei
+
+	return (
+		<div>
+			{matches.length > 0 ? (
+				matches.map(match => (
+					<div key={match.id}>
+						<p>{match.teamOne} vs {match.teamTwo}</p>
+						<p>Score: {match.scoreOne} - {match.scoreTwo}</p>
+					</div>
+				))
+			) : (
+				<p>Loading results...</p>
+			)}
+		</div>
+	);
+};
+
+export default MatchResults;
+
 
 
 
