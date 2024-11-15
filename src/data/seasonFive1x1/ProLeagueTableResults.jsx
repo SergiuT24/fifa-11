@@ -23,7 +23,7 @@ export const initialTeams = [
 	{ id: 'Germany', name: <Germany />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
-const MatchResults = () => {
+const matchResults = () => {
 	const [matches, setMatches] = useState([]);
 
 	// Preia rezultatele și actualizează starea componentelor
@@ -52,7 +52,7 @@ const MatchResults = () => {
 	);
 };
 
-export default MatchResults;
+export default matchResults;
 
 
 
