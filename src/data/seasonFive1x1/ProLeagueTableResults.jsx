@@ -20,7 +20,7 @@ export const initialTeams = [
 	{ id: 'Germany', name: <Germany />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
-export const matchResult = async () => {
+export const matchResults = async () => {
 	const fileUrl = 'https://match-results-bucket.s3.eu-central-1.amazonaws.com/matchResults.json'; // Înlocuiește cu URL-ul public al fișierului tău JSON
 
 	try {
