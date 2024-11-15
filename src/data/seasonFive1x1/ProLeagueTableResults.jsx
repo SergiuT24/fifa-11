@@ -34,22 +34,7 @@ const matchResults = () => {
 		};
 
 		loadResults();
-	}, []);  // Aceasta va fi apelată o singură dată la montarea componentei
-
-	return (
-		<div>
-			{matches.length > 0 ? (
-				matches.map(match => (
-					<div key={match.id}>
-						<p>{match.teamOne} vs {match.teamTwo}</p>
-						<p>Score: {match.scoreOne} - {match.scoreTwo}</p>
-					</div>
-				))
-			) : (
-				<p>Loading results...</p>
-			)}
-		</div>
-	);
+	}, []);
 };
 
 export default matchResults;
