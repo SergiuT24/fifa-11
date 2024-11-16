@@ -21,7 +21,7 @@ export const initialTeams = [
 	{ id: 'Germany', name: <Germany />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
-export let matchResults = [];
+export const matchResults = arrayWithResults;
 
 function ProLeagueTableResults() {
 	const [dataLoaded, setDataLoaded] = useState(false); // Verifică dacă datele sunt încărcate
@@ -29,6 +29,7 @@ function ProLeagueTableResults() {
 	useEffect(() => {
 		// Funcție asincronă pentru a încărca datele
 		const fetchData = async () => {
+			let arrayWithResults = [];
 			try {
 				// Cerere către S3 pentru a obține JSON-ul
 				const response = await fetch(
@@ -40,7 +41,7 @@ function ProLeagueTableResults() {
 				const data = await response.json();
 
 				// Procesăm datele pentru a fi conforme cu structura dorită
-				matchResults = data.map((item) => ({
+				arrayWithResults = data.map((item) => ({
 					id: item.id,
 					teamOne: item.teamOne,
 					scoreOne: parseInt(item.scoreOne, 10), // Asigurăm că scorurile sunt numere
@@ -48,7 +49,7 @@ function ProLeagueTableResults() {
 					scoreTwo: parseInt(item.scoreTwo, 10), // Asigurăm că scorurile sunt numere
 				}));
 
-				console.log(matchResults);
+				console.log(arrayWithResults);
 
 				// Setează dataLoaded pe true pentru a semnala că datele au fost încărcate
 				setDataLoaded(true);
