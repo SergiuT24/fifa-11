@@ -114,44 +114,53 @@ const updateTeams = (teams, matches) => {
 
 const LeagueTableVersion2 = ({ initialTeams, matchResults, seasonTitle }) => {
 	const [teams, setTeams] = useState(initialTeams);
-	const [loading, setLoading] = useState(true); // Добавим состояние загрузки
+	const [loading, setLoading] = useState(true); // Добавляем состояние для загрузки
 
 	useEffect(() => {
-		if (matchResults.length > 0) {
+		const timer = setTimeout(() => {
 			setTeams(updateTeams(initialTeams, matchResults));
-			setLoading(false); // После загрузки данных снимаем состояние загрузки
-		}
+			setLoading(false); // Останавливаем загрузку через 3 секунды
+		}, 3000); // Задержка 3 секунды
+
+		return () => clearTimeout(timer); // Очистка таймера при размонтировании компонента
 	}, [initialTeams, matchResults]);
 
-	if (loading) {
-		return <div>Loading...</div>; // Пока данные не загружены, показываем индикатор загрузки
-	}
-
 	return (
-		<table className='table'>
-			<thead style={{ backgroundColor: '#0f2d37' }}>
-				<LeagueTableComponent rank={"#"} team={seasonTitle} mp={"MP"} w={"W"} d={"D"} l={"L"} g={"G"} gd={"GD"} pts={"PTS"} form={"FORM"} />
-			</thead>
-			<tbody style={{ backgroundColor: '#010a0f' }}>
-				{teams.map((team, index) => (
-					<LeagueTableComponent
-						key={team.id}
-						rank={index + 1}
-						team={team.name}
-						mp={team.mp}
-						w={team.w}
-						d={team.d}
-						l={team.l}
-						g={team.g}
-						gd={team.gd}
-						pts={team.pts}
-						form={<div className='flex gap-1 justify-start'>{team.form}</div>}
-					/>
-				))}
-			</tbody>
-		</table>
+		<div>
+			{loading ? (
+				<div className="loading">
+					{/* Можно поставить анимацию или таймер */}
+					<p className='text-center text-2xl py-96'>Loading...</p> {/* Или кружок загрузки */}
+				</div>
+			) : (
+				<table className='table'>
+					<thead style={{ backgroundColor: '#0f2d37' }}>
+						<LeagueTableComponent rank={"#"} team={seasonTitle} mp={"MP"} w={"W"} d={"D"} l={"L"} g={"G"} gd={"GD"} pts={"PTS"} form={"FORM"} />
+					</thead>
+					<tbody style={{ backgroundColor: '#010a0f' }}>
+						{teams.map((team, index) => (
+							<LeagueTableComponent
+								key={team.id}
+								rank={index + 1}
+								team={team.name}
+								mp={team.mp}
+								w={team.w}
+								d={team.d}
+								l={team.l}
+								g={team.g}
+								gd={team.gd}
+								pts={team.pts}
+								form={<div className='flex gap-1 justify-start'>{team.form}</div>}
+							/>
+						))}
+					</tbody>
+				</table>
+			)}
+		</div>
 	);
 };
+
+export default LeagueTableVersion2;
 
 export default LeagueTableVersion2;
 
