@@ -21,7 +21,9 @@ export const initialTeams = [
 	{ id: 'Germany', name: <Germany />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
-export const matchResults = async () => {
+let matchResults = [];
+
+export const fetchResults = async () => {
 	console.log('Fetching results...');
 	try {
 		const response = await fetch('https://match-results-bucket.s3.eu-central-1.amazonaws.com/matchResults.json');
@@ -30,8 +32,7 @@ export const matchResults = async () => {
 		const data = await response.json();
 		console.log('Data parsed:', data);
 
-		// Выбираем только необходимые данные и возвращаем массив
-		let formattedData = data.map(item => ({
+		matchResults = data.map(item => ({
 			id: item.id,
 			teamOne: item.teamOne,
 			scoreOne: item.scoreOne,
@@ -39,15 +40,15 @@ export const matchResults = async () => {
 			scoreTwo: item.scoreTwo
 		}));
 
-		console.log('Formatted Data:', formattedData);
-		return formattedData;
+		console.log('Formatted Data:', matchResults);
+		return matchResults;
 	} catch (error) {
 		console.error('Error fetching match results:', error);
 		return [];
 	}
 };
 
-matchResults();
+export { matchResults };
 
 
 

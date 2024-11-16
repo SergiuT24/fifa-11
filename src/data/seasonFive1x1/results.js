@@ -1,4 +1,4 @@
-const fetchResults = async () => {
+export const fetchResults = async () => {
 	console.log('Fetching results...');
 	try {
 		const response = await fetch('https://match-results-bucket.s3.eu-central-1.amazonaws.com/matchResults.json');
@@ -8,7 +8,7 @@ const fetchResults = async () => {
 		console.log('Data parsed:', data);
 
 		// Выбираем только необходимые данные и возвращаем массив
-		const formattedData = data.map(item => ({
+		let formattedData = data.map(item => ({
 			id: item.id,
 			teamOne: item.teamOne,
 			scoreOne: item.scoreOne,
@@ -23,8 +23,3 @@ const fetchResults = async () => {
 		return [];
 	}
 };
-
-fetchResults();
-
-// Экспортируем результат
-export const results = await fetchResults();
