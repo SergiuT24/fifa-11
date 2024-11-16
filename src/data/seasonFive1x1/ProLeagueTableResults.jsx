@@ -48,6 +48,8 @@ function ProLeagueTableResults() {
 					scoreTwo: parseInt(item.scoreTwo, 10), // Asigurăm că scorurile sunt numere
 				}));
 
+				console.log(matchResults);
+
 				// Setează dataLoaded pe true pentru a semnala că datele au fost încărcate
 				setDataLoaded(true);
 			} catch (error) {
