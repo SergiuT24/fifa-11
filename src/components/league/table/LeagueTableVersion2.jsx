@@ -160,7 +160,6 @@ const LeagueTableVersion2 = ({ initialTeams, matchResults, seasonTitle }) => {
 	);
 };
 
-export default LeagueTableVersion2;
 
 export default LeagueTableVersion2;
 
