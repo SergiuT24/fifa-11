@@ -21,59 +21,38 @@ export const initialTeams = [
 	{ id: 'Germany', name: <Germany />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
-export const matchResults = arrayWithResults;
+export const matchResults = [];
 
-function ProLeagueTableResults() {
-	const [dataLoaded, setDataLoaded] = useState(false); // Verifică dacă datele sunt încărcate
+const fetchResults = async () => {
+	console.log('Fetching results...');
+	try {
+		const response = await fetch('https://match-results-bucket.s3.eu-central-1.amazonaws.com/matchResults.json');
+		const data = await response.json();
 
-	useEffect(() => {
-		// Funcție asincronă pentru a încărca datele
-		const fetchData = async () => {
-			let arrayWithResults = [];
-			try {
-				// Cerere către S3 pentru a obține JSON-ul
-				const response = await fetch(
-					'https://match-results-bucket.s3.eu-central-1.amazonaws.com/matchResults.json'
-				);
-				if (!response.ok) throw new Error('Eroare la încărcarea datelor');
+		// Clear existing contents and push new data into matchResults.
+		matchResults.length = 0;
+		data.forEach(item => {
+			matchResults.push({
+				id: item.id,
+				teamOne: item.teamOne,
+				scoreOne: item.scoreOne,
+				teamTwo: item.teamTwo,
+				scoreTwo: item.scoreTwo
+			});
+		});
 
-				// Convertim răspunsul JSON într-un array de obiecte
-				const data = await response.json();
-
-				// Procesăm datele pentru a fi conforme cu structura dorită
-				arrayWithResults = data.map((item) => ({
-					id: item.id,
-					teamOne: item.teamOne,
-					scoreOne: parseInt(item.scoreOne, 10), // Asigurăm că scorurile sunt numere
-					teamTwo: item.teamTwo,
-					scoreTwo: parseInt(item.scoreTwo, 10), // Asigurăm că scorurile sunt numere
-				}));
-
-				console.log(arrayWithResults);
-
-				// Setează dataLoaded pe true pentru a semnala că datele au fost încărcate
-				setDataLoaded(true);
-			} catch (error) {
-				console.error('Eroare la încărcarea datelor din JSON:', error);
-			}
-		};
-
-		// Apelăm funcția de încărcare a datelor
-		fetchData();
-	}, []);
-
-	// Afișăm un mesaj până când datele sunt încărcate
-	if (!dataLoaded) {
-		console.log('Se încarcă datele...');
-		return null; // Returnăm `null` pentru a nu afișa nimic în UI
+		console.log('Formatted Data:', matchResults);
+		return matchResults;
+	} catch (error) {
+		console.error('Error fetching match results:', error);
+		return [];
 	}
+};
 
-	// Afișăm un mesaj când datele sunt încărcate și `matchResults` este actualizat
-	console.log('Datele au fost încărcate și `matchResults` este actualizat:', matchResults);
-	return null; // Returnăm `null` pentru că acest component nu are UI
-}
+fetchResults().then(() => {
+	console.log('Final matchResults:', matchResults);
+});
 
-export default ProLeagueTableResults;
 
 
 // import France from '../../components/league/national-teams/France'
