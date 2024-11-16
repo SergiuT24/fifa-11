@@ -7,6 +7,9 @@ import Russia from '../../components/league/national-teams/Russia';
 import Croatia from '../../components/league/national-teams/Croatia';
 import Turkey from '../../components/league/national-teams/Turkey';
 import Germany from '../../components/league/national-teams/Germany';
+import React, { useState, useEffect } from 'react';
+import { fetchResults } from './FetchResults';
+
 
 // Lista inițială de echipe
 export const initialTeams = [
@@ -21,35 +24,21 @@ export const initialTeams = [
 	{ id: 'Germany', name: <Germany />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
-let matchResults = [];
 
-export const fetchResults = async () => {
-	console.log('Fetching results...');
-	try {
-		const response = await fetch('https://match-results-bucket.s3.eu-central-1.amazonaws.com/matchResults.json');
-		console.log('Response received:', response);
+const matchResults = () => {
+	const [matchresults, setMatchResults] = useState([]);
 
-		const data = await response.json();
-		console.log('Data parsed:', data);
+	useEffect(() => {
+		const getResults = async () => {
+			const results = await fetchResults();
+			setMatchResults(results);
+		};
 
-		matchResults = data.map(item => ({
-			id: item.id,
-			teamOne: item.teamOne,
-			scoreOne: item.scoreOne,
-			teamTwo: item.teamTwo,
-			scoreTwo: item.scoreTwo
-		}));
-
-		console.log('Formatted Data:', matchResults);
-		return matchResults;
-	} catch (error) {
-		console.error('Error fetching match results:', error);
-		return [];
-	}
+		getResults();
+	}, []);
 };
 
-export { matchResults };
-
+export default matchResults;
 
 
 

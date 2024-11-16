@@ -1,3 +1,5 @@
+let formattedData = [];
+
 export const fetchResults = async () => {
 	console.log('Fetching results...');
 	try {
@@ -7,8 +9,7 @@ export const fetchResults = async () => {
 		const data = await response.json();
 		console.log('Data parsed:', data);
 
-		// Выбираем только необходимые данные и возвращаем массив
-		let formattedData = data.map(item => ({
+		formattedData = data.map(item => ({
 			id: item.id,
 			teamOne: item.teamOne,
 			scoreOne: item.scoreOne,
@@ -23,3 +24,5 @@ export const fetchResults = async () => {
 		return [];
 	}
 };
+
+export { formattedData };
