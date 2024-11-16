@@ -25,26 +25,8 @@ export const initialTeams = [
 
 console.log(fetchResults);
 
-export const matchResults = useMatchResults;
+export const matchResults = [fetchResults];
 
-const useMatchResults = async () => {
-	// Apelăm funcția pentru a obține datele
-	const resultsMatch = await fetchResults();
-
-	// Aici poți face ce vrei cu datele, de exemplu să le loghezi în consolă
-	console.log(resultsMatch);
-
-	// Sau le poți prelucra mai departe în funcție de nevoile tale
-	resultsMatch.forEach(match => {
-		console.log(`${match.teamOne} vs ${match.teamTwo} - Score: ${match.scoreOne}-${match.scoreTwo}`);
-	});
-
-	// Poți returna datele pentru a le folosi mai departe în aplicație
-	return resultsMatch;
-};
-
-// Apelăm funcția
-useMatchResults();
 
 
 
