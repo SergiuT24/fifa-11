@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react';
 import France from '../../components/league/national-teams/France'
 import Brazil from '../../components/league/national-teams/Brazil'
 import Holland from '../../components/league/national-teams/Holland'
@@ -26,7 +25,7 @@ export const matchResults = [];
 const fetchResults = async () => {
 	console.log('Fetching results...');
 	try {
-		const response = await fetch('https://match-results-bucket.s3.eu-central-1.amazonaws.com/matchResults.json');
+		const response = await fetch(`https://<your-bucket-name>.s3.<region>.amazonaws.com/matchResults.json?timestamp=${Date.now()}`);
 		const data = await response.json();
 
 		// Clear existing contents and push new data into matchResults.
