@@ -1,17 +1,14 @@
-import France from '../../components/league/national-teams/France';
-import Brazil from '../../components/league/national-teams/Brazil';
-import Holland from '../../components/league/national-teams/Holland';
-import Spain from '../../components/league/national-teams/Spain';
-import Uruguay from '../../components/league/national-teams/Uruguay';
-import Russia from '../../components/league/national-teams/Russia';
-import Croatia from '../../components/league/national-teams/Croatia';
-import Turkey from '../../components/league/national-teams/Turkey';
-import Germany from '../../components/league/national-teams/Germany';
-import React, { useState, useEffect } from 'react';
-import { fetchResults } from './FetchResults';
+import { useState, useEffect } from 'react';
+import France from '../../components/league/national-teams/France'
+import Brazil from '../../components/league/national-teams/Brazil'
+import Holland from '../../components/league/national-teams/Holland'
+import Spain from '../../components/league/national-teams/Spain'
+import Uruguay from '../../components/league/national-teams/Uruguay'
+import Russia from '../../components/league/national-teams/Russia'
+import Croatia from '../../components/league/national-teams/Croatia'
+import Turkey from '../../components/league/national-teams/Turkey'
+import Germany from '../../components/league/national-teams/Germany'
 
-
-// Lista inițială de echipe
 export const initialTeams = [
 	{ id: 'France', name: <France />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Brazil', name: <Brazil />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
@@ -24,23 +21,38 @@ export const initialTeams = [
 	{ id: 'Germany', name: <Germany />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
+export let matchResults = [];
 
-const matchResults = () => {
-	const [matchresults, setMatchResults] = useState([]);
+function ProLeagueTableResults() {
+	const [dataLoaded, setDataLoaded] = useState(false);
 
 	useEffect(() => {
-		const getResults = async () => {
-			const results = await fetchResults();
-			setMatchResults(results);
+		const fetchData = async () => {
+			try {
+				const response = await fetch('https://match-results-bucket.s3.eu-central-1.amazonaws.com/matchResults.json');
+				if (!response.ok) throw new Error('Eroare la încărcarea datelor');
+
+				const data = await response.json();
+
+				// Actualizează matchResults cu datele din JSON
+				matchResults = data;
+				setDataLoaded(true);
+			} catch (error) {
+				console.error('Eroare la încărcarea datelor din JSON:', error);
+			}
 		};
 
-		getResults();
+		fetchData();
 	}, []);
-};
 
-export default matchResults;
+	if (!dataLoaded) {
+		return console.log('Se încarcă datele...');
+	}
 
+	return console.log('Datele au fost încărcate și `matchResults` este actualizat!');
+}
 
+export default ProLeagueTableResults;
 
 
 // import France from '../../components/league/national-teams/France'
@@ -121,34 +133,34 @@ export default matchResults;
 // 	{ id: '1', teamOne: 'Germany', scoreOne: 2, teamTwo: 'Russia', scoreTwo: 2 },
 // 	{ id: '1', teamOne: 'Russia', scoreOne: 6, teamTwo: 'Holland', scoreTwo: 1 },
 // 	{ id: '1', teamOne: 'Holland', scoreOne: 2, teamTwo: 'Russia', scoreTwo: 6 },
-// ]
-// 	// France
-// 	{ id: '1', teamOne: 'France', scoreOne: '?', teamTwo: 'Germany', scoreTwo: '?' },
-// 	// Brazil
-// 	{ id: '1', teamOne: 'Brazil', scoreOne: '?', teamTwo: 'Germany', scoreTwo: '?' },
-// 	// Holland
-// 	{ id: '1', teamOne: 'Holland', scoreOne: '?', teamTwo: 'Spain', scoreTwo: '?' },
-// 	{ id: '1', teamOne: 'Holland', scoreOne: '?', teamTwo: 'Uruguay', scoreTwo: '?' },
-// 	{ id: '1', teamOne: 'Holland', scoreOne: '?', teamTwo: 'Croatia', scoreTwo: '?' },
-// 	{ id: '1', teamOne: 'Holland', scoreOne: '?', teamTwo: 'Germany', scoreTwo: '?' },
+// ];
+// // France
+// { id: '1', teamOne: 'France', scoreOne: '?', teamTwo: 'Germany', scoreTwo: '?' },
+// // Brazil
+// { id: '1', teamOne: 'Brazil', scoreOne: '?', teamTwo: 'Germany', scoreTwo: '?' },
+// // Holland
+// { id: '1', teamOne: 'Holland', scoreOne: '?', teamTwo: 'Spain', scoreTwo: '?' },
+// { id: '1', teamOne: 'Holland', scoreOne: '?', teamTwo: 'Uruguay', scoreTwo: '?' },
+// { id: '1', teamOne: 'Holland', scoreOne: '?', teamTwo: 'Croatia', scoreTwo: '?' },
+// { id: '1', teamOne: 'Holland', scoreOne: '?', teamTwo: 'Germany', scoreTwo: '?' },
 
-// 	// Spain
-// 	{ id: '1', teamOne: 'Spain', scoreOne: '?', teamTwo: 'Holland', scoreTwo: '?' },
-// 	{ id: '1', teamOne: 'Spain', scoreOne: '?', teamTwo: 'Croatia', scoreTwo: '?' },
-// 	{ id: '1', teamOne: 'Spain', scoreOne: '?', teamTwo: 'Germany', scoreTwo: '?' },
-// 	// Uruguay
-// 	{ id: '1', teamOne: 'Uruguay', scoreOne: '?', teamTwo: 'Holland', scoreTwo: '?' },
-// 	{ id: '1', teamOne: 'Uruguay', scoreOne: '?', teamTwo: 'Croatia', scoreTwo: '?' },
-// 	// Russia
-// 	// Croatia
-// 	{ id: '1', teamOne: 'Croatia', scoreOne: '?', teamTwo: 'Holland', scoreTwo: '?' },
-// 	{ id: '1', teamOne: 'Croatia', scoreOne: '?', teamTwo: 'Spain', scoreTwo: '?' },
-// 	{ id: '1', teamOne: 'Croatia', scoreOne: '?', teamTwo: 'Uruguay', scoreTwo: '?' },
-// 	// Turkey
-// 	// Germany
-// 	{ id: '1', teamOne: 'Germany', scoreOne: '?', teamTwo: 'France', scoreTwo: '?' },
-// 	{ id: '1', teamOne: 'Germany', scoreOne: '?', teamTwo: 'Brazil', scoreTwo: '?' },
-// 	{ id: '1', teamOne: 'Germany', scoreOne: '?', teamTwo: 'Holland', scoreTwo: '?' },
-// 	{ id: '1', teamOne: 'Germany', scoreOne: '?', teamTwo: 'Spain', scoreTwo: '?' },
+// // Spain
+// { id: '1', teamOne: 'Spain', scoreOne: '?', teamTwo: 'Holland', scoreTwo: '?' },
+// { id: '1', teamOne: 'Spain', scoreOne: '?', teamTwo: 'Croatia', scoreTwo: '?' },
+// { id: '1', teamOne: 'Spain', scoreOne: '?', teamTwo: 'Germany', scoreTwo: '?' },
+// // Uruguay
+// { id: '1', teamOne: 'Uruguay', scoreOne: '?', teamTwo: 'Holland', scoreTwo: '?' },
+// { id: '1', teamOne: 'Uruguay', scoreOne: '?', teamTwo: 'Croatia', scoreTwo: '?' },
+// // Russia
+// // Croatia
+// { id: '1', teamOne: 'Croatia', scoreOne: '?', teamTwo: 'Holland', scoreTwo: '?' },
+// { id: '1', teamOne: 'Croatia', scoreOne: '?', teamTwo: 'Spain', scoreTwo: '?' },
+// { id: '1', teamOne: 'Croatia', scoreOne: '?', teamTwo: 'Uruguay', scoreTwo: '?' },
+// // Turkey
+// // Germany
+// { id: '1', teamOne: 'Germany', scoreOne: '?', teamTwo: 'France', scoreTwo: '?' },
+// { id: '1', teamOne: 'Germany', scoreOne: '?', teamTwo: 'Brazil', scoreTwo: '?' },
+// { id: '1', teamOne: 'Germany', scoreOne: '?', teamTwo: 'Holland', scoreTwo: '?' },
+// { id: '1', teamOne: 'Germany', scoreOne: '?', teamTwo: 'Spain', scoreTwo: '?' },
 
 // ];
