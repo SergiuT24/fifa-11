@@ -1,4 +1,4 @@
-export const fetchResults = async () => {
+const fetchResults = async () => {
 	console.log('Fetching results...');
 	try {
 		const response = await fetch('https://match-results-bucket.s3.eu-central-1.amazonaws.com/matchResults.json');
@@ -12,3 +12,7 @@ export const fetchResults = async () => {
 		return [];
 	}
 };
+
+fetchResults();
+
+export const result = fetchResults;

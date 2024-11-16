@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { fetchResults } from './results';  // Importă funcția care preia datele
+import { result } from './results';  // Importă funcția care preia datele
 import France from '../../components/league/national-teams/France';
 import Brazil from '../../components/league/national-teams/Brazil';
 import Holland from '../../components/league/national-teams/Holland';
@@ -23,9 +23,9 @@ export const initialTeams = [
 	{ id: 'Germany', name: <Germany />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
-console.log(fetchResults);
+console.log(result);
 
-export const matchResults = [fetchResults];
+export const matchResults = [result];
 
 
 
