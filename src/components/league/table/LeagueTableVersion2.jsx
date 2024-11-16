@@ -120,7 +120,7 @@ const LeagueTableVersion2 = ({ initialTeams, matchResults, seasonTitle }) => {
 		const timer = setTimeout(() => {
 			setTeams(updateTeams(initialTeams, matchResults));
 			setLoading(false); // Останавливаем загрузку через 3 секунды
-		}, 3000); // Задержка 3 секунды
+		}, 1000); // Задержка 3 секунды
 
 		return () => clearTimeout(timer); // Очистка таймера при размонтировании компонента
 	}, [initialTeams, matchResults]);
