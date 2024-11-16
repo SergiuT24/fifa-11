@@ -130,7 +130,7 @@ const LeagueTableVersion2 = ({ initialTeams, matchResults, seasonTitle }) => {
 			{loading ? (
 				<div className="loading">
 					{/* Можно поставить анимацию или таймер */}
-					<p className='text-center text-2xl py-96'>Loading...</p> {/* Или кружок загрузки */}
+					<p className='text-center text-2xl py-52'>Loading...</p> {/* Или кружок загрузки */}
 				</div>
 			) : (
 				<table className='table'>
