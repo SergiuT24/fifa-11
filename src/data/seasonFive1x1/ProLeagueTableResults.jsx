@@ -28,7 +28,6 @@ const fetchResults = async () => {
 		const response = await fetch(`https://match-results-bucket.s3.eu-central-1.amazonaws.com/matchResults.json?timestamp=${Date.now()}`);
 		const data = await response.json();
 
-		// Clear existing contents and push new data into matchResults.
 		matchResults.length = 0;
 		data.forEach(item => {
 			matchResults.push({

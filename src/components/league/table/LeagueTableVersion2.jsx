@@ -162,37 +162,3 @@ const LeagueTableVersion2 = ({ initialTeams, matchResults, seasonTitle }) => {
 
 
 export default LeagueTableVersion2;
-
-// const LeagueTableVersion2 = ({ initialTeams, matchResults, seasonTitle }) => {
-// 	const [teams, setTeams] = useState(initialTeams);
-
-// 	useEffect(() => {
-// 		setTeams(updateTeams(initialTeams, matchResults));
-// 	}, [initialTeams, matchResults]);
-
-// 	return (
-// 		<table className='table'>
-// 			<thead style={{ backgroundColor: '#0f2d37' }}>
-// 				<LeagueTableComponent rank={"#"} team={seasonTitle} mp={"MP"} w={"W"} d={"D"} l={"L"} g={"G"} gd={"GD"} pts={"PTS"} form={"FORM"} />
-// 			</thead>
-// 			<tbody style={{ backgroundColor: '#010a0f' }}>
-// 				{teams.map((team, index) => (
-// 					<LeagueTableComponent
-// 						key={team.id}
-// 						rank={index + 1}
-// 						team={team.name}
-// 						mp={team.mp}
-// 						w={team.w}
-// 						d={team.d}
-// 						l={team.l}
-// 						g={team.g}
-// 						gd={team.gd}
-// 						pts={team.pts}
-// 						form={<div className='flex gap-1 justify-start'>{team.form}</div>}
-// 					/>
-// 				))}
-// 			</tbody>
-// 		</table>
-// 	);
-// };
-

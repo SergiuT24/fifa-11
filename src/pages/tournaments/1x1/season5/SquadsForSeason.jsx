@@ -1,9 +1,5 @@
 import React from 'react';
 import PlayersTeam from '../../../../components/league/players/PlayersTeam';
-// import Argentina from '../../../../components/league/national-teams/Argentina'
-// import Portugal from '../../../../components/league/national-teams/Portugal'
-// import England from '../../../../components/league/national-teams/England'
-import Italy from '../../../../components/league/national-teams/Italy'
 import France from '../../../../components/league/national-teams/France'
 import Brazil from '../../../../components/league/national-teams/Brazil'
 import Holland from '../../../../components/league/national-teams/Holland'
@@ -42,11 +38,6 @@ const SquadsForSeason = () => {
 				playerOne={'Dagestan'}
 				imgOne={'/img/players/dagestan.png'}
 				club={<Brazil />} />
-			{/* <PlayersTeam
-				team={'TEAM 7'}
-				playerOne={'Igvasalek'}
-				imgOne={'/img/players/igvasalek.png'}
-				club={<Portugal />} /> */}
 			<PlayersTeam
 				team={'TEAM 6'}
 				playerOne={'Vitaly'}
@@ -64,11 +55,6 @@ const SquadsForSeason = () => {
 				club={<Holland />} />
 			<PlayersTeam
 				team={'TEAM 9'}
-				playerOne={'Nikita'}
-				imgOne={'/img/players/nikita.png'}
-				club={<Italy />} />
-			<PlayersTeam
-				team={'TEAM 10'}
 				playerOne={'Jsnick'}
 				imgOne={'/img/players/jsnick.png'}
 				club={<Croatia />} />
