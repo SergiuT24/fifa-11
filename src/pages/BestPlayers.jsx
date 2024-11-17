@@ -70,7 +70,7 @@ const BestPlayers = () => {
 	return (
 		<div className='flex-1 ml-10'>
 			<h1 className='text-xl uppercase mb-10'>All Time Best Players:</h1>
-			<div className='flex gap-12'>
+			<div className='flex gap-6'>
 				<table className='border-x border-x-green-950'>
 					<thead style={{ backgroundColor: '#0f2d37' }}>
 						<PlayerStatsLine rank={'#'} player={"Player"} mp={"M.P."} g={"Goals"} a={"Assist"} note={"Rating"} />

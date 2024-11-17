@@ -1,5 +1,5 @@
-import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import Home from './pages/Home';
 import Rules from './pages/Rules';
 import TournamentsSeasonOne1x1 from './pages/tournaments/1x1/TournamentsSeasonOne1x1';
@@ -17,6 +17,24 @@ import Archive from './pages/Archive';
 import DraftSeasonOne from './pages/draft/DraftSeasonOne';
 
 function AppRoutes() {
+	const location = useLocation();
+
+	useEffect(() => {
+		const html = document.documentElement;
+
+		if (location.pathname === '/' || location.pathname === '/home') {
+			html.style.backgroundImage = "url('/img/background/cr7-untd.jpg')";
+			html.style.backgroundSize = 'cover';
+			html.style.backgroundPosition = 'center';
+			html.style.backgroundRepeat = 'no-repeat';
+		} else {
+			html.style.backgroundImage = '';
+		}
+
+		return () => {
+			html.style.backgroundImage = '';
+		};
+	}, [location]);
 	return (
 		<Routes>
 			<Route path="/" element={<Home />} />
