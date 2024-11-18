@@ -4,7 +4,7 @@ import { KingsCupSeasonTwoPlayerStats2x2 } from '../../../../../components/leagu
 const KingsCupPlayerStats = () => {
 	return (
 		<div>
-			{/* <KingsCupSeasonTwoPlayerStats2x2 /> */}
+			<KingsCupSeasonTwoPlayerStats2x2 />
 		</div>
 	);
 }

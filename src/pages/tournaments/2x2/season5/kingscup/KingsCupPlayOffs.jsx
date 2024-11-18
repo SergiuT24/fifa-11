@@ -8,7 +8,7 @@ const KingsCupPlayOffs = () => {
 				<h2 className='text-center text-orange-500'>Play Offs: Semi-Finals 1/4</h2>
 				<div className='flex flex-col gap-32 justify-center'>
 					<Square
-						teamOne={'3 place'}
+						teamOne={'4 place'}
 						teamTwo={'6 place'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
@@ -16,7 +16,7 @@ const KingsCupPlayOffs = () => {
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={'4 place'}
+						teamOne={'3 place'}
 						teamTwo={'5 place'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
@@ -30,7 +30,7 @@ const KingsCupPlayOffs = () => {
 				<div className='flex flex-col gap-16'>
 					<Square
 						teamOne={'1 place'}
-						teamTwo={'empty'}
+						teamTwo={'winner from 4vs6 place'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
@@ -38,7 +38,7 @@ const KingsCupPlayOffs = () => {
 					/>
 					<Square
 						teamOne={'2 place'}
-						teamTwo={'empty'}
+						teamTwo={'winner from 3vs5 place'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}

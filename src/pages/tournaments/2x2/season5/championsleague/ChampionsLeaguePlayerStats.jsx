@@ -5,7 +5,7 @@ import PlayerStatsAbout from '../../../../../components/league/playerStats/Playe
 const ChampionsLeaguePlayerStats = () => {
 	return (
 		<div>
-			{/* <UCLSeasonTwoPlayerStats2x2 /> */}
+			<UCLSeasonTwoPlayerStats2x2 />
 			<PlayerStatsAbout />
 		</div>
 	);
