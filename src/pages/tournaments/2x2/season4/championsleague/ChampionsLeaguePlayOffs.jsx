@@ -1,6 +1,9 @@
 import React from 'react';
 import Square from '../../../../../components/league/square/Square';
-
+import Inter from '../../../../../components/league/teams/Inter';
+import RealMadrid from '../../../../../components/league/teams/RealMadrid';
+import Barcelona from '../../../../../components/league/teams/Barcelona';
+import ManchesterCity from '../../../../../components/league/teams/ManchesterCity';
 
 const ChampionsLeaguePlayOffs = () => {
 	return (
@@ -9,16 +12,16 @@ const ChampionsLeaguePlayOffs = () => {
 				<h2 className='text-center'>Play Offs: Semi-Finals 1/2</h2>
 				<div className='flex gap-14 justify-center'>
 					<Square
-						teamOne={'1 place'}
-						teamTwo={'4 place'}
+						teamOne={<Inter />}
+						teamTwo={<ManchesterCity />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={'2 place'}
-						teamTwo={'3 place'}
+						teamOne={<RealMadrid />}
+						teamTwo={<Barcelona />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
