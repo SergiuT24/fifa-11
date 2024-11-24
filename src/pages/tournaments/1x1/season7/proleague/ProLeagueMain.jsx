@@ -27,10 +27,10 @@ const ProLeagueMain = () => {
 	return (
 		<div>
 			<LeagueMenu
-				leagueCount={'1x1 > Pro League > Seria A '}
-				logo={'/img/league/seria-a.jpg'}
-				name={'Pro League - Seria A'}
-				season={'Season 5'}
+				leagueCount={'1x1 > Pro League'}
+				logo={'/img/league/pro-league1x1.png'}
+				name={'Pro League'}
+				season={'Season 1'}
 				cupImg={'/img/trophy/pro-league.png'}
 			/>
 			<LeagueButtons selectedButton={selectedButton} setSelectedButton={setSelectedButton} />
