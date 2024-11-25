@@ -30,7 +30,7 @@ const ProLeagueMain = () => {
 				leagueCount={'1x1 > Pro League > Seria A '}
 				logo={'/img/league/seria-a.jpg'}
 				name={'Pro League - Seria A'}
-				season={'Season 5'}
+				season={'Season 6'}
 				cupImg={'/img/trophy/pro-league.png'}
 			/>
 			<LeagueButtons selectedButton={selectedButton} setSelectedButton={setSelectedButton} />

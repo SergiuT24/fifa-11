@@ -35,10 +35,10 @@ const ChampionsLeaguePlayOffs = () => {
 					<Square
 						teamOne={<Inter />}
 						teamTwo={<Barcelona />}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						scoreFirstTeamOne={2}
+						scoreSecondTeamOne={4}
+						scoreFirstTeamTwo={6}
+						scoreSecondTeamTwo={2}
 					/>
 				</div>
 			</div>

@@ -26,23 +26,28 @@ const SquadsForSeason = () => {
 				club={'empty'} />
 			<PlayersTeam
 				team={'TEAM 5'}
-				playerOne={'A.Wenger'}
-				imgOne={'/img/players/wenger.png'}
-				club={'empty'} />
-			<PlayersTeam
-				team={'TEAM 6'}
-				playerOne={'Dagestan'}
-				imgOne={'/img/players/dagestan.png'}
-				club={'empty'} />
-			<PlayersTeam
-				team={'TEAM 7'}
 				playerOne={'Nikita'}
 				imgOne={'/img/players/nikita.png'}
 				club={'empty'} />
 			<PlayersTeam
-				team={'TEAM 8'}
+				team={'TEAM 6'}
 				playerOne={'Rayon 13'}
 				imgOne={'/img/players/rayon13.png'}
+				club={'empty'} />
+			<PlayersTeam
+				team={'TEAM 7'}
+				playerOne={'Igvasalek'}
+				imgOne={'/img/players/igvasalek.png'}
+				club={'empty'} />
+			<PlayersTeam
+				team={'TEAM 8'}
+				playerOne={'VITALY'}
+				imgOne={'/img/players/vitaly.png'}
+				club={'empty'} />
+			<PlayersTeam
+				team={'TEAM 9'}
+				playerOne={'mysterio'}
+				imgOne={'/img/players/mysterio.png'}
 				club={'empty'} />
 		</div>
 	);
