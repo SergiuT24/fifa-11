@@ -1,5 +1,14 @@
 import React from 'react';
 import PlayersTeam from '../../../../components/league/players/PlayersTeam';
+import Brescia from './../../../../components/league/3star-teams/Brescia';
+import Inter from './../../../../components/league/teams/Inter';
+import AcMilan from './../../../../components/league/teams/AcMilan';
+import Roma from './../../../../components/league/teams/Roma';
+import Fiorentina from './../../../../components/league/4star-teams/Fiorentina';
+import Lazio from './../../../../components/league/4star-teams/Lazio';
+import Napoli from './../../../../components/league/4star-teams/Napoli';
+import Palermo from './../../../../components/league/4star-teams/Palermo';
+import Sampdoria from './../../../../components/league/4star-teams/Sampdoria';
 
 const SquadsForSeason = () => {
 	return (
@@ -8,47 +17,47 @@ const SquadsForSeason = () => {
 				team={'TEAM 1'}
 				playerOne={'HAM'}
 				imgOne={'/img/players/avatar.png'}
-				club={'empty'} />
+				club={<Brescia />} />
 			<PlayersTeam
 				team={'TEAM 2'}
 				playerOne={'M@KSON'}
 				imgOne={'/img/players/makson.png'}
-				club={'empty'} />
+				club={<Fiorentina />} />
 			<PlayersTeam
 				team={'TEAM 3'}
 				playerOne={'Anna'}
 				imgOne={'/img/players/anna.png'}
-				club={'empty'} />
+				club={<Napoli />} />
 			<PlayersTeam
 				team={'TEAM 4'}
 				playerOne={'Jsnick'}
 				imgOne={'/img/players/jsnick.png'}
-				club={'empty'} />
+				club={<Inter />} />
 			<PlayersTeam
 				team={'TEAM 5'}
 				playerOne={'Nikita'}
 				imgOne={'/img/players/nikita.png'}
-				club={'empty'} />
+				club={<AcMilan />} />
 			<PlayersTeam
 				team={'TEAM 6'}
 				playerOne={'Rayon 13'}
 				imgOne={'/img/players/rayon13.png'}
-				club={'empty'} />
+				club={<Roma />} />
 			<PlayersTeam
 				team={'TEAM 7'}
 				playerOne={'Igvasalek'}
 				imgOne={'/img/players/igvasalek.png'}
-				club={'empty'} />
+				club={<Lazio />} />
 			<PlayersTeam
 				team={'TEAM 8'}
 				playerOne={'VITALY'}
 				imgOne={'/img/players/vitaly.png'}
-				club={'empty'} />
+				club={<Sampdoria />} />
 			<PlayersTeam
 				team={'TEAM 9'}
 				playerOne={'mysterio'}
 				imgOne={'/img/players/mysterio.png'}
-				club={'empty'} />
+				club={<Palermo />} />
 		</div>
 	);
 }
