@@ -25,16 +25,18 @@ const LatestScores = () => {
 						</div>
 					</div>
 				</div>
-				{/* Generare dinamică a meciurilor */}
-				{matchResults.map(({ id, teamOne, scoreOne, teamTwo, scoreTwo }) => (
-					<PlayedGame
-						key={id}
-						teamOne={getTeamName(teamOne)}
-						scoreOne={scoreOne}
-						teamTwo={getTeamName(teamTwo)}
-						scoreTwo={scoreTwo}
-					/>
-				))}
+				{/* Generare dinamică a meciurilor în ordine inversă */}
+				{[...matchResults] // Copie a array-ului pentru a evita mutarea permanentă
+					.reverse() // Afișăm meciurile de la sfârșit spre început
+					.map(({ id, teamOne, scoreOne, teamTwo, scoreTwo }) => (
+						<PlayedGame
+							key={id}
+							teamOne={getTeamName(teamOne)}
+							scoreOne={scoreOne}
+							teamTwo={getTeamName(teamTwo)}
+							scoreTwo={scoreTwo}
+						/>
+					))}
 			</div>
 		</div>
 	);
