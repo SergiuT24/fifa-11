@@ -1,9 +1,15 @@
 import React from 'react';
 
 const PlayedGame = ({ teamOne, scoreOne, teamTwo, scoreTwo }) => {
-	// Stilizare dinamică pentru scor
-	const getScoreStyle = (score, otherScore) =>
-		score > otherScore ? 'font-bold text-green-500' : '';
+	const getScoreStyle = (score, otherScore) => {
+		if (score > otherScore) {
+			return 'font-bold text-green-500';
+		} else if (score < otherScore) {
+			return 'font-bold text-red-500';
+		} else {
+			return 'font-bold text-orange-500';
+		}
+	};
 
 	return (
 		<div className='flex gap-4 text-xs p-2 border-b border-b-green-950 hover:bg-teal-900'>
@@ -23,4 +29,3 @@ const PlayedGame = ({ teamOne, scoreOne, teamTwo, scoreTwo }) => {
 };
 
 export default PlayedGame;
-
