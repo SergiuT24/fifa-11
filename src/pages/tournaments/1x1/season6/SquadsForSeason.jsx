@@ -9,6 +9,7 @@ import Lazio from './../../../../components/league/4star-teams/Lazio';
 import Napoli from './../../../../components/league/4star-teams/Napoli';
 import Palermo from './../../../../components/league/4star-teams/Palermo';
 import Sampdoria from './../../../../components/league/4star-teams/Sampdoria';
+import Bergamo from '../../../../components/league/3star-teams/Bergamo';
 
 const SquadsForSeason = () => {
 	return (
@@ -58,6 +59,11 @@ const SquadsForSeason = () => {
 				playerOne={'mysterio'}
 				imgOne={'/img/players/mysterio.png'}
 				club={<Palermo />} />
+			<PlayersTeam
+				team={'TEAM 10'}
+				playerOne={'Dagestan'}
+				imgOne={'/img/players/dagestan.png'}
+				club={<Bergamo />} />
 		</div>
 	);
 }

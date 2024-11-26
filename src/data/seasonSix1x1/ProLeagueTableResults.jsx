@@ -1,13 +1,13 @@
 import Inter from '../../components/league/teams/Inter';
 import AcMilan from '../../components/league/teams/AcMilan';
 import Roma from '../../components/league/teams/Roma';
-import Juventus from '../../components/league/teams/Juventus';
 import Fiorentina from '../../components/league/4star-teams/Fiorentina';
 import Lazio from '../../components/league/4star-teams/Lazio';
 import Napoli from '../../components/league/4star-teams/Napoli';
 import Palermo from '../../components/league/4star-teams/Palermo';
 import Sampdoria from '../../components/league/4star-teams/Sampdoria';
 import Brescia from '../../components/league/3star-teams/Brescia';
+import Bergamo from '../../components/league/3star-teams/Bergamo';
 
 export const initialTeams = [
 	{ id: 'Inter', name: <Inter />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
@@ -19,6 +19,7 @@ export const initialTeams = [
 	{ id: 'Palermo', name: <Palermo />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Sampdoria', name: <Sampdoria />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Brescia', name: <Brescia />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Bergamo', name: <Bergamo />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
 export const matchResults = [];
