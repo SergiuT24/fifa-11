@@ -1,10 +1,35 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import PlayedGame from './PlayedGame';
-import { matchResults, initialTeams } from '../../../data/seasonSix1x1/ProLeagueTableResults';
-
-console.log(matchResults.slice().reverse());
+import { initialTeams } from '../../../data/seasonSix1x1/ProLeagueTableResults';
 
 const LatestScores = () => {
+	const [matchResults, setMatchResults] = useState([]);
+
+	const fetchResults = async () => {
+		try {
+			const response = await fetch(`https://match-results-bucket.s3.eu-central-1.amazonaws.com/matchResults.json?timestamp=${Date.now()}`);
+			const data = await response.json();
+
+			// Actualizează datele în state
+			setMatchResults(
+				data.map(item => ({
+					id: item.id,
+					teamOne: item.teamOne,
+					scoreOne: item.scoreOne,
+					teamTwo: item.teamTwo,
+					scoreTwo: item.scoreTwo,
+				}))
+			);
+		} catch (error) {
+			console.error('Error fetching match results:', error);
+		}
+	};
+
+	// Fetch rezultatele la montarea componentei
+	useEffect(() => {
+		fetchResults();
+	}, []);
+
 	const getTeamName = (teamId) => {
 		const team = initialTeams.find((t) => t.id === teamId);
 		return team ? team.name : teamId;
