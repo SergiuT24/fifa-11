@@ -13,7 +13,7 @@ const PlayedGame = ({ teamOne, scoreOne, teamTwo, scoreTwo }) => {
 
 	return (
 		<div className='flex gap-4 text-xs p-2 border-b border-b-green-950 hover:bg-teal-900'>
-			<div className='flex items-center'>26.11.22:00</div>
+			<div className='flex items-center'>------</div>
 			<ul className='w-3/4'>
 				<li className='flex items-center justify-between mb-2'>
 					<div className='flex items-center'>{teamOne}</div>

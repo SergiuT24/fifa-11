@@ -27,7 +27,7 @@ const ProLeagueMain = () => {
 	return (
 		<div>
 			<LeagueMenu
-				leagueCount={'1x1 > Pro League > Seria A '}
+				leagueCount={'1x1 > Pro League > Seria A > Start: November 25 22:00 (MSK) - End: 9 December 22:00 (MSK)'}
 				logo={'/img/league/seria-a.jpg'}
 				name={'Pro League - Seria A'}
 				season={'Season 6'}
