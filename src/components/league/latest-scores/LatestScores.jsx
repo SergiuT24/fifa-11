@@ -2,8 +2,9 @@ import React from 'react';
 import PlayedGame from './PlayedGame';
 import { matchResults, initialTeams } from '../../../data/seasonSix1x1/ProLeagueTableResults';
 
+const reverseMatchResults = [...matchResults].reverse();
+
 const LatestScores = () => {
-	// Funcție pentru a găsi numele echipei în funcție de ID
 	const getTeamName = (teamId) => {
 		const team = initialTeams.find((t) => t.id === teamId);
 		return team ? team.name : teamId;
@@ -25,18 +26,15 @@ const LatestScores = () => {
 						</div>
 					</div>
 				</div>
-				{/* Generare dinamică a meciurilor în ordine inversă */}
-				{[...matchResults] // Copie a array-ului pentru a evita mutarea permanentă
-					.reverse() // Afișăm meciurile de la sfârșit spre început
-					.map(({ id, teamOne, scoreOne, teamTwo, scoreTwo }) => (
-						<PlayedGame
-							key={id}
-							teamOne={getTeamName(teamOne)}
-							scoreOne={scoreOne}
-							teamTwo={getTeamName(teamTwo)}
-							scoreTwo={scoreTwo}
-						/>
-					))}
+				{reverseMatchResults.map(({ id, teamOne, scoreOne, teamTwo, scoreTwo }) => (
+					<PlayedGame
+						key={id}
+						teamOne={getTeamName(teamOne)}
+						scoreOne={scoreOne}
+						teamTwo={getTeamName(teamTwo)}
+						scoreTwo={scoreTwo}
+					/>
+				))}
 			</div>
 		</div>
 	);
