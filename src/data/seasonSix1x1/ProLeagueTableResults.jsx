@@ -41,7 +41,6 @@ const fetchResults = async () => {
 			});
 		});
 
-		console.log('Formatted Data:', matchResults);
 		return matchResults;
 	} catch (error) {
 		console.error('Error fetching match results:', error);
@@ -50,5 +49,4 @@ const fetchResults = async () => {
 };
 
 fetchResults().then(() => {
-	console.log('Final matchResults:', matchResults);
 });

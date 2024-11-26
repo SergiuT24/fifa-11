@@ -1,8 +1,10 @@
 import React from 'react';
 import PlayedGame from './PlayedGame';
 import { matchResults, initialTeams } from '../../../data/seasonSix1x1/ProLeagueTableResults';
+console.log(matchResults);
 
 const reverseMatchResults = [...matchResults].reverse();
+console.log(reverseMatchResults);
 
 const LatestScores = () => {
 	const getTeamName = (teamId) => {
