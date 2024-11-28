@@ -18,20 +18,20 @@ const ChampionsLeaguePlayOffs = () => {
 				<h2 className='text-center'>1/8-Finals</h2>
 				<div className='flex gap-14 justify-center'>
 					<Square
-						teamOne={'5 place'}
-						teamTwo={'8 place'}
+						teamOne={<Palermo />}
+						teamTwo={<Bergamo />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={'6 place'}
-						teamTwo={'7 place'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						teamOne={<AcMilan />}
+						teamTwo={<Lazio />}
+						scoreFirstTeamOne={3}
+						scoreSecondTeamOne={5}
+						scoreFirstTeamTwo={4}
+						scoreSecondTeamTwo={1}
 					/>
 				</div>
 			</div>
@@ -39,7 +39,7 @@ const ChampionsLeaguePlayOffs = () => {
 				<h2 className='text-center'>Play Offs: Quarter-Finals 1/4</h2>
 				<div className='flex gap-14 justify-center'>
 					<Square
-						teamOne={'3 place'}
+						teamOne={<Brescia />}
 						teamTwo={'empty'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
@@ -47,8 +47,8 @@ const ChampionsLeaguePlayOffs = () => {
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={'4 place'}
-						teamTwo={'empty'}
+						teamOne={<Fiorentina />}
+						teamTwo={<AcMilan />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
