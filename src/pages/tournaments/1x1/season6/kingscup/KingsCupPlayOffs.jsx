@@ -166,10 +166,10 @@ const KingsCupPlayOffs = () => {
 						<Square
 							teamOne={<Inter />}
 							teamTwo={<Brescia />}
-							scoreFirstTeamOne={'?'}
-							scoreSecondTeamOne={'?'}
-							scoreFirstTeamTwo={'?'}
-							scoreSecondTeamTwo={'?'}
+							scoreFirstTeamOne={3}
+							scoreSecondTeamOne={1}
+							scoreFirstTeamTwo={8}
+							scoreSecondTeamTwo={0}
 						/>
 					</div>
 				</div>
