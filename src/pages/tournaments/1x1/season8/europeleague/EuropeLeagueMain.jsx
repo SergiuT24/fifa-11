@@ -1,32 +1,32 @@
 import React, { useState } from 'react';
 import LeagueButtons from '../../../../../components/league/menu/LeagueButtons';
 import LeagueMenu from '../../../../../components/league/menu/LeagueMenu';
-import ChampionsLeagueSummary from './ChampionsLeagueSummary';
-import ChampionsLeagueNews from './ChampionsLeagueNews';
-import ChampionsLeaguePlayerStats from './ChampionsLeaguePlayerStats';
+import EuropeLeagueSummary from './EuropeLeagueSummary';
+import EuropeLeagueNews from './EuropeLeagueNews';
+import EuropeLeaguePlayerStats from './EuropeLeaguePlayerStats';
 
-const ChampionsLeagueMain = () => {
+const EuropeLeagueMain = () => {
 	const [selectedButton, setSelectedButton] = useState('Summary');
 
 	const renderContent = () => {
 		switch (selectedButton) {
 			case 'Summary':
-				return <ChampionsLeagueSummary />
+				return <EuropeLeagueSummary />
 			case 'News':
-				return <ChampionsLeagueNews />
+				return <EuropeLeagueNews />
 			case 'Player Stats':
-				return <ChampionsLeaguePlayerStats />
+				return <EuropeLeaguePlayerStats />
 			default:
-				return <ChampionsLeagueSummary />
+				return <EuropeLeagueSummary />
 		}
 	}
 
 	return (
 		<div>
 			<LeagueMenu
-				leagueCount={'1x1 > Champions League'}
-				logo={'/img/league/champions-league.png'}
-				name={'Champions League'}
+				leagueCount={'1x1 > Europe League'}
+				logo={'https://play-lh.googleusercontent.com/wEDc7PkgogH9nx9UfGIORcO5XNND8oPGnOyVujbdrMyVtbAr-G4K-er8Mbkrw5pIIA'}
+				name={'Europe League'}
 				season={'Season 7'}
 				cupImg={'/img/trophy/champions-league.png'}
 			/>
@@ -36,4 +36,4 @@ const ChampionsLeagueMain = () => {
 	);
 }
 
-export default ChampionsLeagueMain;
+export default EuropeLeagueMain;

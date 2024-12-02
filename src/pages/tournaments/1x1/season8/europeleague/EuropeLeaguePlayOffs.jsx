@@ -2,9 +2,7 @@ import React from 'react';
 import Square from '../../../../../components/league/square/Square';
 import Fiorentina from '../../../../../components/league/4star-teams/Fiorentina';
 
-
-
-const ChampionsLeaguePlayOffs = () => {
+const EuropeLeaguePlayOffs = () => {
 	return (
 		<div className='py-16 darkblue'>
 			<div className='flex flex-col gap-10'>
@@ -45,4 +43,4 @@ const ChampionsLeaguePlayOffs = () => {
 	);
 }
 
-export default ChampionsLeaguePlayOffs;
+export default EuropeLeaguePlayOffs;

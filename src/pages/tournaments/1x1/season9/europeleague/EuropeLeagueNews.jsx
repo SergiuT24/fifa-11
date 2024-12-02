@@ -1,11 +1,11 @@
 import React from 'react';
 import News from '../../../../../components/league/news/News';
 
-const ChampionsLeagueNews = () => {
+const EuropeLeagueNews = () => {
 	return (
 		<div>
 		</div>
 	);
 }
 
-export default ChampionsLeagueNews;
+export default EuropeLeagueNews;

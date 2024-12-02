@@ -3,12 +3,10 @@ import Square from '../../../../../components/league/square/Square';
 import Brescia from './../../../../../components/league/3star-teams/Brescia';
 import Inter from './../../../../../components/league/teams/Inter';
 import AcMilan from './../../../../../components/league/teams/AcMilan';
-import Roma from './../../../../../components/league/teams/Roma';
 import Fiorentina from './../../../../../components/league/4star-teams/Fiorentina';
 import Lazio from './../../../../../components/league/4star-teams/Lazio';
 import Napoli from './../../../../../components/league/4star-teams/Napoli';
 import Palermo from './../../../../../components/league/4star-teams/Palermo';
-import Sampdoria from './../../../../../components/league/4star-teams/Sampdoria';
 import Bergamo from '../../../../../components/league/3star-teams/Bergamo';
 
 const ChampionsLeaguePlayOffs = () => {
@@ -70,10 +68,10 @@ const ChampionsLeaguePlayOffs = () => {
 					<Square
 						teamOne={<Inter />}
 						teamTwo={<Fiorentina />}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						scoreFirstTeamOne={1}
+						scoreSecondTeamOne={0}
+						scoreFirstTeamTwo={7}
+						scoreSecondTeamTwo={1}
 					/>
 				</div>
 			</div>
@@ -82,11 +80,11 @@ const ChampionsLeaguePlayOffs = () => {
 				<div className='flex gap-10 justify-center'>
 					<Square
 						teamOne={<Bergamo />}
-						teamTwo={'empty'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						teamTwo={<Inter />}
+						scoreFirstTeamOne={2}
+						scoreSecondTeamOne={7}
+						scoreFirstTeamTwo={4}
+						scoreSecondTeamTwo={0}
 					/>
 				</div>
 			</div>
