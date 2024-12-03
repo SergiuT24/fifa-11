@@ -10,6 +10,7 @@ import Sporting from '../../components/league/4star-teams/Sporting';
 import FulHam from '../../components/league/4star-teams/FulHam';
 import Wolfsburg from '../../components/league/4star-teams/Wolfsburg';
 import Napoli from '../../components/league/4star-teams/Napoli';
+import Lazio from '../../components/league/4star-teams/Lazio';
 
 
 export const initialTeams = [
@@ -28,6 +29,7 @@ export const additionalTeams = [
 	{ id: 'Werder', name: <Werder />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Wolfsburg', name: <Wolfsburg />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Napoli', name: <Napoli />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Lazio', name: <Lazio />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
 

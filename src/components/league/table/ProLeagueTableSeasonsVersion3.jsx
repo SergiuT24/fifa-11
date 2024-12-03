@@ -13,8 +13,8 @@ const SeasonSeven1x1 = () => (
 		additionalTeams={additionalTeamsSeasonSeven1x1}
 		matchResults={matchResultsSeasonSeven1x1}
 		seasonTitle="Season 7 (1x1) "
-		divisionNameOne={'Pro Division'}
-		divisionNameTwo={'Second Division'}
+		divisionNameOne={'Pro League'}
+		divisionNameTwo={'Middle League'}
 	/>
 );
 

@@ -12,6 +12,7 @@ import Sporting from '../../../../components/league/4star-teams/Sporting';
 import FulHam from '../../../../components/league/4star-teams/FulHam';
 import Wolfsburg from '../../../../components/league/4star-teams/Wolfsburg';
 import Napoli from '../../../../components/league/4star-teams/Napoli';
+import Lazio from '../../../../components/league/4star-teams/Lazio';
 
 
 const SquadsForSeason = () => {
@@ -77,6 +78,11 @@ const SquadsForSeason = () => {
 				playerOne={'Igvasalek'}
 				imgOne={'/img/players/igvasalek.png'}
 				club={<Wolfsburg />} />
+			<PlayersTeam
+				team={'TEAM 13'}
+				playerOne={'Osprey'}
+				imgOne={'/img/players/avatar.png'}
+				club={<Lazio />} />
 		</div>
 	);
 }
