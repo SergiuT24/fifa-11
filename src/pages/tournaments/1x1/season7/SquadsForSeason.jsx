@@ -34,8 +34,8 @@ const SquadsForSeason = () => {
 				club={<WestHam />} />
 			<PlayersTeam
 				team={'TEAM 4'}
-				playerOne={'Nikita'}
-				imgOne={'/img/players/nikita.png'}
+				playerOne={'Quaresma_07'}
+				imgOne={'/img/players/avatar.png'}
 				club={<Psg />} />
 			<PlayersTeam
 				team={'TEAM 5'}
@@ -54,7 +54,7 @@ const SquadsForSeason = () => {
 				club={<Stuttgart />} />
 			<PlayersTeam
 				team={'TEAM 8'}
-				playerOne={'Quaresma_07'}
+				playerOne={'HAM'}
 				imgOne={'/img/players/avatar.png'}
 				club={<Palermo />} />
 			<PlayersTeam
@@ -69,8 +69,8 @@ const SquadsForSeason = () => {
 				club={<Sporting />} />
 			<PlayersTeam
 				team={'TEAM 11'}
-				playerOne={'Igvasalek'}
-				imgOne={'/img/players/igvasalek.png'}
+				playerOne={'Alex_BG'}
+				imgOne={'/img/players/alex-bg.png'}
 				club={<Wolfsburg />} />
 			<PlayersTeam
 				team={'TEAM 12'}

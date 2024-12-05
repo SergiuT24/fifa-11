@@ -23,6 +23,7 @@ const PlayersProfile1x1 = () => {
 		{ avatar: '/img/players/avatar.png', name: 'Quaresma_07', id: '1275367', },
 		{ avatar: '/img/players/avatar.png', name: 'Osprey', id: '12855693', },
 		{ avatar: '/img/players/avatar.png', name: 'VITALY', id: '12968009' },
+		{ avatar: '/img/players/avatar.png', name: 'Alex_BG', id: '12838222' },
 		{ avatar: '/img/players/avatar.png', name: 'M@KSON', id: '4255221' },
 		{ avatar: '/img/players/avatar.png', name: 'Elite', id: '12776567' },
 		{ avatar: '/img/players/d-drogba.png', name: 'D.Drogba', id: '11701465', time: '20:00-00:00', },
