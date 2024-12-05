@@ -356,7 +356,7 @@ const Rules = () => {
 	};
 
 	return (
-		<div className="rules-container">
+		<div className="rules-container mx-5">
 			<button
 				onClick={toggleLanguage}
 				className="toggle-language-btn mt-6 px-4 py-2 bg-blue-500 text-white rounded-md mb-4"
@@ -367,7 +367,7 @@ const Rules = () => {
 			{Object.entries(rules).map(([title, content]) => (
 				<div key={title} className="rule-section mb-6">
 					<h3 className="text-xl font-semibold">{title}</h3>
-					<ul className="list-disc pl-5 mt-2">
+					<ul className="text-sm list-disc pl-5 mt-2">
 						{content[language].map((rule, index) => (
 							<li key={index} className="mb-2">
 								{rule}
