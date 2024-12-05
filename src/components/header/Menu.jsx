@@ -11,12 +11,10 @@ const Menu = () => {
 				<MenuLink value={'Tournaments 2x2'} to="/tournaments/2x2" />
 				<MenuLink value={'Tournaments 3x3'} to="/tournaments/3x3" />
 				<MenuLink value={'Archive'} to="/archive" />
-				<MenuLink value={'Players Profile'} to="/players/profile" />
+				<MenuLink value={'Players Profile-1x1'} to="/players/profile1x1" />
+				<MenuLink value={'Players Profile-2x2+'} to="/players/profile2x2+" />
 				<MenuLink value={'Best Players'} to="/best-players" />
-				{/* <MenuLink value={'Most Assists'} to="/most-assists" /> */}
-				<MenuLink value={'Best Goals'} to="/best-goals" />
-				{/* <MenuLink value={'Goal of Week'} to="/goal-of-week" /> */}
-				{/* <MenuLink value={'Assist of Week'} to="/assist-of-week" /> */}
+				{/* <MenuLink value={'Best Goals'} to="/best-goals" /> */}
 				<MenuLink value={'Rules'} to="/rules" />
 			</div>
 		</nav>

@@ -1,13 +1,13 @@
 import Psv from '../../components/league/4star-teams/Psv';
+import Stuttgart from '../../components/league/4star-teams/Stuttgart';
+import Palermo from '../../components/league/4star-teams/Palermo';
+import FulHam from '../../components/league/4star-teams/FulHam';
 import Fenerbahce from '../../components/league/4star-teams/Fenerbahce';
 import WestHam from '../../components/league/4star-teams/WestHam';
 import Psg from '../../components/league/4star-teams/Psg';
 import Galatasaray from '../../components/league/4star-teams/Galatasaray';
 import Werder from '../../components/league/4star-teams/Werder';
-import Stuttgart from '../../components/league/4star-teams/Stuttgart';
-import Palermo from '../../components/league/4star-teams/Palermo';
 import Sporting from '../../components/league/4star-teams/Sporting';
-import FulHam from '../../components/league/4star-teams/FulHam';
 import Wolfsburg from '../../components/league/4star-teams/Wolfsburg';
 import Lazio from '../../components/league/4star-teams/Lazio';
 

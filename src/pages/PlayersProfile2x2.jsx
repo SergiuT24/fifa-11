@@ -2,7 +2,7 @@ import React from 'react';
 import PlayerProfileTitle from '../components/players/PlayerProfileTitle';
 import PlayerProfile from '../components/players/PlayerProfile';
 
-const PlayersProfile = () => {
+const PlayersProfile2x2 = () => {
 	const playersData = [
 		{ avatar: '/img/players/anna.png', name: 'Anna', id: '11208470', time: 'very active', balonDor: '/img/trophy/ballon-dor.png', balonDorCount: 'x1', goldenShoe: '/img/trophy/golden-shoe.png', goldenShoeCount: 'x1', proLeague: '/img/trophy/pro-league.png', proLeagueCount: 'x1', ucl: '/img/trophy/champions-league.png', uclCount: 'x1', kingsCup: '/img/trophy/kings-cup.png', kingsCupCount: 'x1', worldCup: '/img/trophy/world-cup.png', worldCupCount: 'x1' },
 		{ avatar: '/img/players/rin.png', name: 'DartRin', id: '10799738', goldenShoe: '/img/trophy/golden-shoe.png', goldenShoeCount: 'x1', ucl: '/img/trophy/champions-league.png', uclCount: 'x1', proLeague: '/img/trophy/pro-league.png', proLeagueCount: 'x1', kingsCup: '/img/trophy/kings-cup.png', kingsCupCount: 'x1', worldCup: '/img/trophy/world-cup.png', worldCupCount: 'x1' },
@@ -33,7 +33,7 @@ const PlayersProfile = () => {
 		{ avatar: '/img/players/mrnoob.png', name: 'Mr.Noob', id: '10547987', time: '19:00-00:00', proLeague: '/img/trophy/pro-league.png', proLeagueCount: 'x1' },
 		{ avatar: '/img/players/avatar.png', name: 'nebro', id: '3252134', time: '21:00' },
 		{ avatar: '/img/players/ebluntik.png', name: 'e6JIyHTuKinDaHouse', id: '12138646', time: '21:00', ucl: '/img/trophy/champions-league.png', uclCount: 'x1' },
-		{ avatar: '/img/players/avatar.png', name: 'HAM', id: '7583677', time: '21:00', ucl: '/img/trophy/champions-league.png', uclCount: 'x2', proLeague: '/img/trophy/pro-league.png', proLeagueCount: 'x1', kingsCup: '/img/trophy/kings-cup.png', kingsCupCount: 'x1', balonDor: '/img/trophy/ballon-dor.png', balonDorCount: 'x1', goldenShoe: '/img/trophy/golden-shoe.png', goldenShoeCount: 'x1' },
+		{ avatar: '/img/players/avatar.png', name: 'HAM', id: '7583677', time: '21:00', ucl: '/img/trophy/champions-league.png', uclCount: 'x2', proLeague: '/img/trophy/pro-league.png', proLeagueCount: 'x1', kingsCup: '/img/trophy/kings-cup.png', kingsCupCount: 'x1', balonDor: '/img/trophy/ballon-dor.png', balonDorCount: 'x2', goldenShoe: '/img/trophy/golden-shoe.png', goldenShoeCount: 'x1' },
 	];
 
 	playersData.sort((a, b) => a.name.localeCompare(b.name));
@@ -72,4 +72,4 @@ const PlayersProfile = () => {
 	);
 }
 
-export default PlayersProfile;
+export default PlayersProfile2x2;

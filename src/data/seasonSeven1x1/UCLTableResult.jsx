@@ -1,29 +1,47 @@
-import Galatasaray from '../../components/league/4star-teams/Galatasaray';
-import Cska from '../../components/league/4star-teams/Cska';
-import Fiorentina from '../../components/league/4star-teams/Fiorentina';
-import Schalke from '../../components/league/4star-teams/Schalke';
-import Zenit from '../../components/league/4star-teams/Zenit';
-import Napoli from '../../components/league/4star-teams/Napoli';
-import Ajax from '../../components/league/4star-teams/Ajax';
-import Genoa from '../../components/league/4star-teams/Genoa';
+import Psv from '../../components/league/4star-teams/Psv';
+import Stuttgart from '../../components/league/4star-teams/Stuttgart';
+import Palermo from '../../components/league/4star-teams/Palermo';
+import FulHam from '../../components/league/4star-teams/FulHam';
 
 export const initialTeams = [
-	{ id: 'UCL-empty', name: 'empty', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'UCL-empty', name: 'empty', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'UCL-empty', name: 'empty', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'UCL-Stuttgart', name: <Stuttgart />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'UCL-PSV', name: <Psv />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'UCL-Place 2-ML', name: 'Place 2-ML', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
 export const additionalTeams = [
-	{ id: 'UCL-empty', name: 'empty', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'UCL-empty', name: 'empty', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'UCL-empty', name: 'empty', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'UCL-Fulham', name: <FulHam />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'UCL-Palermo', name: <Palermo />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'UCL-Place 1-ML', name: 'Place 1-ML', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 
 ];
 
 
-export const matchResults = [
-	{ id: '1', teamOne: 'Napoli', scoreOne: 1, teamTwo: 'CSKA', scoreTwo: 2 },
-	{ id: '2', teamOne: 'CSKA', scoreOne: 2, teamTwo: 'Napoli', scoreTwo: 3 },
-	{ id: '1', teamOne: 'Genoa', scoreOne: 1, teamTwo: 'Ajax', scoreTwo: 2 },
-	{ id: '2', teamOne: 'Ajax', scoreOne: 2, teamTwo: 'Genoa', scoreTwo: 3 },
-];
+export const matchResults = [];
+
+const fetchResults = async () => {
+	console.log('Fetching results...');
+	try {
+		const response = await fetch(`https://match-results-bucket.s3.eu-central-1.amazonaws.com/matchResults.json?timestamp=${Date.now()}`);
+		const data = await response.json();
+
+		matchResults.length = 0;
+		data.forEach(item => {
+			matchResults.push({
+				id: item.id,
+				teamOne: item.teamOne,
+				scoreOne: item.scoreOne,
+				teamTwo: item.teamTwo,
+				scoreTwo: item.scoreTwo
+			});
+		});
+
+		return matchResults;
+	} catch (error) {
+		console.error('Error fetching match results:', error);
+		return [];
+	}
+};
+
+fetchResults().then(() => {
+});
