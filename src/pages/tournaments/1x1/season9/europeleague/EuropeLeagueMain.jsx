@@ -28,7 +28,7 @@ const EuropeLeagueMain = () => {
 				logo={'https://play-lh.googleusercontent.com/wEDc7PkgogH9nx9UfGIORcO5XNND8oPGnOyVujbdrMyVtbAr-G4K-er8Mbkrw5pIIA'}
 				name={'Europe League'}
 				season={'Season 7'}
-				cupImg={'/img/trophy/champions-league.png'}
+				cupImg={'/img/trophy/europe-cup.png'}
 			/>
 			<LeagueButtons selectedButton={selectedButton} setSelectedButton={setSelectedButton} />
 			{renderContent()}

@@ -10,7 +10,7 @@ export const initialTeams = [
 ];
 
 export const additionalTeams = [
-	{ id: 'UCL-FulHam', name: <FulHam />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'UCL-Fulham', name: <FulHam />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'UCL-Palermo', name: <Palermo />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'UCL-Place 1-ML', name: 'Place 1-ML', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 
