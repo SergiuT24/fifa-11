@@ -38,7 +38,7 @@ const KingsCupPlayOffs = () => {
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={'3-Place Middle-L'}
+						teamOne={<Lazio />}
 						teamTwo={<Werder />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
@@ -55,7 +55,7 @@ const KingsCupPlayOffs = () => {
 					/>
 					<Square
 						teamOne={<Galatasaray />}
-						teamTwo={'2-Place ML'}
+						teamTwo={<Fenerbahce />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
@@ -63,7 +63,7 @@ const KingsCupPlayOffs = () => {
 					/>
 					<Square
 						teamOne={'empty'}
-						teamTwo={'1-Place Middle League'}
+						teamTwo={<Psg />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
@@ -113,7 +113,7 @@ const KingsCupPlayOffs = () => {
 					<div className='mt-48'>
 						<Square
 							teamOne={'empty'}
-							teamTwo={'1 Place Middle L.'}
+							teamTwo={<Psg />}
 							scoreFirstTeamOne={'?'}
 							scoreSecondTeamOne={'?'}
 							scoreFirstTeamTwo={'?'}

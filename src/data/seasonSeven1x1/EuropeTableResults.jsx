@@ -3,9 +3,10 @@ import Sporting from '../../components/league/4star-teams/Sporting';
 import Galatasaray from '../../components/league/4star-teams/Galatasaray';
 import WestHam from '../../components/league/4star-teams/WestHam';
 import Wolfsburg from '../../components/league/4star-teams/Wolfsburg';
+import Lazio from '../../components/league/4star-teams/Lazio';
 
 export const initialTeams = [
-	{ id: '3-Place Middle League', name: '3-Place Middle League', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'EL-Lazio', name: <Lazio />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'EL-WestHam', name: <WestHam />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'EL-Wolfsburg', name: <Wolfsburg />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];

@@ -2,17 +2,19 @@ import Psv from '../../components/league/4star-teams/Psv';
 import Stuttgart from '../../components/league/4star-teams/Stuttgart';
 import Palermo from '../../components/league/4star-teams/Palermo';
 import FulHam from '../../components/league/4star-teams/FulHam';
+import PSG from '../../components/league/4star-teams/Psg';
+import Fenerbahce from '../../components/league/4star-teams/Fenerbahce';
 
 export const initialTeams = [
 	{ id: 'UCL-Stuttgart', name: <Stuttgart />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'UCL-PSV', name: <Psv />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'UCL-Place 2-ML', name: 'Place 2-ML', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'UCL-Fenerbahce', name: <Fenerbahce />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
 export const additionalTeams = [
 	{ id: 'UCL-FulHam', name: <FulHam />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'UCL-Palermo', name: <Palermo />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'UCL-Place 1-ML', name: 'Place 1-ML', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'UCL-PSG', name: <PSG />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 
 ];
 
