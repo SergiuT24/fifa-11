@@ -1,22 +1,19 @@
+import Werder from '../../components/league/4star-teams/Werder';
+import Sporting from '../../components/league/4star-teams/Sporting';
 import Galatasaray from '../../components/league/4star-teams/Galatasaray';
-import Cska from '../../components/league/4star-teams/Cska';
-import Fiorentina from '../../components/league/4star-teams/Fiorentina';
-import Schalke from '../../components/league/4star-teams/Schalke';
-import Zenit from '../../components/league/4star-teams/Zenit';
-import Napoli from '../../components/league/4star-teams/Napoli';
-import Ajax from '../../components/league/4star-teams/Ajax';
-import Genoa from '../../components/league/4star-teams/Genoa';
+import WestHam from '../../components/league/4star-teams/WestHam';
+import Wolfsburg from '../../components/league/4star-teams/Wolfsburg';
 
 export const initialTeams = [
-	{ id: 'EL-empty', name: 'empty', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'EL-empty', name: 'empty', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'EL-Lazio', name: 'empty', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: '3-Place Middle League', name: '3-Place Middle League', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'EL-WestHam', name: <WestHam />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'EL-Wolfsburg', name: <Wolfsburg />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
 export const additionalTeams = [
-	{ id: 'EL-empty', name: 'empty', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'EL-empty', name: 'empty', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'EL-empty', name: 'empty', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'EL-Sporting', name: <Sporting />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'EL-Galatasaray', name: <Galatasaray />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'EL-Werder', name: <Werder />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 
 ];
 
