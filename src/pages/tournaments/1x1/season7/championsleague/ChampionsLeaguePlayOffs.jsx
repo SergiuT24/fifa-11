@@ -1,6 +1,5 @@
 import React from 'react';
 import Square from '../../../../../components/league/square/Square';
-import Fiorentina from '../../../../../components/league/4star-teams/Fiorentina';
 import Stuttgart from '../../../../../components/league/4star-teams/Stuttgart';
 import Palermo from '../../../../../components/league/4star-teams/Palermo';
 import Psg from '../../../../../components/league/4star-teams/Psg';
