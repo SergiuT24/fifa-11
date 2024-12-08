@@ -18,6 +18,7 @@ const PlayersProfile1x1 = () => {
 			name: 'Berserk', id: '4180544',
 			time: 'very active',
 			proLeague: '/img/trophy/pro-league.png', proLeagueCount: 'x1',
+			ucl: '/img/trophy/champions-league.png', uclCount: 'x1',
 		},
 		{
 			avatar: '/img/players/box.png',
@@ -174,8 +175,12 @@ const PlayersProfile1x1 = () => {
 							balonDorCount={player.balonDorCount}
 							proLeague={player.proLeague}
 							proLeagueCount={player.proLeagueCount}
+							middleLeague={player.middleLeague}
+							middleLeagueCount={player.middleLeagueCount}
 							ucl={player.ucl}
 							uclCount={player.uclCount}
+							europe={player.europe}
+							europeCount={player.europeCount}
 							kingsCup={player.kingsCup}
 							kingsCupCount={player.kingsCupCount}
 							worldCup={player.worldCup}
