@@ -19,6 +19,9 @@ const PlayersProfile1x1 = () => {
 			time: 'very active',
 			proLeague: '/img/trophy/pro-league.png', proLeagueCount: 'x1',
 			ucl: '/img/trophy/champions-league.png', uclCount: 'x1',
+			kingsCup: '/img/trophy/kings-cup.png', kingsCupCount: 'x1',
+			goldenShoe: '/img/trophy/golden-shoe.png', goldenShoeCount: 'x1',
+			balonDor: '/img/trophy/ballon-dor.png', balonDorCount: 'x1',
 		},
 		{
 			avatar: '/img/players/box.png',
