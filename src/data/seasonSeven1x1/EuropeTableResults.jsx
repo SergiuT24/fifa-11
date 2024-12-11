@@ -18,31 +18,89 @@ export const additionalTeams = [
 
 ];
 
-export const matchResults = [];
-
-const fetchResults = async () => {
-	console.log('Fetching results...');
-	try {
-		const response = await fetch(`https://match-results-bucket.s3.eu-central-1.amazonaws.com/matchResults.json?timestamp=${Date.now()}`);
-		const data = await response.json();
-
-		matchResults.length = 0;
-		data.forEach(item => {
-			matchResults.push({
-				id: item.id,
-				teamOne: item.teamOne,
-				scoreOne: item.scoreOne,
-				teamTwo: item.teamTwo,
-				scoreTwo: item.scoreTwo
-			});
-		});
-
-		return matchResults;
-	} catch (error) {
-		console.error('Error fetching match results:', error);
-		return [];
-	}
-};
-
-fetchResults().then(() => {
-});
+export const matchResults = [
+	{
+		id: '1733608248679',
+		teamOne: 'EL-Lazio',
+		scoreOne: 2,
+		teamTwo: 'EL-WestHam',
+		scoreTwo: 0
+	},
+	{
+		id: '1733608253515',
+		teamOne: 'EL-WestHam',
+		scoreOne: 3,
+		teamTwo: 'EL-Lazio',
+		scoreTwo: 1
+	},
+	{
+		id: '1733673213427',
+		teamOne: 'EL-Sporting',
+		scoreOne: 6,
+		teamTwo: 'EL-Werder',
+		scoreTwo: 1
+	},
+	{
+		id: '1733673216124',
+		teamOne: 'EL-Werder',
+		scoreOne: 2,
+		teamTwo: 'EL-Sporting',
+		scoreTwo: 8
+	},
+	{
+		id: '1733675779793',
+		teamOne: 'EL-Galatasaray',
+		scoreOne: 3,
+		teamTwo: 'EL-Sporting',
+		scoreTwo: 5
+	},
+	{
+		id: '1733675794636',
+		teamOne: 'EL-Sporting',
+		scoreOne: 4,
+		teamTwo: 'EL-Galatasaray',
+		scoreTwo: 0
+	},
+	{
+		id: '1733697779116',
+		teamOne: 'EL-Lazio',
+		scoreOne: 0,
+		teamTwo: 'EL-Wolfsburg',
+		scoreTwo: 4
+	},
+	{
+		id: '1733697814954',
+		teamOne: 'EL-Wolfsburg',
+		scoreOne: 1,
+		teamTwo: 'EL-Lazio',
+		scoreTwo: 1
+	},
+	{
+		id: '1733517423012',
+		teamOne: 'EL-Galatasaray',
+		scoreOne: 4,
+		teamTwo: 'EL-Werder',
+		scoreTwo: 0
+	},
+	{
+		id: '1733517431133',
+		teamOne: 'EL-Werder',
+		scoreOne: 0,
+		teamTwo: 'EL-Galatasaray',
+		scoreTwo: 1
+	},
+	{
+		id: '1733514707963',
+		teamOne: 'EL-Wolfsburg',
+		scoreOne: 2,
+		teamTwo: 'EL-WestHam',
+		scoreTwo: 2
+	},
+	{
+		id: '1733514714414',
+		teamOne: 'EL-WestHam',
+		scoreOne: 0,
+		teamTwo: 'EL-Wolfsburg',
+		scoreTwo: 4
+	},
+];

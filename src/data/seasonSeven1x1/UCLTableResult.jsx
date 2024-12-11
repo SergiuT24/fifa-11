@@ -19,31 +19,89 @@ export const additionalTeams = [
 ];
 
 
-export const matchResults = [];
-
-const fetchResults = async () => {
-	console.log('Fetching results...');
-	try {
-		const response = await fetch(`https://match-results-bucket.s3.eu-central-1.amazonaws.com/matchResults.json?timestamp=${Date.now()}`);
-		const data = await response.json();
-
-		matchResults.length = 0;
-		data.forEach(item => {
-			matchResults.push({
-				id: item.id,
-				teamOne: item.teamOne,
-				scoreOne: item.scoreOne,
-				teamTwo: item.teamTwo,
-				scoreTwo: item.scoreTwo
-			});
-		});
-
-		return matchResults;
-	} catch (error) {
-		console.error('Error fetching match results:', error);
-		return [];
-	}
-};
-
-fetchResults().then(() => {
-});
+export const matchResults = [
+	{
+		id: '1733515975087',
+		teamOne: 'UCL-PSG',
+		scoreOne: 3,
+		teamTwo: 'UCL-Palermo',
+		scoreTwo: 1
+	},
+	{
+		id: '1733517047672',
+		teamOne: 'UCL-Palermo',
+		scoreOne: 0,
+		teamTwo: 'UCL-PSG',
+		scoreTwo: 3
+	},
+	{
+		id: '1733519455993',
+		teamOne: 'UCL-PSV',
+		scoreOne: 4,
+		teamTwo: 'UCL-Fenerbahce',
+		scoreTwo: 0
+	},
+	{
+		id: '1733519458099',
+		teamOne: 'UCL-Fenerbahce',
+		scoreOne: 2,
+		teamTwo: 'UCL-PSV',
+		scoreTwo: 6
+	},
+	{
+		id: '1733523733195',
+		teamOne: 'UCL-Stuttgart',
+		scoreOne: 1,
+		teamTwo: 'UCL-Fenerbahce',
+		scoreTwo: 1
+	},
+	{
+		id: '1733523755608',
+		teamOne: 'UCL-Fenerbahce',
+		scoreOne: 2,
+		teamTwo: 'UCL-Stuttgart',
+		scoreTwo: 5
+	},
+	{
+		id: '1733523885658',
+		teamOne: 'UCL-FulHam',
+		scoreOne: 3,
+		teamTwo: 'UCL-PSG',
+		scoreTwo: 4
+	},
+	{
+		id: '1733523888140',
+		teamOne: 'UCL-PSG',
+		scoreOne: 3,
+		teamTwo: 'UCL-FulHam',
+		scoreTwo: 0
+	},
+	{
+		id: '1733489532528',
+		teamOne: 'UCL-FulHam',
+		scoreOne: 1,
+		teamTwo: 'UCL-Palermo',
+		scoreTwo: 3
+	},
+	{
+		id: '1733490508705',
+		teamOne: 'UCL-Palermo',
+		scoreOne: 3,
+		teamTwo: 'UCL-FulHam',
+		scoreTwo: 3
+	},
+	{
+		id: '1733497102521',
+		teamOne: 'UCL-Stuttgart',
+		scoreOne: 6,
+		teamTwo: 'UCL-PSV',
+		scoreTwo: 0
+	},
+	{
+		id: '1733497117562',
+		teamOne: 'UCL-PSV',
+		scoreOne: 3,
+		teamTwo: 'UCL-Stuttgart',
+		scoreTwo: 3
+	},
+];
