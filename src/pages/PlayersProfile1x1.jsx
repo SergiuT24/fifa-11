@@ -8,6 +8,7 @@ const PlayersProfile1x1 = () => {
 			avatar: '/img/players/anna.png',
 			name: 'Anna', id: '11208470',
 			time: 'very active',
+			europe: '/img/trophy/europe-cup.png', europeCount: 'x1',
 		},
 		{
 			avatar: '/img/players/rin.png',
