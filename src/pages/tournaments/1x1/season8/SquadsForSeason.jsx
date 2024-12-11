@@ -82,7 +82,7 @@ const SquadsForSeason = () => {
 				team={'TEAM 13'}
 				playerOne={'Nikita'}
 				imgOne={'/img/players/nikita.png'}
-				club={<Lilli />} />
+				club={<Lille />} />
 		</div>
 	);
 }
