@@ -37,6 +37,10 @@ const PlayersProfile1x1 = () => {
 			name: 'Jsnick', id: '3674945'
 		},
 		{
+			avatar: '/img/players/nikita.png',
+			name: 'Nikita', id: '12375981'
+		},
+		{
 			avatar: '/img/players/malemiria.png',
 			name: 'Malemiria', id: '9662584'
 		},

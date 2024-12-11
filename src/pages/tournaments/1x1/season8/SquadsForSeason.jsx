@@ -12,6 +12,7 @@ import Werder from '../../../../components/league/4star-teams/Werder';
 import Villareal from '../../../../components/league/4star-teams/Villarreal';
 import Cska from '../../../../components/league/4star-teams/Cska';
 import Marseille from '../../../../components/league/4star-teams/OM';
+import Lille from '../../../../components/league/4star-teams/Lille';
 
 
 const SquadsForSeason = () => {
@@ -77,6 +78,11 @@ const SquadsForSeason = () => {
 				playerOne={'Osprey'}
 				imgOne={'/img/players/avatar.png'}
 				club={<Besiktas />} />
+			<PlayersTeam
+				team={'TEAM 13'}
+				playerOne={'Nikita'}
+				imgOne={'/img/players/nikita.png'}
+				club={<Lilli />} />
 		</div>
 	);
 }
