@@ -9,7 +9,7 @@ import Fiorentina from '../../components/league/4star-teams/Fiorentina';
 import Werder from '../../components/league/4star-teams/Werder';
 import Villareal from '../../components/league/4star-teams/Villarreal';
 import Cska from '../../components/league/4star-teams/Cska';
-import Marseille from '../../components/league/4star-teams/OM';
+import Palermo from '../../components/league/4star-teams/Palermo';
 import Lille from '../../components/league/4star-teams/Lille';
 
 
@@ -31,7 +31,7 @@ export const additionalTeams = [
 	{ id: 'Werder', name: <Werder />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Villareal', name: <Villareal />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'CSKA', name: <Cska />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'Marseille', name: <Marseille />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Palermo', name: <Palermo />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Lille', name: <Lille />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ]
 
