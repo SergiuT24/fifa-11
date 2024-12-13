@@ -75,6 +75,7 @@ const PlayersProfile1x1 = () => {
 			avatar: '/img/players/toto.png',
 			name: 'TOTO', id: '8985743',
 			time: '19:00-00:00',
+			middleLeague: '/img/trophy/pro-league.png', middleLeagueCount: 'x1',
 		},
 		{
 			avatar: '/img/players/wenger.png',
@@ -88,6 +89,7 @@ const PlayersProfile1x1 = () => {
 			avatar: '/img/players/avatar.png',
 			name: 'Quaresma_07', id: '1275367',
 			middleLeague: '/img/trophy/pro-league.png', middleLeagueCount: 'x1',
+			proLeague: '/img/trophy/pro-league.png', proLeagueCount: 'x1',
 		},
 		{
 			avatar: '/img/players/avatar.png',
