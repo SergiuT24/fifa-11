@@ -1,6 +1,7 @@
 import React from 'react';
 import Square from '../../../../../components/league/square/Square';
 import Fiorentina from '../../../../../components/league/4star-teams/Fiorentina';
+import Wolfsburg from '../../../../../components/league/4star-teams/Wolfsburg';
 
 
 
@@ -19,7 +20,7 @@ const ChampionsLeaguePlayOffs = () => {
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={'Group B 1'}
+						teamOne={<Wolfsburg />}
 						teamTwo={'Group A 2'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
