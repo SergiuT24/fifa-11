@@ -3,7 +3,7 @@ import Square from '../../../../../components/league/square/Square';
 import Fiorentina from '../../../../../components/league/4star-teams/Fiorentina';
 import CSKA from '../../../../../components/league/4star-teams/Cska';
 import Everton from '../../../../../components/league/4star-teams/Everton';
-import Villareal from '../../../../../components/league/4star-teams/Villareal';
+import Villareal from '../../../../../components/league/4star-teams/Villarreal';
 import Lille from '../../../../../components/league/4star-teams/Lille';
 
 const EuropeLeaguePlayOffs = () => {
@@ -14,14 +14,14 @@ const EuropeLeaguePlayOffs = () => {
 				<div className='flex gap-14 justify-center'>
 					<Square
 						teamOne={<CSKA />}
-						teamTwo={<Villareal/>}
+						teamTwo={<Villareal />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={<Lille/>}
+						teamOne={<Lille />}
 						teamTwo={<Everton />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
