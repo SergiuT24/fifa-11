@@ -39,6 +39,7 @@ const PlayersProfile1x1 = () => {
 		{
 			avatar: '/img/players/nikita.png',
 			name: 'Nikita', id: '12375981'
+			europe: '/img/trophy/europe-cup.png', europeCount: 'x1',
 		},
 		{
 			avatar: '/img/players/malemiria.png',
