@@ -1,17 +1,6 @@
 import React from 'react';
 import PlayersTeam from '../../../../components/league/players/PlayersTeam';
 import Psv from '../../../../components/league/4star-teams/Psv';
-import Fenerbahce from '../../../../components/league/4star-teams/Fenerbahce';
-import WestHam from '../../../../components/league/4star-teams/WestHam';
-import Psg from '../../../../components/league/4star-teams/Psg';
-import Galatasaray from '../../../../components/league/4star-teams/Galatasaray';
-import Werder from '../../../../components/league/4star-teams/Werder';
-import Stuttgart from '../../../../components/league/4star-teams/Stuttgart';
-import Palermo from '../../../../components/league/4star-teams/Palermo';
-import Sporting from '../../../../components/league/4star-teams/Sporting';
-import FulHam from '../../../../components/league/4star-teams/FulHam';
-import Wolfsburg from '../../../../components/league/4star-teams/Wolfsburg';
-import Lazio from '../../../../components/league/4star-teams/Lazio';
 
 
 const SquadsForSeason = () => {
@@ -19,64 +8,54 @@ const SquadsForSeason = () => {
 		<div className='flex flex-col gap-5 ml-4'>
 			<PlayersTeam
 				team={'TEAM 1'}
-				playerOne={'Dagestan'}
-				imgOne={'/img/players/dagestan.png'}
-				club={<Psv />} />
+				playerOne={'empty'}
+				imgOne={'/img/players/avatar.png'}
+				club={'empty'} />
 			<PlayersTeam
 				team={'TEAM 2'}
-				playerOne={'VITALY'}
-				imgOne={'/img/players/vitaly.png'}
-				club={<Fenerbahce />} />
+				playerOne={'empty'}
+				imgOne={'/img/players/avatar.png'}
+				club={'empty'} />
 			<PlayersTeam
 				team={'TEAM 3'}
-				playerOne={'TOTO'}
-				imgOne={'/img/players/toto.png'}
-				club={<WestHam />} />
+				playerOne={'empty'}
+				imgOne={'/img/players/avatar.png'}
+				club={'empty'} />
 			<PlayersTeam
 				team={'TEAM 4'}
-				playerOne={'Quaresma_07'}
+				playerOne={'empty'}
 				imgOne={'/img/players/avatar.png'}
-				club={<Psg />} />
+				club={'empty'} />
 			<PlayersTeam
 				team={'TEAM 5'}
-				playerOne={'M@KSON'}
-				imgOne={'/img/players/makson.png'}
-				club={<Galatasaray />} />
+				playerOne={'empty'}
+				imgOne={'/img/players/avatar.png'}
+				club={'empty'} />
 			<PlayersTeam
 				team={'TEAM 6'}
-				playerOne={'Rayon 13'}
-				imgOne={'/img/players/rayon13.png'}
-				club={<Werder />} />
+				playerOne={'empty'}
+				imgOne={'/img/players/avatar.png'}
+				club={'empty'} />
 			<PlayersTeam
 				team={'TEAM 7'}
-				playerOne={'Berserk'}
-				imgOne={'/img/players/berserk.png'}
-				club={<Stuttgart />} />
+				playerOne={'empty'}
+				imgOne={'/img/players/avatar.png'}
+				club={'empty'} />
 			<PlayersTeam
 				team={'TEAM 8'}
-				playerOne={'HAM'}
+				playerOne={'empty'}
 				imgOne={'/img/players/avatar.png'}
-				club={<Palermo />} />
+				club={'empty'} />
 			<PlayersTeam
 				team={'TEAM 9'}
-				playerOne={'Jsnick'}
-				imgOne={'/img/players/jsnick.png'}
-				club={<FulHam />} />
+				playerOne={'empty'}
+				imgOne={'/img/players/avatar.png'}
+				club={'empty'} />
 			<PlayersTeam
 				team={'TEAM 10'}
-				playerOne={'Anna'}
-				imgOne={'/img/players/anna.png'}
-				club={<Sporting />} />
-			<PlayersTeam
-				team={'TEAM 11'}
-				playerOne={'Alex_BG'}
-				imgOne={'/img/players/alex-bg.png'}
-				club={<Wolfsburg />} />
-			<PlayersTeam
-				team={'TEAM 12'}
-				playerOne={'Osprey'}
+				playerOne={'empty'}
 				imgOne={'/img/players/avatar.png'}
-				club={<Lazio />} />
+				club={'empty'} />
 		</div>
 	);
 }

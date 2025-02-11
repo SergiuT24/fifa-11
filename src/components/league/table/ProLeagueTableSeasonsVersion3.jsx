@@ -9,6 +9,11 @@ import { initialTeams as initialTeams81x1, additionalTeams as additionalTeamsSea
 import { initialTeams as initialTeamsUCL81x1, additionalTeams as additionalTeamsUCLSeason81x1, matchResults as matchResultsUCLSeason81x1 } from '../../../data/season81x1/UCLTableResult.jsx';
 import { initialTeams as initialTeamsEurope81x1, additionalTeams as additionalTeamsEuropeSeason81x1, matchResults as matchResultsEuropeSeason81x1 } from '../../../data/season81x1/EuropeTableResults.jsx';
 
+// Season 9 1x1
+import { initialTeams as initialTeams91x1, additionalTeams as additionalTeamsSeason91x1, matchResults as matchResultsSeason91x1 } from '../../../data/season91x1/ProLeagueTableResults.jsx';
+import { initialTeams as initialTeamsUCL91x1, additionalTeams as additionalTeamsUCLSeason91x1, matchResults as matchResultsUCLSeason91x1 } from '../../../data/season91x1/UCLTableResult.jsx';
+import { initialTeams as initialTeamsEurope91x1, additionalTeams as additionalTeamsEuropeSeason91x1, matchResults as matchResultsEuropeSeason91x1 } from '../../../data/season91x1/EuropeTableResults.jsx';
+
 // Season 7 1x1
 
 const SeasonSeven1x1 = () => (
@@ -78,7 +83,41 @@ const Europe81x1 = () => (
 	/>
 );
 
+// Season 8 1x1
+const Season91x1 = () => (
+	<LeagueTableVersion3
+		initialTeams={initialTeams91x1}
+		additionalTeams={additionalTeamsSeason91x1}
+		matchResults={matchResultsSeason91x1}
+		seasonTitle="Season 9 (1x1) "
+		divisionNameOne={'Pro League'}
+		divisionNameTwo={'Middle League'}
+	/>
+);
+
+const UCL91x1 = () => (
+	<LeagueTableVersion3
+		initialTeams={initialTeamsUCL91x1}
+		additionalTeams={additionalTeamsUCLSeason91x1}
+		matchResults={matchResultsUCLSeason91x1}
+		seasonTitle="Group Stage "
+		divisionNameOne={'Group A'}
+		divisionNameTwo={'Group B'}
+	/>
+);
+
+const Europe91x1 = () => (
+	<LeagueTableVersion3
+		initialTeams={initialTeamsEurope91x1}
+		additionalTeams={additionalTeamsEuropeSeason91x1}
+		matchResults={matchResultsEuropeSeason91x1}
+		seasonTitle="Group Stage"
+		divisionNameOne={'Group A'}
+		divisionNameTwo={'Group B'}
+	/>
+);
+
 // ========================================================================================
 
 
-export { SeasonSeven1x1, UCLSeven1x1, EuropeSeven1x1, Season81x1, UCL81x1, Europe81x1 };
+export { SeasonSeven1x1, UCLSeven1x1, EuropeSeven1x1, Season81x1, UCL81x1, Europe81x1, Season91x1, UCL91x1, Europe91x1 };

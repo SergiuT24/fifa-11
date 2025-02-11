@@ -27,7 +27,7 @@ const ChampionsLeagueMain = () => {
 				leagueCount={'1x1 > Champions League'}
 				logo={'/img/league/champions-league.png'}
 				name={'Champions League'}
-				season={'Season 7'}
+				season={'Season 9'}
 				cupImg={'/img/trophy/champions-league.png'}
 			/>
 			<LeagueButtons selectedButton={selectedButton} setSelectedButton={setSelectedButton} />
