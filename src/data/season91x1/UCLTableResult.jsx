@@ -1,20 +1,20 @@
-import Fenerbahce from '../../components/league/4star-teams/Fenerbahce';
-import Genoa from '../../components/league/4star-teams/Genoa';
+import Leverkusen from '../../components/league/4star-teams/Leverkusen';
+import OM from '../../components/league/4star-teams/OM';
+import Galatasaray from '../../components/league/4star-teams/Galatasaray';
+import Fiorentina from '../../components/league/4star-teams/Fiorentina';
 import Wolfsburg from '../../components/league/4star-teams/Wolfsburg';
 import Napoli from '../../components/league/4star-teams/Napoli';
-import Fiorentina from '../../components/league/4star-teams/Fiorentina';
-import Werder from '../../components/league/4star-teams/Werder';
 
 export const initialTeams = [
-	{ id: 'UCL-empty', name: 'empty', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'UCL-empty', name: 'empty', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'UCL-empty', name: 'empty', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'UCL-Wolfsburg', name: <Wolfsburg />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'UCL-Napoli', name: <Napoli />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'UCL-Fiorentina', name: <Fiorentina />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
 export const additionalTeams = [
-	{ id: 'UCL-empty', name: 'empty', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'UCL-empty', name: 'empty', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'UCL-empty', name: 'empty', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'UCL-Galatasaray', name: <Galatasaray />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'UCL-Leverkusen', name: <Leverkusen />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'UCL-OM', name: <OM />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 
 ];
 
