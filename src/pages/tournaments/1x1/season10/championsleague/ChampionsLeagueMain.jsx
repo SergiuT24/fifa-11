@@ -24,11 +24,11 @@ const ChampionsLeagueMain = () => {
 	return (
 		<div>
 			<LeagueMenu
-				leagueCount={'1x1 > Champions League'}
-				logo={'/img/league/champions-league.png'}
-				name={'Champions League'}
+				leagueCount={'1x1 > World Cup'}
+				logo={'/img/league/world-cup.png'}
+				name={'World Cup'}
 				season={'Season 10'}
-				cupImg={'/img/trophy/champions-league.png'}
+				cupImg={'/img/trophy/world-cup.png'}
 			/>
 			<LeagueButtons selectedButton={selectedButton} setSelectedButton={setSelectedButton} />
 			{renderContent()}

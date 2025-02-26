@@ -1,14 +1,13 @@
 import React from 'react';
 import PlayersTeam from '../../../../components/league/players/PlayersTeam';
-import Leverkusen from '../../../../components/league/4star-teams/Leverkusen';
-import OM from '../../../../components/league/4star-teams/OM';
-import Galatasaray from '../../../../components/league/4star-teams/Galatasaray';
-import Everton from '../../../../components/league/4star-teams/Everton';
-import Fiorentina from '../../../../components/league/4star-teams/Fiorentina';
-import Wolfsburg from '../../../../components/league/4star-teams/Wolfsburg';
-import Villarreal from '../../../../components/league/4star-teams/Villarreal';
-import Napoli from '../../../../components/league/4star-teams/Napoli';
-
+import Argentina from '../../../../components/league/national-teams/Argentina';
+import Brazil from '../../../../components/league/national-teams/Brazil';
+import England from '../../../../components/league/national-teams/England';
+import France from '../../../../components/league/national-teams/France';
+import Germany from '../../../../components/league/national-teams/Germany';
+import Italy from '../../../../components/league/national-teams/Italy';
+import Portugal from '../../../../components/league/national-teams/Portugal';
+import Spain from '../../../../components/league/national-teams/Spain';
 
 const SquadsForSeason = () => {
 	return (
@@ -17,37 +16,42 @@ const SquadsForSeason = () => {
 				team={'TEAM 1'}
 				playerOne={'HAM'}
 				imgOne={'/img/players/avatar.png'}
-				club={'empty'} />
+				club={<France />} />
 			<PlayersTeam
 				team={'TEAM 2'}
 				playerOne={'TOTO'}
 				imgOne={'/img/players/toto.png'}
-				club={'empty'} />
+				club={<Germany />} />
 			<PlayersTeam
 				team={'TEAM 3'}
 				playerOne={'Jsnick'}
 				imgOne={'/img/players/jsnick.png'}
-				club={'empty'} />
+				club={<Portugal />} />
 			<PlayersTeam
 				team={'TEAM 4'}
 				playerOne={'M@KSON'}
 				imgOne={'/img/players/makson.png'}
-				club={'empty'} />
+				club={<Argentina />} />
 			<PlayersTeam
 				team={'TEAM 5'}
 				playerOne={'Anna'}
 				imgOne={'/img/players/anna.png'}
-				club={'empty'} />
+				club={<Italy />} />
 			<PlayersTeam
 				team={'TEAM 6'}
 				playerOne={'Rayon 13'}
 				imgOne={'/img/players/rayon13.png'}
-				club={'empty'} />
+				club={<Brazil />} />
 			<PlayersTeam
 				team={'TEAM 7'}
 				playerOne={'Vitaly'}
 				imgOne={'/img/players/vitaly.png'}
-				club={'empty'} />
+				club={<Spain />} />
+			<PlayersTeam
+				team={'TEAM 8'}
+				playerOne={'DartRin'}
+				imgOne={'/img/players/rin.png'}
+				club={<England />} />
 		</div>
 	);
 }

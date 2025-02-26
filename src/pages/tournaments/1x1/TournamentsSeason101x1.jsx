@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import SidebarDivisions from '../../../components/sidebar/SidebarDivisions';
+import Sidebar1x1 from '../../../components/sidebar/Sidebar1x1';
 import ProLeagueMain from './season10/proleague/ProLeagueMain';
 import ChampionsLeagueMain from './season10/championsleague/ChampionsLeagueMain';
 import EuropeLeagueMain from './season10/europeleague/EuropeLeagueMain';
@@ -14,7 +14,7 @@ const TournamentsSeason101x1 = () => {
 		switch (selectedLeague) {
 			case 'Pro League':
 				return <ProLeagueMain />;
-			case 'Champions League':
+			case 'World Cup':
 				return <ChampionsLeagueMain />;
 			case 'Europe League':
 				return <EuropeLeagueMain />
@@ -29,7 +29,7 @@ const TournamentsSeason101x1 = () => {
 		<div className='flex-1 justify-center items-center'>
 			<div className='flex'>
 				<div>
-					<SidebarDivisions selectedLeague={selectedLeague} setSelectedLeague={setSelectedLeague} />
+					<Sidebar1x1 selectedLeague={selectedLeague} setSelectedLeague={setSelectedLeague} />
 					<TeamsForRandom />
 				</div>
 				<div className='flex-col'>
