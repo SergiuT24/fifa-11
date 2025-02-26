@@ -36,11 +36,11 @@ const ChampionsLeaguePlayOffs = () => {
 				<div className='flex gap-10 justify-center'>
 					<Square
 						teamOne={<Wolfsburg />}
-						teamTwo={'empty'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						teamTwo={<Fiorentina />}
+						scoreFirstTeamOne={7}
+						scoreSecondTeamOne={0}
+						scoreFirstTeamTwo={3}
+						scoreSecondTeamTwo={1}
 					/>
 				</div>
 			</div>

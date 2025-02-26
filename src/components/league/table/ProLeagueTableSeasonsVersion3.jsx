@@ -14,6 +14,12 @@ import { initialTeams as initialTeams91x1, additionalTeams as additionalTeamsSea
 import { initialTeams as initialTeamsUCL91x1, additionalTeams as additionalTeamsUCLSeason91x1, matchResults as matchResultsUCLSeason91x1 } from '../../../data/season91x1/UCLTableResult.jsx';
 import { initialTeams as initialTeamsEurope91x1, additionalTeams as additionalTeamsEuropeSeason91x1, matchResults as matchResultsEuropeSeason91x1 } from '../../../data/season91x1/EuropeTableResults.jsx';
 
+// Season 10 1x1
+import { initialTeams as initialTeams101x1, additionalTeams as additionalTeamsSeason101x1, matchResults as matchResultsSeason101x1 } from '../../../data/season101x1/ProLeagueTableResults.jsx';
+import { initialTeams as initialTeamsUCL101x1, additionalTeams as additionalTeamsUCLSeason101x1, matchResults as matchResultsUCLSeason101x1 } from '../../../data/season101x1/UCLTableResult.jsx';
+import { initialTeams as initialTeamsEurope101x1, additionalTeams as additionalTeamsEuropeSeason101x1, matchResults as matchResultsEuropeSeason101x1 } from '../../../data/season101x1/EuropeTableResults.jsx';
+
+
 // Season 7 1x1
 
 const SeasonSeven1x1 = () => (
@@ -83,7 +89,7 @@ const Europe81x1 = () => (
 	/>
 );
 
-// Season 8 1x1
+// Season 9 1x1
 const Season91x1 = () => (
 	<LeagueTableVersion3
 		initialTeams={initialTeams91x1}
@@ -117,7 +123,42 @@ const Europe91x1 = () => (
 	/>
 );
 
+// Season 10 1x1
+const Season101x1 = () => (
+	<LeagueTableVersion3
+		initialTeams={initialTeams101x1}
+		additionalTeams={additionalTeamsSeason101x1}
+		matchResults={matchResultsSeason101x1}
+		seasonTitle="Season 10 (1x1) "
+		divisionNameOne={'Pro League'}
+		divisionNameTwo={'Middle League'}
+	/>
+);
+
+const UCL101x1 = () => (
+	<LeagueTableVersion3
+		initialTeams={initialTeamsUCL101x1}
+		additionalTeams={additionalTeamsUCLSeason101x1}
+		matchResults={matchResultsUCLSeason101x1}
+		seasonTitle="Group Stage "
+		divisionNameOne={'Group A'}
+		divisionNameTwo={'Group B'}
+	/>
+);
+
+const Europe101x1 = () => (
+	<LeagueTableVersion3
+		initialTeams={initialTeamsEurope101x1}
+		additionalTeams={additionalTeamsEuropeSeason101x1}
+		matchResults={matchResultsEuropeSeason101x1}
+		seasonTitle="Group Stage"
+		divisionNameOne={'Group A'}
+		divisionNameTwo={'Group B'}
+	/>
+);
+
+
 // ========================================================================================
 
 
-export { SeasonSeven1x1, UCLSeven1x1, EuropeSeven1x1, Season81x1, UCL81x1, Europe81x1, Season91x1, UCL91x1, Europe91x1 };
+export { SeasonSeven1x1, UCLSeven1x1, EuropeSeven1x1, Season81x1, UCL81x1, Europe81x1, Season91x1, UCL91x1, Europe91x1, Season101x1, UCL101x1, Europe101x1 };
