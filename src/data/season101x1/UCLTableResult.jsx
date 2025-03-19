@@ -18,31 +18,89 @@ export const additionalTeams = [
 ];
 
 
-export const matchResults = [];
-
-const fetchResults = async () => {
-	console.log('Fetching results...');
-	try {
-		const response = await fetch(`https://match-results-bucket.s3.eu-central-1.amazonaws.com/matchResults.json?timestamp=${Date.now()}`);
-		const data = await response.json();
-
-		matchResults.length = 0;
-		data.forEach(item => {
-			matchResults.push({
-				id: item.id,
-				teamOne: item.teamOne,
-				scoreOne: item.scoreOne,
-				teamTwo: item.teamTwo,
-				scoreTwo: item.scoreTwo
-			});
-		});
-
-		return matchResults;
-	} catch (error) {
-		console.error('Error fetching match results:', error);
-		return [];
+export const matchResults = [
+	{
+		id: '1741414253998',
+		teamOne: 'WC-Italy',
+		scoreOne: 3,
+		teamTwo: 'WC-France',
+		scoreTwo: 3
+	},
+	{
+		id: '1741414256417',
+		teamOne: 'WC-France',
+		scoreOne: 3,
+		teamTwo: 'WC-Italy',
+		scoreTwo: 4
+	},
+	{
+		id: '1741414356525',
+		teamOne: 'WC-Portugal',
+		scoreOne: 0,
+		teamTwo: 'WC-Spain',
+		scoreTwo: 2
+	},
+	{
+		id: '1741414358596',
+		teamOne: 'WC-Spain',
+		scoreOne: 3,
+		teamTwo: 'WC-Portugal',
+		scoreTwo: 7
+	},
+	{
+		id: '1741414438632',
+		teamOne: 'WC-Portugal',
+		scoreOne: 5,
+		teamTwo: 'WC-Argentina',
+		scoreTwo: 3
+	},
+	{
+		id: '1741414441601',
+		teamOne: 'WC-Argentina',
+		scoreOne: 2,
+		teamTwo: 'WC-Portugal',
+		scoreTwo: 2
+	},
+	{
+		id: '1741414487262',
+		teamOne: 'WC-Argentina',
+		scoreOne: 1,
+		teamTwo: 'WC-Spain',
+		scoreTwo: 1
+	},
+	{
+		id: '1741414489690',
+		teamOne: 'WC-Spain',
+		scoreOne: 1,
+		teamTwo: 'WC-Argentina',
+		scoreTwo: 3
+	},
+	{
+		id: '1741414533431',
+		teamOne: 'WC-Italy',
+		scoreOne: 6,
+		teamTwo: 'WC-Germany',
+		scoreTwo: 2
+	},
+	{
+		id: '1741414537297',
+		teamOne: 'WC-Germany',
+		scoreOne: 2,
+		teamTwo: 'WC-Italy',
+		scoreTwo: 3
+	},
+	{
+		id: '1741441399850',
+		teamOne: 'WC-France',
+		scoreOne: 5,
+		teamTwo: 'WC-Germany',
+		scoreTwo: 1
+	},
+	{
+		id: '1741441427203',
+		teamOne: 'WC-Germany',
+		scoreOne: 1,
+		teamTwo: 'WC-France',
+		scoreTwo: 1
 	}
-};
-
-fetchResults().then(() => {
-});
+];

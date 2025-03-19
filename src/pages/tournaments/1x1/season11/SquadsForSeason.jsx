@@ -1,17 +1,14 @@
 import React from 'react';
 import PlayersTeam from '../../../../components/league/players/PlayersTeam';
-import Psv from '../../../../components/league/4star-teams/Psv';
-import Fenerbahce from '../../../../components/league/4star-teams/Fenerbahce';
-import WestHam from '../../../../components/league/4star-teams/WestHam';
-import Psg from '../../../../components/league/4star-teams/Psg';
-import Galatasaray from '../../../../components/league/4star-teams/Galatasaray';
-import Werder from '../../../../components/league/4star-teams/Werder';
-import Stuttgart from '../../../../components/league/4star-teams/Stuttgart';
-import Palermo from '../../../../components/league/4star-teams/Palermo';
-import Sporting from '../../../../components/league/4star-teams/Sporting';
-import FulHam from '../../../../components/league/4star-teams/FulHam';
-import Wolfsburg from '../../../../components/league/4star-teams/Wolfsburg';
-import Lazio from '../../../../components/league/4star-teams/Lazio';
+import RealMadrid from '../../../../components/league/teams/RealMadrid';
+import ManchesterCity from '../../../../components/league/teams/ManchesterCity';
+import Barcelona from '../../../../components/league/teams/Barcelona';
+import ManchesterUnited from '../../../../components/league/teams/ManchesterUnited';
+import Chelsea from '../../../../components/league/teams/Chelsea';
+import Arsenal from '../../../../components/league/teams/Arsenal';
+import Lyon from '../../../../components/league/teams/Lyon';
+import BayernMunich from '../../../../components/league/teams/BayernMunich';
+import Inter from '../../../../components/league/teams/Inter';
 
 
 const SquadsForSeason = () => {
@@ -21,62 +18,47 @@ const SquadsForSeason = () => {
 				team={'TEAM 1'}
 				playerOne={'Dagestan'}
 				imgOne={'/img/players/dagestan.png'}
-				club={<Psv />} />
+				club={<RealMadrid />} />
 			<PlayersTeam
 				team={'TEAM 2'}
 				playerOne={'VITALY'}
 				imgOne={'/img/players/vitaly.png'}
-				club={<Fenerbahce />} />
+				club={<ManchesterCity />} />
 			<PlayersTeam
 				team={'TEAM 3'}
 				playerOne={'TOTO'}
 				imgOne={'/img/players/toto.png'}
-				club={<WestHam />} />
+				club={<Barcelona />} />
 			<PlayersTeam
 				team={'TEAM 4'}
-				playerOne={'Quaresma_07'}
-				imgOne={'/img/players/avatar.png'}
-				club={<Psg />} />
-			<PlayersTeam
-				team={'TEAM 5'}
 				playerOne={'M@KSON'}
 				imgOne={'/img/players/makson.png'}
-				club={<Galatasaray />} />
+				club={<ManchesterUnited />} />
 			<PlayersTeam
-				team={'TEAM 6'}
+				team={'TEAM 5'}
 				playerOne={'Rayon 13'}
 				imgOne={'/img/players/rayon13.png'}
-				club={<Werder />} />
+				club={<Chelsea />} />
 			<PlayersTeam
-				team={'TEAM 7'}
-				playerOne={'Berserk'}
-				imgOne={'/img/players/berserk.png'}
-				club={<Stuttgart />} />
-			<PlayersTeam
-				team={'TEAM 8'}
+				team={'TEAM 6'}
 				playerOne={'HAM'}
 				imgOne={'/img/players/avatar.png'}
-				club={<Palermo />} />
+				club={<Arsenal />} />
 			<PlayersTeam
-				team={'TEAM 9'}
+				team={'TEAM 7'}
 				playerOne={'Jsnick'}
 				imgOne={'/img/players/jsnick.png'}
-				club={<FulHam />} />
+				club={<Lyon />} />
 			<PlayersTeam
-				team={'TEAM 10'}
+				team={'TEAM 8'}
 				playerOne={'Anna'}
 				imgOne={'/img/players/anna.png'}
-				club={<Sporting />} />
+				club={<BayernMunich />} />
 			<PlayersTeam
-				team={'TEAM 11'}
-				playerOne={'Alex_BG'}
-				imgOne={'/img/players/alex-bg.png'}
-				club={<Wolfsburg />} />
-			<PlayersTeam
-				team={'TEAM 12'}
-				playerOne={'Osprey'}
-				imgOne={'/img/players/avatar.png'}
-				club={<Lazio />} />
+				team={'TEAM 9'}
+				playerOne={'DartRin'}
+				imgOne={'/img/players/rin.png'}
+				club={<Inter />} />
 		</div>
 	);
 }
