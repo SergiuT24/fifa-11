@@ -26,7 +26,7 @@ const ChampionsLeagueMain = () => {
 			<LeagueMenu
 				leagueCount={'1x1 > Champions League'}
 				logo={'/img/league/champions-league.png'}
-				name={'Champions League'}
+				name={'NEKCEMISHI League'}
 				season={'Season 11'}
 				cupImg={'/img/trophy/champions-league.png'}
 			/>
