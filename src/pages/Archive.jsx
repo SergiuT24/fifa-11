@@ -57,27 +57,32 @@ const Archive = () => {
 						<li className='flex items-center gap-9'>
 							<p>6.</p>
 							<MenuLink to={'/archive/tournament/1x1/season/6'} value={'Tournament 1x1 Season 6'} />
-							<p>Date: Seria A - Start: November 25 22:00 (MSK) - End: 9 December 22:00 (MSK)</p>
+							<p>Date: - Start: November 25 22:00 (MSK) - End: 9 December 22:00 (MSK)</p>
 						</li>
 						<li className='flex items-center gap-9'>
 							<p>7.</p>
 							<MenuLink to={'/archive/tournament/1x1/season/7'} value={'Tournament 1x1 Season 7'} />
-							<p>Date: Seria A - Start: December 02 20:00 (MSK) - End: 16 December 20:00 (MSK)</p>
+							<p>Date: - Start: December 02 20:00 (MSK) - End: 16 December 20:00 (MSK)</p>
 						</li>
 						<li className='flex items-center gap-9'>
 							<p>8.</p>
 							<MenuLink to={'/archive/tournament/1x1/season/8'} value={'Tournament 1x1 Season 8'} />
-							<p>Date: Seria A - Start: December 11 20:00 (MSK) - End: 21 December 20:00 (MSK)</p>
+							<p>Date: - Start: December 11 20:00 (MSK) - End: 21 December 20:00 (MSK)</p>
 						</li>
 						<li className='flex items-center gap-9'>
 							<p>9.</p>
 							<MenuLink to={'/archive/tournament/1x1/season/9'} value={'Tournament 1x1 Season 9'} />
-							<p>Date: Seria A - Start: February 11 20:00 (MSK) - End: 21 February 20:00 (MSK)</p>
+							<p>Date: - Start: February 11 20:00 (MSK) - End: 21 February 20:00 (MSK)</p>
 						</li>
 						<li className='flex items-center gap-9'>
 							<p>10.</p>
 							<MenuLink to={'/archive/tournament/1x1/season/10'} value={'Tournament 1x1 Season 10'} />
-							<p>Date: Seria A - Start: February 26 20:00 (MSK) - End: 3 March 20:00 (MSK)</p>
+							<p>Date: - Start: February 26 20:00 (MSK) - End: 3 March 20:00 (MSK)</p>
+						</li>
+						<li className='flex items-center gap-9'>
+							<p>11.</p>
+							<MenuLink to={'/archive/tournament/1x1/season/11'} value={'Tournament 1x1 Season 11'} />
+							<p>Date: - Start: no-date </p>
 						</li>
 					</ul>
 				</div>

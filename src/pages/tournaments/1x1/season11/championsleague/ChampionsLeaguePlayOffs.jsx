@@ -1,6 +1,9 @@
 import React from 'react';
 import Square from '../../../../../components/league/square/Square';
-import Fiorentina from '../../../../../components/league/4star-teams/Fiorentina';
+import Arsenal from '../../../../../components/league/teams/Arsenal';
+import ManchesterUnited from '../../../../../components/league/teams/ManchesterUnited';
+import RealMadrid from '../../../../../components/league/teams/RealMadrid';
+import BayernMunich from '../../../../../components/league/teams/BayernMunich';
 
 
 
@@ -11,20 +14,20 @@ const ChampionsLeaguePlayOffs = () => {
 				<h2 className='text-center'>Play Offs: Quarter-finals 1/4</h2>
 				<div className='flex gap-14 justify-center'>
 					<Square
-						teamOne={'Group A 1'}
-						teamTwo={'Group B 2'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						teamOne={<Arsenal />}
+						teamTwo={<ManchesterUnited />}
+						scoreFirstTeamOne={6}
+						scoreSecondTeamOne={1}
+						scoreFirstTeamTwo={2}
+						scoreSecondTeamTwo={1}
 					/>
 					<Square
-						teamOne={'Group B 1'}
-						teamTwo={'Group A 2'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						teamOne={<RealMadrid />}
+						teamTwo={<BayernMunich />}
+						scoreFirstTeamOne={0}
+						scoreSecondTeamOne={7}
+						scoreFirstTeamTwo={0}
+						scoreSecondTeamTwo={3}
 					/>
 				</div>
 			</div>
@@ -32,12 +35,12 @@ const ChampionsLeaguePlayOffs = () => {
 				<h2 className='text-center'>FINAL</h2>
 				<div className='flex gap-10 justify-center'>
 					<Square
-						teamOne={'empty'}
-						teamTwo={'empty'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						teamOne={<Arsenal />}
+						teamTwo={<BayernMunich />}
+						scoreFirstTeamOne={3}
+						scoreSecondTeamOne={3}
+						scoreFirstTeamTwo={1}
+						scoreSecondTeamTwo={3}
 					/>
 				</div>
 			</div>

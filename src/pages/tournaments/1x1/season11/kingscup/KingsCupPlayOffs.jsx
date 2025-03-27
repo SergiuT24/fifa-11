@@ -32,18 +32,18 @@ const KingsCupPlayOffs = () => {
 					<Square
 						teamOne={<ManchesterCity />}
 						teamTwo={<RealMadrid />}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						scoreFirstTeamOne={1}
+						scoreSecondTeamOne={0}
+						scoreFirstTeamTwo={1}
+						scoreSecondTeamTwo={5}
 					/>
 					<Square
 						teamOne={<Arsenal />}
 						teamTwo={<Lyon />}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						scoreFirstTeamOne={3}
+						scoreSecondTeamOne={1}
+						scoreFirstTeamTwo={2}
+						scoreSecondTeamTwo={3}
 					/>
 					<Square
 						teamOne={<Chelsea />}
@@ -56,10 +56,10 @@ const KingsCupPlayOffs = () => {
 					<Square
 						teamOne={<ManchesterUnited />}
 						teamTwo={<BayernMunich />}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						scoreFirstTeamOne={0}
+						scoreSecondTeamOne={8}
+						scoreFirstTeamTwo={3}
+						scoreSecondTeamTwo={2}
 					/>
 				</div>
 			</div>
@@ -69,17 +69,17 @@ const KingsCupPlayOffs = () => {
 				</div>
 				<div className='flex flex-col pt-20 justify-center'>
 					<Square
-						teamOne={'empty'}
-						teamTwo={'empty'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						teamOne={<RealMadrid />}
+						teamTwo={<Arsenal />}
+						scoreFirstTeamOne={1}
+						scoreSecondTeamOne={6}
+						scoreFirstTeamTwo={1}
+						scoreSecondTeamTwo={0}
 					/>
 					<div className='mt-48'>
 						<Square
 							teamOne={'empty'}
-							teamTwo={'empty'}
+							teamTwo={<BayernMunich />}
 							scoreFirstTeamOne={'?'}
 							scoreSecondTeamOne={'?'}
 							scoreFirstTeamTwo={'?'}
@@ -95,7 +95,7 @@ const KingsCupPlayOffs = () => {
 				<div className='flex flex-col pt-20 justify-center'>
 					<div className='mt-36'>
 						<Square
-							teamOne={'empty'}
+							teamOne={<Arsenal />}
 							teamTwo={'empty'}
 							scoreFirstTeamOne={'?'}
 							scoreSecondTeamOne={'?'}
