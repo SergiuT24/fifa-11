@@ -7,6 +7,7 @@ import Start from '../../components/league/teams/Start';
 import CSKA from '../../components/league/4star-teams/Cska';
 import AcMilan from '../../components/league/teams/AcMilan';
 import Arsenal from '../../components/league/teams/Arsenal';
+import Zenit from '../../components/league/4star-teams/Zenit';
 
 
 export const initialTeams = [
@@ -19,6 +20,7 @@ export const initialTeams = [
 	{ id: 'MU', name: <ManchesterUnited />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'CSKA', name: <CSKA />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Milan', name: <AcMilan />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Zenit', name: <Zenit />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
 export const additionalTeams = [

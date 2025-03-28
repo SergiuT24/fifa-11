@@ -9,6 +9,7 @@ import Start from '../../../../components/league/teams/Start';
 import CSKA from '../../../../components/league/4star-teams/Cska';
 import AcMilan from '../../../../components/league/teams/AcMilan';
 import Arsenal from '../../../../components/league/teams/Arsenal';
+import Zenit from '../../../../components/league/4star-teams/Zenit';
 
 
 const SquadsForSeason = () => {
@@ -59,6 +60,11 @@ const SquadsForSeason = () => {
 				playerOne={'VITALY'}
 				imgOne={'/img/players/vitaly.png'}
 				club={<Arsenal />} />
+			<PlayersTeam
+				team={'TEAM 10'}
+				playerOne={'Rayon 13'}
+				imgOne={'/img/players/rayon13.png'}
+				club={<Zenit />} />
 		</div>
 	);
 }
