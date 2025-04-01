@@ -3,7 +3,6 @@ import ManchesterUnited from '../../components/league/teams/ManchesterUnited';
 import Barcelona from '../../components/league/teams/Barcelona';
 import Anji from '../../components/league/teams/Anji';
 import Celtic from '../../components/league/teams/Celtic';
-import Start from '../../components/league/teams/Start';
 import CSKA from '../../components/league/4star-teams/Cska';
 import AcMilan from '../../components/league/teams/AcMilan';
 import Arsenal from '../../components/league/teams/Arsenal';
@@ -16,7 +15,6 @@ export const initialTeams = [
 	{ id: 'Barcelona', name: <Barcelona />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Celtic', name: <Celtic />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Real-Madrid', name: <RealMadrid />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'Start', name: <Start />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'MU', name: <ManchesterUnited />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'CSKA', name: <CSKA />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Milan', name: <AcMilan />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
@@ -225,20 +223,6 @@ export const matchResults = [
 		scoreTwo: 3
 	},
 	{
-		id: '1743175941139',
-		teamOne: 'Start',
-		scoreOne: 0,
-		teamTwo: 'Zenit',
-		scoreTwo: 3
-	},
-	{
-		id: '1743175946624',
-		teamOne: 'Zenit',
-		scoreOne: 3,
-		teamTwo: 'Start',
-		scoreTwo: 0
-	},
-	{
 		id: '1743188141142',
 		teamOne: 'Celtic',
 		scoreOne: 1,
@@ -420,4 +404,28 @@ export const matchResults = [
 		teamTwo: 'Milan',
 		scoreTwo: 4
 	},
+	{
+		id: '63474673',
+		teamOne: 'Milan',
+		scoreOne: 1,
+		teamTwo: 'CSKA',
+		scoreTwo: 4
+	},
+	{
+		id: '2345272',
+		teamOne: 'CSKA',
+		scoreOne: 12,
+		teamTwo: 'Milan',
+		scoreTwo: 1
+	},
+	{ id: '3', teamOne: 'CSKA', scoreOne: 4, teamTwo: 'Real-Madrid', scoreTwo: 3 },
+	{ id: '4', teamOne: 'Real-Madrid', scoreOne: 2, teamTwo: 'CSKA', scoreTwo: 1 },
+	{ id: '5', teamOne: 'Milan', scoreOne: 4, teamTwo: 'Real-Madrid', scoreTwo: 2 },
+	{ id: '6', teamOne: 'Real-Madrid', scoreOne: 4, teamTwo: 'Milan', scoreTwo: 1 },
+	{ id: '7', teamOne: 'CSKA', scoreOne: 4, teamTwo: 'Barcelona', scoreTwo: 1 },
+	{ id: '8', teamOne: 'Barcelona', scoreOne: 3, teamTwo: 'CSKA', scoreTwo: 2 },
+	{ id: '9', teamOne: 'CSKA', scoreOne: 4, teamTwo: 'MU', scoreTwo: 3 },
+	{ id: '10', teamOne: 'MU', scoreOne: 0, teamTwo: 'CSKA', scoreTwo: 5 },
+	{ id: '3', teamOne: 'Zenit', scoreOne: 3, teamTwo: 'Real-Madrid', scoreTwo: 0 },
+	{ id: '4', teamOne: 'Real-Madrid', scoreOne: 0, teamTwo: 'Zenit', scoreTwo: 3 }
 ]
