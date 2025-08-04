@@ -1,24 +1,29 @@
 import React from 'react';
 import Square from '../../../../../components/league/square/Square';
+import Germany from '../../../../../components/league/national-teams/Germany';
+import France from '../../../../../components/league/national-teams/France'
+import Brazil from '../../../../../components/league/national-teams/Brazil'
+import Italy from '../../../../../components/league/national-teams/Italy'
+import England from '../../../../../components/league/national-teams/England'
+import Uruguay from '../../../../../components/league/national-teams/Uruguay'
 
-
-const ChampionsLeaguePlayOffs = () => {
+const WorldCupPlayOffs = () => {
 	return (
 		<div className='py-16 darkblue'>
-			<div className='flex flex-col gap-10'>
+			<div className='flex flex-col gap-10 mt-9'>
 				<h2 className='text-center'>Play Offs: Semi-Finals 1/2</h2>
 				<div className='flex gap-14 justify-center'>
 					<Square
-						teamOne={'1 place'}
-						teamTwo={'4 place'}
+						teamOne={'place 1'}
+						teamTwo={'place 4'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={'2 place'}
-						teamTwo={'3 place'}
+						teamOne={'place 2'}
+						teamTwo={'place 3'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
@@ -43,4 +48,4 @@ const ChampionsLeaguePlayOffs = () => {
 	);
 }
 
-export default ChampionsLeaguePlayOffs;
+export default WorldCupPlayOffs;

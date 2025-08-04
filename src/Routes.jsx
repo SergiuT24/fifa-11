@@ -18,6 +18,7 @@ import TournamentsSeasonOne2x2 from './pages/tournaments/2x2/TournamentsSeasonOn
 import TournamentsSeasonTwo2x2 from './pages/tournaments/2x2/TournamentsSeasonTwo2x2';
 import TournamentsSeasonTree2x2 from './pages/tournaments/2x2/TournamentsSeasonTree2x2';
 import TournamentsSeasonFour2x2 from './pages/tournaments/2x2/TournamentsSeasonFour2x2';
+import TournamentsSeasonFive2x2 from './pages/tournaments/2x2/TournamentsSeasonFive2x2';
 import TournamentsSeasonOne3x3 from './pages/tournaments/3x3/TournamentsSeasonOne3x3';
 import BestPlayers from './pages/BestPlayers';
 import Archive from './pages/Archive';
@@ -51,12 +52,13 @@ function AppRoutes() {
 			<Route path="/home" element={<Home />} />
 			<Route path="/draft/season1" element={<DraftSeasonOne />} />
 			<Route path="/tournaments/1x1" element={<TournamentsSeason121x1 />} />
-			<Route path="/tournaments/2x2" element={<TournamentsSeasonFour2x2 />} />
+			<Route path="/tournaments/2x2" element={<TournamentsSeasonFive2x2 />} />
 			<Route path="/tournaments/3x3" element={<TournamentsSeasonOne3x3 />} />
 			<Route path='/archive' element={<Archive />} />
 			<Route path='/archive/tournament/2x2/season/1' element={<TournamentsSeasonOne2x2 />} />
 			<Route path='/archive/tournament/2x2/season/2' element={<TournamentsSeasonTwo2x2 />} />
 			<Route path='/archive/tournament/2x2/season/3' element={<TournamentsSeasonTree2x2 />} />
+			<Route path='/archive/tournament/2x2/season/4' element={<TournamentsSeasonFour2x2 />} />
 			<Route path='/archive/tournament/1x1/season/1' element={<TournamentsSeasonOne1x1 />} />
 			<Route path='/archive/tournament/1x1/season/2' element={<TournamentsSeasonTwo1x1 />} />
 			<Route path='/archive/tournament/1x1/season/3' element={<TournamentsSeasonTree1x1 />} />
