@@ -5,7 +5,7 @@ import France from '../../../../../components/league/national-teams/France'
 import Brazil from '../../../../../components/league/national-teams/Brazil'
 import Italy from '../../../../../components/league/national-teams/Italy'
 import England from '../../../../../components/league/national-teams/England'
-import Uruguay from '../../../../../components/league/national-teams/Uruguay'
+import Argentina from '../../../../../components/league/national-teams/Argentina'
 
 const WorldCupPlayOffs = () => {
 	return (
@@ -14,16 +14,16 @@ const WorldCupPlayOffs = () => {
 				<h2 className='text-center'>Play Offs: Semi-Finals 1/2</h2>
 				<div className='flex gap-14 justify-center'>
 					<Square
-						teamOne={'place 1'}
-						teamTwo={'place 4'}
+						teamOne={<Argentina />}
+						teamTwo={<France />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={'place 2'}
-						teamTwo={'place 3'}
+						teamOne={<Italy />}
+						teamTwo={<Brazil />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
