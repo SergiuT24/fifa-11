@@ -30,6 +30,10 @@ import { initialTeams as initialTeamsUCL121x1, additionalTeams as additionalTeam
 import { initialTeams as initialTeamsEurope121x1, additionalTeams as additionalTeamsEuropeSeason121x1, matchResults as matchResultsEuropeSeason121x1 } from '../../../data/season121x1/EuropeTableResults.jsx';
 
 
+// Season 13 1x1
+// Season 12 1x1
+import { initialTeams as initialTeams131x1, additionalTeams as additionalTeamsSeason131x1, matchResults as matchResultsSeason131x1 } from '../../../data/season131x1/ProLeagueTableResults.jsx';
+
 // Season 7 1x1
 
 const SeasonSeven1x1 = () => (
@@ -235,6 +239,18 @@ const Europe121x1 = () => (
 	/>
 );
 
+// Season 13 1x1
+const Season131x1 = () => (
+	<LeagueTableVersion3
+		initialTeams={initialTeams131x1}
+		additionalTeams={additionalTeamsSeason131x1}
+		matchResults={matchResultsSeason131x1}
+		seasonTitle="Season 13 (1x1) "
+		divisionNameOne={'Pro League'}
+		divisionNameTwo={'Middle League'}
+	/>
+);
+
 // ========================================================================================
 
 
@@ -257,4 +273,5 @@ export {
 	Season121x1,
 	UCL121x1,
 	Europe121x1,
+	Season131x1,
 };

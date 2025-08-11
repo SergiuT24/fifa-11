@@ -89,6 +89,11 @@ const Archive = () => {
 							<MenuLink to={'/archive/tournament/1x1/season/11'} value={'Tournament 1x1 Season 11'} />
 							<p>Date: - Start: no-date </p>
 						</li>
+						<li className='flex items-center gap-9'>
+							<p>11.</p>
+							<MenuLink to={'/archive/tournament/1x1/season/12'} value={'Tournament 1x1 Season 12'} />
+							<p>Date: - Start: no-date </p>
+						</li>
 					</ul>
 				</div>
 			</div>
