@@ -8,6 +8,7 @@ import Stuttgart from '../../components/league/4star-teams/Stuttgart';
 import Villarreal from '../../components/league/4star-teams/Villarreal';
 import Zenit from '../../components/league/4star-teams/Zenit';
 import PSV from '../../components/league/4star-teams/Psv';
+import Lazio from '../../components/league/4star-teams/Lazio';
 
 
 export const initialTeams = [
@@ -21,6 +22,7 @@ export const initialTeams = [
 	{ id: 'Villarreal', name: <Villarreal />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Zenit', name: <Zenit />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'PSV', name: <PSV />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Lazio', name: <Lazio />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
 export const additionalTeams = [
@@ -78,5 +80,30 @@ export const matchResults = [
 	{ id: '50', teamOne: 'PSV', scoreOne: 5, teamTwo: 'Zenit', scoreTwo: 6 },
 	{ id: '51', teamOne: 'Sporting', scoreOne: 2, teamTwo: 'Villarreal', scoreTwo: 0 },
 	{ id: '52', teamOne: 'Villarreal', scoreOne: 2, teamTwo: 'Sporting', scoreTwo: 3 },
-
+	{ id: '53', teamOne: 'Sporting', scoreOne: 1, teamTwo: 'Stuttgart', scoreTwo: 1 },
+	{ id: '54', teamOne: 'Stuttgart', scoreOne: 3, teamTwo: 'Sporting', scoreTwo: 1 },
+	{ id: '55', teamOne: 'Everton', scoreOne: 1, teamTwo: 'Stuttgart', scoreTwo: 1 },
+	{ id: '56', teamOne: 'Stuttgart', scoreOne: 1, teamTwo: 'Everton', scoreTwo: 2 },
+	{ id: '57', teamOne: 'Stuttgart', scoreOne: 1, teamTwo: 'PSV', scoreTwo: 3 },
+	{ id: '58', teamOne: 'PSV', scoreOne: 2, teamTwo: 'Stuttgart', scoreTwo: 1 },
+	{ id: '59', teamOne: 'Zenit', scoreOne: 2, teamTwo: 'Stuttgart', scoreTwo: 2 },
+	{ id: '60', teamOne: 'Stuttgart', scoreOne: 1, teamTwo: 'Zenit', scoreTwo: 1 },
+	{ id: '61', teamOne: 'Sporting', scoreOne: 2, teamTwo: 'Genoa', scoreTwo: 3 },
+	{ id: '62', teamOne: 'Genoa', scoreOne: 2, teamTwo: 'Sporting', scoreTwo: 4 },
+	{ id: '63', teamOne: 'Sporting', scoreOne: 2, teamTwo: 'Genoa', scoreTwo: 3 },
+	{ id: '64', teamOne: 'Genoa', scoreOne: 2, teamTwo: 'Sporting', scoreTwo: 4 },
+	{ id: '65', teamOne: 'Genoa', scoreOne: 1, teamTwo: 'Stuttgart', scoreTwo: 3 },
+	{ id: '66', teamOne: 'Stuttgart', scoreOne: 2, teamTwo: 'Genoa', scoreTwo: 1 },
+	{ id: '67', teamOne: 'Everton', scoreOne: 4, teamTwo: 'Leverkusen', scoreTwo: 6 },
+	{ id: '68', teamOne: 'Leverkusen', scoreOne: 4, teamTwo: 'Everton', scoreTwo: 3 },
+	{ id: '69', teamOne: 'Sporting', scoreOne: 1, teamTwo: 'Zenit', scoreTwo: 1 },
+	{ id: '70', teamOne: 'Zenit', scoreOne: 6, teamTwo: 'Sporting', scoreTwo: 0 },
+	{ id: '71', teamOne: 'Stuttgart', scoreOne: 1, teamTwo: 'Leverkusen', scoreTwo: 6 },
+	{ id: '72', teamOne: 'Leverkusen', scoreOne: 2, teamTwo: 'Stuttgart', scoreTwo: 2 },
+	{ id: '73', teamOne: 'Zenit', scoreOne: 0, teamTwo: 'Genoa', scoreTwo: 3 },
+	{ id: '74', teamOne: 'Genoa', scoreOne: 1, teamTwo: 'Zenit', scoreTwo: 4 },
+	{ id: '75', teamOne: 'Genoa', scoreOne: 1, teamTwo: 'Schalke', scoreTwo: 4 },
+	{ id: '76', teamOne: 'Schalke', scoreOne: 3, teamTwo: 'Genoa', scoreTwo: 2 },
+	{ id: '77', teamOne: 'PSV', scoreOne: 1, teamTwo: 'Lazio', scoreTwo: 1 },
+	{ id: '78', teamOne: 'Lazio', scoreOne: 2, teamTwo: 'PSV', scoreTwo: 2 },
 ]

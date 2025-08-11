@@ -10,6 +10,7 @@ import Stuttgart from '../../../../components/league/4star-teams/Stuttgart';
 import Villarreal from '../../../../components/league/4star-teams/Villarreal';
 import Zenit from '../../../../components/league/4star-teams/Zenit';
 import PSV from '../../../../components/league/4star-teams/Psv';
+import Lazio from '../../../../components/league/4star-teams/Lazio';
 
 
 const SquadsForSeason = () => {
@@ -65,6 +66,11 @@ const SquadsForSeason = () => {
 				playerOne={'Anna'}
 				imgOne={'/img/players/anna.png'}
 				club={<Everton />} />
+			<PlayersTeam
+				team={'TEAM 11'}
+				playerOne={'Rayon-13'}
+				imgOne={'/img/players/rayon13.png'}
+				club={<Lazio />} />
 		</div>
 	);
 }
