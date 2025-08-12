@@ -114,5 +114,8 @@ export const matchResults = [
 { id: '84', teamOne: 'Leverkusen', scoreOne: 2, teamTwo: 'Sporting', scoreTwo: 2 },
 { id: '85', teamOne: 'Zenit', scoreOne: 8, teamTwo: 'Lazio', scoreTwo: 1 },
 { id: '86', teamOne: 'Lazio', scoreOne: 0, teamTwo: 'Zenit', scoreTwo: 9 },
-
+{ id: '87', teamOne: 'Everton', scoreOne: 7, teamTwo: 'Lazio', scoreTwo: 3 },
+{ id: '88', teamOne: 'Lazio', scoreOne: 0, teamTwo: 'Everton', scoreTwo: 9 },
+{ id: '89', teamOne: 'PSV', scoreOne: 3, teamTwo: 'Leverkusen', scoreTwo: 2 },
+{ id: '90', teamOne: 'Leverkusen', scoreOne: 3, teamTwo: 'PSV', scoreTwo: 2 },
 ]
