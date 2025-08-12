@@ -27,7 +27,7 @@ const KingsCupMain = () => {
 				leagueCount={`1x1 > King's Cup`}
 				logo={'/img/league/kings-cup1x1.png'}
 				name={`King's Cup`}
-				season={'Season 7'}
+				season={'Season 13'}
 				cupImg={'/img/trophy/kings-cup.png'}
 			/>
 			<LeagueButtons selectedButton={selectedButton} setSelectedButton={setSelectedButton} />

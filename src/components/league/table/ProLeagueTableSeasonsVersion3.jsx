@@ -31,8 +31,8 @@ import { initialTeams as initialTeamsEurope121x1, additionalTeams as additionalT
 
 
 // Season 13 1x1
-// Season 12 1x1
 import { initialTeams as initialTeams131x1, additionalTeams as additionalTeamsSeason131x1, matchResults as matchResultsSeason131x1 } from '../../../data/season131x1/ProLeagueTableResults.jsx';
+import { initialTeams as initialTeamsUCL131x1, additionalTeams as additionalTeamsUCLSeason131x1, matchResults as matchResultsUCLSeason131x1 } from '../../../data/season131x1/UCLTableResult.jsx';
 
 // Season 7 1x1
 
@@ -251,6 +251,17 @@ const Season131x1 = () => (
 	/>
 );
 
+const UCL131x1 = () => (
+	<LeagueTableVersion3
+		initialTeams={initialTeamsUCL131x1}
+		additionalTeams={additionalTeamsUCLSeason131x1}
+		matchResults={matchResultsUCLSeason131x1}
+		seasonTitle="Group Stage "
+		divisionNameOne={'Group A'}
+		divisionNameTwo={'Group B'}
+	/>
+);
+
 // ========================================================================================
 
 
@@ -274,4 +285,5 @@ export {
 	UCL121x1,
 	Europe121x1,
 	Season131x1,
+	UCL131x1
 };
