@@ -1,7 +1,7 @@
 import React from 'react';
 import Square from '../../../../../components/league/square/Square';
 import Sampdoria from '../../../../../components/league/4star-teams/Sampdoria';
-import PSV from '../../../../../components/league/4star-teams/PSV';
+import PSV from '../../../../../components/league/4star-teams/Psv';
 import Fiorentina from '../../../../../components/league/4star-teams/Fiorentina';
 import Fiorentina from '../../../../../components/league/4star-teams/Fiorentina';
 
