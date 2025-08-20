@@ -6,7 +6,7 @@ import { EuropeSeven1x1 } from '../../../../../components/league/table/ProLeague
 const EuropeLeagueSummary = () => {
 	return (
 		<div className='flex flex-col gap-24'>
-			<EuropeSeven1x1 />
+{/* 			<EuropeSeven1x1 /> */}
 			<EuropeLeaguePlayOffs />
 		</div>
 	);
