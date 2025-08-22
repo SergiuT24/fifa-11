@@ -57,4 +57,6 @@ export const matchResults = [
 	{ id: '138', teamOne: 'Bilbao', scoreOne: 3, teamTwo: 'CSKA', scoreTwo: 5 },
 	{ id: '138', teamOne: 'Werder', scoreOne: 3, teamTwo: 'Bilbao', scoreTwo: 1 },
 	{ id: '138', teamOne: 'Bilbao', scoreOne: 5, teamTwo: 'Werder', scoreTwo: 2 },
+	{ id: '138', teamOne: 'Werder', scoreOne: 1, teamTwo: 'PSV', scoreTwo: 2 },
+	{ id: '138', teamOne: 'PSV', scoreOne: 1, teamTwo: 'Werder', scoreTwo: 5 },
 ]
