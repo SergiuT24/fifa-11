@@ -55,10 +55,10 @@ const KingsCupPlayOffs = () => {
 					<Square
 						teamOne={<Schalke />}
 						teamTwo={<Villarreal />}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						scoreFirstTeamOne={2}
+						scoreSecondTeamOne={1}
+						scoreFirstTeamTwo={10}
+						scoreSecondTeamTwo={0}
 					/>
 					<Square
 						teamOne={<Sporting />}
@@ -111,12 +111,12 @@ const KingsCupPlayOffs = () => {
 					</div>
 					<div className='mt-48'>
 						<Square
-							teamOne={'empty'}
+							teamOne={<Schalke />}
 							teamTwo={<Sporting />}
-							scoreFirstTeamOne={'?'}
-							scoreSecondTeamOne={'?'}
-							scoreFirstTeamTwo={'?'}
-							scoreSecondTeamTwo={'?'}
+							scoreFirstTeamOne={3}
+							scoreSecondTeamOne={0}
+							scoreFirstTeamTwo={3}
+							scoreSecondTeamTwo={0}
 						/>
 					</div>
 					<div className='mt-48'>
@@ -138,22 +138,22 @@ const KingsCupPlayOffs = () => {
 				<div className='flex flex-col pt-20 justify-center'>
 					<div className='mt-36'>
 						<Square
-							teamOne={<Everton/>}
-							teamTwo={'empty'}
-							scoreFirstTeamOne={'?'}
-							scoreSecondTeamOne={'?'}
-							scoreFirstTeamTwo={'?'}
-							scoreSecondTeamTwo={'?'}
+							teamOne={<Everton />}
+							teamTwo={<Zenit />}
+							scoreFirstTeamOne={0}
+							scoreSecondTeamOne={3}
+							scoreFirstTeamTwo={0}
+							scoreSecondTeamTwo={3}
 						/>
 					</div>
 					<div className='mt-96 pt-16'>
 						<Square
-							teamOne={'empty'}
+							teamOne={<Schalke />}
 							teamTwo={<PSV />}
-							scoreFirstTeamOne={'?'}
-							scoreSecondTeamOne={'?'}
-							scoreFirstTeamTwo={'?'}
-							scoreSecondTeamTwo={'?'}
+							scoreFirstTeamOne={3}
+							scoreSecondTeamOne={1}
+							scoreFirstTeamTwo={1}
+							scoreSecondTeamTwo={2}
 						/>
 					</div>
 				</div>
@@ -165,12 +165,12 @@ const KingsCupPlayOffs = () => {
 				<div className='flex flex-col pt-20 justify-center'>
 					<div className='mt-96 pt-6'>
 						<Square
-							teamOne={'empty'}
-							teamTwo={'empty'}
-							scoreFirstTeamOne={'?'}
-							scoreSecondTeamOne={'?'}
-							scoreFirstTeamTwo={'?'}
-							scoreSecondTeamTwo={'?'}
+							teamOne={<Zenit />}
+							teamTwo={<Schalke />}
+							scoreFirstTeamOne={2}
+							scoreSecondTeamOne={2}
+							scoreFirstTeamTwo={0}
+							scoreSecondTeamTwo={1}
 						/>
 					</div>
 				</div>

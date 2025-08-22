@@ -1,21 +1,17 @@
 import Everton from '../../components/league/4star-teams/Everton';
-import Genoa from '../../components/league/4star-teams/Genoa';
 import Leverkusen from '../../components/league/4star-teams/Leverkusen';
 import Sampdoria from '../../components/league/4star-teams/Sampdoria';
 import Schalke from '../../components/league/4star-teams/Schalke';
 import Sporting from '../../components/league/4star-teams/Sporting';
 import Stuttgart from '../../components/league/4star-teams/Stuttgart';
-import Villarreal from '../../components/league/4star-teams/Villarreal';
 import Zenit from '../../components/league/4star-teams/Zenit';
 import PSV from '../../components/league/4star-teams/Psv';
-import Lazio from '../../components/league/4star-teams/Lazio';
 
 export const initialTeams = [
 	{ id: 'Leverkusen', name: <Leverkusen />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Zenit', name: <Zenit />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Everton', name: <Everton />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Stuttgart', name: <Stuttgart />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-
 ];
 
 export const additionalTeams = [
@@ -40,7 +36,7 @@ export const matchResults = [
 	{ id: '116', teamOne: 'PSV', scoreOne: 3, teamTwo: 'Sporting', scoreTwo: 7 },
 	{ id: '117', teamOne: 'Sporting', scoreOne: 4, teamTwo: 'Sampdoria', scoreTwo: 3 },
 	{ id: '118', teamOne: 'Sampdoria', scoreOne: 2, teamTwo: 'Sporting', scoreTwo: 3 },
-{ id: '113', teamOne: 'Zenit', scoreOne: 1, teamTwo: 'Stuttgart', scoreTwo: 5 },
+	{ id: '113', teamOne: 'Zenit', scoreOne: 1, teamTwo: 'Stuttgart', scoreTwo: 5 },
 	{ id: '114', teamOne: 'Stuttgart', scoreOne: 2, teamTwo: 'Zenit', scoreTwo: 1 },
 	{ id: '114', teamOne: 'Stuttgart', scoreOne: 5, teamTwo: 'Leverkusen', scoreTwo: 2 },
 	{ id: '114', teamOne: 'Leverkusen', scoreOne: 4, teamTwo: 'Stuttgart', scoreTwo: 1 },
@@ -49,7 +45,7 @@ export const matchResults = [
 	{ id: '113', teamOne: 'Leverkusen', scoreOne: 3, teamTwo: 'Everton', scoreTwo: 5 },
 	{ id: '114', teamOne: 'Everton', scoreOne: 2, teamTwo: 'Leverkusen', scoreTwo: 4 },
 	{ id: '114', teamOne: 'Zenit', scoreOne: 1, teamTwo: 'Everton', scoreTwo: 3 },
-	
+	{ id: '114', teamOne: 'Everton', scoreOne: 6, teamTwo: 'Zenit', scoreTwo: 1 },
 ];
 
 
