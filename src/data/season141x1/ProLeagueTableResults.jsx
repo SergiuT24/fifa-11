@@ -159,4 +159,10 @@ export const matchResults = [
 	{ id: '138', teamOne: 'Getafe', scoreOne: 2, teamTwo: 'CSKA', scoreTwo: 3 },
 	{ id: '199', teamOne: 'Fulham', teamTwo: 'Fiorentina', scoreOne: 3, scoreTwo: 4 },
 	{ id: '200', teamOne: 'Fiorentina', teamTwo: 'Fulham', scoreOne: 1, scoreTwo: 7 },
+	{ id: '191', teamOne: 'Bilbao', teamTwo: 'Lazio', scoreOne: 2, scoreTwo: 2 },
+	{ id: '192', teamOne: 'Lazio', teamTwo: 'Bilbao', scoreOne: 6, scoreTwo: 1 },
+	{ id: '160', teamOne: 'Dortmund', teamTwo: 'CSKA', scoreOne: 3, scoreTwo: 0 },
+	{ id: '160', teamOne: 'CSKA', teamTwo: 'Dortmund', scoreOne: 2, scoreTwo: 1 },
+	{ id: '160', teamOne: 'CSKA', teamTwo: 'Lazio', scoreOne: 6, scoreTwo: 2 },
+	{ id: '160', teamOne: 'Lazio', teamTwo: 'CSKA', scoreOne: 5, scoreTwo: 6 },
 ]
