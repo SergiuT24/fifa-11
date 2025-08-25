@@ -27,7 +27,7 @@ const TournamentsSeason141x1 = () => {
 
 	return (
 		<div className='flex-1 justify-center items-center'>
-			<div className='flex'>
+			<div className='flex justify-between'>
 				<div>
 					<SidebarDivisions selectedLeague={selectedLeague} setSelectedLeague={setSelectedLeague} />
 					<TeamsForRandom />

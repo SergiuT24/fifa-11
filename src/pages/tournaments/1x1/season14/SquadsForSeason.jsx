@@ -9,7 +9,7 @@ import Bilbao from '../../../../components/league/4star-teams/Bilbao';
 import Wolfsburg from '../../../../components/league/4star-teams/Wolfsburg';
 import Getafe from '../../../../components/league/4star-teams/Getafe';
 import OM from '../../../../components/league/4star-teams/OM';
-import Fenerbahce from '../../../../components/league/4star-teams/Fenerbahce';
+import Lazio from '../../../../components/league/4star-teams/Lazio';
 import Dortmund from '../../../../components/league/4star-teams/Dortmund';
 import Fiorentina from '../../../../components/league/4star-teams/Fiorentina';
 import FulHam from '../../../../components/league/4star-teams/FulHam';
@@ -44,9 +44,9 @@ const SquadsForSeason = () => {
 				club={<Getafe />} />
 			<PlayersTeam
 				team={'TEAM 6'}
-				playerOne={'Drogba'}
-				imgOne={'/img/players/d-drogba.png'}
-				club={<Fenerbahce />} />
+				playerOne={'DAG'}
+				imgOne={'/img/players/dagestan.png'}
+				club={<Lazio />} />
 			<PlayersTeam
 				team={'TEAM 7'}
 				playerOne={'Berserk'}
@@ -69,8 +69,8 @@ const SquadsForSeason = () => {
 				club={<FulHam />} />
 			<PlayersTeam
 				team={'TEAM 11'}
-				playerOne={'Rayon-13'}
-				imgOne={'/img/players/rayon13.png'}
+				playerOne={'A.Wenger'}
+				imgOne={'/img/players/wenger.png'}
 				club={<Wolfsburg />} />
 			<PlayersTeam
 				team={'TEAM 12'}

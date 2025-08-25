@@ -6,7 +6,7 @@ const LoseButton = ({ title }) => {
 	return (
 		<div className='relative inline-block'>
 			<button
-				className='w-5 h-5 rounded-md bg-custom-red'
+				className='w-[18px] h-5 rounded-md bg-custom-red'
 				onMouseEnter={() => setShowTooltip(true)}
 				onMouseLeave={() => setShowTooltip(false)}
 			>
