@@ -8,7 +8,6 @@ import OM from '../../components/league/4star-teams/OM';
 import Lazio from '../../components/league/4star-teams/Lazio';
 import Dortmund from '../../components/league/4star-teams/Dortmund';
 import Fiorentina from '../../components/league/4star-teams/Fiorentina';
-import FulHam from '../../components/league/4star-teams/FulHam';
 
 
 export const initialTeams = [
@@ -22,7 +21,6 @@ export const initialTeams = [
 	{ id: 'Lazio', name: <Lazio />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Dortmund', name: <Dortmund />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Fiorentina', name: <Fiorentina />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'Fulham', name: <FulHam />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
 export const additionalTeams = [
