@@ -8,7 +8,7 @@
 // 		"November 17/11/2024 New Rules": [
 // 			"1. Запрещено использовать сайдлайны (баг фифы, гол в ворота который позволяет спомощью крученного навеса забивать голы с крайне дальнего расстояния, как правило используется около боковых линий и ему предшествует разворот корпуса бьющего игрока). ❗Такой гол отменяется и не входит в итоговый счёт! (переигрывать не надо!)",
 // 			"2. Запрещено умышленно затягивать время, под затягиванием времени подразумевается перепасовка или удержание мяча на своей половине поля более 5-ти игровых минут подряд. Также если на 2/3 поля игрок затягивает время длительное время 10 минут игровых давая пасы низом с фланга на фланг и потом пасы назад защитникам тоже считается как затягивания времени. (нарушение переигровка)",
-// 			"3. Запрещено использование СВОИХ СХЕМ, УКАЗАНИЙ ИГРОКОВ, ДОМАШНИХ ЗАГОТОВОК ПРИ УГЛОВЫХ! Играем стандартными схемами, что есть в игре. За нарушение снятие всех очков и переигровка!",
+// 			"3. Запрещено использование СВОИХ СХЕМ, УКАЗАНИЙ ИГРОКОВ, ДОМАШНИХ ЗАГОТОВОК ПРИ УГЛОВЫХ! Играем стандартными схемами, что есть в игре. За нарушение снятие всех очков!",
 // 			"4. Запрещено менять что-то в моя тактика‚ можно только выбирать контратака, мощный прессинг, владение мячом, длинный пас, а лезть в одну из этих тактик и вручную что-то менять КАТЕГОРИЧЕСКИ ЗАПРЕЩЕНО!!!!!!",
 // 			"5. В каждом матче капитан команды делает скриншот схемы и тактики, должен быть виден кружок и соперник, в случае если таких фото нету, (переигровка) пример:",
 // 			<div className='flex gap-40'>
@@ -138,7 +138,7 @@ const Rules = () => {
 			ru: [
 				"1. Запрещено использовать сайдлайны (баг фифы, гол в ворота который позволяет спомощью крученного навеса забивать голы с крайне дальнего расстояния, как правило используется около боковых линий и ему предшествует разворот корпуса бьющего игрока). ❗Такой гол отменяется и не входит в итоговый счёт! (переигрывать не надо!)",
 				"2. Запрещено умышленно затягивать время, под затягиванием времени подразумевается перепасовка или удержание мяча на своей половине поля более 5-ти игровых минут подряд. Также если на 2/3 поля игрок затягивает время длительное время 10 минут игровых давая пасы низом с фланга на фланг и потом пасы назад защитникам тоже считается как затягивания времени. (нарушение переигровка)",
-				"3. Запрещено использование СВОИХ СХЕМ, УКАЗАНИЙ ИГРОКОВ, ДОМАШНИХ ЗАГОТОВОК ПРИ УГЛОВЫХ! Играем стандартными схемами, что есть в игре. За нарушение снятие всех очков и переигровка!",
+				"3. Запрещено использование СВОИХ СХЕМ, УКАЗАНИЙ ИГРОКОВ, ДОМАШНИХ ЗАГОТОВОК ПРИ УГЛОВЫХ! Играем стандартными схемами, что есть в игре. За нарушение снятие всех очков!",
 				"4. Запрещено менять что-то в моя тактика‚ можно только выбирать контратака, мощный прессинг, владение мячом, длинный пас, а лезть в одну из этих тактик и вручную что-то менять КАТЕГОРИЧЕСКИ ЗАПРЕЩЕНО!!!!!!",
 				"5. В каждом матче капитан команды делает скриншот схемы и тактики, должен быть виден кружок и соперник, в случае если таких фото нету, (переигровка) пример:",
 				<div className='flex gap-40'>
@@ -148,7 +148,7 @@ const Rules = () => {
 			],
 			en: ["1. Using sideline techniques (a FIFA bug, a goal that allows scoring from a very long distance with a curled cross, typically used near the sidelines and preceded by the shooter turning their body) is prohibited. ❗Such a goal is canceled and does not count in the final score! (No need to replay!)",
 				"2. Time-wasting is prohibited. Time-wasting is defined as excessive passing or holding the ball in your own half for more than 5 minutes of game time. Also, if a player spends a prolonged period of time (10 minutes of game time) passing the ball back and forth from flank to flank and then back to defenders in 2/3 of the field, it will also be considered time-wasting. (Violation will result in a replay.)",
-				"3. Using YOUR OWN FORMATIONS, PLAYER INSTRUCTIONS, or HOME PRESETS for CORNERS is prohibited! We play using standard formations as available in the game. Violation results in disqualification of all points and a replay!",
+				"3. Using YOUR OWN FORMATIONS, PLAYER INSTRUCTIONS, or HOME PRESETS for CORNERS is prohibited! We play using standard formations as available in the game. Violation results in disqualification of all points!",
 				"4. Changing anything in 'My Tactics' is prohibited, only counter-attacks, high pressing, possession, and long passes can be selected. Manually modifying any of these tactics is STRICTLY PROHIBITED!!!!",
 				"5. In every match, the team captain must take a screenshot of the formation and tactics, showing the circle and the opponent. If such screenshots are missing, a replay is required. Example:",
 				<div className='flex gap-40'>
