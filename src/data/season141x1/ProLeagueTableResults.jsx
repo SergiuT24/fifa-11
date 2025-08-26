@@ -1,8 +1,6 @@
-import Villarreal from '../../components/league/4star-teams/Villarreal';
 import CSKA from '../../components/league/4star-teams/Cska';
 import Werder from '../../components/league/4star-teams/Werder';
 import Galatasaray from '../../components/league/4star-teams/Galatasaray';
-import PSV from '../../components/league/4star-teams/Psv';
 import Bilbao from '../../components/league/4star-teams/Bilbao';
 import Wolfsburg from '../../components/league/4star-teams/Wolfsburg';
 import Getafe from '../../components/league/4star-teams/Getafe';
@@ -14,11 +12,9 @@ import FulHam from '../../components/league/4star-teams/FulHam';
 
 
 export const initialTeams = [
-	{ id: 'Villarreal', name: <Villarreal />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'CSKA', name: <CSKA />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Werder', name: <Werder />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Galatasaray', name: <Galatasaray />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'PSV', name: <PSV />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Bilbao', name: <Bilbao />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Wolfsburg', name: <Wolfsburg />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Getafe', name: <Getafe />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
@@ -112,16 +108,12 @@ export const matchResults = [
 	{ id: '160', teamOne: 'Galatasaray', teamTwo: 'Bilbao', scoreOne: 3, scoreTwo: 0 },
 	{ id: '160', teamOne: 'Galatasaray', teamTwo: 'CSKA', scoreOne: 3, scoreTwo: 1 },
 	{ id: '160', teamOne: 'CSKA', teamTwo: 'Galatasaray', scoreOne: 5, scoreTwo: 2 },
-
-{ id: '128', teamOne: 'Fulham', scoreOne: 0, teamTwo: 'Villarreal', scoreTwo: 3 },
 { id: '131', teamOne: 'Fulham', scoreOne: 0, teamTwo: 'OM', scoreTwo: 3 },
 { id: '132', teamOne: 'OM', scoreOne: 3, teamTwo: 'Fulham', scoreTwo: 0 },
 { id: '133', teamOne: 'Werder', scoreOne: 3, teamTwo: 'Fulham', scoreTwo: 0 },
 { id: '134', teamOne: 'Fulham', scoreOne: 0, teamTwo: 'Werder', scoreTwo: 3 },
 { id: '138', teamOne: 'Fulham', scoreOne: 0, teamTwo: 'CSKA', scoreTwo: 3 },
 { id: '138', teamOne: 'CSKA', scoreOne: 3, teamTwo: 'Fulham', scoreTwo: 0 },
-{ id: '138', teamOne: 'Fulham', scoreOne: 0, teamTwo: 'PSV', scoreTwo: 3 },
-{ id: '138', teamOne: 'PSV', scoreOne: 3, teamTwo: 'Fulham', scoreTwo: 0 },
 { id: '138', teamOne: 'Fulham', scoreOne: 0, teamTwo: 'Galatasaray', scoreTwo: 3 },
 { id: '138', teamOne: 'Galatasaray', scoreOne: 3, teamTwo: 'Fulham', scoreTwo: 0 },
 { id: '138', teamOne: 'Fulham', scoreOne: 0, teamTwo: 'Getafe', scoreTwo: 3 },
@@ -140,44 +132,4 @@ export const matchResults = [
 { id: '200', teamOne: 'OM', teamTwo: 'Galatasaray', scoreOne: 3, scoreTwo: 2 },
 { id: '158', teamOne: 'Wolfsburg', scoreOne: 0, teamTwo: 'Lazio', scoreTwo: 5 },
 { id: '157', teamOne: 'Lazio', scoreOne: 6, teamTwo: 'Wolfsburg', scoreTwo: 1 },
-	{ id: '120', teamOne: 'CSKA', scoreOne: 10, teamTwo: 'PSV', scoreTwo: 0 },
-{ id: '121', teamOne: 'Villarreal', scoreOne: 0, teamTwo: 'Wolfsburg', scoreTwo: 3 },
-{ id: '122', teamOne: 'Wolfsburg', scoreOne: 3, teamTwo: 'Villarreal', scoreTwo: 0 },
-{ id: '125', teamOne: 'CSKA', scoreOne: 5, teamTwo: 'Villarreal', scoreTwo: 0 },
-{ id: '126', teamOne: 'Villarreal', scoreOne: 0, teamTwo: 'CSKA', scoreTwo: 3 },
-{ id: '129', teamOne: 'Villarreal', scoreOne: 0, teamTwo: 'Werder', scoreTwo: 3 },
-{ id: '130', teamOne: 'Werder', scoreOne: 3, teamTwo: 'Villarreal', scoreTwo: 0 },
-{ id: '135', teamOne: 'Villarreal', scoreOne: 0, teamTwo: 'Fiorentina', scoreTwo: 3 },
-{ id: '136', teamOne: 'Fiorentina', scoreOne: 3, teamTwo: 'Villarreal', scoreTwo: 0 },
-{ id: '137', teamOne: 'Villarreal', scoreOne: 0, teamTwo: 'OM', scoreTwo: 3 },
-{ id: '138', teamOne: 'OM', scoreOne: 3, teamTwo: 'Villarreal', scoreTwo: 0 },
-{ id: '138', teamOne: 'PSV', scoreOne: 0, teamTwo: 'Werder', scoreTwo: 3 },
-{ id: '138', teamOne: 'Werder', scoreOne: 3, teamTwo: 'PSV', scoreTwo: 0 },
-{ id: '138', teamOne: 'OM', scoreOne: 3, teamTwo: 'PSV', scoreTwo: 0 },
-{ id: '138', teamOne: 'PSV', scoreOne: 0, teamTwo: 'OM', scoreTwo: 3 },
-{ id: '138', teamOne: 'Fulham', scoreOne: 0, teamTwo: 'PSV', scoreTwo: 3 },
-{ id: '138', teamOne: 'PSV', scoreOne: 0, teamTwo: 'Fulham', scoreTwo: 3 },
-{ id: '138', teamOne: 'Villarreal', scoreOne: 0, teamTwo: 'Getafe', scoreTwo: 3 },
-{ id: '138', teamOne: 'Getafe', scoreOne: 3, teamTwo: 'Villarreal', scoreTwo: 0 },
-{ id: '155', teamOne: 'Galatasaray', teamTwo: 'PSV', scoreOne: 3, scoreTwo: 0 },
-{ id: '156', teamOne: 'PSV', teamTwo: 'Galatasaray', scoreOne: 0, scoreTwo: 3 },
-{ id: '159', teamOne: 'Getafe', teamTwo: 'PSV', scoreOne: 3, scoreTwo: 0 },
-{ id: '160', teamOne: 'PSV', teamTwo: 'Getafe', scoreOne: 0, scoreTwo: 3 },
-{ id: '161', teamOne: 'Villarreal', teamTwo: 'Galatasaray', scoreOne: 0, scoreTwo: 3 },
-{ id: '162', teamOne: 'Galatasaray', teamTwo: 'Villarreal', scoreOne: 3, scoreTwo: 0 },
-{ id: '165', teamOne: 'Villarreal', teamTwo: 'PSV', scoreOne: 0, scoreTwo: 3 },
-{ id: '166', teamOne: 'PSV', teamTwo: 'Villarreal', scoreOne: 0, scoreTwo: 3 },
-{ id: '169', teamOne: 'Lazio', teamTwo: 'Villarreal', scoreOne: 3, scoreTwo: 0 },
-{ id: '170', teamOne: 'Villarreal', teamTwo: 'Lazio', scoreOne: 0, scoreTwo: 3 },
-{ id: '171', teamOne: 'Lazio', teamTwo: 'PSV', scoreOne: 3, scoreTwo: 0 },
-{ id: '172', teamOne: 'PSV', teamTwo: 'Lazio', scoreOne: 0, scoreTwo: 3 },
-{ id: '177', teamOne: 'PSV', teamTwo: 'Fiorentina', scoreOne: 0, scoreTwo: 3 },
-{ id: '178', teamOne: 'Fiorentina', teamTwo: 'PSV', scoreOne: 3, scoreTwo: 0 },
-{ id: '189', teamOne: 'Villarreal', teamTwo: 'Dortmund', scoreOne: 0, scoreTwo: 3 },
-{ id: '190', teamOne: 'Dortmund', teamTwo: 'Villarreal', scoreOne: 3, scoreTwo: 0 },
-{ id: '191', teamOne: 'Bilbao', teamTwo: 'PSV', scoreOne: 3, scoreTwo: 0 },
-{ id: '192', teamOne: 'PSV', teamTwo: 'Bilbao', scoreOne: 0, scoreTwo: 3 },
-{ id: '127', teamOne: 'Villarreal', scoreOne: 0, teamTwo: 'Fulham', scoreTwo: 3 },
-{ id: '128', teamOne: 'Fulham', scoreOne: 3, teamTwo: 'Villarreal', scoreTwo: 0 }
-
 ]
