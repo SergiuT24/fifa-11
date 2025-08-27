@@ -30,8 +30,8 @@ export const matchResults = [
 	{ id: '138', teamOne: 'OM', scoreOne: 0, teamTwo: 'Lazio', scoreTwo: 3 },
 	{ id: '138', teamOne: 'CSKA', scoreOne: 1, teamTwo: 'Fiorentina', scoreTwo: 4 },
 	{ id: '138', teamOne: 'Fiorentina', scoreOne: 1, teamTwo: 'CSKA', scoreTwo: 3 },
-	{ id: '138', teamOne: 'Getafe', scoreOne: 1, teamTwo: 'Fiorentina', scoreTwo: 6 },
-	{ id: '138', teamOne: 'Fiorentina', scoreOne: 5, teamTwo: 'Getafe', scoreTwo: 2 },
+	{ id: '138', teamOne: 'Getafe', scoreOne: 1, teamTwo: 'CSKA', scoreTwo: 6 },
+	{ id: '138', teamOne: 'CSKA', scoreOne: 5, teamTwo: 'Getafe', scoreTwo: 2 },
 ];
 
 
