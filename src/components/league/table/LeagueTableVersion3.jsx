@@ -30,11 +30,12 @@ const updateTeams = (teams, matches) => {
 				updatedTeams[teamTwoIndex].gc += scoreOne;
 
 				if (!updatedTeams[teamOneIndex].headToHead[teamTwo]) {
-					updatedTeams[teamOneIndex].headToHead[teamTwo] = { g: 0, gc: 0 };
+					updatedTeams[teamOneIndex].headToHead[teamTwo] = { g: 0, gc: 0, pts: 0 };
 				}
 				if (!updatedTeams[teamTwoIndex].headToHead[teamOne]) {
-					updatedTeams[teamTwoIndex].headToHead[teamOne] = { g: 0, gc: 0 };
+					updatedTeams[teamTwoIndex].headToHead[teamOne] = { g: 0, gc: 0, pts: 0 };
 				}
+
 				updatedTeams[teamOneIndex].headToHead[teamTwo].g += scoreOne;
 				updatedTeams[teamOneIndex].headToHead[teamTwo].gc += scoreTwo;
 				updatedTeams[teamTwoIndex].headToHead[teamOne].g += scoreTwo;
