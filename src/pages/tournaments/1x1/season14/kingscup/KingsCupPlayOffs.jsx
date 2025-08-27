@@ -33,10 +33,10 @@ const KingsCupPlayOffs = () => {
 					<Square
 						teamOne={<Getafe />}
 						teamTwo={<Galatasaray />}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						scoreFirstTeamOne={3}
+						scoreSecondTeamOne={0}
+						scoreFirstTeamTwo={3}
+						scoreSecondTeamTwo={0}
 					/>
 					<Square
 						teamOne={<Fiorentina />}
@@ -95,7 +95,7 @@ const KingsCupPlayOffs = () => {
 				<div className='flex flex-col pt-20 justify-center'>
 					<Square
 						teamOne={<Werder />}
-						teamTwo={'empty'}
+						teamTwo={<Getafe />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
