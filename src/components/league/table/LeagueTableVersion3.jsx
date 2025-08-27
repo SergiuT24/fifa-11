@@ -9,7 +9,7 @@ const updateTeams = (teams, matches) => {
 	const updatedTeams = teams.map(team => ({
 		...team,
 		form: [],
-		headToHead: {},
+		headToHead: {}, // будет хранить { g, gc, pts }
 	}));
 
 	matches.forEach(({ teamOne, scoreOne, teamTwo, scoreTwo }, matchIndex) => {
@@ -17,11 +17,11 @@ const updateTeams = (teams, matches) => {
 		const teamTwoIndex = updatedTeams.findIndex(t => t.id === teamTwo);
 
 		if (teamOneIndex !== -1 && teamTwoIndex !== -1) {
-			// Check if scores are not '?'
 			const scoreOneIsNumber = !isNaN(scoreOne);
 			const scoreTwoIsNumber = !isNaN(scoreTwo);
 
 			if (scoreOneIsNumber && scoreTwoIsNumber) {
+				// обновляем общую статистику
 				updatedTeams[teamOneIndex].mp += 1;
 				updatedTeams[teamTwoIndex].mp += 1;
 				updatedTeams[teamOneIndex].g += scoreOne;
@@ -29,21 +29,28 @@ const updateTeams = (teams, matches) => {
 				updatedTeams[teamTwoIndex].g += scoreTwo;
 				updatedTeams[teamTwoIndex].gc += scoreOne;
 
+				// инициализация head-to-head
 				if (!updatedTeams[teamOneIndex].headToHead[teamTwo]) {
-					updatedTeams[teamOneIndex].headToHead[teamTwo] = { g: 0, gc: 0 };
+					updatedTeams[teamOneIndex].headToHead[teamTwo] = { g: 0, gc: 0, pts: 0 };
 				}
 				if (!updatedTeams[teamTwoIndex].headToHead[teamOne]) {
-					updatedTeams[teamTwoIndex].headToHead[teamOne] = { g: 0, gc: 0 };
+					updatedTeams[teamTwoIndex].headToHead[teamOne] = { g: 0, gc: 0, pts: 0 };
 				}
+
+				// обновляем голы в личках
 				updatedTeams[teamOneIndex].headToHead[teamTwo].g += scoreOne;
 				updatedTeams[teamOneIndex].headToHead[teamTwo].gc += scoreTwo;
 				updatedTeams[teamTwoIndex].headToHead[teamOne].g += scoreTwo;
 				updatedTeams[teamTwoIndex].headToHead[teamOne].gc += scoreOne;
 
+				// победы/ничьи/поражения + очки
 				if (scoreOne > scoreTwo) {
 					updatedTeams[teamOneIndex].w += 1;
 					updatedTeams[teamTwoIndex].l += 1;
 					updatedTeams[teamOneIndex].pts += 3;
+
+					updatedTeams[teamOneIndex].headToHead[teamTwo].pts += 3;
+
 					updatedTeams[teamOneIndex].form.push(
 						<WinButton key={`${teamOne}-${teamTwo}-${matchIndex}-win`} title={`${teamOne} ${scoreOne}:${scoreTwo} ${teamTwo}`} />
 					);
@@ -54,6 +61,9 @@ const updateTeams = (teams, matches) => {
 					updatedTeams[teamTwoIndex].w += 1;
 					updatedTeams[teamOneIndex].l += 1;
 					updatedTeams[teamTwoIndex].pts += 3;
+
+					updatedTeams[teamTwoIndex].headToHead[teamOne].pts += 3;
+
 					updatedTeams[teamTwoIndex].form.push(
 						<WinButton key={`${teamOne}-${teamTwo}-${matchIndex}-win`} title={`${teamOne} ${scoreOne}:${scoreTwo} ${teamTwo}`} />
 					);
@@ -65,6 +75,10 @@ const updateTeams = (teams, matches) => {
 					updatedTeams[teamTwoIndex].d += 1;
 					updatedTeams[teamOneIndex].pts += 1;
 					updatedTeams[teamTwoIndex].pts += 1;
+
+					updatedTeams[teamOneIndex].headToHead[teamTwo].pts += 1;
+					updatedTeams[teamTwoIndex].headToHead[teamOne].pts += 1;
+
 					updatedTeams[teamOneIndex].form.push(
 						<DrawButton key={`${teamOne}-${teamTwo}-${matchIndex}-draw`} title={`${teamOne} ${scoreOne}:${scoreTwo} ${teamTwo}`} />
 					);
@@ -73,7 +87,7 @@ const updateTeams = (teams, matches) => {
 					);
 				}
 			} else {
-				// Handle unplayed matches
+				// матч не сыгран
 				updatedTeams[teamOneIndex].form.push(
 					<NotPlayedButton key={`${teamOne}-${teamTwo}-${matchIndex}-notPlayed`} title={`${teamOne} ${scoreOne}:${scoreTwo} ${teamTwo}`} />
 				);
@@ -88,37 +102,29 @@ const updateTeams = (teams, matches) => {
 		team.gd = `${team.g}:${team.gc}`;
 	});
 
+	// сортировка
 	updatedTeams.sort((a, b) => {
-	if (b.pts !== a.pts) return b.pts - a.pts;
+		if (b.pts !== a.pts) return b.pts - a.pts;
 
-	// === 1) Очки в личных встречах ===
-	const aHeadToHead = a.headToHead[b.id] || { g: 0, gc: 0 };
-	const bHeadToHead = b.headToHead[a.id] || { g: 0, gc: 0 };
+		// 1) очки в личных встречах
+		const aHeadPts = a.headToHead[b.id]?.pts || 0;
+		const bHeadPts = b.headToHead[a.id]?.pts || 0;
+		if (bHeadPts !== aHeadPts) return bHeadPts - aHeadPts;
 
-	let aHeadPts = 0;
-	let bHeadPts = 0;
+		// 2) общая разница мячей
+		const overallGD = (b.g - b.gc) - (a.g - a.gc);
+		if (overallGD !== 0) return overallGD;
 
-	// считаем очки в личных встречах a против b
-	if (aHeadToHead.g > aHeadToHead.gc) aHeadPts += 3;
-	else if (aHeadToHead.g === aHeadToHead.gc && (aHeadToHead.g > 0 || aHeadToHead.gc > 0)) {
-		aHeadPts += 1;
-		bHeadPts += 1;
-	} else if (aHeadToHead.g < aHeadToHead.gc) bHeadPts += 3;
+		// 3) забитые
+		if (b.g !== a.g) return b.g - a.g;
 
-	if (bHeadPts !== aHeadPts) return bHeadPts - aHeadPts;
+		// 4) пропущенные
+		return a.gc - b.gc;
+	});
 
-	// === 2) Общая разница мячей ===
-	const overallGD = (b.g - b.gc) - (a.g - a.gc);
-	if (overallGD !== 0) return overallGD;
-
-	// === 3) Количество забитых голов ===
-	if (b.g !== a.g) return b.g - a.g;
-
-	// === 4) Количество пропущенных голов ===
-	return a.gc - b.gc;
-});
 	return updatedTeams;
 };
+
 
 const filterMatches = (matches, teamIds) => {
 	return matches.filter(match => teamIds.includes(match.teamOne) && teamIds.includes(match.teamTwo));
