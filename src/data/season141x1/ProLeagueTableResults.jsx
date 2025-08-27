@@ -114,4 +114,6 @@ export const matchResults = [
 { id: '200', teamOne: 'Wolfsburg', teamTwo: 'Galatasaray', scoreOne: 0, scoreTwo: 3 },
 { id: '200', teamOne: 'Dortmund', teamTwo: 'Galatasaray', scoreOne: 1, scoreTwo: 0 },
 { id: '199', teamOne: 'Galatasaray', teamTwo: 'Dortmund', scoreOne: 1, scoreTwo: 7 },
+	{ id: '200', teamOne: 'Dortmund', teamTwo: 'Fiorentina', scoreOne: 3, scoreTwo: 1 },
+{ id: '199', teamOne: 'Fiorentina', teamTwo: 'Dortmund', scoreOne: 3, scoreTwo: 1 },
 ]
