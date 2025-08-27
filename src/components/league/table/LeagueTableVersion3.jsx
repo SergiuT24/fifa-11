@@ -10,6 +10,13 @@ const updateTeams = (teams, matches) => {
 		...team,
 		form: [],
 		headToHead: {},
+		mp: 0,
+		w: 0,
+		d: 0,
+		l: 0,
+		g: 0,
+		gc: 0,
+		pts: 0,
 	}));
 
 	matches.forEach(({ teamOne, scoreOne, teamTwo, scoreTwo }, matchIndex) => {
@@ -17,64 +24,70 @@ const updateTeams = (teams, matches) => {
 		const teamTwoIndex = updatedTeams.findIndex(t => t.id === teamTwo);
 
 		if (teamOneIndex !== -1 && teamTwoIndex !== -1) {
-			// Check if scores are not '?'
 			const scoreOneIsNumber = !isNaN(scoreOne);
 			const scoreTwoIsNumber = !isNaN(scoreTwo);
 
 			if (scoreOneIsNumber && scoreTwoIsNumber) {
-				updatedTeams[teamOneIndex].mp += 1;
-				updatedTeams[teamTwoIndex].mp += 1;
-				updatedTeams[teamOneIndex].g += scoreOne;
-				updatedTeams[teamOneIndex].gc += scoreTwo;
-				updatedTeams[teamTwoIndex].g += scoreTwo;
-				updatedTeams[teamTwoIndex].gc += scoreOne;
+				const t1 = updatedTeams[teamOneIndex];
+				const t2 = updatedTeams[teamTwoIndex];
 
-				if (!updatedTeams[teamOneIndex].headToHead[teamTwo]) {
-					updatedTeams[teamOneIndex].headToHead[teamTwo] = { g: 0, gc: 0, pts: 0 };
-				}
-				if (!updatedTeams[teamTwoIndex].headToHead[teamOne]) {
-					updatedTeams[teamTwoIndex].headToHead[teamOne] = { g: 0, gc: 0, pts: 0 };
-				}
+				t1.mp += 1;
+				t2.mp += 1;
+				t1.g += scoreOne;
+				t1.gc += scoreTwo;
+				t2.g += scoreTwo;
+				t2.gc += scoreOne;
 
-				updatedTeams[teamOneIndex].headToHead[teamTwo].g += scoreOne;
-				updatedTeams[teamOneIndex].headToHead[teamTwo].gc += scoreTwo;
-				updatedTeams[teamTwoIndex].headToHead[teamOne].g += scoreTwo;
-				updatedTeams[teamTwoIndex].headToHead[teamOne].gc += scoreOne;
+				// Initialize head-to-head objects
+				if (!t1.headToHead[teamTwo]) t1.headToHead[teamTwo] = { g: 0, gc: 0, pts: 0 };
+				if (!t2.headToHead[teamOne]) t2.headToHead[teamOne] = { g: 0, gc: 0, pts: 0 };
+
+				t1.headToHead[teamTwo].g += scoreOne;
+				t1.headToHead[teamTwo].gc += scoreTwo;
+				t2.headToHead[teamOne].g += scoreTwo;
+				t2.headToHead[teamOne].gc += scoreOne;
 
 				if (scoreOne > scoreTwo) {
-					updatedTeams[teamOneIndex].w += 1;
-					updatedTeams[teamTwoIndex].l += 1;
-					updatedTeams[teamOneIndex].pts += 3;
-					updatedTeams[teamOneIndex].form.push(
+					t1.w += 1;
+					t2.l += 1;
+					t1.pts += 3;
+					t1.headToHead[teamTwo].pts += 3;
+
+					t1.form.push(
 						<WinButton key={`${teamOne}-${teamTwo}-${matchIndex}-win`} title={`${teamOne} ${scoreOne}:${scoreTwo} ${teamTwo}`} />
 					);
-					updatedTeams[teamTwoIndex].form.push(
+					t2.form.push(
 						<LoseButton key={`${teamOne}-${teamTwo}-${matchIndex}-lose`} title={`${teamOne} ${scoreOne}:${scoreTwo} ${teamTwo}`} />
 					);
 				} else if (scoreTwo > scoreOne) {
-					updatedTeams[teamTwoIndex].w += 1;
-					updatedTeams[teamOneIndex].l += 1;
-					updatedTeams[teamTwoIndex].pts += 3;
-					updatedTeams[teamTwoIndex].form.push(
+					t2.w += 1;
+					t1.l += 1;
+					t2.pts += 3;
+					t2.headToHead[teamOne].pts += 3;
+
+					t2.form.push(
 						<WinButton key={`${teamOne}-${teamTwo}-${matchIndex}-win`} title={`${teamOne} ${scoreOne}:${scoreTwo} ${teamTwo}`} />
 					);
-					updatedTeams[teamOneIndex].form.push(
+					t1.form.push(
 						<LoseButton key={`${teamOne}-${teamTwo}-${matchIndex}-lose`} title={`${teamOne} ${scoreOne}:${scoreTwo} ${teamTwo}`} />
 					);
 				} else {
-					updatedTeams[teamOneIndex].d += 1;
-					updatedTeams[teamTwoIndex].d += 1;
-					updatedTeams[teamOneIndex].pts += 1;
-					updatedTeams[teamTwoIndex].pts += 1;
-					updatedTeams[teamOneIndex].form.push(
+					t1.d += 1;
+					t2.d += 1;
+					t1.pts += 1;
+					t2.pts += 1;
+					t1.headToHead[teamTwo].pts += 1;
+					t2.headToHead[teamOne].pts += 1;
+
+					t1.form.push(
 						<DrawButton key={`${teamOne}-${teamTwo}-${matchIndex}-draw`} title={`${teamOne} ${scoreOne}:${scoreTwo} ${teamTwo}`} />
 					);
-					updatedTeams[teamTwoIndex].form.push(
+					t2.form.push(
 						<DrawButton key={`${teamOne}-${teamTwo}-${matchIndex}-draw`} title={`${teamOne} ${scoreOne}:${scoreTwo} ${teamTwo}`} />
 					);
 				}
 			} else {
-				// Handle unplayed matches
+				// Not played
 				updatedTeams[teamOneIndex].form.push(
 					<NotPlayedButton key={`${teamOne}-${teamTwo}-${matchIndex}-notPlayed`} title={`${teamOne} ${scoreOne}:${scoreTwo} ${teamTwo}`} />
 				);
@@ -85,33 +98,40 @@ const updateTeams = (teams, matches) => {
 		}
 	});
 
+	// Добавим строковое представление разницы мячей
 	updatedTeams.forEach(team => {
 		team.gd = `${team.g}:${team.gc}`;
 	});
 
+	// Сортировка по правилам
 	updatedTeams.sort((a, b) => {
 		if (b.pts !== a.pts) return b.pts - a.pts;
 
-		// Личные встречи: сравниваем очки в личных встречах
-		const aHeadToHead = a.headToHead[b.id] || { g: 0, gc: 0 };
-		const bHeadToHead = b.headToHead[a.id] || { g: 0, gc: 0 };
+		const aH2H = a.headToHead[b.id] || { g: 0, gc: 0, pts: 0 };
+		const bH2H = b.headToHead[a.id] || { g: 0, gc: 0, pts: 0 };
 
-		// Считаем разницу мячей в личных встречах
-		const headToHeadGD = (bHeadToHead.g - bHeadToHead.gc) - (aHeadToHead.g - aHeadToHead.gc);
-		if (headToHeadGD !== 0) return headToHeadGD;
+		// 1. Очки в личных встречах
+		if (bH2H.pts !== aH2H.pts) return bH2H.pts - aH2H.pts;
 
-		// Если очки и разница мячей в личных встречах равны, сравниваем общую разницу мячей
-		const overallGD = (b.g - b.gc) - (a.g - a.gc);
-		if (overallGD !== 0) return overallGD;
+		// 2. Разница мячей в личных встречах
+		const h2hDiff = (bH2H.g - bH2H.gc) - (aH2H.g - aH2H.gc);
+		if (h2hDiff !== 0) return h2hDiff;
 
-		// Если общая разница мячей равна, сравниваем по количеству забитых голов
+		// 3. Общая разница мячей
+		const gdA = a.g - a.gc;
+		const gdB = b.g - b.gc;
+		if (gdB !== gdA) return gdB - gdA;
+
+		// 4. Количество забитых голов
 		if (b.g !== a.g) return b.g - a.g;
 
-		// Если забитые голы равны, сравниваем по количеству пропущенных голов
+		// 5. Количество пропущенных голов (меньше — лучше)
 		return a.gc - b.gc;
 	});
+
 	return updatedTeams;
 };
+
 
 const filterMatches = (matches, teamIds) => {
 	return matches.filter(match => teamIds.includes(match.teamOne) && teamIds.includes(match.teamTwo));
