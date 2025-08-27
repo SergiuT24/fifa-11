@@ -22,7 +22,10 @@ export const additionalTeams = [
 ];
 
 export const matchResults = [
-
+	{ id: '138', teamOne: 'Galatasaray', scoreOne: 1, teamTwo: 'CSKA', scoreTwo: 3 },
+	{ id: '138', teamOne: 'CSKA', scoreOne: 2, teamTwo: 'Galatasaray', scoreTwo: 0 },
+	{ id: '138', teamOne: 'Dortmund', scoreOne: 3, teamTwo: 'Werder', scoreTwo: 3 },
+	{ id: '138', teamOne: 'Werder', scoreOne: 0, teamTwo: 'Dortmund', scoreTwo: 4 },
 ];
 
 
