@@ -1,11 +1,24 @@
-import Everton from '../../components/league/4star-teams/Everton';
+import CSKA from '../../components/league/4star-teams/Cska';
+import Werder from '../../components/league/4star-teams/Werder';
+import Galatasaray from '../../components/league/4star-teams/Galatasaray';
+import Getafe from '../../components/league/4star-teams/Getafe';
+import OM from '../../components/league/4star-teams/OM';
+import Lazio from '../../components/league/4star-teams/Lazio';
+import Dortmund from '../../components/league/4star-teams/Dortmund';
+import Fiorentina from '../../components/league/4star-teams/Fiorentina';
 
 export const initialTeams = [
-	{ id: 'empty', name: 'Empty', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Galatasaray', name: <Galatasaray />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'CSKA', name: <CSKA />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Fiorentina', name: <Fiorentina />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Getafe', name: <Getafe />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
 export const additionalTeams = [
-	{ id: 'empty', name: 'Empty', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Lazio', name: <Lazio />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Dortmund', name: <Dortmund />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'OM', name: <OM />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Werder', name: <Werder />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
 export const matchResults = [
