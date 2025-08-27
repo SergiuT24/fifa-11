@@ -213,15 +213,11 @@ const Rules = () => {
 				"1. Нарушение правил турнира или правил поведения.",
 				"2. Использование читов или других нелегальных средств (накрутка составов) приведет к вечному бану на турнире.",
 				"3. Намеренное отключение от игры или симуляция плохого интернет-соединения, или включения программ для создания лагов.",
-				"4. Во время проведения турнира (пока команда не завершит все свои матчи, включая Лигу, ЛЧ и Кубок) строго запрещены любые виды оскорблений, такие как ненормативная лексика в адрес других участников или провокации с явным посылом оскорбления. После завершения всех матчей правила поведения не действуют. Все случаи нарушений будут рассматриваться администрацией турнира, и нарушителям будут назначены санкции.",
-				"5. В случае оскорблений наказанием будет техническое поражение (ТП 3:0) одного матча между тех команд (матч выбирается в зависимость от этапа турнира (Лиге, ЛЧ, Кубка), которым были адресованы оскорбления, независимо от того, кто именно из команды оскорбил (один или оба игрока). Оба игрока, причастные к оскорблениям, будут подвергнуты наказанию. Для рассмотрения жалобы желательно предоставить скриншот с доказательствами оскорблений. Если игроки или команды получат три технических поражения подряд на основе оскорблений, они будут дисквалифицированы из турнира, а все их оставшиеся матчи будут засчитаны как технические поражения."
 			],
 			en: [
 				"1. Violation of tournament rules or behavior rules.",
 				"2. Using cheats or other illegal means (boosting squads) will result in a permanent ban from the tournament.",
 				"3. Intentionally disconnecting from the game or simulating a bad internet connection, or using programs to create lag.",
-				"4. During the tournament (until the team finishes all its matches, including League, Champions League, and Cup), any form of insult is strictly prohibited, such as using foul language toward other participants or provocation with clear intent to insult. After all matches are completed, the behavior rules no longer apply. All cases of violations will be reviewed by the tournament administration, and sanctions will be imposed on violators.",
-				"5. In case of insults, the penalty will be a technical defeat (TD 3:0) for one match between the teams (the match is selected depending on the tournament stage - League, Champions League, Cup), in which the insults were addressed, regardless of who from the team insulted (one or both players). Both players involved in the insults will be penalized. To review a complaint, it is recommended to provide a screenshot with proof of the insults. If players or teams receive three consecutive technical defeats based on insults, they will be disqualified from the tournament, and all their remaining matches will be counted as technical defeats."
 			]
 		},
 		"Проверка на читерство, накрутка составов": {
