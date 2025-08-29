@@ -38,6 +38,11 @@ import { initialTeams as initialTeamsUCL131x1, additionalTeams as additionalTeam
 import { initialTeams as initialTeams141x1, additionalTeams as additionalTeamsSeason141x1, matchResults as matchResultsSeason141x1 } from '../../../data/season141x1/ProLeagueTableResults.jsx';
 import { initialTeams as initialTeamsUCL141x1, additionalTeams as additionalTeamsUCLSeason141x1, matchResults as matchResultsUCLSeason141x1 } from '../../../data/season141x1/UCLTableResult.jsx';
 
+// Season 15 1x1
+import { initialTeams as initialTeams151x1, additionalTeams as additionalTeamsSeason151x1, matchResults as matchResultsSeason151x1 } from '../../../data/season151x1/ProLeagueTableResults.jsx';
+import { initialTeams as initialTeamsUCL151x1, additionalTeams as additionalTeamsUCLSeason151x1, matchResults as matchResultsUCLSeason151x1 } from '../../../data/season151x1/UCLTableResult.jsx';
+
+
 const SeasonSeven1x1 = () => (
 	<LeagueTableVersion3
 		initialTeams={initialTeamsSeven1x1}
@@ -287,6 +292,29 @@ const UCL141x1 = () => (
 	/>
 );
 
+// Season 15 1x1
+const Season151x1 = () => (
+	<LeagueTableVersion3
+		initialTeams={initialTeams151x1}
+		additionalTeams={additionalTeamsSeason151x1}
+		matchResults={matchResultsSeason151x1}
+		seasonTitle="Season 15 (1x1) "
+		divisionNameOne={'Pro League'}
+		divisionNameTwo={'Middle League'}
+	/>
+);
+
+const UCL151x1 = () => (
+	<LeagueTableVersion3
+		initialTeams={initialTeamsUCL151x1}
+		additionalTeams={additionalTeamsUCLSeason151x1}
+		matchResults={matchResultsUCLSeason151x1}
+		seasonTitle="Group Stage "
+		divisionNameOne={'Group A'}
+		divisionNameTwo={'Group B'}
+	/>
+);
+
 // ========================================================================================
 
 
@@ -312,5 +340,7 @@ export {
 	Season131x1,
 	UCL131x1,
 	Season141x1,
-	UCL141x1
+	UCL141x1,
+	Season151x1,
+	UCL151x1
 };
