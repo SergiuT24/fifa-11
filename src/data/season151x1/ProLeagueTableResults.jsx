@@ -59,4 +59,8 @@ export const matchResults = [
 { id: '123', teamOne: 'Arsenal', scoreOne: 3, teamTwo: 'ACMilan', scoreTwo: 1 },
 { id: '123', teamOne: 'ACMilan', scoreOne: 2, teamTwo: 'RealMadrid', scoreTwo: 6 },
 { id: '123', teamOne: 'RealMadrid', scoreOne: 2, teamTwo: 'ACMilan', scoreTwo: 6 },
+	{ id: '123', teamOne: 'AtleticoMadrid', scoreOne: 3, teamTwo: 'Lyon', scoreTwo: 3 },
+	{ id: '123', teamOne: 'Lyon', scoreOne: 4, teamTwo: 'AtleticoMadrid', scoreTwo: 2 },
+	{ id: '123', teamOne: 'AtleticoMadrid', scoreOne: 5, teamTwo: 'ACMilan', scoreTwo: 3 },
+	{ id: '123', teamOne: 'ACMilan', scoreOne: 3, teamTwo: 'AtleticoMadrid', scoreTwo: 0 },
 ]
