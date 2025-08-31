@@ -22,7 +22,7 @@ export const initialTeams = [
 export const additionalTeams = [
 	{ id: 'ACMilan', name: <ACMilan/>, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Lyon', name: <Lyon/>, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'Place 1 Middle L.', name: 'Place 2 Middle L.', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Place 1 Middle L.', name: 'Place 1 Middle L.', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
 export const matchResults = [
