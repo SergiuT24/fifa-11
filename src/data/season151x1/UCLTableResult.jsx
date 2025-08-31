@@ -16,13 +16,13 @@ import AtleticoMadrid from '../../components/league/teams/AtleticoMadrid';
 export const initialTeams = [
 	{ id: 'RealMadrid', name: <RealMadrid/>, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'AtlecticoMadrid', name: <AtlecticoMadrid/>, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'Place 2 Middle L.', name: 'Place 2 Middle L.', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Place2', name: 'Place2', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
 export const additionalTeams = [
 	{ id: 'ACMilan', name: <ACMilan/>, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Lyon', name: <Lyon/>, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'Place 1 Middle L.', name: 'Place 1 Middle L.', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Place1', name: 'Place1', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
 export const matchResults = [
