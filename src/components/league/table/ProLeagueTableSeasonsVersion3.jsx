@@ -41,7 +41,7 @@ import { initialTeams as initialTeamsUCL141x1, additionalTeams as additionalTeam
 // Season 15 1x1
 import { initialTeams as initialTeams151x1, additionalTeams as additionalTeamsSeason151x1, matchResults as matchResultsSeason151x1 } from '../../../data/season151x1/ProLeagueTableResults.jsx';
 import { initialTeams as initialTeamsUCL151x1, additionalTeams as additionalTeamsUCLSeason151x1, matchResults as matchResultsUCLSeason151x1 } from '../../../data/season151x1/UCLTableResult.jsx';
-
+import { initialTeams as initialTeamsEurope151x1, additionalTeams as additionalTeamsEuropeSeason151x1, matchResults as matchResultsEuropeSeason151x1 } from '../../../data/season151x1/EuropeTableResults.jsx';
 
 const SeasonSeven1x1 = () => (
 	<LeagueTableVersion3
@@ -315,6 +315,17 @@ const UCL151x1 = () => (
 	/>
 );
 
+const Europe151x1 = () => (
+	<LeagueTableVersion3
+		initialTeams={initialTeamsEurope151x1}
+		additionalTeams={additionalTeamsEuropeSeason151x1}
+		matchResults={matchResultsEuropeSeason151x1}
+		seasonTitle="Group Stage"
+		divisionNameOne={'Group A'}
+		divisionNameTwo={'Group B'}
+	/>
+);
+
 // ========================================================================================
 
 
@@ -342,5 +353,6 @@ export {
 	Season141x1,
 	UCL141x1,
 	Season151x1,
-	UCL151x1
+	UCL151x1,
+	Europe151x1
 };

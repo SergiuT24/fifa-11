@@ -23,31 +23,31 @@ const KingsCupPlayOffs = () => {
 				</div>
 				<div className='flex flex-col gap-14 justify-center'>
 					<Square
-						teamOne={<Juventus/>}
-						teamTwo={<Tottenham/>}
+						teamOne={<Juventus />}
+						teamTwo={<Tottenham />}
 						scoreFirstTeamOne={4}
 						scoreSecondTeamOne={4}
 						scoreFirstTeamTwo={'3 0'}
 						scoreSecondTeamTwo={'3 EX 3'}
 					/>
 					<Square
-						teamOne={<RealMadrid/>}
-						teamTwo={<ACMilan/>}
+						teamOne={<RealMadrid />}
+						teamTwo={<ACMilan />}
 						scoreFirstTeamOne={2}
 						scoreSecondTeamOne={2}
 						scoreFirstTeamTwo={'2 EX 1'}
 						scoreSecondTeamTwo={'2 EX 2'}
 					/>
 					<Square
-						teamOne={<ManchesterCity/>}
-						teamTwo={<AtleticoMadrid/>}
+						teamOne={<ManchesterCity />}
+						teamTwo={<AtleticoMadrid />}
 						scoreFirstTeamOne={0}
 						scoreSecondTeamOne={4}
 						scoreFirstTeamTwo={5}
 						scoreSecondTeamTwo={2}
 					/>
 					<Square
-						teamOne={<Chelsea/>}
+						teamOne={<Chelsea />}
 						teamTwo={'empty'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
@@ -55,15 +55,15 @@ const KingsCupPlayOffs = () => {
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={<Arsenal/>}
-						teamTwo={<Inter/>}
+						teamOne={<Arsenal />}
+						teamTwo={<Inter />}
 						scoreFirstTeamOne={2}
 						scoreSecondTeamOne={1}
 						scoreFirstTeamTwo={1}
 						scoreSecondTeamTwo={5}
 					/>
 					<Square
-						teamOne={<Lyon/>}
+						teamOne={<Lyon />}
 						teamTwo={'empty'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
@@ -71,15 +71,15 @@ const KingsCupPlayOffs = () => {
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={<ManchesterUnited/>}
-						teamTwo={<Barcelona/>}
+						teamOne={<ManchesterUnited />}
+						teamTwo={<Barcelona />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={<Liverpool/>}
+						teamOne={<Liverpool />}
 						teamTwo={'empty'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
@@ -94,17 +94,17 @@ const KingsCupPlayOffs = () => {
 				</div>
 				<div className='flex flex-col pt-20 justify-center'>
 					<Square
-						teamOne={<Tottenham/>}
-						teamTwo={<ACMilan/>}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						teamOne={<Tottenham />}
+						teamTwo={<ACMilan />}
+						scoreFirstTeamOne={4}
+						scoreSecondTeamOne={4}
+						scoreFirstTeamTwo={2}
+						scoreSecondTeamTwo={3}
 					/>
 					<div className='mt-48'>
 						<Square
-							teamOne={<AtleticoMadrid/>}
-							teamTwo={<Chelsea/>}
+							teamOne={<AtleticoMadrid />}
+							teamTwo={<Chelsea />}
 							scoreFirstTeamOne={4}
 							scoreSecondTeamOne={1}
 							scoreFirstTeamTwo={6}
@@ -113,8 +113,8 @@ const KingsCupPlayOffs = () => {
 					</div>
 					<div className='mt-48'>
 						<Square
-							teamOne={<Inter/>}
-							teamTwo={<Lyon/>}
+							teamOne={<Inter />}
+							teamTwo={<Lyon />}
 							scoreFirstTeamOne={1}
 							scoreSecondTeamOne={1}
 							scoreFirstTeamTwo={0}
@@ -124,7 +124,7 @@ const KingsCupPlayOffs = () => {
 					<div className='mt-48'>
 						<Square
 							teamOne={'empty'}
-							teamTwo={<Liverpool/>}
+							teamTwo={<Liverpool />}
 							scoreFirstTeamOne={'?'}
 							scoreSecondTeamOne={'?'}
 							scoreFirstTeamTwo={'?'}
@@ -140,8 +140,8 @@ const KingsCupPlayOffs = () => {
 				<div className='flex flex-col pt-20 justify-center'>
 					<div className='mt-36'>
 						<Square
-							teamOne={'empty'}
-							teamTwo={<AtleticoMadrid/>}
+							teamOne={<ACMilan />}
+							teamTwo={<AtleticoMadrid />}
 							scoreFirstTeamOne={'?'}
 							scoreSecondTeamOne={'?'}
 							scoreFirstTeamTwo={'?'}
@@ -150,7 +150,7 @@ const KingsCupPlayOffs = () => {
 					</div>
 					<div className='mt-96 pt-16'>
 						<Square
-							teamOne={<Lyon/>}
+							teamOne={<Lyon />}
 							teamTwo={'empty'}
 							scoreFirstTeamOne={'?'}
 							scoreSecondTeamOne={'?'}

@@ -17,6 +17,8 @@ export const additionalTeams = [
 ];
 
 export const matchResults = [
+	{ id: '123', teamOne: 'Lyon', scoreOne: 0, teamTwo: 'ACMilan', scoreTwo: 4 },
+	{ id: '123', teamOne: 'ACMilan', scoreOne: 0, teamTwo: 'Lyon', scoreTwo: 2 },
 ];
 
 
