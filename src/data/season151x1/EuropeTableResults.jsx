@@ -3,7 +3,7 @@ import Arsenal from '../../components/league/teams/Arsenal';
 import Barcelona from '../../components/league/teams/Barcelona';
 import Juventus from '../../components/league/teams/Juventus';
 import Tottenham from '../../components/league/teams/Tottenham';
-import Juventus from '../../components/league/teams/Juventus';
+import Chelsea from '../../components/league/teams/Chelsea';
 
 
 export const initialTeams = [
