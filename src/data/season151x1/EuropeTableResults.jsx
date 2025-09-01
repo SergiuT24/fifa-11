@@ -19,7 +19,10 @@ export const additionalTeams = [
 
 ];
 
-export const matchResults = [];
+export const matchResults = [
+	{ id: '123', teamOne: 'Tottenham', scoreOne: 3, teamTwo: 'Arsenal', scoreTwo: 1 },
+	{ id: '123', teamOne: 'Arsenal', scoreOne: 2, teamTwo: 'Tottenham', scoreTwo: 4 },
+];
 
 // const fetchResults = async () => {
 // 	console.log('Fetching results...');
