@@ -12,6 +12,7 @@ import Tottenham from '../../../../components/league/teams/Tottenham';
 import Inter from '../../../../components/league/teams/Inter';
 import Roma from '../../../../components/league/teams/Roma';
 import BayernMunich from '../../../../components/league/teams/BayernMunich';
+import AtleticoMadrid from '../../../../components/league/teams/AtleticoMadrid';
 
 const SquadsForSeason = () => {
 	return (
@@ -76,6 +77,11 @@ const SquadsForSeason = () => {
 				playerOne={'Alexandr'}
 				imgOne={'/img/players/avatar.png'}
 				club={<ACMilan />} />
+			<PlayersTeam
+				team={'TEAM 13'}
+				playerOne={'Savva GR:10379326'}
+				imgOne={'/img/players/avatar.png'}
+				club={<AtleticoMadrid />} />
 		</div>
 	);
 }
