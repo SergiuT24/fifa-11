@@ -68,4 +68,8 @@ export const matchResults = [
 	{ id: '10', teamOne: 'Liverpool', scoreOne: 2, teamTwo: 'ManchesterUnited', scoreTwo: 2 },
 	{ id: '9', teamOne: 'Lyon', scoreOne: 0, teamTwo: 'Roma', scoreTwo: 6 },
 	{ id: '10', teamOne: 'Roma', scoreOne: 5, teamTwo: 'Lyon', scoreTwo: 3 },
+	{ id: '10', teamOne: 'Liverpool', scoreOne: 4, teamTwo: 'Sevilla', scoreTwo: 3 },
+	{ id: '9', teamOne: 'Sevilla', scoreOne: 1, teamTwo: 'Liverpool', scoreTwo: 3 },
+	{ id: '10', teamOne: 'Juventus', scoreOne: 1, teamTwo: 'Sevilla', scoreTwo: 7 },
+	{ id: '9', teamOne: 'Sevilla', scoreOne: 3, teamTwo: 'Juventus', scoreTwo: 4 },
 ]
