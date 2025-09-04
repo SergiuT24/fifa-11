@@ -12,6 +12,7 @@ import Tottenham from '../../../../../components/league/teams/Tottenham';
 import Inter from '../../../../../components/league/teams/Inter';
 import Roma from '../../../../../components/league/teams/Roma';
 import BayernMunich from '../../../../../components/league/teams/BayernMunich';
+import AtleticoMadrid from '../../../../../components/league/teams/AtleticoMadrid';
 
 const KingsCupPlayOffs = () => {
 	return (
@@ -79,7 +80,7 @@ const KingsCupPlayOffs = () => {
 					/>
 					<Square
 						teamOne={<Inter />}
-						teamTwo={'empty'}
+						teamTwo={<AtleticoMadrid/>}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
@@ -123,7 +124,7 @@ const KingsCupPlayOffs = () => {
 					<div className='mt-48'>
 						<Square
 							teamOne={'empty'}
-							teamTwo={<Inter />}
+							teamTwo={'empty'}
 							scoreFirstTeamOne={'?'}
 							scoreSecondTeamOne={'?'}
 							scoreFirstTeamTwo={'?'}
