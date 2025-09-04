@@ -3,6 +3,7 @@ import ACMilan from '../../components/league/teams/AcMilan';
 import ManchesterCity from '../../components/league/teams/ManchesterCity';
 import ManchesterUnited from '../../components/league/teams/ManchesterUnited';
 import Sevilla from '../../components/league/teams/Sevilla';
+import AtleticoMadrid from '../../components/league/teams/AtleticoMadrid';
 import Barcelona from '../../components/league/teams/Barcelona';
 import Lyon from '../../components/league/teams/Lyon';
 import Liverpool from '../../components/league/teams/Liverpool';
@@ -27,6 +28,7 @@ export const additionalTeams = [
 	{ id: 'Roma', name: <Roma />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Tottenham', name: <Tottenham />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Inter', name: <Inter />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'AtleticoMadrid', name: <AtleticoMadrid />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ]
 
 export const matchResults = [
