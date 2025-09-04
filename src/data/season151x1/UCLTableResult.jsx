@@ -29,7 +29,8 @@ export const matchResults = [
 	{ id: '123', teamOne: 'Inter', scoreOne: 0, teamTwo: 'AtleticoMadrid', scoreTwo: 0 },
 	{ id: '123', teamOne: 'Liverpool', scoreOne: 1, teamTwo: 'ACMilan', scoreTwo: 3 },
 	{ id: '123', teamOne: 'ACMilan', scoreOne: 0, teamTwo: 'Liverpool', scoreTwo: 3 },
-	{ id: '123', teamOne: 'Liverpool', scoreOne: 3, teamTwo: 'Lyon', scoreTwo: 1 }
+	{ id: '123', teamOne: 'Liverpool', scoreOne: 3, teamTwo: 'Lyon', scoreTwo: 1 },
+	{ id: '123', teamOne: 'Lyon', scoreOne: 2, teamTwo: 'Liverpool', scoreTwo: 2 },
 ];
 
 

@@ -1,11 +1,9 @@
 import React from 'react';
 import Square from '../../../../../components/league/square/Square';
-import CSKA from '../../../../../components/league/4star-teams/Cska';
-import Lazio from '../../../../../components/league/4star-teams/Lazio';
-import Dortmund from '../../../../../components/league/4star-teams/Dortmund';
-import Fiorentina from '../../../../../components/league/4star-teams/Fiorentina';
-
-
+import Liverpool from '../../../../../components/league/teams/Liverpool';
+import AcMilan from '../../../../../components/league/teams/AcMilan';
+import AtleticoMadrid from '../../../../../components/league/teams/AtleticoMadrid';
+import RealMadrid from '../../../../../components/league/teams/RealMadrid';
 
 const ChampionsLeaguePlayOffs = () => {
 	return (
@@ -14,20 +12,20 @@ const ChampionsLeaguePlayOffs = () => {
 				<h2 className='text-center'>Play Offs: Quarter-finals 1/4</h2>
 				<div className='flex gap-14 justify-center'>
 					<Square
-						teamOne={'empty'}
-						teamTwo={'empty'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						teamOne={<AtleticoMadrid />}
+						teamTwo={<AcMilan />}
+						scoreFirstTeamOne={3}
+						scoreSecondTeamOne={3}
+						scoreFirstTeamTwo={4}
+						scoreSecondTeamTwo={2}
 					/>
 					<Square
-						teamOne={'empty'}
-						teamTwo={'empty'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						teamOne={<Liverpool />}
+						teamTwo={<RealMadrid />}
+						scoreFirstTeamOne={1}
+						scoreSecondTeamOne={5}
+						scoreFirstTeamTwo={3}
+						scoreSecondTeamTwo={1}
 					/>
 				</div>
 			</div>
@@ -35,12 +33,12 @@ const ChampionsLeaguePlayOffs = () => {
 				<h2 className='text-center'>FINAL</h2>
 				<div className='flex gap-10 justify-center'>
 					<Square
-						teamOne={'empty'}
-						teamTwo={'empty'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						teamOne={<AtleticoMadrid />}
+						teamTwo={<RealMadrid />}
+						scoreFirstTeamOne={3}
+						scoreSecondTeamOne={1}
+						scoreFirstTeamTwo={5}
+						scoreSecondTeamTwo={4}
 					/>
 				</div>
 			</div>
