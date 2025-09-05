@@ -80,9 +80,9 @@ export const matchResults = [
 { id: '6', teamOne: 'AtleticoMadrid', scoreOne: 0, teamTwo: 'Inter', scoreTwo: 9 },
 { id: '7', teamOne: 'Inter', scoreOne: 7, teamTwo: 'Roma', scoreTwo: 1 },
 { id: '8', teamOne: 'Roma', scoreOne: 9, teamTwo: 'Inter', scoreTwo: 3 },
-{ id: '9', teamOne: 'Lyon', scoreOne: 1, teamTwo: 'Milan', scoreTwo: 5 },
-{ id: '10', teamOne: 'Milan', scoreOne: 5, teamTwo: 'Lyon', scoreTwo: 3 },
-{ id: '11', teamOne: 'Inter', scoreOne: 8, teamTwo: 'Milan', scoreTwo: 1 },
-{ id: '12', teamOne: 'Milan', scoreOne: 1, teamTwo: 'Inter', scoreTwo: 4 },
+{ id: '9', teamOne: 'Lyon', scoreOne: 1, teamTwo: 'ACMilan', scoreTwo: 5 },
+{ id: '10', teamOne: 'ACMilan', scoreOne: 5, teamTwo: 'Lyon', scoreTwo: 3 },
+{ id: '11', teamOne: 'Inter', scoreOne: 8, teamTwo: 'ACMilan', scoreTwo: 1 },
+{ id: '12', teamOne: 'ACMilan', scoreOne: 1, teamTwo: 'Inter', scoreTwo: 4 },
 
 ]
