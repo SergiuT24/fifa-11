@@ -3,7 +3,6 @@ import ACMilan from '../../components/league/teams/AcMilan';
 import ManchesterCity from '../../components/league/teams/ManchesterCity';
 import ManchesterUnited from '../../components/league/teams/ManchesterUnited';
 import Sevilla from '../../components/league/teams/Sevilla';
-import AtleticoMadrid from '../../components/league/teams/AtleticoMadrid';
 import Barcelona from '../../components/league/teams/Barcelona';
 import Lyon from '../../components/league/teams/Lyon';
 import Liverpool from '../../components/league/teams/Liverpool';
@@ -28,7 +27,6 @@ export const additionalTeams = [
 	{ id: 'Roma', name: <Roma />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Tottenham', name: <Tottenham />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Inter', name: <Inter />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'AtleticoMadrid', name: <AtleticoMadrid />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ]
 
 export const matchResults = [
@@ -56,10 +54,6 @@ export const matchResults = [
 	{ id: '10', teamOne: 'BayernMunich', scoreOne: 2, teamTwo: 'ManchesterUnited', scoreTwo: 1 },
 	{ id: '10', teamOne: 'Barcelona', scoreOne: 3, teamTwo: 'Sevilla', scoreTwo: 4 },
 	{ id: '9', teamOne: 'Sevilla', scoreOne: 6, teamTwo: 'Barcelona', scoreTwo: 3 },
-	{ id: '10', teamOne: 'AtleticoMadrid', scoreOne: 3, teamTwo: 'ManchesterCity', scoreTwo: 1 },
-	{ id: '9', teamOne: 'ManchesterCity', scoreOne: 4, teamTwo: 'AtleticoMadrid', scoreTwo: 1 },
-	{ id: '10', teamOne: 'AtleticoMadrid', scoreOne: 3, teamTwo: 'Roma', scoreTwo: 2 },
-	{ id: '9', teamOne: 'Roma', scoreOne: 2, teamTwo: 'AtleticoMadrid', scoreTwo: 1 },
 	{ id: '10', teamOne: 'BayernMunich', scoreOne: 8, teamTwo: 'Sevilla', scoreTwo: 1 },
 	{ id: '9', teamOne: 'Sevilla', scoreOne: 2, teamTwo: 'BayernMunich', scoreTwo: 3 },
 	{ id: '10', teamOne: 'ACMilan', scoreOne: 2, teamTwo: 'ManchesterCity', scoreTwo: 3 },
@@ -76,8 +70,6 @@ export const matchResults = [
 	{ id: '2', teamOne: 'Lyon', scoreOne: 3, teamTwo: 'Inter', scoreTwo: 8 },
 	{ id: '3', teamOne: 'Inter', scoreOne: 12, teamTwo: 'ManchesterCity', scoreTwo: 2 },
 	{ id: '4', teamOne: 'ManchesterCity', scoreOne: 1, teamTwo: 'Inter', scoreTwo: 1 },
-	{ id: '5', teamOne: 'Inter', scoreOne: 10, teamTwo: 'AtleticoMadrid', scoreTwo: 0 },
-	{ id: '6', teamOne: 'AtleticoMadrid', scoreOne: 0, teamTwo: 'Inter', scoreTwo: 9 },
 	{ id: '7', teamOne: 'Inter', scoreOne: 7, teamTwo: 'Roma', scoreTwo: 1 },
 	{ id: '8', teamOne: 'Roma', scoreOne: 9, teamTwo: 'Inter', scoreTwo: 3 },
 	{ id: '9', teamOne: 'Lyon', scoreOne: 1, teamTwo: 'ACMilan', scoreTwo: 5 },
