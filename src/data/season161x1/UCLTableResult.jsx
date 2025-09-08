@@ -1,21 +1,20 @@
-import ACMilan from '../../components/league/teams/AcMilan';
-import RealMadrid from '../../components/league/teams/RealMadrid';
-import Lyon from '../../components/league/teams/Lyon';
-import AtleticoMadrid from '../../components/league/teams/AtleticoMadrid';
 import Liverpool from '../../components/league/teams/Liverpool';
 import Inter from '../../components/league/teams/Inter';
-
+import BayernMunich from '../../components/league/teams/BayernMunich';
+import ManchesterCity from '../../components/league/teams/ManchesterCity';
+import Juventus from '../../components/league/teams/Juventus';
+import Sevilla from '../../components/league/teams/Sevilla';
 
 export const initialTeams = [
-	{ id: 'empty', name: 'empty', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'empty', name: 'empty', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'empty', name: 'empty', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'BayernMunich', name: <BayernMunich />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Liverpool', name: <Liverpool />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'ManchesterCity', name: <ManchesterCity />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
 export const additionalTeams = [
-	{ id: 'empty', name: 'empty', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'empty', name: 'empty', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'empty', name: 'empty', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Juventus', name: <Juventus />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Sevilla', name: <Sevilla />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Inter', name: <Inter />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
 export const matchResults = [
