@@ -1,9 +1,10 @@
 import React from 'react';
-import Square from '../../../../../components/league/square/Square';
-import CSKA from '../../../../../components/league/4star-teams/Cska';
-import Lazio from '../../../../../components/league/4star-teams/Lazio';
-import Dortmund from '../../../../../components/league/4star-teams/Dortmund';
-import Fiorentina from '../../../../../components/league/4star-teams/Fiorentina';
+import Liverpool from '../../../../../components/league/teams/Liverpool';
+import Inter from '../../../../../components/league/teams/Inter';
+import BayernMunich from '../../../../../components/league/teams/BayernMunich';
+import ManchesterCity from '../../../../../components/league/teams/ManchesterCity';
+import Juventus from '../../../../../components/league/teams/Juventus';
+import Sevilla from '../../../../../components/league/teams/Sevilla';
 
 
 
@@ -15,14 +16,14 @@ const ChampionsLeaguePlayOffs = () => {
 				<div className='flex gap-14 justify-center'>
 					<Square
 						teamOne={'empty'}
-						teamTwo={'empty'}
+						teamTwo={<Inter />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={'empty'}
+						teamOne={<Juventus />}
 						teamTwo={'empty'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
