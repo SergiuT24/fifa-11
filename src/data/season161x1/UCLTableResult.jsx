@@ -18,8 +18,10 @@ export const additionalTeams = [
 ];
 
 export const matchResults = [
-	// { id: '123', teamOne: 'Lyon', scoreOne: 0, teamTwo: 'ACMilan', scoreTwo: 4 },
-	// { id: '123', teamOne: 'ACMilan', scoreOne: 0, teamTwo: 'Lyon', scoreTwo: 2 },
+	{ id: '123', teamOne: 'Inter', scoreOne: 4, teamTwo: 'Juventus', scoreTwo: 2 },
+	{ id: '123', teamOne: 'Juventus', scoreOne: 4, teamTwo: 'Inter', scoreTwo: 2 },
+	{ id: '123', teamOne: 'Sevilla', scoreOne: 0, teamTwo: 'Juventus', scoreTwo: 1 },
+	{ id: '123', teamOne: 'Juventus', scoreOne: 3, teamTwo: 'Sevilla', scoreTwo: 3 },
 ];
 
 
