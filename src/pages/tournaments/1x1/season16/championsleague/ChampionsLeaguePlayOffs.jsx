@@ -1,4 +1,5 @@
 import React from 'react';
+import Square from '../../../../../components/league/square/Square';
 import Liverpool from '../../../../../components/league/teams/Liverpool';
 import Inter from '../../../../../components/league/teams/Inter';
 import BayernMunich from '../../../../../components/league/teams/BayernMunich';
