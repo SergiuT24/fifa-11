@@ -15,7 +15,7 @@ const ChampionsLeaguePlayOffs = () => {
 				<h2 className='text-center'>Play Offs: Quarter-finals 1/4</h2>
 				<div className='flex gap-14 justify-center'>
 					<Square
-						teamOne={'empty'}
+						teamOne={<BayernMunich />}
 						teamTwo={<Inter />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
@@ -24,7 +24,7 @@ const ChampionsLeaguePlayOffs = () => {
 					/>
 					<Square
 						teamOne={<Juventus />}
-						teamTwo={'empty'}
+						teamTwo={<Liverpool />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
