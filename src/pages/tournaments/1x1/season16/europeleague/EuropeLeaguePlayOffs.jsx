@@ -1,6 +1,8 @@
 import React from 'react';
 import Square from '../../../../../components/league/square/Square';
-import Werder from '../../../../../components/league/4star-teams/Werder';
+import Barcelona from '../../../../../components/league/teams/Barcelona';
+import ManchesterUnited from '../../../../../components/league/teams/ManchesterUnited';
+
 
 const EuropeLeaguePlayOffs = () => {
 	return (
@@ -9,7 +11,7 @@ const EuropeLeaguePlayOffs = () => {
 				<h2 className='text-center'>Play Offs: Quarter-finals 1/4</h2>
 				<div className='flex gap-14 justify-center'>
 					<Square
-						teamOne={'Group A 1'}
+						teamOne={<Barcelona />}
 						teamTwo={'Group B 2'}
 						scoreFirstTeamOne={0}
 						scoreSecondTeamOne={0}
@@ -17,7 +19,7 @@ const EuropeLeaguePlayOffs = () => {
 						scoreSecondTeamTwo={0}
 					/>
 					<Square
-						teamOne={'Group B 1'}
+						teamOne={<ManchesterUnited />}
 						teamTwo={'Group A 2'}
 						scoreFirstTeamOne={0}
 						scoreSecondTeamOne={0}

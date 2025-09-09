@@ -48,7 +48,6 @@ import { initialTeams as initialTeams161x1, additionalTeams as additionalTeamsSe
 import { initialTeams as initialTeamsUCL161x1, additionalTeams as additionalTeamsUCLSeason161x1, matchResults as matchResultsUCLSeason161x1 } from '../../../data/season161x1/UCLTableResult.jsx';
 import { initialTeams as initialTeamsEurope161x1, additionalTeams as additionalTeamsEuropeSeason161x1, matchResults as matchResultsEuropeSeason161x1 } from '../../../data/season161x1/EuropeTableResults.jsx';
 
-
 const SeasonSeven1x1 = () => (
 	<LeagueTableVersion3
 		initialTeams={initialTeamsSeven1x1}
@@ -365,6 +364,8 @@ const Europe161x1 = () => (
 		divisionNameTwo={'Group B'}
 	/>
 );
+
+
 
 // ========================================================================================
 
