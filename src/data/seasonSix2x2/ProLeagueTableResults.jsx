@@ -17,6 +17,8 @@ export const initialTeams = [
 ];
 
 export const matchResults = [
-	// { id: '1', teamOne: 'France', scoreOne: 2, teamTwo: 'Brazil', scoreTwo: 1 },
-	// { id: '1', teamOne: 'France', scoreOne: 2, teamTwo: 'Italy', scoreTwo: 2 },
+	{ id: '1', teamOne: 'Barcelona', scoreOne: 2, teamTwo: 'Inter', scoreTwo: 0 },
+	{ id: '1', teamOne: 'Inter', scoreOne: 2, teamTwo: 'Barcelona', scoreTwo: 1 },
+	{ id: '1', teamOne: 'ManchesterUnited', scoreOne: 8, teamTwo: 'Inter', scoreTwo: 0 },
+	{ id: '1', teamOne: 'Inter', scoreOne: 2, teamTwo: 'ManchesterUnited', scoreTwo: 8 },
 ];
