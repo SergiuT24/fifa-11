@@ -27,5 +27,7 @@ export const matchResults = [
 	{ id: '2', teamOne: 'ACMilan', scoreOne: 3, teamTwo: 'BayernMunich', scoreTwo: 1 },
 	{ id: '2', teamOne: 'ManchesterUnited', scoreOne: 7, teamTwo: 'ManchesterCity', scoreTwo: 2 },
 	{ id: '2', teamOne: 'ManchesterCity', scoreOne: 5, teamTwo: 'ManchesterUnited', scoreTwo: 3 },
+	{ id: '2', teamOne: 'Liverpool', scoreOne: 5, teamTwo: 'Barcelona', scoreTwo: 1 },
+	{ id: '2', teamOne: 'Barcelona', scoreOne: 2, teamTwo: 'Liverpool', scoreTwo: 1 },
 ];
 
