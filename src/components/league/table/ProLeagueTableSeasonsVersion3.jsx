@@ -48,6 +48,12 @@ import { initialTeams as initialTeams161x1, additionalTeams as additionalTeamsSe
 import { initialTeams as initialTeamsUCL161x1, additionalTeams as additionalTeamsUCLSeason161x1, matchResults as matchResultsUCLSeason161x1 } from '../../../data/season161x1/UCLTableResult.jsx';
 import { initialTeams as initialTeamsEurope161x1, additionalTeams as additionalTeamsEuropeSeason161x1, matchResults as matchResultsEuropeSeason161x1 } from '../../../data/season161x1/EuropeTableResults.jsx';
 
+// Season 17 1x1
+import { initialTeams as initialTeams171x1, additionalTeams as additionalTeamsSeason171x1, matchResults as matchResultsSeason171x1 } from '../../../data/season171x1/ProLeagueTableResults.jsx';
+import { initialTeams as initialTeamsUCL171x1, additionalTeams as additionalTeamsUCLSeason171x1, matchResults as matchResultsUCLSeason171x1 } from '../../../data/season171x1/UCLTableResult.jsx';
+import { initialTeams as initialTeamsEurope171x1, additionalTeams as additionalTeamsEuropeSeason171x1, matchResults as matchResultsEuropeSeason171x1 } from '../../../data/season171x1/EuropeTableResults.jsx';
+
+
 const SeasonSeven1x1 = () => (
 	<LeagueTableVersion3
 		initialTeams={initialTeamsSeven1x1}
@@ -366,6 +372,40 @@ const Europe161x1 = () => (
 );
 
 
+// Season 17 1x1
+const Season171x1 = () => (
+	<LeagueTableVersion3
+		initialTeams={initialTeams171x1}
+		additionalTeams={additionalTeamsSeason171x1}
+		matchResults={matchResultsSeason171x1}
+		seasonTitle="Season 17 (1x1) "
+		divisionNameOne={'Pro League'}
+		divisionNameTwo={'Middle League'}
+	/>
+);
+
+const UCL171x1 = () => (
+	<LeagueTableVersion3
+		initialTeams={initialTeamsUCL171x1}
+		additionalTeams={additionalTeamsUCLSeason171x1}
+		matchResults={matchResultsUCLSeason171x1}
+		seasonTitle="Group Stage "
+		divisionNameOne={'Group A'}
+		divisionNameTwo={'Group B'}
+	/>
+);
+
+const Europe171x1 = () => (
+	<LeagueTableVersion3
+		initialTeams={initialTeamsEurope171x1}
+		additionalTeams={additionalTeamsEuropeSeason171x1}
+		matchResults={matchResultsEuropeSeason171x1}
+		seasonTitle="Group Stage"
+		divisionNameOne={'Group A'}
+		divisionNameTwo={'Group B'}
+	/>
+);
+
 
 // ========================================================================================
 
@@ -399,4 +439,7 @@ export {
 	Season161x1,
 	UCL161x1,
 	Europe161x1,
+	Season171x1,
+	UCL171x1,
+	Europe171x1,
 };

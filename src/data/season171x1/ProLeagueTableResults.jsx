@@ -1,0 +1,46 @@
+import Stuttgart from '../../components/league/4star-teams/Stuttgart';
+import Bilbao from '../../components/league/4star-teams/Bilbao';
+import Genoa from '../../components/league/4star-teams/Genoa';
+import Dortmund from '../../components/league/4star-teams/Dortmund';
+import Getafe from '../../components/league/4star-teams/Getafe';
+import Schalke from '../../components/league/4star-teams/Schalke';
+import Werder from '../../components/league/4star-teams/Werder';
+import Napoli from '../../components/league/4star-teams/Napoli';
+import Villarreal from '../../components/league/4star-teams/Villarreal';
+import Everton from '../../components/league/4star-teams/Everton';
+import PSV from '../../components/league/4star-teams/Psv';
+import Galatasaray from '../../components/league/4star-teams/Galatasaray';
+
+
+export const initialTeams = [
+	{ id: 'Stuttgart', name: <Stuttgart />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Dortmund', name: <Dortmund />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Getafe', name: <Getafe />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Werder', name: <Werder />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Napoli', name: <Napoli />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'PSV', name: <PSV />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+];
+
+export const additionalTeams = [
+	{ id: 'Bilbao', name: <Bilbao />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Genoa', name: <Genoa />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Schalke', name: <Schalke />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Villarreal', name: <Villarreal />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Everton', name: <Everton />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Galatasaray', name: <Galatasaray />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+]
+
+export const matchResults = [
+	{ id: '1', teamOne: 'Werder', scoreOne: 7, teamTwo: 'Napoli', scoreTwo: 0 },
+	{ id: '2', teamOne: 'Napoli', scoreOne: 9, teamTwo: 'Werder', scoreTwo: 3 },
+	{ id: '1', teamOne: 'Everton', scoreOne: 5, teamTwo: 'Villarreal', scoreTwo: 0 },
+	{ id: '2', teamOne: 'Villarreal', scoreOne: 4, teamTwo: 'Everton', scoreTwo: 0 },
+	{ id: '1', teamOne: 'Werder', scoreOne: 4, teamTwo: 'Stuttgart', scoreTwo: 1 },
+	{ id: '2', teamOne: 'Stuttgart', scoreOne: 2, teamTwo: 'Werder', scoreTwo: 1 },
+	{ id: '1', teamOne: 'Werder', scoreOne: 5, teamTwo: 'Dortmund', scoreTwo: 3 },
+	{ id: '2', teamOne: 'Dortmund', scoreOne: 3, teamTwo: 'Werder', scoreTwo: 1 },
+	{ id: '1', teamOne: 'Everton', scoreOne: 2, teamTwo: 'Schalke', scoreTwo: 4 },
+	{ id: '2', teamOne: 'Schalke', scoreOne: 5, teamTwo: 'Everton', scoreTwo: 2 },
+	{ id: '1', teamOne: 'Stuttgart', scoreOne: 3, teamTwo: 'Dortmund', scoreTwo: 2 },
+	{ id: '2', teamOne: 'Dortmund', scoreOne: 2, teamTwo: 'Stuttgart', scoreTwo: 1 },
+]
