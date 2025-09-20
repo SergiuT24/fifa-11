@@ -12,6 +12,7 @@ import Villarreal from '../../../../../components/league/4star-teams/Villarreal'
 import Everton from '../../../../../components/league/4star-teams/Everton';
 import PSV from '../../../../../components/league/4star-teams/Psv';
 import Galatasaray from '../../../../../components/league/4star-teams/Galatasaray';
+import Lille from '../../../../../components/league/4star-teams/Lille';
 
 
 const KingsCupPlayOffs = () => {
@@ -80,7 +81,7 @@ const KingsCupPlayOffs = () => {
 					/>
 					<Square
 						teamOne={<Everton />}
-						teamTwo={'empty'}
+						teamTwo={<Lille/>}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
@@ -124,7 +125,7 @@ const KingsCupPlayOffs = () => {
 					<div className='mt-48'>
 						<Square
 							teamOne={'empty'}
-							teamTwo={<Everton />}
+							teamTwo={'empty'}
 							scoreFirstTeamOne={'?'}
 							scoreSecondTeamOne={'?'}
 							scoreFirstTeamTwo={'?'}
