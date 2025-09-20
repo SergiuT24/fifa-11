@@ -9,11 +9,13 @@ import Napoli from '../../components/league/4star-teams/Napoli';
 import Villarreal from '../../components/league/4star-teams/Villarreal';
 import Everton from '../../components/league/4star-teams/Everton';
 import PSV from '../../components/league/4star-teams/Psv';
+import Lille from '../../components/league/4star-teams/Lille';
 import Galatasaray from '../../components/league/4star-teams/Galatasaray';
 
 
 export const initialTeams = [
 	{ id: 'Stuttgart', name: <Stuttgart />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Lille', name: <Lille />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Dortmund', name: <Dortmund />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Getafe', name: <Getafe />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Werder', name: <Werder />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
