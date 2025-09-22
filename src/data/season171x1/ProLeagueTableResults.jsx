@@ -20,7 +20,6 @@ export const initialTeams = [
 	{ id: 'Getafe', name: <Getafe />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Werder', name: <Werder />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Napoli', name: <Napoli />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'PSV', name: <PSV />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
 export const additionalTeams = [
@@ -47,8 +46,6 @@ export const matchResults = [
 	{ id: '2', teamOne: 'Dortmund', scoreOne: 2, teamTwo: 'Stuttgart', scoreTwo: 1 },
 	{ id: '3', teamOne: 'Galatasaray', scoreOne: 3, teamTwo: 'Villarreal', scoreTwo: 0 },
 	{ id: '4', teamOne: 'Villarreal', scoreOne: 1, teamTwo: 'Galatasaray', scoreTwo: 3 },
-	{ id: '5', teamOne: 'Werder', scoreOne: 1, teamTwo: 'PSV', scoreTwo: 4 },
-	{ id: '6', teamOne: 'PSV', scoreOne: 1, teamTwo: 'Werder', scoreTwo: 5 },
 	{ id: '7', teamOne: 'Villarreal', scoreOne: 2, teamTwo: 'Bilbao', scoreTwo: 2 },
 	{ id: '8', teamOne: 'Bilbao', scoreOne: 1, teamTwo: 'Villarreal', scoreTwo: 5 },
 	{ id: '9', teamOne: 'Napoli', scoreOne: 2, teamTwo: 'Stuttgart', scoreTwo: 3 },
@@ -59,11 +56,16 @@ export const matchResults = [
 	{ id: '14', teamOne: 'Bilbao', scoreOne: 1, teamTwo: 'Genoa', scoreTwo: 2 },
 	{ id: '15', teamOne: 'Everton', scoreOne: 2, teamTwo: 'Bilbao', scoreTwo: 1 },
 	{ id: '16', teamOne: 'Bilbao', scoreOne: 2, teamTwo: 'Everton', scoreTwo: 0 },
-	{ id: '10', teamOne: 'Stuttgart', scoreOne: 3, teamTwo: 'PSV', scoreTwo: 1 },
-	{ id: '9', teamOne: 'Napoli', scoreOne: 2, teamTwo: 'PSV', scoreTwo: 1 },
-	{ id: '10', teamOne: 'PSV', scoreOne: 0, teamTwo: 'Napoli', scoreTwo: 3 },
 	{ id: '9', teamOne: 'Napoli', scoreOne: 3, teamTwo: 'Lille', scoreTwo: 1 },
 	{ id: '10', teamOne: 'Lille', scoreOne: 3, teamTwo: 'Napoli', scoreTwo: 2 },
 	{ id: '9', teamOne: 'Stuttgart', scoreOne: 2, teamTwo: 'Lille', scoreTwo: 3 },
 	{ id: '10', teamOne: 'Lille', scoreOne: 3, teamTwo: 'Stuttgart', scoreTwo: 3 },
+	{ id: '1', teamOne: 'Genoa', scoreOne: 0, teamTwo: 'Schalke', scoreTwo: 4 },
+	{ id: '2', teamOne: 'Schalke', scoreOne: 1, teamTwo: 'Genoa', scoreTwo: 2 },
+	{ id: '3', teamOne: 'Villarreal', scoreOne: 2, teamTwo: 'Schalke', scoreTwo: 0 },
+	{ id: '4', teamOne: 'Schalke', scoreOne: 3, teamTwo: 'Villarreal', scoreTwo: 0 },
+	{ id: '5', teamOne: 'Genoa', scoreOne: 0, teamTwo: 'Villarreal', scoreTwo: 0 },
+	{ id: '6', teamOne: 'Villarreal', scoreOne: 1, teamTwo: 'Genoa', scoreTwo: 2 },
+	{ id: '7', teamOne: 'Napoli', scoreOne: 2, teamTwo: 'Dortmund', scoreTwo: 3 },
+	{ id: '8', teamOne: 'Dortmund', scoreOne: 2, teamTwo: 'Napoli', scoreTwo: 2 },
 ]

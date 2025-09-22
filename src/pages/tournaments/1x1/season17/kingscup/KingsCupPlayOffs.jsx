@@ -26,10 +26,10 @@ const KingsCupPlayOffs = () => {
 					<Square
 						teamOne={<Schalke />}
 						teamTwo={<Napoli />}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						scoreFirstTeamOne={4}
+						scoreSecondTeamOne={7}
+						scoreFirstTeamTwo={1}
+						scoreSecondTeamTwo={4}
 					/>
 					<Square
 						teamOne={<Genoa />}
@@ -40,7 +40,7 @@ const KingsCupPlayOffs = () => {
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={<PSV />}
+						teamOne={'empty'}
 						teamTwo={<Stuttgart />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
@@ -81,7 +81,7 @@ const KingsCupPlayOffs = () => {
 					/>
 					<Square
 						teamOne={<Everton />}
-						teamTwo={<Lille/>}
+						teamTwo={<Lille />}
 						scoreFirstTeamOne={4}
 						scoreSecondTeamOne={3}
 						scoreFirstTeamTwo={0}
@@ -95,16 +95,16 @@ const KingsCupPlayOffs = () => {
 				</div>
 				<div className='flex flex-col pt-20 justify-center'>
 					<Square
-						teamOne={'empty'}
+						teamOne={<Napoli />}
 						teamTwo={<Genoa />}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						scoreFirstTeamOne={3}
+						scoreSecondTeamOne={0}
+						scoreFirstTeamTwo={9}
+						scoreSecondTeamTwo={4}
 					/>
 					<div className='mt-48'>
 						<Square
-							teamOne={'empty'}
+							teamOne={<Stuttgart />}
 							teamTwo={<Dortmund />}
 							scoreFirstTeamOne={'?'}
 							scoreSecondTeamOne={'?'}
@@ -125,7 +125,7 @@ const KingsCupPlayOffs = () => {
 					<div className='mt-48'>
 						<Square
 							teamOne={<Galatasaray />}
-							teamTwo={<Lille/>}
+							teamTwo={<Lille />}
 							scoreFirstTeamOne={'?'}
 							scoreSecondTeamOne={'?'}
 							scoreFirstTeamTwo={'?'}
@@ -141,7 +141,7 @@ const KingsCupPlayOffs = () => {
 				<div className='flex flex-col pt-20 justify-center'>
 					<div className='mt-36'>
 						<Square
-							teamOne={'empty'}
+							teamOne={<Napoli />}
 							teamTwo={'empty'}
 							scoreFirstTeamOne={'?'}
 							scoreSecondTeamOne={'?'}
