@@ -2,13 +2,11 @@ import Stuttgart from '../../components/league/4star-teams/Stuttgart';
 import Bilbao from '../../components/league/4star-teams/Bilbao';
 import Genoa from '../../components/league/4star-teams/Genoa';
 import Dortmund from '../../components/league/4star-teams/Dortmund';
-import Getafe from '../../components/league/4star-teams/Getafe';
 import Schalke from '../../components/league/4star-teams/Schalke';
 import Werder from '../../components/league/4star-teams/Werder';
 import Napoli from '../../components/league/4star-teams/Napoli';
 import Villarreal from '../../components/league/4star-teams/Villarreal';
 import Everton from '../../components/league/4star-teams/Everton';
-import PSV from '../../components/league/4star-teams/Psv';
 import Lille from '../../components/league/4star-teams/Lille';
 import Galatasaray from '../../components/league/4star-teams/Galatasaray';
 
@@ -17,7 +15,6 @@ export const initialTeams = [
 	{ id: 'Stuttgart', name: <Stuttgart />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Lille', name: <Lille />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Dortmund', name: <Dortmund />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'Getafe', name: <Getafe />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Werder', name: <Werder />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Napoli', name: <Napoli />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
@@ -68,4 +65,10 @@ export const matchResults = [
 	{ id: '6', teamOne: 'Villarreal', scoreOne: 1, teamTwo: 'Genoa', scoreTwo: 2 },
 	{ id: '7', teamOne: 'Napoli', scoreOne: 2, teamTwo: 'Dortmund', scoreTwo: 3 },
 	{ id: '8', teamOne: 'Dortmund', scoreOne: 2, teamTwo: 'Napoli', scoreTwo: 2 },
+	{ id: '7', teamOne: 'Werder', scoreOne: 2, teamTwo: 'Lille', scoreTwo: 1 },
+	{ id: '8', teamOne: 'Lille', scoreOne: 4, teamTwo: 'Werder', scoreTwo: 3 },
+	{ id: '3', teamOne: 'Galatasaray', scoreOne: 3, teamTwo: 'Bilbao', scoreTwo: 0 },
+	{ id: '4', teamOne: 'Bilbao', scoreOne: 1, teamTwo: 'Galatasaray', scoreTwo: 7 },
+	{ id: '8', teamOne: 'Lille', scoreOne: 3, teamTwo: 'Dortmund', scoreTwo: 5 },
+	{ id: '7', teamOne: 'Dortmund', scoreOne: 1, teamTwo: 'Lille', scoreTwo: 3 },
 ]

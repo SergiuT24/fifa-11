@@ -1,18 +1,18 @@
 import React from 'react';
 import Square from '../../../../../components/league/square/Square';
-import Stuttgart from '../../../../../components/league/4star-teams/Stuttgart';
 import Bilbao from '../../../../../components/league/4star-teams/Bilbao';
 import Genoa from '../../../../../components/league/4star-teams/Genoa';
-import Dortmund from '../../../../../components/league/4star-teams/Dortmund';
 import Getafe from '../../../../../components/league/4star-teams/Getafe';
 import Schalke from '../../../../../components/league/4star-teams/Schalke';
-import Werder from '../../../../../components/league/4star-teams/Werder';
 import Napoli from '../../../../../components/league/4star-teams/Napoli';
 import Villarreal from '../../../../../components/league/4star-teams/Villarreal';
 import Everton from '../../../../../components/league/4star-teams/Everton';
 import PSV from '../../../../../components/league/4star-teams/Psv';
 import Galatasaray from '../../../../../components/league/4star-teams/Galatasaray';
+import Stuttgart from '../../../../../components/league/4star-teams/Stuttgart';
+import Dortmund from '../../../../../components/league/4star-teams/Dortmund';
 import Lille from '../../../../../components/league/4star-teams/Lille';
+import Werder from '../../../../../components/league/4star-teams/Werder';
 
 
 const KingsCupPlayOffs = () => {
@@ -106,30 +106,30 @@ const KingsCupPlayOffs = () => {
 						<Square
 							teamOne={<Stuttgart />}
 							teamTwo={<Dortmund />}
-							scoreFirstTeamOne={'?'}
-							scoreSecondTeamOne={'?'}
-							scoreFirstTeamTwo={'?'}
-							scoreSecondTeamTwo={'?'}
+							scoreFirstTeamOne={4}
+							scoreSecondTeamOne={1}
+							scoreFirstTeamTwo={4}
+							scoreSecondTeamTwo={3}
 						/>
 					</div>
 					<div className='mt-48'>
 						<Square
 							teamOne={<Villarreal />}
 							teamTwo={<Getafe />}
-							scoreFirstTeamOne={'?'}
-							scoreSecondTeamOne={'?'}
-							scoreFirstTeamTwo={'?'}
-							scoreSecondTeamTwo={'?'}
+							scoreFirstTeamOne={3}
+							scoreSecondTeamOne={0}
+							scoreFirstTeamTwo={3}
+							scoreSecondTeamTwo={0}
 						/>
 					</div>
 					<div className='mt-48'>
 						<Square
 							teamOne={<Galatasaray />}
 							teamTwo={<Lille />}
-							scoreFirstTeamOne={'?'}
-							scoreSecondTeamOne={'?'}
-							scoreFirstTeamTwo={'?'}
-							scoreSecondTeamTwo={'?'}
+							scoreFirstTeamOne={3}
+							scoreSecondTeamOne={2}
+							scoreFirstTeamTwo={0}
+							scoreSecondTeamTwo={2}
 						/>
 					</div>
 				</div>
@@ -142,17 +142,17 @@ const KingsCupPlayOffs = () => {
 					<div className='mt-36'>
 						<Square
 							teamOne={<Napoli />}
-							teamTwo={'empty'}
-							scoreFirstTeamOne={'?'}
-							scoreSecondTeamOne={'?'}
-							scoreFirstTeamTwo={'?'}
-							scoreSecondTeamTwo={'?'}
+							teamTwo={<Stuttgart />}
+							scoreFirstTeamOne={2}
+							scoreSecondTeamOne={3}
+							scoreFirstTeamTwo={9}
+							scoreSecondTeamTwo={1}
 						/>
 					</div>
 					<div className='mt-96 pt-16'>
 						<Square
-							teamOne={'empty'}
-							teamTwo={'empty'}
+							teamOne={<Villarreal />}
+							teamTwo={<Lille />}
 							scoreFirstTeamOne={'?'}
 							scoreSecondTeamOne={'?'}
 							scoreFirstTeamTwo={'?'}
@@ -168,7 +168,7 @@ const KingsCupPlayOffs = () => {
 				<div className='flex flex-col pt-20 justify-center'>
 					<div className='mt-96 pt-6'>
 						<Square
-							teamOne={'empty'}
+							teamOne={<Napoli />}
 							teamTwo={'empty'}
 							scoreFirstTeamOne={'?'}
 							scoreSecondTeamOne={'?'}
