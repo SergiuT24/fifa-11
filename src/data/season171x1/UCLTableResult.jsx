@@ -1,7 +1,7 @@
-import Stuttgart from '../../../../../components/league/4star-teams/Stuttgart';
-import Dortmund from '../../../../../components/league/4star-teams/Dortmund';
-import Lille from '../../../../../components/league/4star-teams/Lille';
-import Werder from '../../../../../components/league/4star-teams/Werder';
+import Stuttgart from '../../components/league/4star-teams/Stuttgart';
+import Dortmund from '../../components/league/4star-teams/Dortmund';
+import Lille from '../../components/league/4star-teams/Lille';
+import Werder from '../../components/league/4star-teams/Werder';
 
 
 
