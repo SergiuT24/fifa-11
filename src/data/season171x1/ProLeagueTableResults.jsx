@@ -71,6 +71,4 @@ export const matchResults = [
 	{ id: '4', teamOne: 'Bilbao', scoreOne: 1, teamTwo: 'Galatasaray', scoreTwo: 7 },
 	{ id: '8', teamOne: 'Lille', scoreOne: 3, teamTwo: 'Dortmund', scoreTwo: 5 },
 	{ id: '7', teamOne: 'Dortmund', scoreOne: 1, teamTwo: 'Lille', scoreTwo: 3 },
-	{ id: '8', teamOne: 'Bilbao', scoreOne: 5, teamTwo: 'Schalke', scoreTwo: 2 },
-	{ id: '7', teamOne: 'Schalke', scoreOne: 2, teamTwo: 'Bilbao', scoreTwo: 2 },
 ]
