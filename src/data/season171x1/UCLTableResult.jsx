@@ -2,23 +2,29 @@ import Stuttgart from '../../components/league/4star-teams/Stuttgart';
 import Dortmund from '../../components/league/4star-teams/Dortmund';
 import Lille from '../../components/league/4star-teams/Lille';
 import Werder from '../../components/league/4star-teams/Werder';
+import Schalke from '../../components/league/4star-teams/Schalke';
+import Galatasaray from '../../components/league/4star-teams/Galatasaray';
 
 
 
 export const initialTeams = [
 	{ id: 'Dortmund', name: <Dortmund />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Werder', name: <Werder />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'Place 2 ML', name: 'Place 2 ML', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Schalke', name: <Schalke />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
 export const additionalTeams = [
 	{ id: 'Lille', name: <Lille />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'Stuttgart', name: <Stuttgart />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'Place 1 ML', name: 'Place 1 ML', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Galatasaray', name: <Galatasaray />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 export const matchResults = [
-	// { id: '123', teamOne: 'Inter', scoreOne: 4, teamTwo: 'Juventus', scoreTwo: 2 },
-
+	{ id: '123', teamOne: 'Lille', scoreOne: 5, teamTwo: 'Stuttgart', scoreTwo: 3 },
+	{ id: '123', teamOne: 'Stuttgart', scoreOne: 5, teamTwo: 'Lille', scoreTwo: 4 },
+	{ id: '123', teamOne: 'Werder', scoreOne: 7, teamTwo: 'Dortmund', scoreTwo: 1 },
+	{ id: '123', teamOne: 'Dortmund', scoreOne: 2, teamTwo: 'Werder', scoreTwo: 1 },
+	{ id: '123', teamOne: 'Werder', scoreOne: 2, teamTwo: 'Schalke', scoreTwo: 0 },
+	{ id: '123', teamOne: 'Schalke', scoreOne: 2, teamTwo: 'Werder', scoreTwo: 5 },
 ];
 
 
