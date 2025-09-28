@@ -7,6 +7,7 @@ const Menu = () => {
 			<div className='mx-5 flex gap-3 py-1'>
 				<MenuLink value={'Home'} to="/home" />
 				<MenuLink value={'Draft'} to="/draft/season1" />
+				<MenuLink value={'Career Mode'} to="/career/season1" />
 				<MenuLink value={'Tournaments 1x1'} to="/tournaments/1x1" />
 				<MenuLink value={'Tournaments 2x2'} to="/tournaments/2x2" />
 				<MenuLink value={'Tournaments 3x3'} to="/tournaments/3x3" />

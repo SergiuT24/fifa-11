@@ -25,6 +25,12 @@ export const matchResults = [
 	{ id: '123', teamOne: 'Dortmund', scoreOne: 2, teamTwo: 'Werder', scoreTwo: 1 },
 	{ id: '123', teamOne: 'Werder', scoreOne: 2, teamTwo: 'Schalke', scoreTwo: 0 },
 	{ id: '123', teamOne: 'Schalke', scoreOne: 2, teamTwo: 'Werder', scoreTwo: 5 },
+	{ id: '123', teamOne: 'Galatasaray', scoreOne: 3, teamTwo: 'Stuttgart', scoreTwo: 2 },
+	{ id: '123', teamOne: 'Stuttgart', scoreOne: 0, teamTwo: 'Galatasaray', scoreTwo: 3 },
+	{ id: '123', teamOne: 'Schalke', scoreOne: 0, teamTwo: 'Dortmund', scoreTwo: 4 },
+	{ id: '123', teamOne: 'Dortmund', scoreOne: 2, teamTwo: 'Schalke', scoreTwo: 1 },
+	{ id: '123', teamOne: 'Galatasaray', scoreOne: 3, teamTwo: 'Lille', scoreTwo: 2 },
+	{ id: '123', teamOne: 'Lille', scoreOne: 5, teamTwo: 'Galatasaray', scoreTwo: 2 },
 ];
 
 

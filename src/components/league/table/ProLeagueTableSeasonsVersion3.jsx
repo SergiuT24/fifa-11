@@ -53,6 +53,11 @@ import { initialTeams as initialTeams171x1, additionalTeams as additionalTeamsSe
 import { initialTeams as initialTeamsUCL171x1, additionalTeams as additionalTeamsUCLSeason171x1, matchResults as matchResultsUCLSeason171x1 } from '../../../data/season171x1/UCLTableResult.jsx';
 import { initialTeams as initialTeamsEurope171x1, additionalTeams as additionalTeamsEuropeSeason171x1, matchResults as matchResultsEuropeSeason171x1 } from '../../../data/season171x1/EuropeTableResults.jsx';
 
+// Career Season 1
+import { initialTeams as initialTeamsCareerOne1x1, additionalTeams as additionalTeamsSeasonCareerOne1x1, matchResults as matchResultsSeasonCareerOne1x1 } from '../../../data/careerSeasonOne/ProLeagueTableResults.jsx';
+import { initialTeams as initialTeamsUCLCareerOne1x1, additionalTeams as additionalTeamsUCLSeasonCareerOne1x1, matchResults as matchResultsUCLSeasonCareerOne1x1 } from '../../../data/careerSeasonOne/UCLTableResult.jsx';
+import { initialTeams as initialTeamsEuropeCareerOne1x1, additionalTeams as additionalTeamsEuropeSeasonCareerOne1x1, matchResults as matchResultsEuropeSeasonCareerOne1x1 } from '../../../data/careerSeasonOne/EuropeTableResults.jsx';
+
 
 const SeasonSeven1x1 = () => (
 	<LeagueTableVersion3
@@ -406,6 +411,40 @@ const Europe171x1 = () => (
 	/>
 );
 
+// Career Season 1
+const CareerSeasonOne = () => (
+	<LeagueTableVersion3
+		initialTeams={initialTeamsCareerOne1x1}
+		additionalTeams={additionalTeamsSeasonCareerOne1x1}
+		matchResults={matchResultsSeasonCareerOne1x1}
+		seasonTitle="Season 1 Career "
+		divisionNameOne={'League'}
+		divisionNameTwo={'none'}
+	/>
+);
+
+const UCLCareerOne = () => (
+	<LeagueTableVersion3
+		initialTeams={initialTeamsUCLCareerOne1x1}
+		additionalTeams={additionalTeamsUCLSeasonCareerOne1x1}
+		matchResults={matchResultsUCLSeasonCareerOne1x1}
+		seasonTitle="Group Stage "
+		divisionNameOne={'Group A'}
+		divisionNameTwo={'Group B'}
+	/>
+);
+
+const EuropeCareerOne = () => (
+	<LeagueTableVersion3
+		initialTeams={initialTeamsEuropeCareerOne1x1}
+		additionalTeams={additionalTeamsEuropeSeasonCareerOne1x1}
+		matchResults={matchResultsEuropeSeasonCareerOne1x1}
+		seasonTitle="Group Stage"
+		divisionNameOne={'Group A'}
+		divisionNameTwo={'Group B'}
+	/>
+);
+
 
 // ========================================================================================
 
@@ -442,4 +481,7 @@ export {
 	Season171x1,
 	UCL171x1,
 	Europe171x1,
+	CareerSeasonOne,
+	UCLCareerOne,
+	EuropeCareerOne,
 };
