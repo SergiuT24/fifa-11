@@ -7,6 +7,8 @@ import Valencia from '../../components/league/teams/Valencia';
 import Chelsea from '../../components/league/teams/Chelsea';
 import ACMilan from '../../components/league/teams/AcMilan';
 import FSVMainz from '../../components/league/teams/FSVMainz';
+import NewcastleUnited from '../../components/league/teams/NewcastleUnited';
+import BocaJuniors from '../../components/league/teams/BocaJuniors';
 
 
 export const initialTeams = [
@@ -19,7 +21,8 @@ export const initialTeams = [
 	{ id: 'Chelsea', name: < Chelsea />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'ACMilan', name: <ACMilan />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 	{ id: 'FSVMainz', name: < FSVMainz />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
-	{ id: 'Julls', name: 'Julls', mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'Julls', name: <NewcastleUnited />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
+	{ id: 'BocaJuniors', name: <BocaJuniors />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 
 export const additionalTeams = [
