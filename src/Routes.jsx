@@ -32,6 +32,7 @@ import DraftSeasonOne from './pages/draft/DraftSeasonOne';
 import PlayersProfile1x1 from './pages/PlayersProfile1x1';
 import PlayersProfile2x2 from './pages/PlayersProfile2x2';
 import CareerSeasonOne1x1 from './pages/tournaments/1x1/CareerSeasonOne1x1';
+import CareerSeasonTwo1x1 from './pages/tournaments/1x1/CareerSeasonTwo1x1';
 
 function AppRoutes() {
 	const location = useLocation();
@@ -58,11 +59,12 @@ function AppRoutes() {
 			<Route path="/" element={<Home />} />
 			<Route path="/home" element={<Home />} />
 			<Route path="/draft/season1" element={<DraftSeasonOne />} />
-			<Route path="/career/season1" element={<CareerSeasonOne1x1 />} />
+			<Route path="/career/season1" element={<CareerSeasonTwo1x1 />} />
 			<Route path="/tournaments/1x1" element={<TournamentsSeason171x1 />} />
 			<Route path="/tournaments/2x2" element={<TournamentsSeasonSix2x2 />} />
 			<Route path="/tournaments/3x3" element={<TournamentsSeasonOne3x3 />} />
 			<Route path='/archive' element={<Archive />} />
+			<Route path='/archive/tournament/career/season/1' element={<CareerSeasonOne1x1 />} />
 			<Route path='/archive/tournament/2x2/season/1' element={<TournamentsSeasonOne2x2 />} />
 			<Route path='/archive/tournament/2x2/season/2' element={<TournamentsSeasonTwo2x2 />} />
 			<Route path='/archive/tournament/2x2/season/3' element={<TournamentsSeasonTree2x2 />} />
