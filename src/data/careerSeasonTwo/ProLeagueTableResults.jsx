@@ -61,4 +61,8 @@ export const matchResults = [
 	{ id: '25', teamOne: 'Chelsea', scoreOne: 3, teamTwo: 'WestBrom', scoreTwo: 1 },
 	{ id: '26', teamOne: 'NewcastleUnited', scoreOne: 2, teamTwo: 'Barcelona', scoreTwo: 3 },
 	{ id: '25', teamOne: 'Barcelona', scoreOne: 4, teamTwo: 'NewcastleUnited', scoreTwo: 1 },
+	{ id: '13', teamOne: 'CSKA', scoreOne: 1, teamTwo: 'ACMilan', scoreTwo: 1 },
+	{ id: '14', teamOne: 'ACMilan', scoreOne: 0, teamTwo: 'CSKA', scoreTwo: 1 },
+	{ id: '26', teamOne: 'BocaJuniors', scoreOne: 0, teamTwo: 'Chelsea', scoreTwo: 2 },
+	{ id: '25', teamOne: 'Chelsea', scoreOne: 2, teamTwo: 'BocaJuniors', scoreTwo: 2 },
 ]
