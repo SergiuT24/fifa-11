@@ -456,7 +456,7 @@ const CareerSeasonTwo = () => (
 		initialTeams={initialTeamsCareerTwo1x1}
 		additionalTeams={additionalTeamsSeasonCareerTwo1x1}
 		matchResults={matchResultsSeasonCareerTwo1x1}
-		seasonTitle="Season 1 Career "
+		seasonTitle="Season 2 Career "
 		divisionNameOne={'Pro League'}
 		divisionNameTwo={'Middle League'}
 	/>
