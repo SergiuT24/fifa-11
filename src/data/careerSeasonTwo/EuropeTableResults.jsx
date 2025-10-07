@@ -26,4 +26,8 @@ export const matchResults = [
 	{ id: '123', teamOne: 'Barcelona', scoreOne: 10, teamTwo: 'Chelsea', scoreTwo: 2 },
 	{ id: '123', teamOne: 'FSVMainz', scoreOne: 2, teamTwo: 'BocaJuniors', scoreTwo: 1 },
 	{ id: '123', teamOne: 'BocaJuniors', scoreOne: 1, teamTwo: 'FSVMainz', scoreTwo: 2 },
+	{ id: '123', teamOne: 'WestBrom', scoreOne: 5, teamTwo: 'FSVMainz', scoreTwo: 4 },
+	{ id: '123', teamOne: 'FSVMainz', scoreOne: 3, teamTwo: 'WestBrom', scoreTwo: 1 },
+	{ id: '123', teamOne: 'Chelsea', scoreOne: 2, teamTwo: 'NewcastleUnited', scoreTwo: 1 },
+	{ id: '123', teamOne: 'NewcastleUnited', scoreOne: 3, teamTwo: 'Chelsea', scoreTwo: 2 },
 ];
