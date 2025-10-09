@@ -30,4 +30,6 @@ export const matchResults = [
 	{ id: '123', teamOne: 'FSVMainz', scoreOne: 3, teamTwo: 'WestBrom', scoreTwo: 1 },
 	{ id: '123', teamOne: 'Chelsea', scoreOne: 2, teamTwo: 'NewcastleUnited', scoreTwo: 1 },
 	{ id: '123', teamOne: 'NewcastleUnited', scoreOne: 3, teamTwo: 'Chelsea', scoreTwo: 2 },
+	{ id: '123', teamOne: 'NewcastleUnited', scoreOne: 1, teamTwo: 'Barcelona', scoreTwo: 0 },
+	{ id: '123', teamOne: 'Barcelona', scoreOne: 6, teamTwo: 'NewcastleUnited', scoreTwo: 1 },
 ];
