@@ -63,6 +63,11 @@ import { initialTeams as initialTeamsCareerTwo1x1, additionalTeams as additional
 import { initialTeams as initialTeamsUCLCareerTwo1x1, additionalTeams as additionalTeamsUCLSeasonCareerTwo1x1, matchResults as matchResultsUCLSeasonCareerTwo1x1 } from '../../../data/careerSeasonTwo/UCLTableResult.jsx';
 import { initialTeams as initialTeamsEuropeCareerTwo1x1, additionalTeams as additionalTeamsEuropeSeasonCareerTwo1x1, matchResults as matchResultsEuropeSeasonCareerTwo1x1 } from '../../../data/careerSeasonTwo/EuropeTableResults.jsx';
 
+// Career Season 3
+import { initialTeams as initialTeamsCareerThree1x1, additionalTeams as additionalTeamsSeasonCareerThree1x1, matchResults as matchResultsSeasonCareerThree1x1 } from '../../../data/careerSeasonThree/ProLeagueTableResults.jsx';
+import { initialTeams as initialTeamsUCLCareerThree1x1, additionalTeams as additionalTeamsUCLSeasonCareerThree1x1, matchResults as matchResultsUCLSeasonCareerThree1x1 } from '../../../data/careerSeasonThree/UCLTableResult.jsx';
+import { initialTeams as initialTeamsEuropeCareerThree1x1, additionalTeams as additionalTeamsEuropeSeasonCareerThree1x1, matchResults as matchResultsEuropeSeasonCareerThree1x1 } from '../../../data/careerSeasonThree/EuropeTableResults.jsx';
+
 
 const SeasonSeven1x1 = () => (
 	<LeagueTableVersion3
@@ -484,6 +489,40 @@ const EuropeCareerTwo = () => (
 	/>
 );
 
+// Career Season 3
+const CareerSeasonThree = () => (
+	<LeagueTableVersion3
+		initialTeams={initialTeamsCareerThree1x1}
+		additionalTeams={additionalTeamsSeasonCareerThree1x1}
+		matchResults={matchResultsSeasonCareerThree1x1}
+		seasonTitle="Season 3 Career "
+		divisionNameOne={'Pro League'}
+		divisionNameTwo={'Middle League'}
+	/>
+);
+
+const UCLCareerThree = () => (
+	<LeagueTableVersion3
+		initialTeams={initialTeamsUCLCareerThree1x1}
+		additionalTeams={additionalTeamsUCLSeasonCareerThree1x1}
+		matchResults={matchResultsUCLSeasonCareerThree1x1}
+		seasonTitle="Group Stage "
+		divisionNameOne={'Group A'}
+		divisionNameTwo={'Group B'}
+	/>
+);
+
+const EuropeCareerThree = () => (
+	<LeagueTableVersion3
+		initialTeams={initialTeamsEuropeCareerThree1x1}
+		additionalTeams={additionalTeamsEuropeSeasonCareerThree1x1}
+		matchResults={matchResultsEuropeSeasonCareerThree1x1}
+		seasonTitle="Group Stage"
+		divisionNameOne={'Group A'}
+		divisionNameTwo={'Group B'}
+	/>
+);
+
 // ========================================================================================
 
 
@@ -525,4 +564,7 @@ export {
 	CareerSeasonTwo,
 	UCLCareerTwo,
 	EuropeCareerTwo,
+	CareerSeasonThree,
+	UCLCareerThree,
+	EuropeCareerThree,
 };
