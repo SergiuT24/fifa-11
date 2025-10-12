@@ -31,6 +31,10 @@ export const additionalTeams = [
 ]
 
 export const matchResults = [
-	// { id: '1', teamOne: 'Anji', scoreOne: 2, teamTwo: 'RealMadrid', scoreTwo: 1 },
-	// { id: '2', teamOne: 'RealMadrid', scoreOne: 3, teamTwo: 'Anji', scoreTwo: 0 },
+	{ id: '2', teamOne: 'Barcelona', scoreOne: 5, teamTwo: 'Anji', scoreTwo: 1 },
+	{ id: '1', teamOne: 'Anji', scoreOne: 5, teamTwo: 'Barcelona', scoreTwo: 1 },
+	{ id: '1', teamOne: 'RealMadrid', scoreOne: 7, teamTwo: 'Barcelona', scoreTwo: 0 },
+	{ id: '2', teamOne: 'Barcelona', scoreOne: 0, teamTwo: 'RealMadrid', scoreTwo: 1 },
+	{ id: '2', teamOne: 'WestBrom', scoreOne: 0, teamTwo: 'RealMadrid', scoreTwo: 3 },
+	{ id: '1', teamOne: 'RealMadrid', scoreOne: 1, teamTwo: 'WestBrom', scoreTwo: 3 },
 ]
