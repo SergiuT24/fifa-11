@@ -37,4 +37,8 @@ export const matchResults = [
 	{ id: '2', teamOne: 'Barcelona', scoreOne: 0, teamTwo: 'RealMadrid', scoreTwo: 1 },
 	{ id: '2', teamOne: 'WestBrom', scoreOne: 0, teamTwo: 'RealMadrid', scoreTwo: 3 },
 	{ id: '1', teamOne: 'RealMadrid', scoreOne: 1, teamTwo: 'WestBrom', scoreTwo: 3 },
+	{ id: '2', teamOne: 'WestBrom', scoreOne: 2, teamTwo: 'CSKA', scoreTwo: 0 },
+	{ id: '1', teamOne: 'CSKA', scoreOne: 2, teamTwo: 'WestBrom', scoreTwo: 1 },
+	{ id: '2', teamOne: 'WestBrom', scoreOne: 4, teamTwo: 'Anji', scoreTwo: 3 },
+	{ id: '1', teamOne: 'Anji', scoreOne: 4, teamTwo: 'WestBrom', scoreTwo: 1 },
 ]
