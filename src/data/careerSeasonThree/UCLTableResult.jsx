@@ -17,7 +17,8 @@ export const additionalTeams = [
 	{ id: 'Valencia', name: < Valencia />, mp: 0, w: 0, d: 0, l: 0, g: 0, gc: 0, pts: 0, form: [] },
 ];
 export const matchResults = [
-	// { id: '123', teamOne: 'Lille', scoreOne: 5, teamTwo: 'Stuttgart', scoreTwo: 3 },
+	{ id: '123', teamOne: 'WestBrom', scoreOne: 1, teamTwo: 'RealMadrid', scoreTwo: 3 },
+	{ id: '123', teamOne: 'RealMadrid', scoreOne: 4, teamTwo: 'WestBrom', scoreTwo: 1 },
 ];
 
 
