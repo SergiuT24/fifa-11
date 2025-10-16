@@ -71,4 +71,6 @@ export const matchResults = [
 	{ id: '2', teamOne: 'CSKA', scoreOne: 4, teamTwo: 'Anji', scoreTwo: 1 },
 	{ id: '1', teamOne: 'Barcelona', scoreOne: 1, teamTwo: 'Valencia', scoreTwo: 1 },
 	{ id: '2', teamOne: 'Valencia', scoreOne: 3, teamTwo: 'Barcelona', scoreTwo: 3 },
+	{ id: '2', teamOne: 'CSKA', scoreOne: 0, teamTwo: 'RealMadrid', scoreTwo: 2 },
+	{ id: '1', teamOne: 'RealMadrid', scoreOne: 3, teamTwo: 'CSKA', scoreTwo: 0 },
 ]
