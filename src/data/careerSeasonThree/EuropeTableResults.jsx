@@ -24,6 +24,12 @@ export const matchResults = [
 	{ id: '123', teamOne: 'FSVMainz', scoreOne: 1, teamTwo: 'BocaJuniors', scoreTwo: 2 },
 	{ id: '123', teamOne: 'BocaJuniors', scoreOne: 0, teamTwo: 'NewcastleUnited', scoreTwo: 2 },
 	{ id: '123', teamOne: 'NewcastleUnited', scoreOne: 4, teamTwo: 'BocaJuniors', scoreTwo: 0 },
+	{ id: '123', teamOne: 'NewcastleUnited', scoreOne: 6, teamTwo: 'FSVMainz', scoreTwo: 0 },
+	{ id: '123', teamOne: 'FSVMainz', scoreOne: 0, teamTwo: 'NewcastleUnited', scoreTwo: 3 },
+	{ id: '123', teamOne: 'Chelsea', scoreOne: 0, teamTwo: 'Inter', scoreTwo: 4 },
+	{ id: '123', teamOne: 'Inter', scoreOne: 5, teamTwo: 'Chelsea', scoreTwo: 2 },
+	{ id: '123', teamOne: 'Chelsea', scoreOne: 0, teamTwo: 'ACMilan', scoreTwo: 1 },
+	{ id: '123', teamOne: 'ACMilan', scoreOne: 3, teamTwo: 'Chelsea', scoreTwo: 2 },
 ];
 
 // const fetchResults = async () => {
