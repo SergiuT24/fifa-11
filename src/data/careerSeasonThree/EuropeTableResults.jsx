@@ -30,6 +30,8 @@ export const matchResults = [
 	{ id: '123', teamOne: 'Inter', scoreOne: 5, teamTwo: 'Chelsea', scoreTwo: 2 },
 	{ id: '123', teamOne: 'Chelsea', scoreOne: 0, teamTwo: 'ACMilan', scoreTwo: 1 },
 	{ id: '123', teamOne: 'ACMilan', scoreOne: 3, teamTwo: 'Chelsea', scoreTwo: 2 },
+	{ id: '123', teamOne: 'Inter', scoreOne: 2, teamTwo: 'ACMilan', scoreTwo: 0 },
+	{ id: '123', teamOne: 'ACMilan', scoreOne: 2, teamTwo: 'Inter', scoreTwo: 2 },
 ];
 
 // const fetchResults = async () => {
