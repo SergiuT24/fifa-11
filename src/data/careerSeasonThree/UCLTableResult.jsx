@@ -25,6 +25,8 @@ export const matchResults = [
 	{ id: '123', teamOne: 'Anji', scoreOne: 4, teamTwo: 'WestBrom', scoreTwo: 0 },
 	{ id: '123', teamOne: 'Barcelona', scoreOne: 0, teamTwo: 'Valencia', scoreTwo: 4 },
 	{ id: '123', teamOne: 'Valencia', scoreOne: 0, teamTwo: 'Barcelona', scoreTwo: 1 },
+	{ id: '123', teamOne: 'CSKA', scoreOne: 5, teamTwo: 'Barcelona', scoreTwo: 1 },
+	{ id: '123', teamOne: 'Barcelona', scoreOne: 3, teamTwo: 'CSKA', scoreTwo: 4 },
 ];
 
 
