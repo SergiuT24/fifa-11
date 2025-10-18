@@ -79,4 +79,10 @@ export const matchResults = [
 	{ id: '2', teamOne: 'Inter', scoreOne: 6, teamTwo: 'Chelsea', scoreTwo: 0 },
 	{ id: '2', teamOne: 'FSVMainz', scoreOne: 2, teamTwo: 'NewcastleUnited', scoreTwo: 1 },
 	{ id: '1', teamOne: 'NewcastleUnited', scoreOne: 4, teamTwo: 'FSVMainz', scoreTwo: 0 },
+	{ id: '2', teamOne: 'CSKA', scoreOne: 4, teamTwo: 'Barcelona', scoreTwo: 1 },
+	{ id: '1', teamOne: 'Barcelona', scoreOne: 2, teamTwo: 'CSKA', scoreTwo: 0 },
+	{ id: '2', teamOne: 'FSVMainz', scoreOne: 4, teamTwo: 'Inter', scoreTwo: 3 },
+	{ id: '1', teamOne: 'Inter', scoreOne: 2, teamTwo: 'FSVMainz', scoreTwo: 0 },
+	{ id: '1', teamOne: 'Inter', scoreOne: 0, teamTwo: 'ACMilan', scoreTwo: 0 },
+	{ id: '2', teamOne: 'ACMilan', scoreOne: 0, teamTwo: 'Inter', scoreTwo: 2 },
 ]
