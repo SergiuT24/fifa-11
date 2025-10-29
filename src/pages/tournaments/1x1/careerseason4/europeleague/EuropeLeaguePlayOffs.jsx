@@ -2,6 +2,8 @@ import React from 'react';
 import Square from '../../../../../components/league/square/Square';
 import CSKA from '../../../../../components/league/4star-teams/Cska';
 import Zenit from '../../../../../components/league/4star-teams/Zenit';
+import FCRostov from '../../../../../components/league/teams/FCRostov';
+import Barcelona from '../../../../../components/league/teams/Barcelona';
 
 
 const EuropeLeaguePlayOffs = () => {
@@ -19,8 +21,8 @@ const EuropeLeaguePlayOffs = () => {
 						scoreSecondTeamTwo={0}
 					/>
 					<Square
-						teamOne={'empty'}
-						teamTwo={'empty'}
+						teamOne={<CSKA/>}
+						teamTwo={<FCRostov/>}
 						scoreFirstTeamOne={0}
 						scoreSecondTeamOne={0}
 						scoreFirstTeamTwo={0}
