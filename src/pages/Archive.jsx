@@ -45,14 +45,19 @@ const Archive = () => {
 							<p>Date: Start: 27 September 10:00 (MSK) - End: 05 September 10:00 (MSK)</p>
 						</li>
 						<li className='flex items-center gap-9'>
-							<p>1.</p>
+							<p>2.</p>
 							<MenuLink to={'/archive/tournament/career/season/2'} value={'Career Season 2'} />
 							<p>Date: Start: 3 Oct 10:00 (MSK) - End: 09 Oct 10:00 (MSK)</p>
 						</li>
 						<li className='flex items-center gap-9'>
-							<p>1.</p>
+							<p>3.</p>
 							<MenuLink to={'/archive/tournament/career/season/3'} value={'Career Season 3'} />
 							<p>Date:  Start: 13 October 10:00 (MSK) - End: 20 October 10:00 (MSK)</p>
+						</li>
+						<li className='flex items-center gap-9'>
+							<p>4.</p>
+							<MenuLink to={'/archive/tournament/career/season/4'} value={'Career Season 4'} />
+							<p>Date:  Start: 21 October 10:00 (MSK) - End: 29 October 10:00 (MSK)</p>
 						</li>
 					</ul>
 				</div>

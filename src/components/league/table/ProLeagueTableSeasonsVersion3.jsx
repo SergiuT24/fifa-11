@@ -73,6 +73,11 @@ import { initialTeams as initialTeamsCareerFour1x1, additionalTeams as additiona
 import { initialTeams as initialTeamsUCLCareerFour1x1, additionalTeams as additionalTeamsUCLSeasonCareerFour1x1, matchResults as matchResultsUCLSeasonCareerFour1x1 } from '../../../data/careerSeasonFour/UCLTableResult.jsx';
 import { initialTeams as initialTeamsEuropeCareerFour1x1, additionalTeams as additionalTeamsEuropeSeasonCareerFour1x1, matchResults as matchResultsEuropeSeasonCareerFour1x1 } from '../../../data/careerSeasonFour/EuropeTableResults.jsx';
 
+// Career Season 5
+import { initialTeams as initialTeamsCareerFive1x1, additionalTeams as additionalTeamsSeasonCareerFive1x1, matchResults as matchResultsSeasonCareerFive1x1 } from '../../../data/careerSeasonFive/ProLeagueTableResults.jsx';
+import { initialTeams as initialTeamsUCLCareerFive1x1, additionalTeams as additionalTeamsUCLSeasonCareerFive1x1, matchResults as matchResultsUCLSeasonCareerFive1x1 } from '../../../data/careerSeasonFive/UCLTableResult.jsx';
+// import { initialTeams as initialTeamsEuropeCareerFour1x1, additionalTeams as additionalTeamsEuropeSeasonCareerFour1x1, matchResults as matchResultsEuropeSeasonCareerFour1x1 } from '../../../data/careerSeasonFour/EuropeTableResults.jsx';
+
 
 const SeasonSeven1x1 = () => (
 	<LeagueTableVersion3
@@ -562,6 +567,29 @@ const EuropeCareerFour = () => (
 	/>
 );
 
+// Career Season 5
+const CareerSeasonFive = () => (
+	<LeagueTableVersion3
+		initialTeams={initialTeamsCareerFive1x1}
+		additionalTeams={additionalTeamsSeasonCareerFive1x1}
+		matchResults={matchResultsSeasonCareerFive1x1}
+		seasonTitle="Season 5 Career "
+		divisionNameOne={'Pro League'}
+		divisionNameTwo={'Middle League'}
+	/>
+);
+
+const UCLCareerFive = () => (
+	<LeagueTableVersion3
+		initialTeams={initialTeamsUCLCareerFive1x1}
+		additionalTeams={additionalTeamsUCLSeasonCareerFive1x1}
+		matchResults={matchResultsUCLSeasonCareerFive1x1}
+		seasonTitle="Group Stage "
+		divisionNameOne={'Group A'}
+		divisionNameTwo={'Group B'}
+	/>
+);
+
 // ========================================================================================
 
 
@@ -609,4 +637,6 @@ export {
 	CareerSeasonFour,
 	UCLCareerFour,
 	EuropeCareerFour,
+	CareerSeasonFive,
+	UCLCareerFive,
 };

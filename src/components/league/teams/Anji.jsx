@@ -5,7 +5,7 @@ const Anji = () => {
 		<div>
 			<div className='flex gap-1 items-center'>
 				<img className='w-5 h-5' src='https://static.flashscore.com/res/image/data/rwV9uihT-UZNHUPL0.png' />
-				<p className='text-xs'>Анжи</p>
+				<p className='text-xs'>Anji</p>
 			</div>
 		</div>
 	);
