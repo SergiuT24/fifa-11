@@ -1,6 +1,17 @@
 import React from 'react';
 import Square from '../../../../../components/league/square/Square';
-
+import Chelsea from '../../../../../components/league/teams/Chelsea';
+import WestBrom from '../../../../../components/league/teams/WestBrom';
+import Inter from '../../../../../components/league/teams/Inter';
+import Barcelona from '../../../../../components/league/teams/Barcelona';
+import AcMilan from '../../../../../components/league/teams/AcMilan';
+import RealMadrid from '../../../../../components/league/teams/RealMadrid';
+import Anji from '../../../../../components/league/teams/Anji';
+import CSKA from '../../../../../components/league/4star-teams/Cska';
+import Valencia from '../../../../../components/league/teams/Valencia';
+import NewcastleUnited from '../../../../../components/league/teams/NewcastleUnited';
+import Zenit from '../../../../../components/league/teams/Zenit';
+import FCRostov from '../../../../../components/league/teams/FCRostov';
 
 const KingsCupPlayOffs = () => {
 	return (
@@ -11,8 +22,8 @@ const KingsCupPlayOffs = () => {
 				</div>
 				<div className='flex flex-col gap-14 justify-center'>
 					<Square
-						teamOne={'empty'}
-						teamTwo={'empty'}
+						teamOne={<WestBrom />}
+						teamTwo={<FCRostov />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
@@ -20,7 +31,15 @@ const KingsCupPlayOffs = () => {
 					/>
 					<Square
 						teamOne={'empty'}
-						teamTwo={'empty'}
+						teamTwo={<RealMadrid />}
+						scoreFirstTeamOne={'?'}
+						scoreSecondTeamOne={'?'}
+						scoreFirstTeamTwo={'?'}
+						scoreSecondTeamTwo={'?'}
+					/>
+					<Square
+						teamOne={<Zenit />}
+						teamTwo={<NewcastleUnited />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
@@ -28,7 +47,15 @@ const KingsCupPlayOffs = () => {
 					/>
 					<Square
 						teamOne={'empty'}
-						teamTwo={'empty'}
+						teamTwo={<Anji />}
+						scoreFirstTeamOne={'?'}
+						scoreSecondTeamOne={'?'}
+						scoreFirstTeamTwo={'?'}
+						scoreSecondTeamTwo={'?'}
+					/>
+					<Square
+						teamOne={<Chelsea />}
+						teamTwo={<Barcelona />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
@@ -36,7 +63,15 @@ const KingsCupPlayOffs = () => {
 					/>
 					<Square
 						teamOne={'empty'}
-						teamTwo={'empty'}
+						teamTwo={<Valencia />}
+						scoreFirstTeamOne={'?'}
+						scoreSecondTeamOne={'?'}
+						scoreFirstTeamTwo={'?'}
+						scoreSecondTeamTwo={'?'}
+					/>
+					<Square
+						teamOne={<AcMilan />}
+						teamTwo={<CSKA />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
@@ -44,31 +79,7 @@ const KingsCupPlayOffs = () => {
 					/>
 					<Square
 						teamOne={'empty'}
-						teamTwo={'empty'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
-					/>
-					<Square
-						teamOne={'empty'}
-						teamTwo={'empty'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
-					/>
-					<Square
-						teamOne={'empty'}
-						teamTwo={'empty'}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
-					/>
-					<Square
-						teamOne={'empty'}
-						teamTwo={'empty'}
+						teamTwo={<Inter />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
