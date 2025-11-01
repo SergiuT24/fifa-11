@@ -4,7 +4,7 @@ import Chelsea from '../../../../../components/league/teams/Chelsea';
 import WestBrom from '../../../../../components/league/teams/WestBrom';
 import Inter from '../../../../../components/league/teams/Inter';
 import Barcelona from '../../../../../components/league/teams/Barcelona';
-import AcMilan from '../../../../../components/league/teams/AcMilan';
+import ACMilan from '../../../../../components/league/teams/AcMilan';
 import RealMadrid from '../../../../../components/league/teams/RealMadrid';
 import Anji from '../../../../../components/league/teams/Anji';
 import CSKA from '../../../../../components/league/4star-teams/Cska';
@@ -70,7 +70,7 @@ const KingsCupPlayOffs = () => {
 						scoreSecondTeamTwo={'?'}
 					/>
 					<Square
-						teamOne={<AcMilan />}
+						teamOne={<ACMilan />}
 						teamTwo={<CSKA />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
