@@ -13,16 +13,16 @@ const ChampionsLeaguePlayOffs = () => {
 				<h2 className='text-center'>Play Offs: Quarter-finals 1/4</h2>
 				<div className='flex gap-14 justify-center'>
 					<Square
-						teamOne={<Anji/>}
-						teamTwo={<RealMadrid/>}
-						scoreFirstTeamOne={'?'}
-						scoreSecondTeamOne={'?'}
-						scoreFirstTeamTwo={'?'}
-						scoreSecondTeamTwo={'?'}
+						teamOne={<Anji />}
+						teamTwo={<RealMadrid />}
+						scoreFirstTeamOne={4}
+						scoreSecondTeamOne={2}
+						scoreFirstTeamTwo={2}
+						scoreSecondTeamTwo={5}
 					/>
 					<Square
-						teamOne={<Valencia/>}
-						teamTwo={<CSKA/>}
+						teamOne={<Valencia />}
+						teamTwo={<CSKA />}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
 						scoreFirstTeamTwo={'?'}
@@ -34,7 +34,7 @@ const ChampionsLeaguePlayOffs = () => {
 				<h2 className='text-center'>FINAL</h2>
 				<div className='flex gap-10 justify-center'>
 					<Square
-						teamOne={'empty'}
+						teamOne={<RealMadrid />}
 						teamTwo={'empty'}
 						scoreFirstTeamOne={'?'}
 						scoreSecondTeamOne={'?'}
