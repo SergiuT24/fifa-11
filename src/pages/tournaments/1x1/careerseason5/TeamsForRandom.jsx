@@ -2,18 +2,18 @@ import React from "react";
 
 const TeamsForRandom = () => {
 	const teams = [
-		{ name: "Real Madrid", budget: "202.9 mln" },
-		{ name: "Valencia", budget: "164.4 mln" },
-		{ name: "Newcastle Und", budget: "133.2 mln" },
-		{ name: "Anji", budget: "118.1 mln" },
+		{ name: "Real Madrid", budget: "376.9 mln" },
+		{ name: "Valencia", budget: "337.4 mln" },
+		{ name: "Anji", budget: "247.1 mln" },
+		{ name: "CSKA", budget: "207.5 mln" },
+		{ name: "Newcastle Und", budget: "185.2 mln" },
+		{ name: "West Brom", budget: "146.8 mln" },
 		{ name: "Barcelona", budget: "117.1 mln" },
-		{ name: "West Brom", budget: "106.8 mln" },
-		{ name: "Inter", budget: "105.5 mln" },
-		{ name: "CSKA", budget: "92.5 mln" },
-		{ name: "FC Rostov", budget: "83.6 mln" },
+		{ name: "FC Rostov", budget: "101.6 mln" },
+		{ name: "Inter", budget: "85.5 mln" },
+		{ name: "AC Milan", budget: "61.3 mln" },
 		{ name: "Zenit", budget: "46.9 mln" },
-		{ name: "AC Milan", budget: "44.3 mln" },
-		{ name: "Chelsea", budget: "28.3 mln" },
+		{ name: "Chelsea", budget: "45.3 mln" },
 	];
 
 	return (
