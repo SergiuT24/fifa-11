@@ -53,6 +53,10 @@ import { initialTeams as initialTeams171x1, additionalTeams as additionalTeamsSe
 import { initialTeams as initialTeamsUCL171x1, additionalTeams as additionalTeamsUCLSeason171x1, matchResults as matchResultsUCLSeason171x1 } from '../../../data/season171x1/UCLTableResult.jsx';
 import { initialTeams as initialTeamsEurope171x1, additionalTeams as additionalTeamsEuropeSeason171x1, matchResults as matchResultsEuropeSeason171x1 } from '../../../data/season171x1/EuropeTableResults.jsx';
 
+// Season 18 1x1
+import { initialTeams as initialTeams181x1, additionalTeams as additionalTeamsSeason181x1, matchResults as matchResultsSeason181x1 } from '../../../data/season181x1/ProLeagueTableResults.jsx';
+
+
 // Career Season 1
 import { initialTeams as initialTeamsCareerOne1x1, additionalTeams as additionalTeamsSeasonCareerOne1x1, matchResults as matchResultsSeasonCareerOne1x1 } from '../../../data/careerSeasonOne/ProLeagueTableResults.jsx';
 import { initialTeams as initialTeamsUCLCareerOne1x1, additionalTeams as additionalTeamsUCLSeasonCareerOne1x1, matchResults as matchResultsUCLSeasonCareerOne1x1 } from '../../../data/careerSeasonOne/UCLTableResult.jsx';
@@ -431,6 +435,18 @@ const Europe171x1 = () => (
 	/>
 );
 
+// Season 18 1x1
+const Season181x1 = () => (
+	<LeagueTableVersion3
+		initialTeams={initialTeams181x1}
+		additionalTeams={additionalTeamsSeason181x1}
+		matchResults={matchResultsSeason181x1}
+		seasonTitle="Season 18 (1x1) "
+		divisionNameOne={'Pro League'}
+		divisionNameTwo={'Middle League'}
+	/>
+);
+
 // Career Season 1
 const CareerSeasonOne = () => (
 	<LeagueTableVersion3
@@ -639,4 +655,5 @@ export {
 	EuropeCareerFour,
 	CareerSeasonFive,
 	UCLCareerFive,
+	Season181x1,
 };
