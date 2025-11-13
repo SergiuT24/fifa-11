@@ -56,7 +56,7 @@ const SquadsForSeason = () => {
 			<PlayersTeam
 				team={'TEAM 9'}
 				playerOne={'Berserk'}
-				imgOne={'/img/players/jsnick.png'}
+				imgOne={'/img/players/berserk.png'}
 				club={<Germany />} />
 		</div>
 	);
